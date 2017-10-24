@@ -1,0 +1,13 @@
+{
+  "name": "pdb-statistics",
+  "homepage": "https://project-gemmi.github.io/pdb-stats",
+  "dependencies": {
+    "dc": "^2.1.8"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  },
+  "scripts": {
+    "start": "http-server -a localhost -p 7890 -c-1"
+  }
+}

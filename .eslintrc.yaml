@@ -1,0 +1,13 @@
+root: true
+env:
+  browser: true
+parserOptions:
+  ecmaVersion: 5
+plugins: ['html']
+extends: ['eslint:recommended']
+globals:
+    dc: true
+    d3: true
+    crossfilter: true
+rules:
+  brace-style: [2, '1tbs', {'allowSingleLine': true}]
