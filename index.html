@@ -25,7 +25,10 @@ a.reset { text-decoration: none; padding: 0 3px;
           color: white; background: teal; }
 a.reset:hover { text-decoration: underline; }
 #chart-time, #chart-coltime { float: none; display: table; width: 100%; }
-.time-comment { color:#555; z-index:-1; }
+.time-comment { position:absolute; color:#555; z-index:-1; }
+@media only screen and (max-width: 750px) {
+  .time-comment { display: none; }
+}
 #top-row, #bottom-row { display: table; margin: 0 auto; }
 #chart-facility, #chart-detec, #chart-reduc { margin-right: 20px; }
 #chart-facility select { min-width: 180px; min-height: 200px; }
@@ -106,21 +109,22 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
 
 <div id="chart-coltime" style="position:relative">
  <strong>Data collections</strong> per month
- <span class="time-comment" style="position:absolute; left:40px; top:25px;">
-   (old data was deposited mostly<br>before 2010 and is not shown)</span>
- <span class="time-comment" style="position:absolute; right:5px; top:25px;">
-   (recent data is <br>mostly unreleased)</span>
+ <span class="time-comment" style="left:40px; top:25px;">
+   old data was deposited mostly<br>before 2010 and is not shown</span>
+ <span class="time-comment" style="right:5px; top:25px;">
+   recent data is <br>mostly unreleased</span>
  <a class="reset" href="#">reset</a>
  <div class="clearfix"></div>
 </div>
 
 <div id="chart-time" style="position:relative">
  <strong>Depositions</strong> per week
- <span class="time-comment">(that have been released as of now)</span>
+ <span style="color:#555">(that have been released as of now)</span>
  <a class="reset" href="#">reset</a>
- <span class="time-comment" style="position:absolute; left:60px; top:40px;"
-   >(as you guessed from the URL,
-   <br>&nbsp;this page is part of the project GEMMI)</span>
+ <span class="time-comment" style="left:60px; top:30px;"
+   >select a time range to see<br>how things were changing</span>
+ <span class="time-comment" style="right:60%; top:80px;"
+   >arbitrary cut-off &#8594;</span>
  <div class="clearfix"></div>
 </div>
 
@@ -183,7 +187,7 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
  Uses <a href="https://dc-js.github.io/dc.js/">dc.js</a>,
  <a href="https://d3js.org/">d3</a> and
  <a href="http://crossfilter.github.io/crossfilter/">crossfilter</a>.
- Last update: 2017-10-23.
+ Last update: 2017-10-27.
  Images are from <a href="http://www.rcsb.org/">RCSB</a>.
  <b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
@@ -390,11 +394,11 @@ d3.json('data.json', function(json) {
       .dimension(coltime_dim)
       .group(coltime_dim.group())
       .xUnits(function() { return 13 * 12; })
+      .gap(1)
       .x(d3.time.scale().domain(date_range))
       .elasticY(true)
       .controlsUseVisibility(true)
       .renderHorizontalGridLines(true);
-  coltime_chart.xAxis().ticks(15);
   coltime_chart.yAxis().ticks(3);
 
   setup_chart(time_chart)
@@ -524,6 +528,9 @@ d3.json('data.json', function(json) {
   var on_resize = function() {
     var body_w = d3.select('body').node().getBoundingClientRect().width;
     resol_chart.width(body_w > 980 ? 400 : body_w > 360 ? 340 : body_w-20);
+    var time_tics = body_w > 700 ? 15 : 5;
+    coltime_chart.xAxis().ticks(time_tics);
+    time_chart.xAxis().ticks(time_tics);
     // maybe .brushOn(off) for mobile?
     dc.renderAll();
   };
