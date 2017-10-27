@@ -5,129 +5,146 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/dc.css"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108779978-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date()); gtag('config', 'UA-108779978-1');
+</script>
 
 <style>
-#data-table { font: 13px sans-serif; min-width: 450px; }
-#chart-time, #chart-coltime { float: none; display: table; width: 100%; }
-#top-row, #bottom-row { display: table; margin: 0 auto; }
-.dc-table-label { background: #bdd; font-weight:bold; }
-#data-table thead { background: #acc; }
-#data-table tbody { background: #dee; }
-#data-table tbody td { padding:0 5px 0 5px; }
-#data-table a { text-decoration: none; }
-#chart-facility, #chart-detec, #chart-reduc { margin-right: 20px; }
-#chart-sg { margin-right: 5px; }
-#chart-sg select { min-width: 140px; min-height: 182px; }
-#chart-facility select { min-width: 180px; min-height: 200px; }
 html { margin: 0 auto; max-width: 980px; overflow-y: scroll; }
 body { font: 14px sans-serif; line-height: 20px; }
-a.reset { text-decoration: none; padding: 0 3px;
-          color: white; background: teal; }
-a.reset:hover { text-decoration: underline; }
-h2 { text-align: center; margin-bottom: 10px; color: #444; }
 .clearfix:before, .clearfix:after {
   display: table; line-height: 0; content: ""; }
 .clearfix:after { clear: both; }
+h2 { text-align: center; margin-bottom: 10px; color: #444; }
+h1#loading { text-align: center; color: #aaa; font-size: 40px; }
+strong { color: #333; }
+a.reset { text-decoration: none; padding: 0 3px;
+          color: white; background: teal; }
+a.reset:hover { text-decoration: underline; }
+#chart-time, #chart-coltime { float: none; display: table; width: 100%; }
+.time-comment { color:#555; z-index:-1; }
+#top-row, #bottom-row { display: table; margin: 0 auto; }
+#chart-facility, #chart-detec, #chart-reduc { margin-right: 20px; }
+#chart-facility select { min-width: 180px; min-height: 200px; }
+#chart-sg { margin-right: 5px; }
+#chart-sg select { min-width: 140px; min-height: 182px; }
 .x-axis-label { font-size: 13px; }
 div.dc-chart g.row text.row { fill: black; font-size: 12px; }
 div.dc-chart rect.deselected + text.row { fill: #555; }
-strong { color: #333; }
-span.desk { color: #777; }
-@media only screen and (max-width: 800px) {
-  .desk { display: none; }
-}
+#data-table { font: 13px sans-serif; min-width: 460px; }
+#data-table { border-collapse: collapse; }
+#data-table td, #data-table th { border: 3px solid white; }
+.dc-table-label { background: #bdd; font-weight:bold; }
+#data-table thead { background: #acc; }
+#data-table tbody { background: #dee; }
+#data-table tbody tr:hover { background: #f2fff8; }
+#data-table tbody td { padding:0 5px 0 5px; }
+#data-table a { text-decoration: none; }
 @media only screen and (max-width: 700px) {
   #data-table { font-size: 12px; }
 }
-h1#loading { text-align: center; color: #aaa; font-size: 40px; }
 #footnote { font-size: 12px; text-align: center; color:#444; padding: 8px 0; }
-#subh { text-align:center; font-size:14px; color:#257;
+#subh { text-align:center; font-size:14px; color:#444;
         margin:-2px 0 14px 100px; }
 @media only screen and (max-width: 600px) {
   #subh { margin-left: 0; display: table; }
 }
-div#tcontainer {
+#tcontainer {
   width:100%; clear:both;
+  min-height: 250px;
   position:relative;
   background-repeat: no-repeat space; background-position: right;
 }
-div#img-label {
-  position:absolute; top:50px; left:500px;
-  color:#888; font-size:40px;
-  text-shadow: 1px 1px 2px white;
+#info-box {
+  background: white;
+  border-top: 1px solid #aaa;
+  padding-left: 20px;
+  position:absolute; top:45px; left:460px;
 }
+@media only screen and (max-width: 700px) {
+  #info-box { display: none; }
+}
+#info-box span { color:#888; font-size:14px; }
+#info-box img { position: absolute; top:-250px; left:0; z-index:-1; }
 </style>
 
 </head>
 <body>
 <h2>PDB entries deposited since 2010</h2>
 <p id="subh"><b>Each</b> chart can be used to filter data in other charts!
-<a id='reset-all' class="reset" style="visibility: hidden;"
-   href="javascript:dc.filterAll();dc.redrawAll();">reset all filters</a>
+<a id="reset-all" class="reset" style="visibility: hidden;"
+   href="#" onclick="dc.filterAll();dc.redrawAll();return false;">reset
+   all filters</a>
 </p>
 <h1 id="loading">LOADING DATA...</h1>
 <div id="all-data" style="visibility: hidden;">
 <div id="top-row">
  <div id="chart-facility">
   <strong>Facility</strong>
-  <a class="reset" href="javascript:reset(facility_chart);">reset</a>
+  <a class="reset" href="#">reset</a>
   <div class="clearfix"></div>
  </div>
  <div id="chart-detec">
   <strong>Detector</strong>
-  <a class="reset" href="javascript:reset(detec_chart);">reset</a>
+  <a class="reset" href="#";>reset</a>
   <div class="clearfix"></div>
  </div>
  <div id="chart-reduc">
   <strong>Reduction</strong>
-  <a class="reset" href="javascript:reset(reduc_chart);">reset</a>
+  <a class="reset" href="#">reset</a>
   <div class="clearfix"></div>
  </div>
  <div id="chart-scale">
   <strong>Scaling</strong>
-  <a class="reset" href="javascript:reset(scale_chart);">reset</a>
+  <a class="reset" href="#">reset</a>
   <div class="clearfix"></div>
  </div>
 </div>
 
 <div id="chart-coltime" style="position:relative">
  <strong>Data collections</strong> per month
- <span style="position:absolute; left:40px; top:25px; color:#555;">
+ <span class="time-comment" style="position:absolute; left:40px; top:25px;">
    (old data was deposited mostly<br>before 2010 and is not shown)</span>
- <span style="position:absolute; right:5px; top:25px; color:#555;">
+ <span class="time-comment" style="position:absolute; right:5px; top:25px;">
    (recent data is <br>mostly unreleased)</span>
- <a class="reset" href="javascript:reset(coltime_chart);">reset</a>
+ <a class="reset" href="#">reset</a>
  <div class="clearfix"></div>
 </div>
 
-<div id="chart-time">
+<div id="chart-time" style="position:relative">
  <strong>Depositions</strong> per week
- <span style="color:#555;">(that have been released as of now)</span>
- <a class="reset" href="javascript:reset(time_chart);">reset</a>
+ <span class="time-comment">(that have been released as of now)</span>
+ <a class="reset" href="#">reset</a>
+ <span class="time-comment" style="position:absolute; left:60px; top:40px;"
+   >(as you guessed from the URL,
+   <br>&nbsp;this page is part of the project GEMMI)</span>
  <div class="clearfix"></div>
 </div>
 
 <div id="bottom-row">
  <div id="chart-resol">
   <strong>Resolution</strong>
-  <a class="reset" href="javascript:reset(resol_chart);">reset</a>
+  <a class="reset" href="#">reset</a>
   <div class="clearfix"></div>
  </div>
 
  <div id="chart-sg">
   <strong>Spacegroup</strong>
-  <a class="reset" href="javascript:reset(sg_chart);">reset</a>
+  <a class="reset" href="#">reset</a>
   <div class="clearfix"></div>
  </div>
 
  <div id="chart-sol">
   <strong>Solution</strong>
-  <a class="reset" href="javascript:reset(sol_chart);">reset</a>
+  <a class="reset" href="#">reset</a>
   <div class="clearfix"></div>
  </div>
  <div id="chart-ref">
   <strong>Refinement</strong>
-  <a class="reset" href="javascript:reset(ref_chart);">reset</a>
+  <a class="reset" href="#">reset</a>
   <div class="clearfix"></div>
  </div>
 </div>
@@ -149,13 +166,15 @@ div#img-label {
 <thead>
  <tr class="header">
   <th>Code</th>
+  <th>Res.</th>
   <th>Collected</th>
   <th>Deposited</th>
   <th>Links</th>
  </tr>
 </thead>
 </table>
-<div id="img-label" style="font-size:14px;">&#x2190; click code to see pic</div>
+<div id="info-box"><span>&#x2190; move mouse over a row to see pic</span
+     ><img src=""></div>
 </div>
 </div>
 <div id="footnote" style="clear:both;">
@@ -178,11 +197,6 @@ div#img-label {
 <script type="text/javascript" src="js/dc.min.js"></script>
 <script type="text/javascript">
 "use strict";
-
-function reset(chart) {
-  chart.filterAll();
-  dc.redrawAll();
-}
 
 var facility_chart = dc.selectMenu('#chart-facility');
 var detec_chart = dc.pieChart('#chart-detec');
@@ -294,9 +308,11 @@ d3.json('data.json', function(json) {
   function parse_date(n) {
     return new Date(Date.UTC(1989, (n >> 5), (n & 31)));
   }
+  var code_map = {}
   json.forEach(function (d) {
     d[8] = parse_date(d[8]);
     d[9] = format_date(parse_date(d[9]));
+    code_map[d[0]] = d;
   });
 
   var data = crossfilter(json);
@@ -311,7 +327,7 @@ d3.json('data.json', function(json) {
     return new Date(1989, d[7] || 0, 15);
   });
   var sg_dim = data.dimension(function(d) { return d[4]; });
-  var resol_dim = data.dimension(function(d) { return +d[5] || -1; });
+  var resol_dim = data.dimension(function(d) { return d[5] || -1; });
   var sol_dim = data.dimension(function(d) { return d[6]; });
   var ref_dim = data.dimension(function(d) { return d[3][2]; });
   function make_title(dict) {
@@ -321,15 +337,25 @@ d3.json('data.json', function(json) {
     });
   }
   d3.select('#loading').remove();
-  d3.selectAll('.reset').style('visibility', 'hidden');
   d3.select('#all-data').style('visibility', null);
-  function setup_circle(chart, dim) {
-      return chart.width(200).height(200).innerRadius(55)
-                  .controlsUseVisibility(true)
-                  .dimension(dim)
-                  .group(dim.group());
+  function setup_chart(chart) {
+    var root_el = chart.root()[0][0];
+    var reset_el = root_el.getElementsByClassName('reset')[0];
+    reset_el.style.visibility = 'hidden';
+    reset_el.onclick = function() {
+      chart.filterAll();
+      dc.redrawAll();
+      return false;
+    };
+    return chart;
   }
-  facility_chart
+  function setup_circle(chart, dim) {
+    return setup_chart(chart).width(200).height(200).innerRadius(55)
+                .controlsUseVisibility(true)
+                .dimension(dim)
+                .group(dim.group());
+  }
+  setup_chart(facility_chart)
       .dimension(facil_dim)
       .group(facil_dim.group())
       .title(function(p) { return SOURCES[p.key] + ': ' + p.value; })
@@ -357,34 +383,34 @@ d3.json('data.json', function(json) {
       .colors(d3.scale.ordinal().range(['#1f77b4', '#8899cc',
                     '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b']));
 
-  var end_date = new Date(2017, 11);
-  coltime_chart
+  var date_range = [new Date(2005, 0), new Date(2017, 11)];
+  setup_chart(coltime_chart)
       .width(null).height(100)
       .margins({top: 5, right: 5, bottom: 20, left: 36})
       .dimension(coltime_dim)
       .group(coltime_dim.group())
-      .xUnits(function() { return 14 * 12; })
-      .x(d3.time.scale().domain([new Date(2004, 0), end_date]))
+      .xUnits(function() { return 13 * 12; })
+      .x(d3.time.scale().domain(date_range))
       .elasticY(true)
       .controlsUseVisibility(true)
       .renderHorizontalGridLines(true);
   coltime_chart.xAxis().ticks(15);
   coltime_chart.yAxis().ticks(3);
 
-  time_chart
+  setup_chart(time_chart)
       .width(null).height(100)
       .margins({top: 5, right: 5, bottom: 20, left: 36})
       .dimension(time_dim)
       .group(time_dim.group())
       .centerBar(true)
       .alwaysUseRounding(true)
-      .x(d3.time.scale().domain([new Date(2010, 0), end_date]))
+      .x(d3.time.scale().domain(date_range))
       .elasticY(true)
       .controlsUseVisibility(true)
       .renderHorizontalGridLines(true);
   time_chart.yAxis().ticks(3);
 
-  sg_chart
+  setup_chart(sg_chart)
       .dimension(sg_dim)
       .group(sg_dim.group())
       .title(function(p) { return SPACEGROUPS[p.key-1] + ': ' + p.value; })
@@ -392,7 +418,7 @@ d3.json('data.json', function(json) {
       .controlsUseVisibility(true)
       .multiple(true).numberVisible(10);
 
-  resol_chart
+  setup_chart(resol_chart)
       .width(250).height(200)
       .margins({top: 5, right: 10, bottom: 20, left: 35})
       .dimension(resol_dim)
@@ -407,7 +433,7 @@ d3.json('data.json', function(json) {
   resol_chart.yAxis().ticks(4).tickFormat(d3.format('d'));
   resol_chart.xAxis().ticks(12);
 
-  sol_chart
+  setup_chart(sol_chart)
       .width(180).height(200)
       .dimension(sol_dim)
       .group(sol_dim.group())
@@ -436,15 +462,40 @@ d3.json('data.json', function(json) {
        d3.select('#reset-all').style('visibility', all ? 'hidden' : 'visible');
        });
 
+  function select_row(e) {
+    var tr = this;
+    var code = tr.firstChild.innerHTML;
+    var y = tr.offsetTop + 10;
+    var d = code_map[code];
+    var box = document.getElementById('info-box');
+    box.style.top = y + 'px';
+    box.firstChild.style.color = '#444';
+    box.firstChild.innerHTML = '<b>'+code+'</b><br>solved by: ' +
+      STRUCT_SOL[d[6]] + '<br>software: ' + REDUC_SOFT[d[3][0]] + ' / ' +
+      SCALE_SOFT[d[3][1]] + ' / ' + REF_SOFT[d[3][2]];
+    var src = 'http://www.rcsb.org/pdb/images/' + code + '_bio_r_250.jpg';
+    if (box.lastChild.src === src) {
+      box.style.visibility = 'visible';
+      return;
+    }
+    box.lastChild.src = ''
+    box.lastChild.style.top = (y > 250 ? -250 : 50) + 'px';
+    box.style.visibility = 'visible';
+    timer = setTimeout(function() {
+      box.lastChild.src = 'http://www.rcsb.org/pdb/images/' + code +
+                          '_bio_r_250.jpg';
+    }, 500);
+    return false;
+  }
+  var timer;
   table
-      .width(null).height(500)
+      .width(null).height(540)
       .size(30)
       .dimension(table_dim)
       .group(function(d) { return 'Released ' + d[9]; })
       .columns([
-          function(d) {
-            return '<a href="javascript:peek(\''+d[0]+'\');">' + d[0] + '</a>';
-          },
+          function(d) { return d[0]; },
+          function(d) { return d[5] ? d[5].toFixed(1) : ''; },
           function(d) {
             return (d[7] ? format_month(d[7]) : '?') +
                    ' @' + SOURCES[d[1]].split(' ')[0];
@@ -459,10 +510,16 @@ d3.json('data.json', function(json) {
       ])
       .order(d3.descending)
       .on('preRedraw', function(chart, filter){
-        d3.select('#tcontainer').style('background-image', null)
-                                .style('min-height', null);
-        d3.select('#img-label').html('');
-      });
+        document.getElementById('info-box').style.visibility = 'hidden';
+        })
+      .on('renderlet', function(chart) {
+        var nodes = document.getElementById('data-table')
+                            .getElementsByClassName('dc-table-row');
+        for (var i=0; i < nodes.length; i++) {
+          nodes[i].onmouseover = select_row;
+          nodes[i].onmouseout = function() { clearTimeout(timer); }
+        }
+       });
 
   var on_resize = function() {
     var body_w = d3.select('body').node().getBoundingClientRect().width;
@@ -478,13 +535,6 @@ var set_table_size = function(n) {
   d3.select('#data-table').style('visibility', n === 0 ? 'hidden' : 'visible');
   table.size(n);
   table.redraw();
-}
-
-function peek(code) {
-  d3.select('#tcontainer').style('background-image',
-    'url(http://www.rcsb.org/pdb/images/' + code + '_bio_r_500.jpg)')
-    .style('min-height', '500px');
-  d3.select('#img-label').style('font-size', null).html(code);
 }
 </script>
 
