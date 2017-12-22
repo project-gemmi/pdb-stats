@@ -25,7 +25,8 @@ a.reset { text-decoration: none; padding: 0 3px;
           color: white; background: teal; }
 a.reset:hover { text-decoration: underline; }
 #chart-time, #chart-coltime { float: none; display: table; width: 100%; }
-.time-comment { position:absolute; color:#555; z-index:-1; }
+.time-comment { position:absolute; color:#555; z-index:-1; font-size: 13px;
+                line-height: 140%; }
 @media only screen and (max-width: 750px) {
   .time-comment { display: none; }
 }
@@ -76,7 +77,7 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
 
 </head>
 <body>
-<h2>PDB entries deposited since 2010</h2>
+<h2>PDB entries deposited since 2008</h2>
 <p id="subh"><b>Each</b> chart can be used to filter data in other charts!
 <a id="reset-all" class="reset" style="visibility: hidden;"
    href="#" onclick="dc.filterAll();dc.redrawAll();return false;">reset
@@ -110,7 +111,7 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
 <div id="chart-coltime" style="position:relative">
  <strong>Data collections</strong> per month
  <span class="time-comment" style="left:40px; top:25px;">
-   old data was deposited mostly<br>before 2010 and is not shown</span>
+   old data was deposited mostly<br>before 2008 and is not shown</span>
  <span class="time-comment" style="right:5px; top:25px;">
    recent data is <br>mostly unreleased</span>
  <a class="reset" href="#">reset</a>
@@ -121,9 +122,9 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
  <strong>Depositions</strong> per week
  <span style="color:#555">(that have been released as of now)</span>
  <a class="reset" href="#">reset</a>
- <span class="time-comment" style="left:60px; top:30px;"
+ <span class="time-comment" style="left:55px; top:30px;"
    >select a time range to see<br>how things were changing</span>
- <span class="time-comment" style="right:60%; top:80px;"
+ <span class="time-comment" style="right:75%; top:80px;"
    >arbitrary cut-off &#8594;</span>
  <div class="clearfix"></div>
 </div>

@@ -9,7 +9,7 @@ import json
 import gemmi
 
 INPUT = 'grep.out'
-FROM_YEAR = 2010
+FROM_YEAR = 2008
 
 def read_data():
     groups = {}
@@ -92,6 +92,9 @@ SYNCHROTRONS = {
     'LCLS':                    'F SLAC (US, CA)',
     'SLAC':                    'F SLAC (US, CA)',
     'SLAC LCLS':               'F SLAC (US, CA)',
+
+    # ?
+    'SYNCHROTRON':             '?',
 }
 
 DETECTORS = {
