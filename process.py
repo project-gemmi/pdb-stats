@@ -73,6 +73,7 @@ SYNCHROTRONS = {
     'PETRA III, EMBL c/o DESY':'D DESY (DE)',
     'PETRA III, DESY':         'D DESY (DE)',
     'MAX II':                  'm MAX (SE)',
+    'MAX IV':                  'm MAX (SE)',
     'RRCAT INDUS-2':           'I Indus (IN)',
     'KURCHATOV SNC':           'K KSRS (RU, Moscow)',
     'MPG/DESY, HAMBURG':       'D DESY (DE)',
