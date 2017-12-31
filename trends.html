@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Trends in X-ray data processing</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/dc.css"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108779978-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date()); gtag('config', 'UA-108779978-1');
+</script>
+<style>
+html { margin: 0 auto; max-width: 1500px; overflow-y: scroll; }
+body { font: 14px sans-serif; line-height: 20px; }
+.clearfix:before, .clearfix:after {
+  display: table; line-height: 0; content: ""; }
+.clearfix:after { clear: both; }
+h2 { text-align: center; margin-bottom: 10px; color: #444; }
+h1#loading { text-align: center; color: #aaa; font-size: 40px; }
+strong { color: #333; }
+a.reset { text-decoration: none; padding: 0 3px;
+          color: white; background: teal; }
+a.reset:hover { text-decoration: underline; }
+#subh { text-align:center; font-size:14px; color:#444; margin-top: 0; }
+#footnote { font-size: 12px; text-align: center; color:#444; padding: 8px 0; }
+#chart-facility select { min-width: 180px; min-height: 440px; }
+#chart-facility { margin-right: 80px; margin-bottom: 10px; }
+.dc-chart g.chart-body { clip-path: none; }
+text.x-axis-label { font-size: 12px; }
+</style>
+</head>
+
+<body>
+<h2>Trends in the PDB entries</h2>
+<p id="subh">
+A different presentation of the same data as on
+<a href="index.html">the main page</a>.
+<h1 id="loading">LOADING DATA...</h1>
+<div id="chart-facility" style="visibility: hidden;">
+ <strong>Facility</strong>
+ <a class="reset" href="#">reset</a>
+ <div class="clearfix"></div>
+</div>
+<div id="all-data" style="visibility: hidden;">
+ <div id="chart-detec">
+   <strong>Detector Technology</strong>
+   <div class="clearfix"></div>
+ </div>
+ <div id="chart-solution">
+   <strong>Solution Technique</strong>
+   <div class="clearfix"></div>
+ </div>
+ <div id="chart-reduc">
+   <strong>Reduction Software</strong>
+   <div class="clearfix"></div>
+ </div>
+ <div id="chart-scaling">
+   <strong>Scaling Software</strong>
+   <div class="clearfix"></div>
+ </div>
+ <div id="chart-refinement">
+   <strong>Refinement Software</strong>
+   <div class="clearfix"></div>
+ </div>
+</div>
+
+<div id="footnote" style="clear:both;">
+ <a href="https://github.com/project-gemmi/pdb-stats">
+ Source code and info...</a>
+</div>
+
+<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+<!--script type="text/javascript" src="js/d3.js"></script-->
+<script type="text/javascript" src="js/crossfilter.js"></script>
+<script type="text/javascript" src="js/dc.min.js"></script>
+<script type="text/javascript">
+"use strict";
+
+var facility_chart = dc.selectMenu('#chart-facility');
+var detec_chart = dc.seriesChart('#chart-detec');
+var reduc_chart = dc.seriesChart('#chart-reduc');
+var scaling_chart = dc.seriesChart('#chart-scaling');
+var solution_chart = dc.seriesChart('#chart-solution');
+var refinement_chart = dc.seriesChart('#chart-refinement');
+
+d3.json('data.json', function(json) {
+  var SOURCES = {
+    'H': 'home source',
+    'F': 'XFEL (any)',
+    '?': 'synchrotron',
+    '-': 'unspecified',
+
+    'a': 'APS (US, IL)',
+    'e': 'ESRF (FR)',
+    'd': 'Diamond LS (UK)',
+    's': 'Swiss LS (CH)',
+    'A': 'ALS (US, Cal)',
+    'S': 'Stanford SRL (US)',
+    'n': 'NSLS (US, NY)',
+    'h': 'Shanghai SRF (CN)',
+    'p': 'Photon Factory (JP)',
+    '8': 'SPring-8 (JP)',
+    'b': 'BESSY (DE)',
+    'u': 'Australian S (AU)',
+    'f': 'SOLEIL (FR)',
+    'k': 'PAL/PLS (KR)',
+    'c': 'CLSI (CA)',
+    't': 'NSRRC (TW)',
+    'C': 'CHESS (US, NY)',
+    'm': 'MAX (SE)',
+    'D': 'DESY (DE)',
+    'L': 'LNLS (BR)',
+    'Z': 'ALBA (ES)',
+    'E': 'Elettra (IT)',
+    'B': 'Beijing SRF (CN)',
+    'U': 'SRS (UK)',
+    'I': 'Indus (IN)',
+    'y': 'SLAC (US, Cal)',
+    'K': 'KSRS (RU, Moscow)',
+    'z': 'CAMD (US, LA)',
+    'i': 'AichiSR (JP)',
+    'g': 'SAGA-LS (JP)',
+    'T': 'Siam Photon P. (TH)',
+  };
+  var DETECT = ['?', 'CCD', 'PAD', 'IP'];
+  var DETECT_FULL = ['Not specified', 'CCD', 'Pixel Array Detector',
+                     'Image Plate'];
+  var REDUC_SOFT = { 'X':'XDS', 'H':'HKL', 'M':'Mosflm', 'd':'d*TREK',
+                     'D':'DIALS', 'O': 'Other', '-':'unknown' };
+  var SCALE_SOFT = { 'A':'Aimless', 'S':'SCALA', 'H':'HKL', 'X':'XSCALE',
+                     'd':'d*TREK', 'O': 'Other', '-':'unknown' };
+  var REF_SOFT = { 'R':'Refmac', 'P':'Phenix', 'B':'BUSTER', '-':'other/mix' };
+  var STRUCT_SOL = ['known structure', 'MR', 'SAD', 'MAD', 'MIR/SIR',
+                    'SIRAS', 'MIRAS', 'unspecified / other'];
+  json.forEach(function (d) {
+    //d[0] = (1989 + (d[8] >> 5) / 12) | 0; // based on deposition date
+    d[0] = (1989 + (d[9] >> 5) / 12) | 0; // based on release date
+  });
+
+  var data = crossfilter(json);
+  var facil_dim = data.dimension(function(d) { return d[1]; });
+  var detec_dim = data.dimension(function(d) { return [d[2], d[0]]; });
+  var reduc_dim = data.dimension(function(d) { return [d[3][0], d[0]]; });
+  var scaling_dim = data.dimension(function(d) { return [d[3][1], d[0]]; });
+  var solution_dim = data.dimension(function(d) { return [d[6], d[0]]; });
+  var ref_dim = data.dimension(function(d) { return [d[3][2], d[0]]; });
+  d3.select('#loading').remove();
+  d3.select('#chart-facility').style('visibility', null);
+  d3.select('#all-data').style('visibility', null);
+  function setup_reset(chart) {
+    var root_el = chart.root()[0][0];
+    var reset_el = root_el.getElementsByClassName('reset')[0];
+    reset_el.style.visibility = 'hidden';
+    reset_el.onclick = function() {
+      chart.filterAll();
+      dc.redrawAll();
+      return false;
+    };
+  }
+  function setup_plot(chart, dim) {
+    chart
+      .width(480)
+      .height(480)
+      .chart(function(c) { return dc.lineChart(c).renderDataPoints(true); })
+      .dimension(dim)
+      .group(dim.group())
+      .x(d3.scale.linear().domain([2009,2017]))
+      .brushOn(false)
+      .xAxisLabel('Release Year')
+      .clipPadding(10)
+      .elasticY(true)
+      .mouseZoomable(false)
+      .keyAccessor(function(p) {return p.key[1];})
+      .valueAccessor(function(p) {return p.value;})
+      .legend(dc.legend().x(60).y(30));
+    chart.xAxis().tickFormat(d3.format('d'));
+    chart.yAxis().tickFormat(d3.format('d'));
+    chart.margins().left += 10;
+    return chart;
+  }
+  facility_chart
+      .dimension(facil_dim)
+      .group(facil_dim.group())
+      .title(function(p) { return SOURCES[p.key] + ': ' + p.value; })
+      .order(function(a, b){ return b.value - a.value; })
+      .controlsUseVisibility(true)
+      .multiple(true).numberVisible(20);
+  setup_reset(facility_chart);
+
+  setup_plot(detec_chart, detec_dim)
+    .seriesAccessor(function(p) { return DETECT_FULL[p.key[0]]; });
+
+  setup_plot(reduc_chart, reduc_dim)
+    .seriesAccessor(function(p) { return REDUC_SOFT[p.key[0]]; });
+
+  setup_plot(scaling_chart, scaling_dim)
+    .seriesAccessor(function(p) { return SCALE_SOFT[p.key[0]]; });
+
+  setup_plot(solution_chart, solution_dim)
+    .seriesAccessor(function(p) { return STRUCT_SOL[p.key[0]]; });
+
+  setup_plot(refinement_chart, ref_dim)
+    .seriesAccessor(function(p) { return REF_SOFT[p.key[0]]; });
+
+  var on_resize = function() {
+    dc.renderAll();
+  };
+  on_resize();
+  d3.select(window).on('resize', on_resize);
+});
+
+
+</script>
+</body>
+</html>
