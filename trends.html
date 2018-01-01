@@ -85,6 +85,17 @@ var scaling_chart = dc.seriesChart('#chart-scaling');
 var solution_chart = dc.seriesChart('#chart-solution');
 var refinement_chart = dc.seriesChart('#chart-refinement');
 
+var YEARS = [2009,2017];
+var DATE_FIELD = 9; // d[9] is release date
+var X_LABEL = 'Release Year';
+var params = window.location.hash.substr(1).split('&');
+if (params.indexOf('depos') !== -1) { // deposition date
+  YEARS[0] = 2008;
+  DATE_FIELD = 8; // d[8] is deposition date
+  X_LABEL = 'Deposition Year';
+}
+var AS_PERCENT = (params.indexOf('percent') !== -1);
+
 d3.json('data.json', function(json) {
   var SOURCES = {
     'H': 'home source',
@@ -135,8 +146,7 @@ d3.json('data.json', function(json) {
   var STRUCT_SOL = ['known structure', 'MR', 'SAD', 'MAD', 'MIR/SIR',
                     'SIRAS', 'MIRAS', 'unspecified / other'];
   json.forEach(function (d) {
-    //d[0] = (1989 + (d[8] >> 5) / 12) | 0; // based on deposition date
-    d[0] = (1989 + (d[9] >> 5) / 12) | 0; // based on release date
+    d[0] = (1989 + (d[DATE_FIELD] >> 5) / 12) | 0;
   });
 
   var data = crossfilter(json);
@@ -160,21 +170,33 @@ d3.json('data.json', function(json) {
     };
   }
   function setup_plot(chart, dim) {
+    var gr = dim.group();
     chart
       .width(480)
       .height(480)
       .chart(function(c) { return dc.lineChart(c).renderDataPoints(true); })
       .dimension(dim)
-      .group(dim.group())
-      .x(d3.scale.linear().domain([2009,2017]))
+      .group(gr)
+      .x(d3.scale.linear().domain(YEARS))
       .brushOn(false)
-      .xAxisLabel('Release Year')
+      .xAxisLabel(X_LABEL)
       .clipPadding(10)
       .elasticY(true)
       .mouseZoomable(false)
       .keyAccessor(function(p) {return p.key[1];})
-      .valueAccessor(function(p) {return p.value;})
       .legend(dc.legend().x(60).y(30));
+    if (AS_PERCENT) {
+      chart.valueAccessor(function(p) {
+        var all = gr.all();
+        var total = 0;
+        for (var i = 0; i < all.length; i++) {
+          if (all[i].key[1] === p.key[1]) total += all[i].value;
+        }
+        return total !== 0 ? 100 * p.value / total : 0;
+      })
+    } else {
+      chart.valueAccessor(function(p) { return p.value; })
+    }
     chart.xAxis().tickFormat(d3.format('d'));
     chart.yAxis().tickFormat(d3.format('d'));
     chart.margins().left += 10;
