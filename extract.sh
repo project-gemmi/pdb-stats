@@ -28,3 +28,7 @@ gemmi-grep --delimiter=';' \
     -a _pdbx_audit_revision_history.revision_date \
     $PDB_DIR/structures/divided/mmCIF/  > grep.out
 
+if [ "$1" = "--auto" ]; then
+  ./process.py >data.json
+  sed -i s"/\(Last update:\) ....-..-../\1 $(date -Idate)/" index.html
+fi
