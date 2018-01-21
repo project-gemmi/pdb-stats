@@ -12,7 +12,6 @@ INPUT = 'grep.out'
 FROM_YEAR = 2008
 
 def read_data():
-    groups = {}
     with open(INPUT) as f_in:
         reader = csv.reader(f_in, delimiter=';', escapechar='\\',
                             quoting=csv.QUOTE_NONE)
@@ -20,17 +19,22 @@ def read_data():
             items = list(v)
             for item in items:
                 assert len(item) == 21, item
-            method = items[0][8]
-            year = int(items[0][4][:4])
-            if (method == 'X-RAY DIFFRACTION' and year >= FROM_YEAR
-                    and items[0][9] != 'NUCLEAR REACTOR'):
-                group = items[0][18]
-                if group:
-                    if group in groups:
-                        groups[group][0] += 1
-                        continue
-                    groups[group] = [1, items[0][4]]
-                yield items
+            yield items
+
+def read_and_filter_data():
+    groups = {}
+    for items in read_data():
+        method = items[0][8]
+        year = int(items[0][4][:4])
+        if (method == 'X-RAY DIFFRACTION' and year >= FROM_YEAR
+                and items[0][9] != 'NUCLEAR REACTOR'):
+            group = items[0][18]
+            if group:
+                if group in groups:
+                    groups[group][0] += 1
+                    continue
+                groups[group] = [1, items[0][4]]
+            yield items
     #for gid, (count, date) in sorted(groups.items()):
     #    print(gid, date, count)
 
@@ -148,7 +152,7 @@ def encode_date(d):
 def main():
     oldest_date = datetime.date(1989, 1, 1)
     data = []
-    for entry in read_data():
+    for entry in read_and_filter_data():
         pipes = {'xia2', 'AutoPROC'}
         data_softs = {p[2] for p in entry if p[1] in
                               ['data processing', 'data reduction']} - pipes
@@ -261,4 +265,6 @@ def main():
         print(json.dumps(d, separators=(',',':')), end='')
     print('\n]')
 
-main()
+
+if __name__ == '__main__':
+    main()
