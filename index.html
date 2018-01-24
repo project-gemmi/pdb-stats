@@ -301,7 +301,8 @@ d3.json('data.json', function(json) {
                      'D':'DIALS', 'O': 'Other', '-':'?' };
   var SCALE_SOFT = { 'A':'Aimless', 'S':'SCALA', 'H':'HKL', 'X':'XSCALE',
                      'd':'d*TREK', 'O': 'Other', '-':'?' };
-  var REF_SOFT = { 'R':'Refmac', 'P':'Phenix', 'B':'BUSTER', '-':'other/mix' };
+  var REF_SOFT = { 'R':'Refmac', 'P':'Phenix', 'B':'BUSTER', 'C':'CNS',
+                   '-':'other/mix' };
   var STRUCT_SOL = ['known structure', 'MR', 'SAD', 'MAD', 'MIR/SIR',
                     'SIRAS', 'MIRAS', 'unspecified / other'];
   function format_month(n) {
@@ -454,12 +455,12 @@ d3.json('data.json', function(json) {
   sol_chart.xAxis().ticks(2);
 
   setup_circle(ref_chart, ref_dim)
-      .ordering(function(p){ return 'BR-P'.indexOf(p.key); })
-      .minAngleForLabel(0.05)
+      .ordering(function(p){ return 'BCR-P'.indexOf(p.key); })
+      .minAngleForLabel(0.1)
       .label(function(p) { return REF_SOFT[p.key]; })
       .title(make_title(REF_SOFT))
       .colors(d3.scale.ordinal().range(
-            ['#ff7f00', '#bf5b17', '#fdc086', '#e6ab02']));
+            ['#d62728', '#8c564b', '#8899cc', '#9467bd', '#e6ab02']));
 
   dc.dataCount('#data-count').dimension(data).group(all)
     .on('renderlet', function(chart) {

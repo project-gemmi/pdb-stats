@@ -142,7 +142,8 @@ d3.json('data.json', function(json) {
                      'D':'DIALS', 'O': 'Other', '-':'unknown' };
   var SCALE_SOFT = { 'A':'Aimless', 'S':'SCALA', 'H':'HKL', 'X':'XSCALE',
                      'd':'d*TREK', 'O': 'Other', '-':'unknown' };
-  var REF_SOFT = { 'R':'Refmac', 'P':'Phenix', 'B':'BUSTER', '-':'other/mix' };
+  var REF_SOFT = { 'R':'Refmac', 'P':'Phenix', 'B':'BUSTER', 'C': 'CNS',
+                   '-':'other/mix' };
   var STRUCT_SOL = ['known structure', 'MR', 'SAD', 'MAD', 'MIR/SIR',
                     'SIRAS', 'MIRAS', 'unspecified / other'];
   json.forEach(function (d) {

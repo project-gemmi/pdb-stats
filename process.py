@@ -199,6 +199,8 @@ def main():
             refi = 'R'
         elif refi_softs <= {'BUSTER', 'TNT', 'BUSTER-TNT'}:
             refi = 'B'
+        elif refi_softs <= {'CNX', 'CNS'}:
+            refi = 'C'
         else:
             refi = '-'
 
