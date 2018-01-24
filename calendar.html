@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Synchrotron Work Patterns</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+html { margin: 0 auto; max-width: 980px; overflow-y: scroll; color: #444;
+       background-color: #eee; }
+body { font: 14px sans-serif; line-height: 20px;
+       shape-rendering: crispEdges; }
+h1 { text-align: center; margin-bottom: 10px }
+h4 { text-align: center; font-size: 16px; font-weight:normal; }
+h5 { text-align: center; font-size: 15px; font-weight:normal; }
+h2 { text-align: left; font-size: 18px; margin-bottom: 10px; }
+#footnote { font-size: 12px; text-align: center; padding: 8px 0; }
+
+/* based on flag-icon-css/css/flag-icon.css */
+h2 span {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+h2 span:before { content: "\00a0"; }
+
+/* based on Micah Stubbs’s example D3 v4 Calendar View */
+text { font: 14px sans-serif; fill: #444; }
+.day { fill: #fff; stroke: #ccc; }
+.month { fill: none; stroke: #111; stroke-width: 1px; }
+.col0 {fill:#ffffff}
+.col1 {fill:#dddddd}
+.col2 {fill:#bbbbbb}
+.col3 {fill:#aaaaaa}
+.col4 {fill:#999999}
+.col5 {fill:#888888}
+.col6 {fill:#828282}
+.col7 {fill:#777777}
+.col8 {fill:#727272}
+.col9 {fill:#666666}
+.col10{fill:#616161}
+.col11{fill:#555555}
+.col12{fill:#505050}
+.col13{fill:#484848}
+.col14{fill:#444444}
+.col15{fill:#404040}
+</style>
+</head>
+<body>
+<h1>Synchrotron Work Patterns</h1>
+<h4>Data collection dates from <b>PDB entries released before 2018-01-18.</b></h4>
+<h5>January → December &nbsp; &nbsp; Monday → Sunday</h5>
+
+<h2>APS <span style="background-image: url(flags/us.svg)"></span></h2>
+<div id="APS"></div>
+
+<h2>DLS <span style="background-image: url(flags/gb.svg)"></h2>
+<div id="DLS"></div>
+
+<h2>ESRF <span style="background-image: url(flags/fr.svg)"></h2>
+<div id="ESRF"></div>
+
+<h2>SSRF <span style="background-image: url(flags/cn.svg)"></h2>
+
+<h2>SLS <span style="background-image: url(flags/ch.svg)"></h2>
+
+<h2>ALS <span style="background-image: url(flags/us.svg)"></h2>
+
+<h2>SSRL <span style="background-image: url(flags/us.svg)"></h2>
+
+<h2>Australian <span style="background-image: url(flags/au.svg)"></h2>
+
+<h2>Photon Factory <span style="background-image: url(flags/jp.svg)"></h2>
+
+<h2>BESSY <span style="background-image: url(flags/de.svg)"></h2>
+
+<h2>SPring-8 <span style="background-image: url(flags/jp.svg)"></h2>
+
+<h2>PAL/PLS <span style="background-image: url(flags/kr.svg)"></h2>
+
+<h2>CLSI <span style="background-image: url(flags/ca.svg)"></h2>
+
+<h2>SOLEIL <span style="background-image: url(flags/fr.svg)"></h2>
+
+<div id="footnote" style="clear:both;">
+ This is part of the
+ <a href="https://project-gemmi.github.io/">project GEMMI</a>.
+ Uses <a href="https://bl.ocks.org/micahstubbs/89c6bd879d64aa511372064c6cf85711">this dc.js example</a>,
+ <a href="https://github.com/lipis/flag-icon-css">SVG flags</a> and
+ wwPDB data.
+ <b><a href="https://github.com/project-gemmi/pdb-stats">
+ Source code and info...</a></b>
+</div>
+<!--script src="https://d3js.org/d3.v4.min.js"></script-->
+<script src="d3.v4.min.js"></script>
+<script type="text/javascript">
+"use strict";
+
+var width = 880,
+    height = 60,
+    cellSize = 8;
+
+var format = d3.timeFormat("%Y-%m-%d");
+
+var weekCount = d3.timeMonday.count;
+function dayOfWeek(d) { return (d.getDay() + 6) % 7; }
+//var weekCount = d3.timeSunday.count;
+//function dayOfWeek(d) { return d.getDay(); }
+
+function monthPath(t0) {
+  var t1 = new Date(t0.getFullYear(), t0.getMonth() + 1, 0),
+      d0 = dayOfWeek(t0), w0 = weekCount(d3.timeYear(t0), t0),
+      d1 = dayOfWeek(t1), w1 = weekCount(d3.timeYear(t1), t1);
+  return "M" + (w0 + 1) * cellSize + "," + d0 * cellSize
+      + "H" + w0 * cellSize + "V" + 7 * cellSize
+      + "H" + w1 * cellSize + "V" + (d1 + 1) * cellSize
+      + "H" + (w1 + 1) * cellSize + "V" + 0
+      + "H" + (w0 + 1) * cellSize + "Z";
+}
+
+var svg = d3.select("#APS").selectAll("svg")
+    .data(d3.range(2013, 2017))
+  .enter().append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," +
+                                      (height - cellSize * 7 - 1) + ")");
+
+svg.append("text")
+    .attr("transform", "translate(-25,32)")
+    .style("text-anchor", "middle")
+    .text(function(d) { return d; });
+
+var rect = svg.selectAll(".day")
+    .data(function(d) {
+      return d3.timeDays(new Date(d, 0, 1), new Date(d + 1, 0, 1));
+    })
+  .enter().append("rect")
+    .attr("class", "day")
+    .attr("width", cellSize)
+    .attr("height", cellSize)
+    .attr("x", function(d) { return weekCount(d3.timeYear(d), d) * cellSize; })
+    .attr("y", function(d) { return dayOfWeek(d) * cellSize; })
+    .datum(format);
+rect.append("title");
+
+svg.selectAll(".month")
+    .data(function(d) {
+      return d3.timeMonths(new Date(d, 0, 1), new Date(d + 1, 0, 1));
+    })
+  .enter().append("path")
+    .attr("class", "month")
+    .attr("d", monthPath);
+
+function add_data(syn_data, days) {
+  var data = {}
+  for (var year = 2013; year < 2017; year++) {
+    var arr = syn_data[''+year];
+    for (var j = 0; j < arr.length; ++j) {
+      var key = format(new Date(year, 0, 1+j));
+      data[key] = arr[j];
+    }
+  }
+  days.attr("class", function(d) { return "day col" + Math.min(data[d], 15); })
+    .select("title").text(function(d) { return d + ": " + data[d]; });
+}
+
+d3.json('calendar.json', function(error, json) {
+  if (error) throw error;
+  add_data(json["APS"], rect);
+});
+</script>
+</body>
+</html>
+<!-- vim: set et ts=2 sw=2: -->

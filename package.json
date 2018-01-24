@@ -2,7 +2,8 @@
   "name": "pdb-statistics",
   "homepage": "https://project-gemmi.github.io/pdb-stats",
   "dependencies": {
-    "dc": "^2.1.8"
+    "dc": "^2.1.8",
+    "flag-icon-css": "^2.9.0"
   },
   "devDependencies": {
     "http-server": "^0.10.0"
