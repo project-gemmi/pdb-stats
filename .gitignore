@@ -1,4 +1,5 @@
 *.py[co]
 __pycache__/
+node_modules/
 grep.out
 d3.v4.min.js

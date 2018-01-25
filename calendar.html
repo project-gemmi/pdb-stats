@@ -6,13 +6,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-html { margin: 0 auto; max-width: 980px; overflow-y: scroll; color: #444;
-       background-color: #eee; }
-body { font: 14px sans-serif; line-height: 20px;
-       shape-rendering: crispEdges; }
-h1 { text-align: center; margin-bottom: 10px }
-h4 { text-align: center; font-size: 16px; font-weight:normal; }
-h2 { text-align: left; font-size: 18px; margin-bottom: 10px; }
+html { margin: 0 auto; max-width: 580px; overflow-y: scroll; color: #3b4044;
+       background-color: #f0e0d0; }
+body { font: 14px sans-serif; margin: 0; shape-rendering: crispEdges; }
+h1 { text-align: center; font-size: 30px; font-weight: normal; }
+h4 { text-align: center; font-size: 15px; font-weight: normal; }
+h2 { text-align: center; font-size: 18px; margin: 30px 0 10px 0; }
+.cal { min-height: 280px; }
+a:link, a:visited { color: #24a; text-decoration: none;
+                    border-bottom: 1px dashed; }
 #footnote { font-size: 12px; text-align: center; padding: 30px 0; }
 
 /* based on flag-icon-css/css/flag-icon.css */
@@ -28,10 +30,10 @@ h2 span {
 h2 span:before { content: "\00a0"; }
 
 /* based on Micah Stubbs’s example D3 v4 Calendar View */
-text { font: 14px sans-serif; fill: #444; text-anchor: middle; }
-text.DoW { font-size: 10px; fill: #aaa; }
-.day { fill: #fff; stroke: #ccc; }
-.month { fill: none; stroke: #111; stroke-width: 1px; }
+text { font: 14px sans-serif; fill: #3b4044; text-anchor: middle; }
+text.DoW { font-size: 10px; fill: #89a; }
+.day { fill: none; stroke: #ace; }
+.month { fill: none; stroke: #09c; stroke-width: 1px; }
 .col0 {fill:#ffffff}
 .col1 {fill:#dddddd}
 .col2 {fill:#bbbbbb}
@@ -52,54 +54,67 @@ text.DoW { font-size: 10px; fill: #aaa; }
 </head>
 <body>
 <h1>Synchrotron Work Patterns</h1>
-<h4>Data collection dates from <b>PDB entries released before 2018-01-24.</b></h4>
+<h4>Data collection dates from <b>PDB entries released before 2018-01-24</b>.</h4>
 
+<div class="cal" id="APS">
 <h2>APS <span style="background-image: url(flags/us.svg)"></span></h2>
-<div class="cal" id="APS"></div>
+</div>
 
+<div class="cal" id="Diamond">
 <h2>DLS <span style="background-image: url(flags/gb.svg)"></h2>
-<div class="cal" id="Diamond"></div>
+</div>
 
+<div class="cal" id="ESRF">
 <h2>ESRF <span style="background-image: url(flags/fr.svg)"></h2>
-<div class="cal" id="ESRF"></div>
+</div>
 
+<div class="cal" id="SSRF">
 <h2>SSRF <span style="background-image: url(flags/cn.svg)"></h2>
-<div class="cal" id="SSRF"></div>
+</div>
 
+<div class="cal" id="SLS">
 <h2>SLS <span style="background-image: url(flags/ch.svg)"></h2>
-<div class="cal" id="SLS"></div>
+</div>
 
+<div class="cal" id="ALS">
 <h2>ALS <span style="background-image: url(flags/us.svg)"></h2>
-<div class="cal" id="ALS"></div>
+</div>
 
+<div class="cal" id="SSRL">
 <h2>SSRL <span style="background-image: url(flags/us.svg)"></h2>
-<div class="cal" id="SSRL"></div>
+</div>
 
-<h2>Australian <span style="background-image: url(flags/au.svg)"></h2>
-<div class="cal" id="AustralianSynchrotron"></div>
+<div class="cal" id="AustralianSynchrotron">
+<h2>Australian Synchrotron <span style="background-image: url(flags/au.svg)"></h2>
+</div>
 
+<div class="cal" id="PhotonFactory">
 <h2>Photon Factory <span style="background-image: url(flags/jp.svg)"></h2>
-<div class="cal" id="PhotonFactory"></div>
+</div>
 
+<div class="cal" id="BESSY">
 <h2>BESSY <span style="background-image: url(flags/de.svg)"></h2>
-<div class="cal" id="BESSY"></div>
+</div>
 
+<div class="cal" id="SPring8">
 <h2>SPring-8 <span style="background-image: url(flags/jp.svg)"></h2>
-<div class="cal" id="SPring8"></div>
+</div>
 
+<div class="cal" id="PALPLS">
 <h2>PAL/PLS <span style="background-image: url(flags/kr.svg)"></h2>
-<div class="cal" id="PALPLS"></div>
+</div>
 
+<div class="cal" id="CLSI">
 <h2>CLSI <span style="background-image: url(flags/ca.svg)"></h2>
-<div class="cal" id="CLSI"></div>
+</div>
 
+<div class="cal" id="SOLEIL">
 <h2>SOLEIL <span style="background-image: url(flags/fr.svg)"></h2>
-<div class="cal" id="SOLEIL"></div>
+</div>
 
-<h4 style="margin-top:50px;">and for comparison...<h4>
-
-<h2>home sources</h2>
-<div class="cal" id="home"></div>
+<div class="cal" id="home">
+<h2>all home sources</h2>
+</div>
 
 <div id="footnote" style="clear:both;">
  This is part of the
@@ -107,15 +122,15 @@ text.DoW { font-size: 10px; fill: #aaa; }
  Uses <a href="https://bl.ocks.org/micahstubbs/89c6bd879d64aa511372064c6cf85711">this dc.js example</a>,
  <a href="https://github.com/lipis/flag-icon-css">SVG flags</a> and
  wwPDB data.
- <b><a href="https://github.com/project-gemmi/pdb-stats">
+ <p><b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
 </div>
-<!--script src="https://d3js.org/d3.v4.min.js"></script-->
-<script src="d3.v4.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<!--script src="d3.v4.min.js"></script-->
 <script type="text/javascript">
 "use strict";
 
-var width = 880,
+var width = 580,
     height = 60,
     cellSize = 8;
 
@@ -148,7 +163,7 @@ var svg = d3.selectAll(".cal").selectAll("svg")
 
 svg.append("text")
     .attr("x", "-25")
-    .attr("y", "35")
+    .attr("y", "33")
     .text(function(d) { return d; });
 
 var first_year = svg.filter(function (d, i) { return i === 0;});
@@ -178,27 +193,23 @@ svg.selectAll(".month")
     .attr("class", "month")
     .attr("d", monthPath);
 
-function add_data(syn_data, div) {
-  var data = {}
-  for (var year = 2013; year < 2017; year++) {
-    var arr = syn_data[''+year];
-    for (var j = 0; j < arr.length; ++j) {
-      var key = format(new Date(year, 0, 1+j));
-      data[key] = arr[j];
-    }
-  }
-  div.selectAll(".day")
-    .attr("class", function(d) { return "day col" + Math.min(data[d], 15); })
-    .select("title").text(function(d) { return d + ": " + data[d]; });
-}
 
 d3.json('calendar.json', function(error, json) {
   if (error) throw error;
-  add_data(json["APS"], d3.select("#APS"));
-  add_data(json["Diamond"], d3.select("#Diamond"));
-  add_data(json["ESRF"], d3.select("#ESRF"));
-  add_data(json["SSRF"], d3.select("#SSRF"));
-  add_data(json["home"], d3.select("#home"));
+  d3.selectAll(".cal").each(function() {
+    var data = {}
+    var syn_data = json[this.id];
+    for (var year = 2013; year < 2017; year++) {
+      var arr = syn_data[''+year];
+      for (var j = 0; j < arr.length; ++j) {
+        var key = format(new Date(year, 0, 1+j));
+        data[key] = arr[j];
+      }
+    }
+    d3.select(this).selectAll(".day")
+      .attr("class", function(d) { return "day col" + Math.min(data[d], 15); })
+      .select("title").text(function(d) { return d + ": " + data[d]; });
+  });
 });
 </script>
 </body>
