@@ -4,18 +4,21 @@
 <title>Synchrotron Work Patterns</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f0e0d0">
 
 <style>
-html { margin: 0 auto; max-width: 580px; overflow-y: scroll; color: #3b4044;
+html { margin: 0 auto; max-width: 600px; overflow-y: scroll; color: #3b4044;
        background-color: #f0e0d0; }
 body { font: 14px sans-serif; margin: 0; shape-rendering: crispEdges; }
 h1 { text-align: center; font-size: 30px; font-weight: normal; }
 h4 { text-align: center; font-size: 15px; font-weight: normal; }
-h2 { text-align: center; font-size: 18px; margin: 30px 0 10px 0; }
-.cal { min-height: 280px; }
+h2 { text-align: center; font-size: 18px; margin: 30px 0 0 0; }
+.cal { min-height: 280px; padding-left: 50px; }
+@media only screen and (max-width: 600px) { .cal { padding-left: 0; } }
 a:link, a:visited { color: #24a; text-decoration: none;
                     border-bottom: 1px dashed; }
 #footnote { font-size: 12px; text-align: center; padding: 30px 0; }
+
 
 /* based on flag-icon-css/css/flag-icon.css */
 h2 span {
@@ -31,30 +34,15 @@ h2 span:before { content: "\00a0"; }
 
 /* based on Micah Stubbs’s example D3 v4 Calendar View */
 text { font: 14px sans-serif; fill: #3b4044; text-anchor: middle; }
-text.DoW { font-size: 10px; fill: #89a; }
+text.tiny { font-size: 10px; fill: #89a; }
 .day { fill: none; stroke: #ace; }
 .month { fill: none; stroke: #09c; stroke-width: 1px; }
-.col0 {fill:#ffffff}
-.col1 {fill:#dddddd}
-.col2 {fill:#bbbbbb}
-.col3 {fill:#aaaaaa}
-.col4 {fill:#999999}
-.col5 {fill:#888888}
-.col6 {fill:#828282}
-.col7 {fill:#777777}
-.col8 {fill:#727272}
-.col9 {fill:#666666}
-.col10{fill:#616161}
-.col11{fill:#555555}
-.col12{fill:#505050}
-.col13{fill:#484848}
-.col14{fill:#444444}
-.col15{fill:#404040}
 </style>
 </head>
 <body>
 <h1>Synchrotron Work Patterns</h1>
-<h4>Data collection dates from <b>PDB entries released before 2018-01-24</b>.</h4>
+<h4>Data <a href="http://mmcif.wwpdb.org/dictionaries/mmcif_pdbx.dic/Items/_diffrn_detector.pdbx_collection_date.html">collection</a>
+dates from <b>PDB entries released before 2018-01-24</b>.</h4>
 
 <div class="cal" id="APS">
 <h2>APS <span style="background-image: url(flags/us.svg)"></span></h2>
@@ -65,7 +53,7 @@ text.DoW { font-size: 10px; fill: #89a; }
 </div>
 
 <div class="cal" id="ESRF">
-<h2>ESRF <span style="background-image: url(flags/fr.svg)"></h2>
+<h2>ESRF <span style="background-image: url(flags/eu.svg)"></h2>
 </div>
 
 <div class="cal" id="SSRF">
@@ -112,6 +100,10 @@ text.DoW { font-size: 10px; fill: #89a; }
 <h2>SOLEIL <span style="background-image: url(flags/fr.svg)"></h2>
 </div>
 
+<div class="cal" id="DESY">
+<h2>DESY <span style="background-image: url(flags/de.svg)"></h2>
+</div>
+
 <div class="cal" id="home">
 <h2>all home sources</h2>
 </div>
@@ -125,12 +117,12 @@ text.DoW { font-size: 10px; fill: #89a; }
  <p><b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
 </div>
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<!--script src="d3.v4.min.js"></script-->
+<!--script src="https://d3js.org/d3.v4.min.js"></script-->
+<script src="d3.v4.min.js"></script>
 <script type="text/javascript">
 "use strict";
 
-var width = 580,
+var width = 520,
     height = 60,
     cellSize = 8;
 
@@ -156,10 +148,14 @@ var svg = d3.selectAll(".cal").selectAll("svg")
     .data(d3.range(2013, 2017))
   .enter().append("svg")
     .attr("width", width)
-    .attr("height", height)
+    .attr("height", function(d, i) {
+      return i == 0 ? height + 10 : height;
+    })
   .append("g")
-    .attr("transform", "translate(" + ((width - cellSize * 53) / 2) + "," +
-                                      (height - cellSize * 7 - 1) + ")");
+  .attr("transform", function(d, i) {
+    return "translate(" + ((width - cellSize * 53) / 2) + "," +
+                          (height + (i == 0 ? 10 : 0) - cellSize * 7 - 1) +
+                          ")";});
 
 svg.append("text")
     .attr("x", "-25")
@@ -168,9 +164,16 @@ svg.append("text")
 
 var first_year = svg.filter(function (d, i) { return i === 0;});
 first_year.append("text")
-    .attr("x", "-15").attr("y", cellSize).attr("class", "DoW").text("Mon");
+    .attr("x", "-15").attr("y", cellSize).attr("class", "tiny").text("Mon");
 first_year.append("text")
-    .attr("x", "-15").attr("y", cellSize * 7).attr("class", "DoW").text("Sun");
+    .attr("x", "-15").attr("y", cellSize * 7).attr("class", "tiny").text("Sun");
+
+var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+              "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+for (var i = 0; i < 12; i++) {
+  first_year.append("text")
+      .attr("x", 20+i*35).attr("y", "-3").attr("class", "tiny").text(months[i]);
+}
 
 var rect = svg.selectAll(".day")
     .data(function(d) {
@@ -193,6 +196,16 @@ svg.selectAll(".month")
     .attr("class", "month")
     .attr("d", monthPath);
 
+var colors = [
+  "#ffffff", "#dddddd", "#bbbbbb", "#aaaaaa", "#999999",
+  "#888888", "#828282", "#777777", "#727272", "#686868",
+  "#646464", "#606060", "#5c5c5c", "#585858", "#545454",
+  "#505050", "#4c4c4c", "#484848", "#444444", "#404040",
+  "#3c3c3c", "#3c3c3c", "#383838", "#383838", "#343434",
+  "#343434", "#303030", "#303030", "#2c2c2c", "#2c2c2c",
+  "#282828", "#282828", "#242424", "#242424", "#202020",
+  "#202030", "#202020", "#1c1c1c", "#1c1c1c", "#1c1c1c",
+  "#000000"];
 
 d3.json('calendar.json', function(error, json) {
   if (error) throw error;
@@ -207,7 +220,11 @@ d3.json('calendar.json', function(error, json) {
       }
     }
     d3.select(this).selectAll(".day")
-      .attr("class", function(d) { return "day col" + Math.min(data[d], 15); })
+      //.attr("class", function(d) { return "day col" + Math.min(data[d], 15); })
+      .style("fill", function(d) {
+        var n = data[d];
+        return colors[Math.min(n, 40)];
+      })
       .select("title").text(function(d) { return d + ": " + data[d]; });
   });
 });

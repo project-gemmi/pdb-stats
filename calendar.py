@@ -6,7 +6,7 @@ from process import read_data, parse_date, SYNCHROTRONS
 # alternative names are also included, see process.py
 OUTPUT_SYN = ['APS', 'Diamond', 'ESRF', 'SSRF', 'SLS',
               'ALS', 'SSRL', 'Australian Synchrotron', 'Photon Factory',
-              'BESSY', 'SPring-8', 'PAL/PLS', 'CLSI', 'SOLEIL']
+              'BESSY', 'SPring-8', 'PAL/PLS', 'CLSI', 'SOLEIL', 'DESY']
 ALL_OUTPUT = OUTPUT_SYN + ['home']
 
 OUTPUT_YEARS = [2013, 2014, 2015, 2016]

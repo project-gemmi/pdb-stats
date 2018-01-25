@@ -91,6 +91,7 @@ SYNCHROTRONS = {
     'RRCAT':                   'I Indus (IN)',
     'SLRI':                    'T Siam Photon P. (TH)',
     'PETRA III':               'D DESY (DE)',
+    'DESY':                    'D DESY (DE)',  # this one is for calendar.py
 
     # these are actually XFEL
     'LCLS':                    'F SLAC (US, CA)',
