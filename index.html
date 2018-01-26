@@ -21,9 +21,9 @@ body { font: 14px sans-serif; line-height: 20px; }
 h2 { text-align: center; margin-bottom: 10px; color: #444; }
 h1#loading { text-align: center; color: #aaa; font-size: 40px; }
 strong { color: #333; }
-a.reset { text-decoration: none; padding: 0 3px;
-          color: white; background: teal; }
-a.reset:hover { text-decoration: underline; }
+a.reset, #rel_switch { text-decoration: none; padding: 0 3px;
+                       color: white; background: teal; }
+a.reset:hover, #rel_switch:hover { text-decoration: underline; }
 #chart-time, #chart-coltime { float: none; display: table; width: 100%; }
 .time-comment { position:absolute; color:#555; z-index:-1; font-size: 13px;
                 line-height: 140%; }
@@ -118,9 +118,8 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
  <div class="clearfix"></div>
 </div>
 
-<div id="chart-time" style="position:relative">
- <strong>Depositions</strong> per week
- <span style="color:#555">(that have been released as of now)</span>
+<div id="chart-time" style="position:relative"><strong>Depositions</strong>
+  (not <a href="#" id="rel_switch">releases</a>) per week
  <a class="reset" href="#">reset</a>
  <span class="time-comment" style="left:55px; top:30px;"
    >select a time range to see<br>how things were changing</span>
@@ -203,6 +202,7 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
 <script type="text/javascript">
 "use strict";
 
+var data;
 var facility_chart = dc.selectMenu('#chart-facility');
 var detec_chart = dc.pieChart('#chart-detec');
 var reduc_chart = dc.pieChart('#chart-reduc');
@@ -214,6 +214,24 @@ var resol_chart = dc.barChart('#chart-resol');
 var sol_chart = dc.rowChart('#chart-sol');
 var ref_chart = dc.pieChart('#chart-ref');
 var table = dc.dataTable('#data-table');
+
+var plot_rel_date = false;
+var rel_switch = document.getElementById('rel_switch');
+rel_switch.onclick = function() {
+  plot_rel_date = !plot_rel_date;
+  rel_switch.parentNode.firstChild.textContent =
+    plot_rel_date ? "Releases" : "Depositions";
+  rel_switch.textContent = plot_rel_date ? "depositions" : "releases";
+  time_chart.filterAll();
+  time_chart.dimension().dispose();
+  var time_dim = data.dimension(plot_rel_date
+      ? (function(d) { return d3.time.week(d[9]); })
+      : (function(d) { return d3.time.week(d[8]); }));
+  time_chart.dimension(time_dim)
+  time_chart.group(time_dim.group())
+  dc.redrawAll();
+  return false;
+};
 
 d3.json('data.json', function(json) {
   var SOURCES = {
@@ -317,11 +335,11 @@ d3.json('data.json', function(json) {
   var code_map = {}
   json.forEach(function (d) {
     d[8] = parse_date(d[8]);
-    d[9] = format_date(parse_date(d[9]));
+    d[9] = parse_date(d[9]);
     code_map[d[0]] = d;
   });
 
-  var data = crossfilter(json);
+  data = crossfilter(json);
   var all = data.groupAll();
   var table_dim = data.dimension(function(d) { return d[9]; });
   var facil_dim = data.dimension(function(d) { return d[1]; });
@@ -498,7 +516,7 @@ d3.json('data.json', function(json) {
       .width(null).height(540)
       .size(30)
       .dimension(table_dim)
-      .group(function(d) { return 'Released ' + d[9]; })
+      .group(function(d) { return 'Released ' + format_date(d[9]); })
       .columns([
           function(d) { return d[0]; },
           function(d) { return d[5] ? d[5].toFixed(1) : ''; },

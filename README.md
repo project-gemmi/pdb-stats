@@ -16,7 +16,7 @@ to prepare JSON files used in our web pages.
 
 `./process.py >data.json` makes a concise JSON file that includes only:
 
-* entries deposited since 2010 (aribitrary cut-off),
+* entries deposited since 2008 (aribitrary cut-off),
 * obtained using X-ray crystallography,
 * in case of group depositions (PDB has now only a dozen of such groups)
   we take one entry from each group.
