@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PDBx/mmCIF Tags</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f0e0d0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108779978-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date()); gtag('config', 'UA-108779978-1');
+</script>
+
+<style>
+html { margin: 0 auto; max-width: 760px; overflow-y: scroll; color: #3b4044;
+       background-color: #ddc; }
+body { font: 13px sans-serif; line-height: 150%; margin: 0; }
+h1 { text-align: center; font-size: 30px; font-weight: normal; }
+h2 { text-align: center; font-size: 20px; margin-top: 40px; }
+a:link, a:visited { text-decoration: none; }
+#footnote a { border-bottom: 1px dashed; color: #24a; }
+#footnote { font-size: 12px; text-align: center; padding: 30px 0; }
+table { width: 100%; border-collapse: collapse; background-color: #f8f8f8; }
+table, th, td { border: 1px solid #888; }
+table { box-shadow: 2px 2px 4px rgba(0,0,0,0.20); }
+th, td { padding: 6px; }
+table th { background: #eee; }
+td { text-align: right; }
+td:first-child { text-align: left; }
+
+@media only screen and (max-width: 1200px) { nav { display: none; } }
+nav { position: fixed; right: 0; top: 50%; transform: translate(0, -50%); }
+nav ul li { display: block; font-size: 16px; border-radius: 5px;
+            background: #bba; border: solid 2px #aa9;
+            text-align: center; margin: 15px; }
+ul a:link, ul a:visited { white-space: nowrap; color: #444;
+                          display: block; padding: 10px; }
+
+/* tablesort.css */
+th[role=columnheader]:not(.no-sort) {
+  cursor: pointer;
+}
+
+th[role=columnheader]:not(.no-sort):after {
+  content: '';
+  float: right;
+  margin-top: 7px;
+  border-width: 0 4px 4px;
+  border-style: solid;
+  border-color: #404040 transparent;
+  visibility: hidden;
+  opacity: 0;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+th[aria-sort=ascending]:not(.no-sort):after {
+  border-bottom: none;
+  border-width: 4px 4px 0;
+}
+
+th[aria-sort]:not(.no-sort):after {
+  visibility: visible;
+  opacity: 0.4;
+}
+
+th[role=columnheader]:not(.no-sort):hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<h1>PDBx/mmCIF Tags</h1>
+<nav id="nav"><ul>
+ <li><a href="#coor">Coordinate Files</a>
+ <li><a href="#ccd">CCD</a>
+</ul></nav>
+<h2 id="coor">Coordinate Files</h2>
+<table id="coor-table">
+ <thead>
+  <tr>
+   <th aria-sort="ascending">Tag</th>
+   <th data-sort-method='number'>in %</th>
+   <th data-sort-method='number'># min</th>
+   <th data-sort-method='number'># avg</th>
+   <th data-sort-method='number'># max</th>
+  </tr>
+ </thead>
+</table>
+
+<h2 id="ccd">CCD</h2>
+<table id="ccd-table">
+ <thead>
+  <tr>
+   <th aria-sort="ascending">Tag</th>
+   <th data-sort-method='number'>in %</th>
+   <th data-sort-method='number'># min</th>
+   <th data-sort-method='number'># avg</th>
+   <th data-sort-method='number'># max</th>
+  </tr>
+ </thead>
+</table>
+
+<div id="footnote">
+ This is part of the
+ <a href="https://project-gemmi.github.io/">project GEMMI</a>.
+ Uses data <a href="https://d3js.org/">d3.js</a>
+ and <a href="http://tristen.ca/tablesort/demo/">tablesort</a>.
+ Data was extracted from wwPDB on 2018-02-06.
+ <p><b><a href="https://github.com/project-gemmi/pdb-stats">
+ Source code and info...</a></b>
+</div>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<!--script src="d3.v4.min.js"></script-->
+<script src="tablesort.min.js"></script>
+<script type="text/javascript">
+"use strict";
+
+d3.tsv('mmcif-tags.tsv', function(data) {
+  var tbody = d3.select('#coor-table').append('tbody');
+  tbody.selectAll('tr').data(data).enter().append('tr').html(function(d) {
+    return '<td>' + d.tag + '</td><td>' + d.files + '</td><td>' +
+           d.nmin + '</td><td>' + d.navg + '</td><td>' + d.nmax + '</td>';
+  });
+  new Tablesort(document.getElementById('coor-table'));
+});
+d3.tsv('ccd-tags.tsv', function(data) {
+  var tbody = d3.select('#ccd-table').append('tbody');
+  tbody.selectAll('tr').data(data).enter().append('tr').html(function(d) {
+    return '<td>' + d.tag + '</td><td>' + d.files + '</td><td>' +
+           d.nmin + '</td><td>' + d.navg + '</td><td>' + d.nmax + '</td>';
+  });
+  new Tablesort(document.getElementById('ccd-table'));
+});
+</script>
+</body>
+</html>
+<!-- vim: set et ts=2 sw=2: -->

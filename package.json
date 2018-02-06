@@ -6,7 +6,8 @@
     "flag-icon-css": "^2.9.0"
   },
   "devDependencies": {
-    "http-server": "^0.10.0"
+    "http-server": "^0.10.0",
+    "tablesort": "^5.0.2"
   },
   "scripts": {
     "start": "http-server -a localhost -p 7890 -c-1"

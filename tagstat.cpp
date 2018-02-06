@@ -113,17 +113,19 @@ int main(int argc, char **argv) {
       return 2;
     }
   }
+  std::printf("tag\tfiles\tnmin\tnavg\tnmax\n");
   for (auto& item : ctx.stats) {
     TagStats& st = item.second;
     if (st.block_count == 0)
       continue;
-    double avg = double(st.total_count) / st.block_count;
-    std::printf("%-45s %7.3f%% %5d %5d %5.2f\n",
-        item.first.c_str(), 100.0 * st.block_count / ctx.total_blocks,
-        st.min_count, st.max_count, avg);
+    double navg = double(st.total_count) / st.block_count;
+    double pc = 100.0 * st.block_count / ctx.total_blocks;
+    std::printf("%s\t%.3f\t%d\t%.2f\t%d\n",
+                item.first.c_str(), pc, st.min_count, navg, st.max_count);
   }
-  std::printf("Block count: %d\n", ctx.total_blocks);
-  std::printf("File count: %zu\n", file_count);
+  std::fprintf(stderr, "Tag count: %zu\n", ctx.stats.size());
+  std::fprintf(stderr, "Block count: %d\n", ctx.total_blocks);
+  std::fprintf(stderr, "File count: %zu\n", file_count);
   return 0;
 }
 
