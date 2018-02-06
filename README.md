@@ -46,4 +46,6 @@ Then it can be used to update the data:
     $ ./tagstat $PDB_DIR/structures/divided/mmCIF > mmcif-tags.tsv
     $ sed -i s"/ on 20..-..-../ on $(date -Idate)/" tags.html
 
+https://project-gemmi.github.io/pdb-stats/tags.html
+
 [1]: https://project-gemmi.github.io/
