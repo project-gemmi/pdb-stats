@@ -14,10 +14,12 @@ namespace cif = gemmi::cif;
 namespace rules = gemmi::cif::rules;
 
 struct TagStats {
+  int file_count = 0;
   int block_count = 0;
   size_t total_count = 0;
   int min_count = INT_MAX;
   int max_count = 1;
+  bool in_this_file = false;
 };
 
 struct Context {
@@ -53,6 +55,7 @@ template<> struct Counter<rules::value> {
       st.block_count++;
       st.total_count++;
       st.min_count = 1;
+      st.in_this_file = true;
     }
     ctx.tag = "";
   }
@@ -81,6 +84,7 @@ template<> struct Counter<rules::loop_end> {
         st.total_count += n;
         st.max_count = std::max(st.max_count, n);
         st.min_count = std::min(st.min_count, n);
+        st.in_this_file = true;
       }
     }
     ctx.column = 0;
@@ -89,9 +93,14 @@ template<> struct Counter<rules::loop_end> {
 };
 
 int main(int argc, char **argv) {
-  size_t file_count = 0;
+  size_t file_counter = 0;
   Context ctx;
+  bool per_block = true;
   for (int i = 1; i < argc; ++i) {
+    if (argv[i] == std::string("-f")) {
+      per_block = false;
+      continue;
+    }
     try {
       for (const char* path : gemmi::CifWalk(argv[i])) {
         gemmi::MaybeGzipped input(path);
@@ -106,7 +115,12 @@ int main(int argc, char **argv) {
           pegtl::file_input<> in(path);
           pegtl::parse<rules::file, Counter, cif::Errors>(in, ctx);
         }
-        file_count++;
+        for (auto& item : ctx.stats)
+          if (item.second.in_this_file) {
+            item.second.file_count++;
+            item.second.in_this_file = false;
+          }
+        file_counter++;
       }
     } catch (std::runtime_error &e) {
       fprintf(stderr, "Error: %s\n", e.what());
@@ -119,13 +133,17 @@ int main(int argc, char **argv) {
     if (st.block_count == 0)
       continue;
     double navg = double(st.total_count) / st.block_count;
-    double pc = 100.0 * st.block_count / ctx.total_blocks;
+    double pc;
+    if (per_block)
+      pc = 100.0 * st.block_count / ctx.total_blocks;
+    else
+      pc = 100.0 * st.file_count / file_counter;
     std::printf("%s\t%.3f\t%d\t%.2f\t%d\n",
                 item.first.c_str(), pc, st.min_count, navg, st.max_count);
   }
   std::fprintf(stderr, "Tag count: %zu\n", ctx.stats.size());
   std::fprintf(stderr, "Block count: %d\n", ctx.total_blocks);
-  std::fprintf(stderr, "File count: %zu\n", file_count);
+  std::fprintf(stderr, "File count: %zu\n", file_counter);
   return 0;
 }
 

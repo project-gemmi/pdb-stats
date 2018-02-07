@@ -29,7 +29,9 @@ table th { background: #eee; }
 td { text-align: right; }
 td:first-child { text-align: left; }
 
-@media only screen and (max-width: 1200px) { nav { display: none; } }
+@media only screen and (max-width: 1120px) { html { margin: 0 180px 0 auto; } }
+@media only screen and (max-width: 950px) { html { margin: 0; }
+                                            nav { display: none; } }
 nav { position: fixed; right: 0; top: 50%; transform: translate(0, -50%); }
 nav ul li { display: block; font-size: 16px; border-radius: 5px;
             background: #bba; border: solid 2px #aa9;
@@ -77,10 +79,25 @@ th[role=columnheader]:not(.no-sort):hover:after {
 <h1>PDBx/mmCIF Tags</h1>
 <nav id="nav"><ul>
  <li><a href="#coor">Coordinate Files</a>
+ <li><a href="#sf">SF Files</a>
  <li><a href="#ccd">CCD</a>
 </ul></nav>
+
 <h2 id="coor">Coordinate Files</h2>
 <table id="coor-table">
+ <thead>
+  <tr>
+   <th aria-sort="ascending">Tag</th>
+   <th data-sort-method='number'>in %</th>
+   <th data-sort-method='number'># min</th>
+   <th data-sort-method='number'># avg</th>
+   <th data-sort-method='number'># max</th>
+  </tr>
+ </thead>
+</table>
+
+<h2 id="sf">Structure Factor Files</h2>
+<table id="sf-table">
  <thead>
   <tr>
    <th aria-sort="ascending">Tag</th>
@@ -108,7 +125,7 @@ th[role=columnheader]:not(.no-sort):hover:after {
 <div id="footnote">
  This is part of the
  <a href="https://project-gemmi.github.io/">project GEMMI</a>.
- Uses data <a href="https://d3js.org/">d3.js</a>
+ Uses <a href="https://d3js.org/">d3.js</a>
  and <a href="http://tristen.ca/tablesort/demo/">tablesort</a>.
  Data was extracted from wwPDB on 2018-02-06.
  <p><b><a href="https://github.com/project-gemmi/pdb-stats">
@@ -127,6 +144,14 @@ d3.tsv('mmcif-tags.tsv', function(data) {
            d.nmin + '</td><td>' + d.navg + '</td><td>' + d.nmax + '</td>';
   });
   new Tablesort(document.getElementById('coor-table'));
+});
+d3.tsv('sf-tags.tsv', function(data) {
+  var tbody = d3.select('#sf-table').append('tbody');
+  tbody.selectAll('tr').data(data).enter().append('tr').html(function(d) {
+    return '<td>' + d.tag + '</td><td>' + d.files + '</td><td>' +
+           d.nmin + '</td><td>' + d.navg + '</td><td>' + d.nmax + '</td>';
+  });
+  new Tablesort(document.getElementById('sf-table'));
 });
 d3.tsv('ccd-tags.tsv', function(data) {
   var tbody = d3.select('#ccd-table').append('tbody');
