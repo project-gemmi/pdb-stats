@@ -6,10 +6,16 @@
     "flag-icon-css": "^2.9.0"
   },
   "devDependencies": {
-    "http-server": "^0.10.0",
+    "datatables.net": "^1.10.16",
+    "http-server": "^0.11.1",
     "tablesort": "^5.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/project-gemmi/pdb-stats.git"
   },
   "scripts": {
     "start": "http-server -a localhost -p 7890 -c-1"
-  }
+  },
+  "license": "MPL-2.0"
 }

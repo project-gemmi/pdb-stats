@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Chemical Components in the PDB</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108779978-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date()); gtag('config', 'UA-108779978-1');
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/datatables.min.css"/>
+<style>
+html { margin: 0 auto; max-width: 760px; overflow-y: scroll; color: #3b4044;
+       background-color: #f8f8f8; }
+body { font: 13px sans-serif; line-height: 150%; margin: 0; }
+h1 { text-align: center; font-size: 30px; font-weight: normal; }
+h2 { text-align: center; font-size: 20px; margin-top: 40px; }
+a:link, a:visited { text-decoration: none; }
+#footnote a { border-bottom: 1px dashed; color: #24a; }
+#footnote { font-size: 12px; text-align: center; padding: 30px 0; }
+</style>
+</head>
+<body>
+<h1>Chemical Components in the PDB</h1>
+<table id="table" class="display compact" width="100%" cellspacing="0">
+ <thead>
+  <tr>
+   <th>code</th>
+   <th>type</th>
+   <th>PDB entries</th>
+   <th>total count</th>
+   <th>in polymers</th>
+   <th>example</th>
+  </tr>
+ </thead>
+ <tfoot>
+  <tr>
+   <th>code</th>
+   <th>type</th>
+   <th>PDB entries</th>
+   <th>total count</th>
+   <th>in polymers</th>
+   <th>example</th>
+  </tr>
+ </tfoot>
+</table>
+
+
+
+<div id="footnote">
+ This is part of the
+ <a href="https://project-gemmi.github.io/">project GEMMI</a>.
+ Uses <a href="https://datatables.net">DataTables</a>.
+ Data was extracted from wwPDB on 2018-02-15.
+ <p><b><a href="https://github.com/project-gemmi/pdb-stats">
+ Source code and info...</a></b>
+</div>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="js/datatables.min.js"></script>
+<script type="text/javascript">
+"use strict";
+function render_percent(data, type) {
+ return data === 0 ? '0%' : data.toFixed(3) + '%';
+}
+$(document).ready(function() {
+  $('#table').DataTable({
+    ajax: 'residues.json',
+    lengthMenu: [100, 200, 500, 1000],
+    order: [],
+    'columns': [
+     null,
+     null,
+     { searchable: false, className: 'dt-right',
+       render: { display: render_percent }
+     },
+     { searchable: false, className: 'dt-right' },
+     { searchable: false, className: 'dt-right',
+       render: { display: render_percent }
+     },
+     { searchable: false, className: 'dt-center' },
+    ]
+  });
+});
+
+</script>
+</body>
+</html>
+<!-- vim: set et ts=1 sw=1: -->
