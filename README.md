@@ -44,8 +44,16 @@ Then it can be used to update the data:
 
     $ ./tagstat components.cif > ccd-tags.tsv
     $ ./tagstat $PDB_DIR/structures/divided/mmCIF > mmcif-tags.tsv
+    $ ./tagstat $PDB_DIR/structures/divided/structure_factors > sf-tags.tsv
     $ sed -i s"/ on 20..-..-../ on $(date -Idate)/" tags.html
 
 https://project-gemmi.github.io/pdb-stats/tags.html
+
+### Residue statistics
+
+    $ curl -O ftp://ftp.wwpdb.org/pub/pdb/data/monomers/components.cif.gz
+    $ ./resistat.py $PDB_DIR/structures/divided/mmCIF > residues.json
+
+https://project-gemmi.github.io/pdb-stats/residues.html
 
 [1]: https://project-gemmi.github.io/

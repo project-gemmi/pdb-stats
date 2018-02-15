@@ -58,14 +58,16 @@ a:link, a:visited { text-decoration: none; }
  <p><b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
 </div>
-<script src="http://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/datatables.min.js"></script>
 <script type="text/javascript">
 "use strict";
-function render_percent(data, type) {
+var file_count = 137692;
+function render_percent(data) {
  return data === 0 ? '0%' : data.toFixed(3) + '%';
+}
+function render_file_percent(data) {
+ return (100.0 * data / file_count).toFixed(3) + '%';
 }
 $(document).ready(function() {
   $('#table').DataTable({
@@ -76,7 +78,7 @@ $(document).ready(function() {
      null,
      null,
      { searchable: false, className: 'dt-right',
-       render: { display: render_percent }
+       render: { display: render_file_percent }
      },
      { searchable: false, className: 'dt-right' },
      { searchable: false, className: 'dt-right',

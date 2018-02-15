@@ -48,10 +48,9 @@ def main():
                                  'nonpoly': 0, 'pdb': (None, 0)})
     for item in pdb_data:
         pdb_id, volume, resolution, rest = item
-        volume = float(volume)
-        if volume < 10:
+        if volume < 10 or volume != volume:
             volume = 1e12
-        score_mult = 1.0 / volume / float(resolution)
+        score_mult = 1.0 / volume / resolution
         for item in rest.split():
             comp, poly, nonpoly = item.split(':')
             d = stats[comp]
@@ -72,7 +71,7 @@ def main():
     # stage 3: output
     total_files = len(pdb_data)
     if not PLAIN_TEXT:
-        print('{\n"data": [', end='')
+        print('{\n"file_count": %d,\n"data": [' % total_files, end='')
     sep = ''
     for key in sorted(stats.keys(), key=lambda k: -stats[k]['files']):
         cat = ccd_category.get(key, '?').strip('"\'').lower()
@@ -83,10 +82,10 @@ def main():
         example = d['pdb'][0]
         if PLAIN_TEXT:
             print('%3s %7.3f %5d %7.3f %s' %
-                  (key, file_percent, total, poly_percent, example))
+                  (key, d['files'], total, poly_percent, example))
         else:
-            print('%s\n["%s","%s",%.3f,%d,%.3f,"%s"]' %
-                  (sep, key, cat, file_percent, total, poly_percent, example),
+            print('%s\n["%s","%s",%d,%d,%.3f,"%s"]' %
+                  (sep, key, cat, d['files'], total, poly_percent, example),
                   end='')
         sep = ','
     if not PLAIN_TEXT:
