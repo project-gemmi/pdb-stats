@@ -30,7 +30,7 @@ https://project-gemmi.github.io/pdb-stats/
 
 ### Synchrotron work patterns
 
-`./calendar.py >calendar.json` writes the data used in calendar.html:
+`./coldates.py >calendar.json` writes the data used in calendar.html:
 
 https://project-gemmi.github.io/pdb-stats/calendar.html
 
