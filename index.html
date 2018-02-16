@@ -1,570 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>PDB statistics: X-ray data processing</title>
+<title>Statistics from the PDB</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/dc.css"/>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108779978-1"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date()); gtag('config', 'UA-108779978-1');
 </script>
-
 <style>
-html { margin: 0 auto; max-width: 980px; overflow-y: scroll; }
-body { font: 14px sans-serif; line-height: 20px; }
-.clearfix:before, .clearfix:after {
-  display: table; line-height: 0; content: ""; }
-.clearfix:after { clear: both; }
-h2 { text-align: center; margin-bottom: 10px; color: #444; }
-h1#loading { text-align: center; color: #aaa; font-size: 40px; }
-strong { color: #333; }
-a.reset, #rel_switch { text-decoration: none; padding: 0 3px;
-                       color: white; background: teal; }
-a.reset:hover, #rel_switch:hover { text-decoration: underline; }
-#chart-time, #chart-coltime { float: none; display: table; width: 100%; }
-.time-comment { position:absolute; color:#555; z-index:-1; font-size: 13px;
-                line-height: 140%; }
-@media only screen and (max-width: 750px) {
-  .time-comment { display: none; }
-}
-#top-row, #bottom-row { display: table; margin: 0 auto; }
-#chart-facility, #chart-detec, #chart-reduc { margin-right: 20px; }
-#chart-facility select { min-width: 180px; min-height: 200px; }
-#chart-sg { margin-right: 5px; }
-#chart-sg select { min-width: 140px; min-height: 182px; }
-.x-axis-label { font-size: 13px; }
-div.dc-chart g.row text.row { fill: black; font-size: 12px; }
-div.dc-chart rect.deselected + text.row { fill: #555; }
-#data-table { font: 13px sans-serif; min-width: 460px; }
-#data-table { border-collapse: collapse; }
-#data-table td, #data-table th { border: 3px solid white; }
-.dc-table-label { background: #bdd; font-weight:bold; }
-#data-table thead { background: #acc; }
-#data-table tbody { background: #dee; }
-#data-table tbody tr:hover { background: #f2fff8; }
-#data-table tbody td { padding:0 5px 0 5px; }
-#data-table a { text-decoration: none; }
-@media only screen and (max-width: 700px) {
-  #data-table { font-size: 12px; }
-}
-#footnote { font-size: 12px; text-align: center; color:#444; padding: 8px 0; }
-#subh { text-align:center; font-size:14px; color:#444;
-        margin:-2px 0 14px 100px; }
+html { margin: 0 auto; max-width: 760px; overflow-y: scroll; color: #3b4044;
+       background-color: #f8f8f8; }
+body { font: 14px sans-serif; line-height: 160%; margin: 0 10px; }
+h1 { text-align: center; font-size: 30px; line-height: 40px;
+     font-weight: normal; margin: 40px 0; }
+li { padding: 10px 0 0; clear: both; }
+li .h2 { font-size: 20px; display: block; margin: 10px 0; font-weight: bold; }
+#footer { font-size: 13px; }
+a:link, a:visited { text-decoration: none; color: #16a; }
+ul { list-style-type: none; margin: 40px 0; padding: 0; }
+hr { color: #888; background-color: #888; clear: both; margin: 0; }
+li img { float: left; margin: 0 30px 0 0; vertical-align: bottom;
+         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); }
 @media only screen and (max-width: 600px) {
-  #subh { margin-left: 0; display: table; }
+ li img { display: none; }
 }
-#tcontainer {
-  width:100%; clear:both;
-  min-height: 450px;
-  position:relative;
-  background-repeat: no-repeat space; background-position: right;
-}
-#info-box {
-  background: white;
-  border-top: 1px solid #aaa;
-  padding-left: 20px;
-  position:absolute; top:45px; left:460px;
-}
-@media only screen and (max-width: 700px) {
-  #info-box { display: none; }
-}
-#info-box span { color:#888; font-size:14px; }
-#info-box img { position: absolute; top:-250px; left:0; z-index:-1; }
 </style>
-
 </head>
 <body>
-<h2>PDB entries deposited since 2008</h2>
-<p id="subh"><b>Each</b> chart can be used to filter data in other charts!
-<a id="reset-all" class="reset" style="visibility: hidden;"
-   href="#" onclick="dc.filterAll();dc.redrawAll();return false;">reset
-   all filters</a>
-</p>
-<h1 id="loading">LOADING DATA...</h1>
-<div id="all-data" style="visibility: hidden;">
-<div id="top-row">
- <div id="chart-facility">
-  <strong>Facility</strong>
-  <a class="reset" href="#">reset</a>
-  <div class="clearfix"></div>
- </div>
- <div id="chart-detec">
-  <strong>Detector</strong>
-  <a class="reset" href="#";>reset</a>
-  <div class="clearfix"></div>
- </div>
- <div id="chart-reduc">
-  <strong>Reduction</strong>
-  <a class="reset" href="#">reset</a>
-  <div class="clearfix"></div>
- </div>
- <div id="chart-scale">
-  <strong>Scaling</strong>
-  <a class="reset" href="#">reset</a>
-  <div class="clearfix"></div>
- </div>
+<h1>Visualizations and statistics<br>based on the PDB data</h1>
+
+<ul>
+<li><a href="xray.html"><img src="thumbs/xtal.png" alt="">
+<span class="h2">X-ray data processing</span></a>
+Interactive exploration of how detectors and the software in use
+differ between synchrotrons, and how they change in time.
+Plus other correlations.
+
+<li><a href="calendar.html"><img src="thumbs/calendar.png" alt="">
+<span class="h2">Synchrotron work patterns</span></a>
+What can we tell from data collection dates in the PDB?
+
+<li><a href="tags.html"><img src="thumbs/tags.png" alt="">
+<span class="h2">PDBx/mmCIF tags</span></a>
+A table that shows which tags are actually in use.
+
+<li><a href="residue.html"><img src="thumbs/residue.png" alt="">
+<span class="h2">Frequency of chemical components</span></a>
+A table that counts in how many entries each residue and ligand is present.
+
+</ul>
+
+<hr>
+<div id="footer">
+These statistics also show how to use
+<a href="https://project-gemmi.github.io/">project GEMMI</a>
+(in particular one of the utilities: <code>gemmi-grep</code>)
+to quickly extract data from mmCIF files.
+For techinical details and more information see the
+<a href="https://github.com/project-gemmi/pdb-stats">source code repository</a>.
+<br/>GEMMI is funded by CCP4 and Global Phasing Ltd.
 </div>
-
-<div id="chart-coltime" style="position:relative">
- <strong>Data collections</strong> per month
- <span class="time-comment" style="left:40px; top:25px;">
-   old data was deposited mostly<br>before 2008 and is not shown</span>
- <span class="time-comment" style="right:5px; top:25px;">
-   recent data is <br>mostly unreleased</span>
- <a class="reset" href="#">reset</a>
- <div class="clearfix"></div>
-</div>
-
-<div id="chart-time" style="position:relative"><strong>Depositions</strong>
-  (not <a href="#" id="rel_switch">releases</a>) per week
- <a class="reset" href="#">reset</a>
- <span class="time-comment" style="left:55px; top:30px;"
-   >select a time range to see<br>how things were changing</span>
- <span class="time-comment" style="right:75%; top:80px;"
-   >arbitrary cut-off &#8594;</span>
- <div class="clearfix"></div>
-</div>
-
-<div id="bottom-row">
- <div id="chart-resol">
-  <strong>Resolution</strong>
-  <a class="reset" href="#">reset</a>
-  <div class="clearfix"></div>
- </div>
-
- <div id="chart-sg">
-  <strong>Spacegroup</strong>
-  <a class="reset" href="#">reset</a>
-  <div class="clearfix"></div>
- </div>
-
- <div id="chart-sol">
-  <strong>Solution</strong>
-  <a class="reset" href="#">reset</a>
-  <div class="clearfix"></div>
- </div>
- <div id="chart-ref">
-  <strong>Refinement</strong>
-  <a class="reset" href="#">reset</a>
-  <div class="clearfix"></div>
- </div>
-</div>
-
-<div id="data-count">
- <b class="filter-count"></b> selected out of
- <span class="total-count"></span> records (max.
- <select onchange="set_table_size(+this.value);" autocomplete=off>
-  <option value="0">0</option>
-  <option value="30" selected>30</option>
-  <option value="100">100</option>
-  <option value="300">300</option>
-  <option value="1000">1000</option>
- </select>
- rows are shown below).
-</div>
-<div id="tcontainer">
-<table id="data-table">
-<thead>
- <tr class="header">
-  <th>Code</th>
-  <th>Res.</th>
-  <th>Collected</th>
-  <th>Deposited</th>
-  <th>Links</th>
- </tr>
-</thead>
-</table>
-<div id="info-box"><span>&#x2190; move mouse over a row to see pic</span
-     ><img src=""></div>
-</div>
-</div>
-<div id="footnote" style="clear:both;">
- This is part of the
- <a href="https://project-gemmi.github.io/">project GEMMI</a>.
- Uses <a href="https://dc-js.github.io/dc.js/">dc.js</a>,
- <a href="https://d3js.org/">d3</a> and
- <a href="http://crossfilter.github.io/crossfilter/">crossfilter</a>.
- Last update: 2018-02-14.
- Images are from <a href="http://www.rcsb.org/">RCSB</a>.
- <b><a href="https://github.com/project-gemmi/pdb-stats">
- Source code and info...</a></b>
-</div>
-
-<!--
-<script type="text/javascript" src="js/d3.js"></script>
--->
-<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
-<script type="text/javascript" src="js/crossfilter.js"></script>
-<script type="text/javascript" src="js/dc.min.js"></script>
-<script type="text/javascript">
-"use strict";
-
-var data;
-var facility_chart = dc.selectMenu('#chart-facility');
-var detec_chart = dc.pieChart('#chart-detec');
-var reduc_chart = dc.pieChart('#chart-reduc');
-var scale_chart = dc.pieChart('#chart-scale');
-var time_chart = dc.barChart('#chart-time');
-var coltime_chart = dc.barChart('#chart-coltime');
-var sg_chart = dc.selectMenu('#chart-sg');
-var resol_chart = dc.barChart('#chart-resol');
-var sol_chart = dc.rowChart('#chart-sol');
-var ref_chart = dc.pieChart('#chart-ref');
-var table = dc.dataTable('#data-table');
-
-var plot_rel_date = false;
-var rel_switch = document.getElementById('rel_switch');
-rel_switch.onclick = function() {
-  plot_rel_date = !plot_rel_date;
-  rel_switch.parentNode.firstChild.textContent =
-    plot_rel_date ? "Releases" : "Depositions";
-  rel_switch.textContent = plot_rel_date ? "depositions" : "releases";
-  time_chart.filterAll();
-  time_chart.dimension().dispose();
-  var time_dim = data.dimension(plot_rel_date
-      ? (function(d) { return d3.time.week(d[9]); })
-      : (function(d) { return d3.time.week(d[8]); }));
-  time_chart.dimension(time_dim)
-  time_chart.group(time_dim.group())
-  dc.redrawAll();
-  return false;
-};
-
-d3.json('data.json', function(json) {
-  var SOURCES = {
-    'H': 'home source',
-    'F': 'XFEL (any)',
-    '?': 'synchrotron',
-    '-': 'unspecified',
-
-    'a': 'APS (US, IL)',
-    'e': 'ESRF (FR)',
-    'd': 'Diamond LS (UK)',
-    's': 'Swiss LS (CH)',
-    'A': 'ALS (US, Cal)',
-    'S': 'Stanford SRL (US)',
-    'n': 'NSLS (US, NY)',
-    'h': 'Shanghai SRF (CN)',
-    'p': 'Photon Factory (JP)',
-    '8': 'SPring-8 (JP)',
-    'b': 'BESSY (DE)',
-    'u': 'Australian S (AU)',
-    'f': 'SOLEIL (FR)',
-    'k': 'PAL/PLS (KR)',
-    'c': 'CLSI (CA)',
-    't': 'NSRRC (TW)',
-    'C': 'CHESS (US, NY)',
-    'm': 'MAX (SE)',
-    'D': 'DESY (DE)',
-    'L': 'LNLS (BR)',
-    'Z': 'ALBA (ES)',
-    'E': 'Elettra (IT)',
-    'B': 'Beijing SRF (CN)',
-    'U': 'SRS (UK)',
-    'I': 'Indus (IN)',
-    'y': 'SLAC (US, Cal)',
-    'K': 'KSRS (RU, Moscow)',
-    'z': 'CAMD (US, LA)',
-    'i': 'AichiSR (JP)',
-    'g': 'SAGA-LS (JP)',
-    'T': 'Siam Photon P. (TH)',
-  };
-
-  var SPACEGROUPS = [
-    "P 1", "P -1", "P 1 2 1", "P 1 21 1", "C 1 2 1", "P 1 m 1", "P 1 c 1",
-    "C 1 m 1", "C 1 c 1", "P 1 2/m 1", "P 1 21/m 1", "C 1 2/m 1", "P 1 2/c 1",
-    "P 1 21/c 1", "C 1 2/c 1", "P 2 2 2", "P 2 2 21", "P 21 21 2", "P 21 21 21",
-    "C 2 2 21", "C 2 2 2", "F 2 2 2", "I 2 2 2", "I 21 21 21", "P m m 2",
-    "P m c 21", "P c c 2", "P m a 2", "P c a 21", "P n c 2", "P m n 21",
-    "P b a 2", "P n a 21", "P n n 2", "C m m 2", "C m c 21", "C c c 2",
-    "A m m 2", "A b m 2", "A m a 2", "A b a 2", "F m m 2", "F d d 2", "I m m 2",
-    "I b a 2", "I m a 2", "P m m m", "P n n n", "P c c m", "P b a n", "P m m a",
-    "P n n a", "P m n a", "P c c a", "P b a m", "P c c n", "P b c m", "P n n m",
-    "P m m n", "P b c n", "P b c a", "P n m a", "C m c m", "C m c a", "C m m m",
-    "C c c m", "C m m a", "C c c a", "F m m m", "F d d d", "I m m m", "I b a m",
-    "I b c a", "I m m a", "P 4", "P 41", "P 42", "P 43", "I 4", "I 41", "P -4",
-    "I -4", "P 4/m", "P 42/m", "P 4/n", "P 42/n", "I 4/m", "I 41/a", "P 4 2 2",
-    "P 4 21 2", "P 41 2 2", "P 41 21 2", "P 42 2 2", "P 42 21 2", "P 43 2 2",
-    "P 43 21 2", "I 4 2 2", "I 41 2 2", "P 4 m m", "P 4 b m", "P 42 c m",
-    "P 42 n m", "P 4 c c", "P 4 n c", "P 42 m c", "P 42 b c", "I 4 m m",
-    "I 4 c m", "I 41 m d", "I 41 c d", "P -4 2 m", "P -4 2 c", "P -4 21 m",
-    "P -4 21 c", "P -4 m 2", "P -4 c 2", "P -4 b 2", "P -4 n 2", "I -4 m 2",
-    "I -4 c 2", "I -4 2 m", "I -4 2 d", "P 4/m m m", "P 4/m c c", "P 4/n b m",
-    "P 4/n n c", "P 4/m b m", "P 4/m n c", "P 4/n m m", "P 4/n c c",
-    "P 42/m m c", "P 42/m c m", "P 42/n b c", "P 42/n n m", "P 42/m b c",
-    "P 42/m n m", "P 42/n m c", "P 42/n c m", "I 4/m m m", "I 4/m c m",
-    "I 41/a m d", "I 41/a c d", "P 3", "P 31", "P 32", "R 3", "P -3", "R -3",
-    "P 3 1 2", "P 3 2 1", "P 31 1 2", "P 31 2 1", "P 32 1 2", "P 32 2 1",
-    "R 3 2", "P 3 m 1", "P 3 1 m", "P 3 c 1", "P 3 1 c", "R 3 m", "R 3 c",
-    "P -3 1 m", "P -3 1 c", "P -3 m 1", "P -3 c 1", "R -3 m", "R -3 c", "P 6",
-    "P 61", "P 65", "P 62", "P 64", "P 63", "P -6", "P 6/m", "P 63/m",
-    "P 6 2 2", "P 61 2 2", "P 65 2 2", "P 62 2 2", "P 64 2 2", "P 63 2 2",
-    "P 6 m m", "P 6 c c", "P 63 c m", "P 63 m c", "P -6 m 2", "P -6 c 2",
-    "P -6 2 m", "P -6 2 c", "P 6/m m m", "P 6/m c c", "P 63/m c m",
-    "P 63/m m c", "P 2 3", "F 2 3", "I 2 3", "P 21 3", "I 21 3", "P m -3",
-    "P n -3", "F m -3", "F d -3", "I m -3", "P a -3", "I a -3", "P 4 3 2",
-    "P 42 3 2", "F 4 3 2", "F 41 3 2", "I 4 3 2", "P 43 3 2", "P 41 3 2",
-    "I 41 3 2", "P -4 3 m", "F -4 3 m", "I -4 3 m", "P -4 3 n", "F -4 3 c",
-    "I -4 3 d", "P m -3 m", "P n -3 n", "P m -3 n", "P n -3 m", "F m -3 m",
-    "F m -3 c", "F d -3 m", "F d -3 c", "I m -3 m", "I a -3 d"];
-
-
-  var DETECT = ['?', 'CCD', 'PAD', 'IP'];
-  var DETECT_FULL = ['Not specified', 'CCD', 'Pixel Array Detector',
-                     'Image Plate'];
-  var REDUC_SOFT = { 'X':'XDS', 'H':'HKL', 'M':'Mosflm', 'd':'d*TREK',
-                     'D':'DIALS', 'O': 'Other', '-':'?' };
-  var SCALE_SOFT = { 'A':'Aimless', 'S':'SCALA', 'H':'HKL', 'X':'XSCALE',
-                     'd':'d*TREK', 'O': 'Other', '-':'?' };
-  var REF_SOFT = { 'R':'Refmac', 'P':'Phenix', 'B':'BUSTER', 'C':'CNS',
-                   '-':'other/mix' };
-  var STRUCT_SOL = ['known structure', 'MR', 'SAD', 'MAD', 'MIR/SIR',
-                    'SIRAS', 'MIRAS', 'unspecified / other'];
-  function format_month(n) {
-    var y = (n / 12) | 0;
-    n -= 12 * y - 1;
-    return (1989 + y) + (n < 10 ? '-0' : '-') + n;
-  }
-  function format_date(date) { return date.toISOString().substr(0, 10); }
-  function parse_date(n) {
-    return new Date(Date.UTC(1989, (n >> 5), (n & 31)));
-  }
-  var code_map = {}
-  json.forEach(function (d) {
-    d[8] = parse_date(d[8]);
-    d[9] = parse_date(d[9]);
-    code_map[d[0]] = d;
-  });
-
-  data = crossfilter(json);
-  var all = data.groupAll();
-  var table_dim = data.dimension(function(d) { return d[9]; });
-  var facil_dim = data.dimension(function(d) { return d[1]; });
-  var detec_dim = data.dimension(function(d) { return d[2]; });
-  var reduc_dim = data.dimension(function(d) { return d[3][0]; });
-  var scale_dim = data.dimension(function(d) { return d[3][1]; });
-  var time_dim = data.dimension(function(d) { return d3.time.week(d[8]); });
-  var coltime_dim = data.dimension(function(d) {
-    return new Date(1989, d[7] || 0, 15);
-  });
-  var sg_dim = data.dimension(function(d) { return d[4]; });
-  var resol_dim = data.dimension(function(d) { return d[5] || -1; });
-  var sol_dim = data.dimension(function(d) { return d[6]; });
-  var ref_dim = data.dimension(function(d) { return d[3][2]; });
-  function make_title(dict) {
-    return (function(p) {
-      var v = dict[p.key];
-      return (v == '?' ? 'not specified' : v ) + ': ' + p.value;
-    });
-  }
-  d3.select('#loading').remove();
-  d3.select('#all-data').style('visibility', null);
-  function setup_chart(chart) {
-    var root_el = chart.root()[0][0];
-    var reset_el = root_el.getElementsByClassName('reset')[0];
-    reset_el.style.visibility = 'hidden';
-    reset_el.onclick = function() {
-      chart.filterAll();
-      dc.redrawAll();
-      return false;
-    };
-    return chart;
-  }
-  function setup_circle(chart, dim) {
-    return setup_chart(chart).width(200).height(200).innerRadius(55)
-                .controlsUseVisibility(true)
-                .dimension(dim)
-                .group(dim.group());
-  }
-  setup_chart(facility_chart)
-      .dimension(facil_dim)
-      .group(facil_dim.group())
-      .title(function(p) { return SOURCES[p.key] + ': ' + p.value; })
-      .order(function(a, b){ return b.value - a.value; })
-      .controlsUseVisibility(true)
-      .multiple(true).numberVisible(10);
-  setup_circle(detec_chart, detec_dim)
-      .ordering(function(p){ return [3,1,2,0].indexOf(p.key); })
-      .minAngleForLabel(0.0)
-      .label(function(p) { return DETECT[p.key]; })
-      .title(function(p) { return DETECT_FULL[p.key] + ': ' + p.value; })
-      .colors(d3.scale.ordinal().range(
-            ['#a6761d', '#66a61e', '#7570b3', '#e6ab02']));
-  setup_circle(reduc_chart, reduc_dim)
-      .ordering(function(p){ return 'MHdXO-D'.indexOf(p.key); })
-      .minAngleForLabel(0.1)
-      .label(function(p) { return REDUC_SOFT[p.key]; })
-      .title(make_title(REDUC_SOFT))
-      .colors(d3.scale.category10());
-  setup_circle(scale_chart, scale_dim)
-      .ordering(function(p){ return 'ASHdXO-'.indexOf(p.key); })
-      .minAngleForLabel(0.05)
-      .label(function(p) { return SCALE_SOFT[p.key]; })
-      .title(make_title(SCALE_SOFT))
-      .colors(d3.scale.ordinal().range(['#1f77b4', '#8899cc',
-                    '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b']));
-
-  var date_range = [new Date(2005, 0), new Date(2017, 11)];
-  setup_chart(coltime_chart)
-      .width(null).height(100)
-      .margins({top: 5, right: 5, bottom: 20, left: 36})
-      .dimension(coltime_dim)
-      .group(coltime_dim.group())
-      .xUnits(function() { return 13 * 12; })
-      .gap(1)
-      .x(d3.time.scale().domain(date_range))
-      .elasticY(true)
-      .controlsUseVisibility(true)
-      .renderHorizontalGridLines(true);
-  coltime_chart.yAxis().ticks(3);
-
-  setup_chart(time_chart)
-      .width(null).height(100)
-      .margins({top: 5, right: 5, bottom: 20, left: 36})
-      .dimension(time_dim)
-      .group(time_dim.group())
-      .centerBar(true)
-      .alwaysUseRounding(true)
-      .x(d3.time.scale().domain(date_range))
-      .elasticY(true)
-      .controlsUseVisibility(true)
-      .renderHorizontalGridLines(true);
-  time_chart.yAxis().ticks(3);
-
-  setup_chart(sg_chart)
-      .dimension(sg_dim)
-      .group(sg_dim.group())
-      .title(function(p) { return SPACEGROUPS[p.key-1] + ': ' + p.value; })
-      .order(function(a, b){ return b.value - a.value; })
-      .controlsUseVisibility(true)
-      .multiple(true).numberVisible(10);
-
-  setup_chart(resol_chart)
-      .width(250).height(200)
-      .margins({top: 5, right: 10, bottom: 20, left: 35})
-      .dimension(resol_dim)
-      .group(resol_dim.group())
-      .centerBar(true)
-      .gap(1)
-      .x(d3.scale.linear().domain([0, 5]))
-      .xUnits(function() { return 50; })
-      .colors(d3.scale.ordinal().range(['#41ab5d']))
-      .controlsUseVisibility(true)
-      .elasticY(true);
-  resol_chart.yAxis().ticks(4).tickFormat(d3.format('d'));
-  resol_chart.xAxis().ticks(12);
-
-  setup_chart(sol_chart)
-      .width(180).height(200)
-      .dimension(sol_dim)
-      .group(sol_dim.group())
-      .label(make_title(STRUCT_SOL))
-      .title(make_title(STRUCT_SOL))
-      .ordering(function(d){ return d.key; })
-      .margins({top: 5, right: 15, bottom: 20, left: 5})
-      .controlsUseVisibility(true)
-      .elasticX(true)
-      .colors(d3.scale.ordinal().domain('kosmSiM-')
-          .range(['#74a9cf', '#ffffb3', '#c2e699', '#78c679',
-                  '#31a354','#78c679',  '#006d2c', '#f46d43']));
-  sol_chart.xAxis().ticks(2);
-
-  setup_circle(ref_chart, ref_dim)
-      .ordering(function(p){ return 'BCR-P'.indexOf(p.key); })
-      .minAngleForLabel(0.1)
-      .label(function(p) { return REF_SOFT[p.key]; })
-      .title(make_title(REF_SOFT))
-      .colors(d3.scale.ordinal().range(
-            ['#d62728', '#8c564b', '#8899cc', '#9467bd', '#e6ab02']));
-
-  dc.dataCount('#data-count').dimension(data).group(all)
-    .on('renderlet', function(chart) {
-       var all = chart.dimension().size() == chart.group().value();
-       d3.select('#reset-all').style('visibility', all ? 'hidden' : 'visible');
-       });
-
-  function select_row(e) {
-    var tr = this;
-    var code = tr.firstChild.innerHTML;
-    var y = tr.offsetTop + 10;
-    var d = code_map[code];
-    var box = document.getElementById('info-box');
-    box.style.top = y + 'px';
-    box.firstChild.style.color = '#444';
-    box.firstChild.innerHTML = '<b>'+code+'</b><br>solved by: ' +
-      STRUCT_SOL[d[6]] + '<br>software: ' + REDUC_SOFT[d[3][0]] + ' / ' +
-      SCALE_SOFT[d[3][1]] + ' / ' + REF_SOFT[d[3][2]];
-    var src = 'http://www.rcsb.org/pdb/images/' + code + '_bio_r_250.jpg';
-    if (box.lastChild.src === src) {
-      box.style.visibility = 'visible';
-      return;
-    }
-    box.lastChild.src = ''
-    box.lastChild.style.top = (y > 200 ? -250 : 50) + 'px';
-    box.style.visibility = 'visible';
-    timer = setTimeout(function() {
-      box.lastChild.src = 'http://www.rcsb.org/pdb/images/' + code +
-                          '_bio_r_250.jpg';
-    }, 500);
-    return false;
-  }
-  var timer;
-  table
-      .width(null).height(540)
-      .size(30)
-      .dimension(table_dim)
-      .group(function(d) { return 'Released ' + format_date(d[9]); })
-      .columns([
-          function(d) { return d[0]; },
-          function(d) { return d[5] ? d[5].toFixed(1) : ''; },
-          function(d) {
-            return (d[7] ? format_month(d[7]) : '?') +
-                   ' @' + SOURCES[d[1]].split(' ')[0];
-          },
-          function(d) { return format_date(d[8]); },
-          function(d) {
-            return '<a href="http://www.rcsb.org/pdb/explore.do?structureId=' +
-            d[0] + '">RCSB</a> <a href="https://www.ebi.ac.uk/pdbe/entry/pdb/' +
-            d[0] + '/">PDBe</a> <a href="http://pdbj.org/mine/summary/' +
-            d[0] + '">PDBj</a>';
-          },
-      ])
-      .order(d3.descending)
-      .on('preRedraw', function(chart, filter){
-        document.getElementById('info-box').style.visibility = 'hidden';
-        })
-      .on('renderlet', function(chart) {
-        var nodes = document.getElementById('data-table')
-                            .getElementsByClassName('dc-table-row');
-        for (var i=0; i < nodes.length; i++) {
-          nodes[i].onmouseover = select_row;
-          nodes[i].onmouseout = function() { clearTimeout(timer); }
-        }
-       });
-
-  var on_resize = function() {
-    var body_w = d3.select('body').node().getBoundingClientRect().width;
-    resol_chart.width(body_w > 980 ? 400 : body_w > 360 ? 340 : body_w-20);
-    var time_tics = body_w > 700 ? 15 : 5;
-    coltime_chart.xAxis().ticks(time_tics);
-    time_chart.xAxis().ticks(time_tics);
-    // maybe .brushOn(off) for mobile?
-    dc.renderAll();
-  };
-  on_resize();
-  d3.select(window).on('resize', on_resize);
-});
-
-var set_table_size = function(n) {
-  d3.select('#data-table').style('visibility', n === 0 ? 'hidden' : 'visible');
-  table.size(n);
-  table.redraw();
-}
-</script>
-
 </body>
 </html>
-<!-- vim: set et ts=2 sw=2: -->
+<!-- vim: set et ts=1 sw=1: -->

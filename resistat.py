@@ -76,7 +76,6 @@ def main():
     for key in sorted(stats.keys(), key=lambda k: -stats[k]['files']):
         cat = ccd_category.get(key, '?').strip('"\'').lower()
         d = stats[key]
-        file_percent = 100.0 * d['files'] / total_files
         total = d['poly'] + d['nonpoly']
         poly_percent = 100.0 * d['poly'] / total
         example = d['pdb'][0]
