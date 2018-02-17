@@ -22,7 +22,7 @@ def print_data(data):
     for syn in ALL_OUTPUT:
         if after_dict:
             print(',')
-        print(' "%s": {' % syn.translate(str.maketrans('','', ' /-')))
+        print(' "%s": {' % syn.translate(str.maketrans('', '', ' /-')))
         after_list = False
         for year in OUTPUT_YEARS:
             counts = data[syn][year]

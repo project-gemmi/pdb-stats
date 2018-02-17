@@ -26,8 +26,8 @@ def read_and_filter_data():
     for items in read_data():
         method = items[0][8]
         year = int(items[0][4][:4])
-        if (method == 'X-RAY DIFFRACTION' and year >= FROM_YEAR
-                and items[0][9] != 'NUCLEAR REACTOR'):
+        if (method == 'X-RAY DIFFRACTION' and year >= FROM_YEAR and
+                items[0][9] != 'NUCLEAR REACTOR'):
             group = items[0][18]
             if group:
                 if group in groups:
@@ -265,7 +265,7 @@ def main():
         if not first:
             print(',')
         first = False
-        print(json.dumps(d, separators=(',',':')), end='')
+        print(json.dumps(d, separators=(',', ':')), end='')
     print('\n]')
 
 
