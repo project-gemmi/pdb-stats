@@ -85,12 +85,12 @@ var scaling_chart = dc.seriesChart('#chart-scaling');
 var solution_chart = dc.seriesChart('#chart-solution');
 var refinement_chart = dc.seriesChart('#chart-refinement');
 
-var YEARS = [2009,2017];
+var YEARS = [2009, 2018];
 var DATE_FIELD = 9; // d[9] is release date
 var X_LABEL = 'Release Year';
 var params = window.location.hash.substr(1).split('&');
 if (params.indexOf('depos') !== -1) { // deposition date
-  YEARS[0] = 2008;
+  YEARS = [2008, 2017];
   DATE_FIELD = 8; // d[8] is deposition date
   X_LABEL = 'Deposition Year';
 }
