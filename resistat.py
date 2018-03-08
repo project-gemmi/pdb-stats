@@ -7,6 +7,7 @@ import gemmi
 
 PLAIN_TEXT = False
 CCD_PATH = 'components.cif.gz'
+MON_LIB_LIST = os.path.expanduser('~/checkout/monomers/list/mon_lib_list.cif')
 
 
 def sorted_search(top_dir):
@@ -22,14 +23,14 @@ def get_file_stats(path):
     st = gemmi.read_structure(path)
     counters = defaultdict(lambda: [0, 0])
     for chain in st[0]:
-        ent = st.find_entity(chain.entity_id)
+        ent = st.get_entity_of(chain)
         idx = 1
         if ent is not None and ent.entity_type == gemmi.EntityType.Polymer:
             idx = 0
         for res in chain:
             counters[res.name][idx] += 1
     stat = ' '.join('%s:%d:%d' % (k, v[0], v[1]) for k, v in counters.items())
-    return (st.get_info('_entry.id'), st.cell.volume_per_image(),
+    return (st.info['_entry.id'], st.cell.volume_per_image(),
             st.resolution or 8, stat)
 
 
@@ -68,6 +69,11 @@ def main():
         comp_id = block.find_value('_chem_comp.id')
         ccd_category[comp_id] = block.find_value('_chem_comp.type')
 
+    # stage 2b: add category from the Refmac monomer library
+    monlist = gemmi.cif.read(MON_LIB_LIST)['comp_list']
+    refmac_category = {cc[0]: cc[1]
+                       for cc in monlist.find('_chem_comp.', ['id', 'group'])}
+
     # stage 3: output
     total_files = len(pdb_data)
     if not PLAIN_TEXT:
@@ -75,6 +81,15 @@ def main():
     sep = ''
     for key in sorted(stats.keys(), key=lambda k: -stats[k]['files']):
         cat = ccd_category.get(key, '?').strip('"\'').lower()
+        cat = cat.replace('-beta', '-\u03B2')
+        cat = cat.replace('-gamma', '-\u03B3')
+        cat = cat.replace('-delta', '-\u03B4')
+        if 'terminus' in cat:
+            cat = cat.replace('NH3 amino terminus', 'N-terminus')
+            cat = cat.replace('cooh carboxy terminus', 'C-terminus')
+            cat = cat.replace('oh 3 prime terminus', "3'-terminus")
+            cat = cat.replace('oh 5 prime terminus', "5'-terminus")
+        rcat = refmac_category.get(key, 'n/a').lower().strip('"')
         d = stats[key]
         total = d['poly'] + d['nonpoly']
         poly_percent = 100.0 * d['poly'] / total
@@ -83,8 +98,9 @@ def main():
             print('%3s %7.3f %5d %7.3f %s' %
                   (key, d['files'], total, poly_percent, example))
         else:
-            print('%s\n["%s","%s",%d,%d,%.3f,"%s"]' %
-                  (sep, key, cat, d['files'], total, poly_percent, example),
+            print('%s\n["%s","%s","%s",%d,%d,%.3f,"%s"]' %
+                  (sep, key, cat, rcat, d['files'], total,
+                   poly_percent, example),
                   end='')
         sep = ','
     if not PLAIN_TEXT:

@@ -29,7 +29,8 @@ a:link, a:visited { text-decoration: none; }
  <thead>
   <tr>
    <th>code</th>
-   <th>type</th>
+   <th>CCD type</th>
+   <th>refmac type</th>
    <th>PDB entries</th>
    <th>total count</th>
    <th>in polymers</th>
@@ -39,7 +40,8 @@ a:link, a:visited { text-decoration: none; }
  <tfoot>
   <tr>
    <th>code</th>
-   <th>type</th>
+   <th>CCD type</th>
+   <th>refmac type</th>
    <th>PDB entries</th>
    <th>total count</th>
    <th>in polymers</th>
@@ -54,7 +56,7 @@ a:link, a:visited { text-decoration: none; }
  This is part of the
  <a href="https://project-gemmi.github.io/">project GEMMI</a>.
  Uses <a href="https://datatables.net">DataTables</a>.
- Data was extracted from wwPDB on 2018-02-15.
+ Data was extracted from wwPDB on 2018-03-08.
  <p><b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
 </div>
@@ -62,7 +64,7 @@ a:link, a:visited { text-decoration: none; }
 <script src="js/datatables.min.js"></script>
 <script type="text/javascript">
 "use strict";
-var file_count = 137692;
+var file_count = 138464;
 function render_percent(data) {
  return data === 0 ? '0%' : data.toFixed(3) + '%';
 }
@@ -75,6 +77,7 @@ $(document).ready(function() {
     lengthMenu: [100, 200, 500, 1000],
     order: [],
     'columns': [
+     null,
      null,
      null,
      { searchable: false, className: 'dt-right',
