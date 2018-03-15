@@ -33,7 +33,7 @@ gemmi-grep --delimiter=';' \
 
 if [ "$1" = "--auto" ]; then
   ./process.py >data.json
-  sed -i s"/\(Last update:\) ....-..-../\1 $(date -Idate)/" index.html
+  sed -i s"/\(Last update:\) ....-..-../\1 $(date -Idate)/" xray.html
   ./coldates.py >calendar.json
   sed -i s"/\(released before\) ....-..-../\1 $(date -Idate)/" calendar.html
 fi
