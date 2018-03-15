@@ -90,11 +90,12 @@ var DATE_FIELD = 9; // d[9] is release date
 var X_LABEL = 'Release Year';
 var params = window.location.hash.substr(1).split('&');
 if (params.indexOf('depos') !== -1) { // deposition date
-  YEARS = [2008, 2017];
+  YEARS = [2008, 2017.5];
   DATE_FIELD = 8; // d[8] is deposition date
   X_LABEL = 'Deposition Year';
 }
 var AS_PERCENT = (params.indexOf('percent') !== -1);
+var PER_QUARTER = (params.indexOf('quarter') !== -1);
 
 d3.json('data.json', function(json) {
   var SOURCES = {
@@ -146,9 +147,15 @@ d3.json('data.json', function(json) {
                    '-':'other/mix' };
   var STRUCT_SOL = ['known structure', 'MR', 'SAD', 'MAD', 'MIR/SIR',
                     'SIRAS', 'MIRAS', 'unspecified / other'];
-  json.forEach(function (d) {
-    d[0] = (1989 + (d[DATE_FIELD] >> 5) / 12) | 0;
-  });
+  if (PER_QUARTER) {
+    json.forEach(function (d) {
+      d[0] = 1989 + (((d[DATE_FIELD] >> 5) / 3) | 0) / 4;
+    });
+  } else {
+    json.forEach(function (d) {
+      d[0] = (1989 + (d[DATE_FIELD] >> 5) / 12) | 0;
+    });
+  }
 
   var data = crossfilter(json);
   var facil_dim = data.dimension(function(d) { return d[1]; });
