@@ -67,6 +67,7 @@ SYNCHROTRONS = {
     'CHESS':                   'C CHESS (US, NY)',
     'MAX_II':                  'm MAX (SE)',
     'EMBL/DESY, Hamburg':      'D DESY (DE)',
+    'EMBL/DESY, HAMBURG':      'D DESY (DE)',
     'LNLS':                    'L LNLS (BR)',
     'PETRA III EMBL c/o DESY': 'D DESY (DE)',
     'PETRA II STORAGE RING':   'D DESY (DE)',
