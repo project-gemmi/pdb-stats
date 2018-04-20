@@ -7,6 +7,7 @@ import itertools
 import csv
 import json
 import gemmi
+import sys
 
 INPUT = 'grep.out'
 FROM_YEAR = 2008
@@ -92,6 +93,7 @@ SYNCHROTRONS = {
     'RRCAT':                   'I Indus (IN)',
     'SLRI':                    'T Siam Photon P. (TH)',
     'PETRA III':               'D DESY (DE)',
+    'PETRA II, DESY':          'D DESY (DE)',
     'DESY':                    'D DESY (DE)',  # this one is for coldates.py
 
     # these are actually XFEL
@@ -227,10 +229,10 @@ def main():
         detector = DETECTORS.get(first[10], 0)
 
         hm = first[5]
-        if not hm:
-            if first[0] == '4WZD':  # only Hall symbol here
-                hm = 'P 21 21 21'
-        sg = gemmi.find_spacegroup_by_name(hm).number
+        sg = gemmi.find_spacegroup_by_name(hm) if hm else None
+        if not sg:
+            print("Unknown H-M SG '%s' in %s" % (hm, first[0]), file=sys.stderr)
+            continue
 
         res = round(float(first[6]), 1) if first[6] else 0
 
@@ -251,7 +253,7 @@ def main():
             facility[0],               # 1
             detector,                  # 2
             software,                  # 3
-            sg,                        # 4
+            sg.number,                 # 4
             res,                       # 5
             struct_sol,                # 6
             encoded_coll_date,         # 7
