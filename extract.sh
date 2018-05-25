@@ -8,7 +8,7 @@ PATH="$PATH":../gemmi/
 # check that module gemmi is present
 python3 -c "import gemmi"
 
-gemmi-grep --delimiter=';' \
+gemmi grep --delimiter=';' \
        _software.classification \
     -a _software.name \
     -a _pdbx_database_status.deposit_site \
