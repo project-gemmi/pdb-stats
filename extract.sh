@@ -3,7 +3,7 @@
 # This web page is part of an example how to use gemmi-grep.
 # gemmi-grep is an part of the GEMMI library, funded by GPhL and CCP4.
 
-PATH="$PATH":../gemmi/
+PATH="$PATH":../gemmi/build
 
 # check that module gemmi is present
 python3 -c "import gemmi"

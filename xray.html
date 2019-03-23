@@ -123,7 +123,7 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
  <a class="reset" href="#">reset</a>
  <span class="time-comment" style="left:55px; top:30px;"
    >select a time range to see<br>how things were changing</span>
- <span class="time-comment" style="right:75%; top:80px;"
+ <span class="time-comment" style="right:77%; top:80px;"
    >arbitrary cut-off &#8594;</span>
  <div class="clearfix"></div>
 </div>
@@ -187,7 +187,7 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
  Uses <a href="https://dc-js.github.io/dc.js/">dc.js</a>,
  <a href="https://d3js.org/">d3</a> and
  <a href="http://crossfilter.github.io/crossfilter/">crossfilter</a>.
- Last update: 2018-11-30.
+ Last update: 2019-03-23.
  Images are from <a href="http://www.rcsb.org/">RCSB</a>.
  <b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
@@ -407,7 +407,7 @@ d3.json('data.json', function(json) {
       .colors(d3.scale.ordinal().range(['#1f77b4', '#8899cc',
                     '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b']));
 
-  var date_range = [new Date(2005, 0), new Date(2018, 6)];
+  var date_range = [new Date(2005, 0), new Date(2019, 3)];
   setup_chart(coltime_chart)
       .width(null).height(100)
       .margins({top: 5, right: 5, bottom: 20, left: 36})

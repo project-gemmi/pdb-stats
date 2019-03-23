@@ -85,14 +85,14 @@ var scaling_chart = dc.seriesChart('#chart-scaling');
 var solution_chart = dc.seriesChart('#chart-solution');
 var refinement_chart = dc.seriesChart('#chart-refinement');
 
-var YEARS = [2009, 2018.75];
+var YEARS = [2009, 2019.25];
 var DATE_FIELD = 9; // d[9] is release date
 var params = window.location.hash.substr(1).split('&');
 var PER_QUARTER = (params.indexOf('quarter') !== -1);
 var TIMESPAN = PER_QUARTER ? 'Quarter' : 'Year';
 var X_LABEL = 'Release ' + TIMESPAN;
 if (params.indexOf('depos') !== -1) { // deposition date
-  YEARS = [2008, 2017.5];
+  YEARS = [2008, 2018.0];
   DATE_FIELD = 8; // d[8] is deposition date
   X_LABEL = 'Deposition ' + TIMESPAN;
 }

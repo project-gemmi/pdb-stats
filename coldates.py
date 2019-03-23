@@ -5,11 +5,12 @@ from process import read_data, parse_date, SYNCHROTRONS
 
 # alternative names are also included, see process.py
 OUTPUT_SYN = ['APS', 'Diamond', 'ESRF', 'SSRF', 'SLS',
-              'ALS', 'SSRL', 'Australian Synchrotron', 'Photon Factory',
-              'BESSY', 'SPring-8', 'PAL/PLS', 'CLSI', 'SOLEIL', 'DESY']
+              'ALS', 'SSRL', 'Australian Synchrotron',
+              'SPring-8', 'BESSY', 'Photon Factory',
+              'SOLEIL', 'PAL/PLS', 'CLSI', 'DESY']
 ALL_OUTPUT = OUTPUT_SYN + ['home']
 
-OUTPUT_YEARS = [2013, 2014, 2015, 2016]
+OUTPUT_YEARS = [2014, 2015, 2016, 2017]
 
 def days_in_year(year):
     if year % 4 == 0:
