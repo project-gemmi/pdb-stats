@@ -5,21 +5,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#f0e0d0">
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108779978-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date()); gtag('config', 'UA-108779978-1');
-</script>
 
 <style>
-html { margin: 0 auto; max-width: 760px; overflow-y: scroll; color: #3b4044;
+html { margin: 0 auto; overflow-y: scroll; color: #3b4044;
        background-color: #ddc; }
 body { font: 13px sans-serif; line-height: 150%; margin: 0; }
 h1 { text-align: center; font-size: 30px; font-weight: normal; }
 h2 { text-align: center; font-size: 20px; margin-top: 40px; }
-a:link, a:visited { text-decoration: none; }
-#footnote a { border-bottom: 1px dashed; color: #24a; }
+a { text-decoration: none; border-bottom: 1px dashed; color: #24a; }
 #footnote { font-size: 12px; text-align: center; padding: 30px 0; }
 table { width: 100%; border-collapse: collapse; background-color: #f8f8f8; }
 table, th, td { border: 1px solid #888; }
@@ -27,17 +20,13 @@ table { box-shadow: 2px 2px 4px rgba(0,0,0,0.20); }
 th, td { padding: 6px; }
 table th { background: #eee; }
 td { text-align: right; }
-td:first-child { text-align: left; }
+td:first-child, td:last-child { text-align: left; }
+code { background: #68A; color: #fff; font: 12px sans-serif; padding: 0 1px;
+       margin-bottom: 4px; }
 
-@media only screen and (max-width: 1120px) { html { margin: 0 180px 0 auto; } }
-@media only screen and (max-width: 950px) { html { margin: 0; }
-                                            nav { display: none; } }
-nav { position: fixed; right: 0; top: 50%; transform: translate(0, -50%); }
-nav ul li { display: block; font-size: 16px; border-radius: 5px;
-            background: #bba; border: solid 2px #aa9;
-            text-align: center; margin: 15px; }
-ul a:link, ul a:visited { white-space: nowrap; color: #444;
-                          display: block; padding: 10px; }
+@media only screen and (max-width: 950px) { html { margin: 0; } }
+nav { font-size: 16px; margin: 30px; }
+nav a { margin-left: 15px; }
 
 /* tablesort.css */
 th[role=columnheader]:not(.no-sort) {
@@ -77,10 +66,11 @@ th[role=columnheader]:not(.no-sort):hover:after {
 </head>
 <body>
 <h1>PDBx/mmCIF Tags</h1>
-<nav id="nav"><ul>
- <li><a href="#coor">Coordinate Files</a>
- <li><a href="#sf">SF Files</a>
- <li><a href="#ccd">CCD</a>
+<nav id="nav">
+ Jump to:
+ <a href="#coor">Coordinate Files</a>
+ <a href="#sf">Structure Factor Files</a>
+ <a href="#ccd">Chemical Component Dictionary</a>
 </ul></nav>
 
 <h2 id="coor">Coordinate Files</h2>
@@ -88,10 +78,11 @@ th[role=columnheader]:not(.no-sort):hover:after {
  <thead>
   <tr>
    <th aria-sort="ascending">Tag</th>
-   <th data-sort-method='number'>in %</th>
-   <th data-sort-method='number'># min</th>
-   <th data-sort-method='number'># avg</th>
-   <th data-sort-method='number'># max</th>
+   <th data-sort-method="number">in %</th>
+   <th data-sort-method="number"># min</th>
+   <th data-sort-method="number"># avg</th>
+   <th data-sort-method="number"># max</th>
+   <th data-sort-method="none" class="no-sort">values</th>
   </tr>
  </thead>
 </table>
@@ -101,23 +92,25 @@ th[role=columnheader]:not(.no-sort):hover:after {
  <thead>
   <tr>
    <th aria-sort="ascending">Tag</th>
-   <th data-sort-method='number'>in %</th>
-   <th data-sort-method='number'># min</th>
-   <th data-sort-method='number'># avg</th>
-   <th data-sort-method='number'># max</th>
+   <th data-sort-method="number">in %</th>
+   <th data-sort-method="number"># min</th>
+   <th data-sort-method="number"># avg</th>
+   <th data-sort-method="number"># max</th>
+   <th data-sort-method="none" class="no-sort">values</th>
   </tr>
  </thead>
 </table>
 
-<h2 id="ccd">CCD</h2>
+<h2 id="ccd">Chemical Component Dictionary (CCD)</h2>
 <table id="ccd-table">
  <thead>
   <tr>
    <th aria-sort="ascending">Tag</th>
-   <th data-sort-method='number'>in %</th>
-   <th data-sort-method='number'># min</th>
-   <th data-sort-method='number'># avg</th>
-   <th data-sort-method='number'># max</th>
+   <th data-sort-method="number">in %</th>
+   <th data-sort-method="number"># min</th>
+   <th data-sort-method="number"># avg</th>
+   <th data-sort-method="number"># max</th>
+   <th data-sort-method="none" class="no-sort">values</th>
   </tr>
  </thead>
 </table>
@@ -127,7 +120,7 @@ th[role=columnheader]:not(.no-sort):hover:after {
  <a href="https://project-gemmi.github.io/">project GEMMI</a>.
  Uses <a href="https://d3js.org/">d3.js</a>
  and <a href="http://tristen.ca/tablesort/demo/">tablesort</a>.
- Data was extracted from wwPDB on 2018-02-06.
+ Data was extracted from wwPDB on 2019-08-21.
  <p><b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
 </div>
@@ -137,28 +130,37 @@ th[role=columnheader]:not(.no-sort):hover:after {
 <script type="text/javascript">
 "use strict";
 
-d3.tsv('mmcif-tags.tsv', function(data) {
+function tr_html(d) {
+  var row = '<td>' + d[0] + '</td><td>' + d[1] + '</td><td>' +
+         d[2] + '</td><td>' + d[3] + '</td><td>' + d[4] + '</td><td>';
+  for (var i = 5; i < d.length; ++i) {
+    var s = d[i].indexOf(' ');
+    row += d[i].substring(0, s);
+    if (d[i][s+1] === '{') {
+      row += '×' + d[i].substring(s+1) + ' ';
+    } else {
+      row += '×<code>' + d[i].substring(s+1) + '</code> ';
+    }
+  }
+  return row + '</td>';
+}
+
+d3.text('mmcif-tags.tsv', function(text) {
+  var data = d3.tsvParseRows(text);
   var tbody = d3.select('#coor-table').append('tbody');
-  tbody.selectAll('tr').data(data).enter().append('tr').html(function(d) {
-    return '<td>' + d.tag + '</td><td>' + d.files + '</td><td>' +
-           d.nmin + '</td><td>' + d.navg + '</td><td>' + d.nmax + '</td>';
-  });
+  tbody.selectAll('tr').data(data).enter().append('tr').html(tr_html);
   new Tablesort(document.getElementById('coor-table'));
 });
-d3.tsv('sf-tags.tsv', function(data) {
+d3.text('sf-tags.tsv', function(text) {
+  var data = d3.tsvParseRows(text);
   var tbody = d3.select('#sf-table').append('tbody');
-  tbody.selectAll('tr').data(data).enter().append('tr').html(function(d) {
-    return '<td>' + d.tag + '</td><td>' + d.files + '</td><td>' +
-           d.nmin + '</td><td>' + d.navg + '</td><td>' + d.nmax + '</td>';
-  });
+  tbody.selectAll('tr').data(data).enter().append('tr').html(tr_html);
   new Tablesort(document.getElementById('sf-table'));
 });
-d3.tsv('ccd-tags.tsv', function(data) {
+d3.text('ccd-tags.tsv', function(text) {
+  var data = d3.tsvParseRows(text);
   var tbody = d3.select('#ccd-table').append('tbody');
-  tbody.selectAll('tr').data(data).enter().append('tr').html(function(d) {
-    return '<td>' + d.tag + '</td><td>' + d.files + '</td><td>' +
-           d.nmin + '</td><td>' + d.navg + '</td><td>' + d.nmax + '</td>';
-  });
+  tbody.selectAll('tr').data(data).enter().append('tr').html(tr_html);
   new Tablesort(document.getElementById('ccd-table'));
 });
 </script>

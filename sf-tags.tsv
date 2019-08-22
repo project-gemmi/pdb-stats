@@ -1,166 +1,165 @@
-tag	files	nmin	navg	nmax
-_atom_sites.entry_id	0.025	1	1.00	1
-_atom_sites.fract_transf_matrix[1][1]	0.026	1	1.00	1
-_atom_sites.fract_transf_matrix[1][2]	0.026	1	1.00	1
-_atom_sites.fract_transf_matrix[1][3]	0.026	1	1.00	1
-_atom_sites.fract_transf_matrix[2][1]	0.026	1	1.00	1
-_atom_sites.fract_transf_matrix[2][2]	0.026	1	1.00	1
-_atom_sites.fract_transf_matrix[2][3]	0.026	1	1.00	1
-_atom_sites.fract_transf_matrix[3][1]	0.026	1	1.00	1
-_atom_sites.fract_transf_matrix[3][2]	0.026	1	1.00	1
-_atom_sites.fract_transf_matrix[3][3]	0.026	1	1.00	1
-_atom_sites.fract_transf_vector[1]	0.026	1	1.00	1
-_atom_sites.fract_transf_vector[2]	0.026	1	1.00	1
-_atom_sites.fract_transf_vector[3]	0.026	1	1.00	1
-_audit.creation_date	95.559	1	1.48	5
-_audit.creation_method	0.003	1	1.00	1
-_audit.revision_id	99.974	1	1.48	5
-_audit.update_record	98.948	1	1.49	5
-_cell.angle_alpha	99.985	1	1.00	1
-_cell.angle_beta	99.985	1	1.00	1
-_cell.angle_gamma	99.985	1	1.00	1
-_cell.entry_id	93.402	1	1.00	1
-_cell.formula_units_Z	0.029	1	1.00	1
-_cell.length_a	99.985	1	1.00	1
-_cell.length_b	99.985	1	1.00	1
-_cell.length_c	99.985	1	1.00	1
-_cell.volume	0.001	1	1.00	1
-_database_2.database_code	0.027	1	1.00	1
-_database_2.database_id	0.027	1	1.00	1
-_diffrn.ambient_temp	0.136	1	1.02	3
-_diffrn.crystal_id	51.602	1	1.00	5
-_diffrn.crystal_treatment	0.128	1	1.02	3
-_diffrn.details	4.311	1	1.00	4
-_diffrn.id	52.365	1	1.00	5
-_diffrn_radiation.diffrn_id	0.175	1	1.01	3
-_diffrn_radiation.id	0.222	1	1.00	1
-_diffrn_radiation.pdbx_wavelength	0.224	1	1.01	3
-_diffrn_radiation.wavelength_id	0.176	1	1.01	3
-_diffrn_radiation_wavelength.id	96.332	1	1.02	6
-_diffrn_radiation_wavelength.wavelength	91.278	1	1.02	6
-_diffrn_radiation_wavelength.wt	0.042	1	1.21	3
-_diffrn_refln.diffrn_id	0.177	28024	355455.99	4091281
-_diffrn_refln.id	0.177	28024	355455.99	4091281
-_diffrn_refln.index_h	0.177	28024	355455.99	4091281
-_diffrn_refln.index_k	0.177	28024	355455.99	4091281
-_diffrn_refln.index_l	0.177	28024	355455.99	4091281
-_diffrn_refln.intensity_net	0.177	28024	355455.99	4091281
-_diffrn_refln.intensity_sigma	0.177	28024	355455.99	4091281
-_diffrn_refln.scale_group_code	0.177	28024	355455.99	4091281
-_diffrn_refln.standard_code	0.176	28024	356601.47	4091281
-_diffrn_refln.wavelength_id	0.177	28024	355455.99	4091281
-_diffrn_reflns.details	0.001	1	1.00	1
-_diffrn_reflns.diffrn_id	48.256	1	1.00	1
-_diffrn_reflns.limit_h_max	42.397	1	1.00	1
-_diffrn_reflns.limit_h_min	42.397	1	1.00	1
-_diffrn_reflns.limit_k_max	42.397	1	1.00	1
-_diffrn_reflns.limit_k_min	42.397	1	1.00	1
-_diffrn_reflns.limit_l_max	42.397	1	1.00	1
-_diffrn_reflns.limit_l_min	42.397	1	1.00	1
-_diffrn_reflns.number	48.228	1	1.00	1
-_diffrn_reflns.pdbx_d_res_high	48.254	1	1.00	1
-_diffrn_reflns.pdbx_d_res_low	48.228	1	1.00	1
-_diffrn_reflns.pdbx_number_obs	42.400	1	1.00	1
-_diffrn_scale.group_code	0.001	1	1.00	1
-_diffrn_scale_group.I_net	0.001	1	1.00	1
-_diffrn_scale_group.code	0.002	1	1.00	1
-_entry.id	93.043	1	1.00	1
-_exptl_crystal.id	93.199	1	1.00	2
-_pdbx_powder_data.pd_calc_intensity_total	0.014	4534	6005.48	9100
-_pdbx_powder_data.pd_meas_2theta_scan	0.003	5000	5000.00	5000
-_pdbx_powder_data.pd_meas_intensity_total	0.014	4800	8011.67	12657
-_pdbx_powder_data.pd_proc_intensity_bkg_calc	0.014	4359	6493.37	10666
-_pdbx_powder_data.pd_proc_intensity_total	0.001	4359	8122.25	10988
-_pdbx_powder_data.pd_proc_ls_weight	0.014	4359	6523.49	10666
-_pdbx_powder_data.unknown	0.001	4532	4532.00	4532
-_refln.A_calc	0.101	1878	15111.32	48118
-_refln.B_calc	0.101	1878	15111.32	48118
-_refln.F_calc	27.551	6	53799.80	2554728
-_refln.F_calc_au	2.018	1318	51298.83	1449065
-_refln.F_meas	0.001	22441	22441.00	22441
-_refln.F_meas_au	91.902	145	53206.21	8368449
-_refln.F_meas_sigma	0.001	22441	22441.00	22441
-_refln.F_meas_sigma_au	91.455	145	53331.52	8368449
-_refln.F_meas_sigma_uncorrected	0.001	217593	217593.00	217593
-_refln.F_meas_uncorrected	0.001	217593	217593.00	217593
-_refln.F_squared_calc	0.019	1689	6092.96	39229
-_refln.F_squared_meas	0.117	1344	43002.57	353944
-_refln.F_squared_sigma	0.103	1344	57358.98	353944
-_refln.crystal_id	99.996	39	60261.60	8368449
-_refln.d_spacing	0.025	1683	6446.93	45271
-_refln.diffrn_id	0.001	627576	627576.00	627576
-_refln.fiber_F_meas_au	0.001	2411	2411.00	2411
-_refln.fiber_coordinate	0.001	2411	2411.00	2411
-_refln.fiber_layer	0.001	2411	2411.00	2411
-_refln.fom	22.566	147	52679.84	2215666
-_refln.id	0.001	627576	627576.00	627576
-_refln.index_h	99.995	38	60266.08	8368449
-_refln.index_k	99.995	38	60266.08	8368449
-_refln.index_l	99.995	38	60266.08	8368449
-_refln.intensity_calc	0.014	1931	58512.62	447539
-_refln.intensity_meas	34.385	38	67705.29	2456314
-_refln.intensity_meas_unknown	0.001	16425	16425.00	16425
-_refln.intensity_net	0.001	627576	627576.00	627576
-_refln.intensity_sigma	34.383	38	67724.31	2456314
-_refln.intensity_sigma_unknown	0.001	16425	16425.00	16425
-_refln.pdbx_DELFWT	3.683	679	53470.46	1984536
-_refln.pdbx_DELPHWT	3.683	679	53470.46	1984536
-_refln.pdbx_FWT	4.833	777	55847.45	1984536
-_refln.pdbx_F_calc_part_solvent	0.169	3103	29581.53	172479
-_refln.pdbx_F_calc_with_solvent	0.145	5874	64189.55	970790
-_refln.pdbx_F_minus	13.736	54	41880.17	1383778
-_refln.pdbx_F_minus_sigma	13.734	54	41882.66	1383778
-_refln.pdbx_F_plus	13.799	1	48132.43	1368019
-_refln.pdbx_F_plus_sigma	13.798	1	48134.72	1368019
-_refln.pdbx_HLA	0.001	24912	24912.00	24912
-_refln.pdbx_HLB	0.001	24912	24912.00	24912
-_refln.pdbx_HLC	0.001	24912	24912.00	24912
-_refln.pdbx_HLD	0.001	24912	24912.00	24912
-_refln.pdbx_HL_A_iso	4.132	848	43461.21	1199317
-_refln.pdbx_HL_B_iso	4.131	848	43465.35	1199317
-_refln.pdbx_HL_C_iso	4.117	848	43319.45	1199317
-_refln.pdbx_HL_D_iso	4.087	848	43322.36	1199317
-_refln.pdbx_I_minus	13.888	1	43868.98	968636
-_refln.pdbx_I_minus_sigma	13.887	1	43866.58	968636
-_refln.pdbx_I_plus	13.938	1	49250.50	991764
-_refln.pdbx_I_plus_sigma	13.937	1	49249.69	991764
-_refln.pdbx_PHWT	3.664	777	58491.01	1984536
-_refln.pdbx_anom_difference	14.028	1	43131.96	1220905
-_refln.pdbx_anom_difference_sigma	14.030	1	43122.46	1220905
-_refln.pdbx_fiber_F_meas_au	0.004	946	3496.80	6588
-_refln.pdbx_fiber_coordinate	0.004	946	2724.00	4300
-_refln.pdbx_fiber_layer	0.004	946	3496.80	6588
-_refln.pdbx_fom_weighted_fmap	0.020	7813	41880.64	132161
-_refln.pdbx_gsas_i100_meas	0.015	1683	4212.19	8812
-_refln.pdbx_phase_calc_part_solvent	0.169	3103	29581.53	172479
-_refln.pdbx_phase_calc_with_solvent	0.145	5874	64189.55	970790
-_refln.pdbx_r_free_flag	5.418	778	56131.35	1449065
-_refln.phase_calc	29.396	6	53698.16	2554728
-_refln.phase_meas	3.059	243	43619.92	651008
-_refln.scale_group_code	99.905	39	60287.92	8368449
-_refln.standard_code	0.001	627576	627576.00	627576
-_refln.status	99.910	39	60216.93	8368449
-_refln.wavelength_id	99.998	39	60265.45	8368449
-_refln.weight	0.059	6765	29457.76	117431
-_reflns.d_resolution_high	15.553	1	1.00	2
-_reflns.d_resolution_low	15.553	1	1.00	2
-_reflns.details	0.002	1	1.00	1
-_reflns.entry_id	9.277	1	1.00	1
-_reflns.limit_h_max	15.528	1	1.00	1
-_reflns.limit_h_min	15.528	1	1.00	1
-_reflns.limit_k_max	15.528	1	1.00	1
-_reflns.limit_k_min	15.528	1	1.00	1
-_reflns.limit_l_max	15.528	1	1.00	1
-_reflns.limit_l_min	15.528	1	1.00	1
-_reflns.number_all	15.553	1	1.00	2
-_reflns.number_obs	15.530	1	1.00	1
-_reflns.pdbx_diffrn_id	0.004	1	1.00	1
-_reflns.pdbx_ordinal	0.004	1	1.00	1
-_reflns_scale.group_code	93.197	1	1.00	1
-_space_group_symop.id	0.001	4	4.00	4
-_space_group_symop.operation_xyz	0.001	4	4.00	4
-_symmetry.Int_Tables_number	64.971	1	1.00	1
-_symmetry.entry_id	93.211	1	1.00	1
-_symmetry.space_group_name_H-M	99.928	1	1.00	1
-_symmetry_equiv.id	65.776	1	5.80	96
-_symmetry_equiv.pos_as_xyz	65.775	1	5.80	96
+_atom_sites.entry_id	0.020	1	1.00	1	28 {word}
+_atom_sites.fract_transf_matrix[1][1]	0.020	1	1.00	1	29 {0.005551 - 1}
+_atom_sites.fract_transf_matrix[1][2]	0.020	1	1.00	1	22 0.000000	1 -0.003938	1 -0.005135	1 0.003205	1 0.003297	1 0.005677	1 0.007914	1 0.010568
+_atom_sites.fract_transf_matrix[1][3]	0.020	1	1.00	1	20 0.000000	1 -0.000005	1 -0.002073	1 0.001452	1 0.002419	1 0.002585	1 0.005075	1 0.014036	1 0.014065	1 0.014169
+_atom_sites.fract_transf_matrix[2][1]	0.020	1	1.00	1	29 0.000000
+_atom_sites.fract_transf_matrix[2][2]	0.020	1	1.00	1	29 {0.00641 - 1}
+_atom_sites.fract_transf_matrix[2][3]	0.020	1	1.00	1	27 0.000000	1 -0.000073	1 -0.002093
+_atom_sites.fract_transf_matrix[3][1]	0.020	1	1.00	1	29 0.000000
+_atom_sites.fract_transf_matrix[3][2]	0.020	1	1.00	1	29 0.000000
+_atom_sites.fract_transf_matrix[3][3]	0.020	1	1.00	1	29 {0.001852 - 1}
+_atom_sites.fract_transf_vector[1]	0.020	1	1.00	1	29 0.00000
+_atom_sites.fract_transf_vector[2]	0.020	1	1.00	1	29 0.00000
+_atom_sites.fract_transf_vector[3]	0.020	1	1.00	1	29 0.00000
+_audit.creation_date	87.290	1	1.42	5	175416 {word}	1 {19 - 19}
+_audit.creation_method	0.002	1	1.00	1	2 {text}	1 {line}
+_audit.revision_id	90.906	1	1.43	5	127027 1_0	43805 1_1	8891 4_0	1928 1_2	1677 1	107 1_3	33 2_0	17 2	7 4_1	3 3	3 3_0	2 5_0	1 1-1	1 1-2	1 1_4	1 2_1
+_audit.update_record	90.084	1	1.43	5	4428 {text}	177741 {line}	141 {word}
+_cell.angle_alpha	98.930	1	1.00	1	140061 {59.13 - 123.4}
+_cell.angle_beta	98.930	1	1.00	1	140061 {45.399 - 148.655}
+_cell.angle_gamma	98.930	1	1.00	1	140061 {57.764 - 123.614}
+_cell.entry_id	93.362	1	1.00	1	131738 {word}	440 {1 - 6e+99}
+_cell.formula_units_Z	0.024	1	1.00	1	9 4	6 1	4 2	4 8	3 12	2 6	1 16	1 18	1 36	1 5	1 52	1 56
+_cell.length_a	98.930	1	1.00	1	140061 {1 - 1009.8}
+_cell.length_b	98.930	1	1.00	1	140061 {1 - 1198.07}
+_cell.length_c	98.930	1	1.00	1	140061 {1 - 1933.3}
+_cell.volume	0.001	1	1.00	1	1 1184581.764
+_database_2.database_code	0.021	1	1.00	1	29 PDB	1 2XQZ
+_database_2.database_id	0.021	1	1.00	1	30 {word}
+_diffrn.ambient_temp	0.168	1	1.02	3	163 ?	34 100	6 120	6 140	6 170	6 173	5 110	3 100.0	3 130	3 150	3 160	3 180	1 296
+_diffrn.crystal_id	48.110	1	1.00	5	1916 {word}	66449 {1 - 676}
+_diffrn.crystal_treatment	0.158	1	1.02	3	63 {line}	164 {word}
+_diffrn.details	9.459	1	1.00	4	4110 {text}	9244 {line}	49 {word}
+_diffrn.id	49.447	1	1.00	5	69973 1	138 2	81 3	51 4	4 5	3 1jjv	1 10	1 11	1 12	1 13	1 6	1 7	1 8	1 9
+_diffrn_radiation.diffrn_id	0.211	1	1.01	3	299 1	1 2	1 3
+_diffrn_radiation.id	0.176	1	1.00	1	249 1
+_diffrn_radiation.pdbx_wavelength	0.177	1	1.01	3	4 {word}	249 {0.835 - 1.7587}
+_diffrn_radiation.wavelength_id	0.212	1	1.01	3	300 1	1 2	1 3
+_diffrn_radiation_wavelength.id	91.766	1	1.02	6	129906 1	1240 2	906 3	91 4	5 5	2 0.97916,	1 -	1 0.918370,	1 6
+_diffrn_radiation_wavelength.wavelength	86.804	1	1.02	6	2 {line}	45 {word}	125078 {0 - 97951}
+_diffrn_radiation_wavelength.wt	0.035	1	1.26	3	63 1.0
+_diffrn_refln.diffrn_id	0.213	28024	340361.41	4091281	102448783 1
+_diffrn_refln.id	0.213	28024	340361.41	4091281	102448783 {1 - 4.09128e+06}
+_diffrn_refln.index_h	0.213	28024	340361.41	4091281	102448783 {-128 - 127}
+_diffrn_refln.index_k	0.213	28024	340361.41	4091281	102448783 {-128 - 127}
+_diffrn_refln.index_l	0.213	28024	340361.41	4091281	102448783 {-434 - 434}
+_diffrn_refln.intensity_net	0.213	28024	340361.41	4091281	102448783 {-8.783e+06 - 5.205e+08}
+_diffrn_refln.intensity_sigma	0.213	28024	340361.41	4091281	102448783 {-3.668e+06 - 8.567e+07}
+_diffrn_refln.scale_group_code	0.213	28024	340361.41	4091281	102448783 1
+_diffrn_refln.standard_code	0.212	28024	341112.93	4091281	102333879 1
+_diffrn_refln.wavelength_id	0.213	28024	340361.41	4091281	101215211 1	708765 2	524807 3
+_diffrn_reflns.details	0.001	1	1.00	1	1 {text}
+_diffrn_reflns.diffrn_id	39.806	1	1.00	1	56348 1	8 2
+_diffrn_reflns.limit_h_max	35.098	1	1.00	1	49690 {0 - 224}
+_diffrn_reflns.limit_h_min	35.098	1	1.00	1	49690 {-232 - 52}
+_diffrn_reflns.limit_k_max	35.098	1	1.00	1	49690 {0 - 247}
+_diffrn_reflns.limit_k_min	35.098	1	1.00	1	49690 {-195 - 30}
+_diffrn_reflns.limit_l_max	35.098	1	1.00	1	49690 {-33 - 426}
+_diffrn_reflns.limit_l_min	35.098	1	1.00	1	49690 {-425 - 84}
+_diffrn_reflns.number	39.778	1	1.00	1	56316 {209 - 9.16658e+06}
+_diffrn_reflns.pdbx_d_res_high	39.803	1	1.00	1	1 {word}	56351 {0.317 - 10.006}
+_diffrn_reflns.pdbx_d_res_low	39.783	1	1.00	1	3 {word}	56320 {4.998 - 632.23}
+_diffrn_reflns.pdbx_number_obs	35.114	1	1.00	1	49713 {0 - 9.16658e+06}
+_diffrn_scale.group_code	0.001	1	1.00	1	1 1
+_diffrn_scale_group.I_net	0.001	1	1.00	1	1 1.0
+_diffrn_scale_group.code	0.002	1	1.00	1	3 1
+_entry.id	93.914	1	1.00	1	132520 {word}	439 {1 - 6e+99}
+_exptl_crystal.id	94.037	1	1.00	2	133128 1	7 2
+_pdbx_powder_data.pd_calc_intensity_total	0.028	4534	6005.48	9100	240219 {-748.17 - 15523}
+_pdbx_powder_data.pd_meas_2theta_scan	0.010	5000	5000.00	5000	70000 {0.515 - 18.0731}
+_pdbx_powder_data.pd_meas_intensity_total	0.030	4800	8011.67	12657	20000 {word}	324502 {2 - 71510}
+_pdbx_powder_data.pd_proc_intensity_bkg_calc	0.030	4359	6493.37	10666	1 {word}	279214 {-8451.9 - 144532}
+_pdbx_powder_data.pd_proc_intensity_total	0.003	4359	8122.25	10988	32489 {0 - 15540}
+_pdbx_powder_data.pd_proc_ls_weight	0.030	4359	6523.49	10666	5000 {word}	275510 {0 - 124237}
+_pdbx_powder_data.unknown	0.001	4532	4532.00	4532	4532 {-157 - 13069}
+_refln.A_calc	0.081	1878	15111.32	48118	1722691 {-31486.2 - 31711.3}
+_refln.B_calc	0.081	1878	15111.32	48118	1722690 {-8793.66 - 23860.2}
+_refln.F_calc	22.042	6	54059.37	2554728	1095 {word}	1686975520 {-1759.79 - 1.19761e+07}
+_refln.F_calc_au	4.324	389	53922.09	1449065	330111059 {0 - 956711}
+_refln.F_meas	0.001	22441	22441.00	22441	22441 {5 - 1057.8}
+_refln.F_meas_au	85.185	145	54029.29	9166584	1637 {word}	6515984733 {-1e+10 - 3.89024e+07}
+_refln.F_meas_sigma	0.001	22441	22441.00	22441	22441 {0.6 - 48.2}
+_refln.F_meas_sigma_au	84.815	145	54142.60	9166584	5610 {word}	6501330073 {-1e+10 - 8.56453e+06}
+_refln.F_meas_sigma_uncorrected	0.001	217593	217593.00	217593	217593 {0 - 131.7}
+_refln.F_meas_uncorrected	0.001	217593	217593.00	217593	217593 {0 - 3316.5}
+_refln.F_squared_calc	0.034	1689	6092.96	39229	292462 {0 - 6.19862e+07}
+_refln.F_squared_meas	0.112	1344	43002.57	353944	6837408 {-1228.85 - 1.28423e+08}
+_refln.F_squared_sigma	0.082	1344	57358.98	353944	6653642 {0 - 1.29193e+07}
+_refln.crystal_id	99.780	39	61104.42	9166584	51919135 2	5002773 0	3421994 3	1497969 4	748418 27	37932 5	37232 6	23069 676	13164 8	11511 a4	6160 7	4584 9	2 REFLECTIONS	1 OF	-20743222 1
+_refln.d_spacing	0.041	1683	6446.93	45271	373922 {0.00036 - 55.739}
+_refln.diffrn_id	0.001	627576	627576.00	627576	627576 1
+_refln.fiber_F_meas_au	0.001	2411	2411.00	2411	2411 {21.3 - 4684.3}
+_refln.fiber_coordinate	0.001	2411	2411.00	2411	2411 {0.0025 - 0.315}
+_refln.fiber_layer	0.001	2411	2411.00	2411	2411 {0 - 23}
+_refln.fom	20.742	147	53017.16	2215666	247 {word}	1556901545 {-180 - 3795.06}
+_refln.id	0.001	627576	627576.00	627576	627576 {1 - 627576}
+_refln.index_h	99.782	38	61108.33	9166584	10873 {word}	8632640775 {-232 - 3072}
+_refln.index_k	99.782	38	61108.33	9166584	8632651648 {-195 - 68783}
+_refln.index_l	99.782	38	61108.33	9166584	8632651648 {-8.11167e+06 - 3.12875e+06}
+_refln.intensity_calc	0.011	1931	58512.62	447539	936202 {-405.8 - 3.40642e+06}
+_refln.intensity_meas	35.228	38	65511.41	2456314	8448 {word}	3267307689 {-2.484e+08 - 1.31187e+11}
+_refln.intensity_meas_unknown	0.001	16425	16425.00	16425	16425 {-406.3 - 320772}
+_refln.intensity_net	0.001	627576	627576.00	627576	627576 {-883.1 - 244700}
+_refln.intensity_sigma	35.229	38	65527.29	2456314	1603 {word}	3268237636 {-186400 - 8.008e+09}
+_refln.intensity_sigma_unknown	0.001	16425	16425.00	16425	16425 {-1 - 10261}
+_refln.pdbx_DELFWT	8.544	389	53527.44	1984536	647467892 {-16188.7 - 151063}
+_refln.pdbx_DELPHWT	8.542	389	53517.24	1984536	647237532 {-180 - 360}
+_refln.pdbx_FWT	9.803	389	60632.07	1984536	841451882 {-8088.01 - 605460}
+_refln.pdbx_F_calc_part_solvent	0.134	3103	29581.53	172479	5620491 {-31.72 - 177296}
+_refln.pdbx_F_calc_with_solvent	0.380	3186	59567.07	1317535	32047082 {9.44239e-06 - 98660.8}
+_refln.pdbx_F_minus	14.080	54	43409.89	1383778	865332704 {-91.6327 - 901962}
+_refln.pdbx_F_minus_sigma	14.079	54	43411.49	1383778	865277809 {-146.697 - 31400.6}
+_refln.pdbx_F_plus	14.135	1	49079.53	1368019	982179564 {-279.686 - 4.2535e+20}
+_refln.pdbx_F_plus_sigma	14.134	1	49081.38	1368019	982167411 {-416.232 - 58091.5}
+_refln.pdbx_HLA	0.001	24912	24912.00	24912	24912 {-406.16 - 446.38}
+_refln.pdbx_HLB	0.001	24912	24912.00	24912	1 {word}	24911 {-617.83 - 842.51}
+_refln.pdbx_HLC	0.001	24912	24912.00	24912	24912 {-120.65 - 250.18}
+_refln.pdbx_HLD	0.001	24912	24912.00	24912	24912 {-222.99 - 148.89}
+_refln.pdbx_HL_A_iso	3.891	848	50696.42	1199317	49374 {word}	279237221 {-7969.26 - 9159.93}
+_refln.pdbx_HL_B_iso	3.890	848	50701.25	1199317	1680 {word}	279260788 {-6089.79 - 7194.95}
+_refln.pdbx_HL_C_iso	3.898	848	50581.58	1199317	279109158 {-898.94 - 1094.45}
+_refln.pdbx_HL_D_iso	3.855	848	50646.60	1199317	276429167 {-1805.3 - 898.12}
+_refln.pdbx_I_minus	14.483	1	45409.58	1152152	931077939 {-2.913e+07 - 1.0908e+10}
+_refln.pdbx_I_minus_sigma	14.481	1	45404.80	1152152	930889304 {-525.4 - 6.70682e+08}
+_refln.pdbx_I_plus	14.526	1	50373.18	1196870	1035924502 {-4.12499e+07 - 6.56766e+10}
+_refln.pdbx_I_plus_sigma	14.525	1	50372.60	1196870	1035862214 {-469.5 - 2.69196e+09}
+_refln.pdbx_PHWT	9.032	389	64723.90	1984536	827624539 {-180 - 360}
+_refln.pdbx_anom_difference	14.222	1	44635.81	1220905	898742099 {-80451.6 - 4.2535e+20}
+_refln.pdbx_anom_difference_sigma	14.223	1	44626.67	1220905	898602563 {-855 - 5.52166e+06}
+_refln.pdbx_fiber_F_meas_au	0.004	946	3496.80	6588	17484 {-999 - 32187.1}
+_refln.pdbx_fiber_coordinate	0.003	946	2724.00	4300	10896 {0 - 100}
+_refln.pdbx_fiber_layer	0.004	946	3496.80	6588	17484 {0 - 72}
+_refln.pdbx_fom_weighted_fmap	0.016	7813	41880.64	132161	921374 {0 - 5211.04}
+_refln.pdbx_gsas_i100_meas	0.033	1683	4212.19	8812	197973 {0 - 100}
+_refln.pdbx_phase_calc_part_solvent	0.134	3103	29581.53	172479	5620491 {0 - 35112}
+_refln.pdbx_phase_calc_with_solvent	0.380	3186	59567.07	1317535	32047082 {-180 - 180}
+_refln.pdbx_r_free_flag	14.401	389	59111.81	1783050	1205171680 {-1 - 332}
+_refln.phase_calc	26.241	6	54110.02	2554728	3083 {word}	2010238435 {-1688.92 - 9500.5}
+_refln.phase_meas	2.499	243	43509.12	651008	2963 {word}	153932312 {-180 - 3070}
+_refln.scale_group_code	99.321	39	60640.92	9166584	1521283 2	19873 3	16465 4	1 0	1 REFLECTIONS	-64530499 1
+_refln.standard_code	0.001	627576	627576.00	627576	627576 1
+_refln.status	99.468	39	61067.05	9166584	330323816 f	231319333 x	9592922 <	8662164 h	203644 -	95793 l	27842 1	1 0	-570514630 o
+_refln.wavelength_id	99.783	39	61107.77	9166584	278427316 2	164105151 3	11544110 4	3104598 0	319003 5	2 END	2 OF	-414800813 1
+_refln.weight	0.047	6765	29457.76	117431	1944212 {0 - 6.874}
+_reflns.d_resolution_high	12.463	1	1.00	2	17645 {0.673 - 8.9}
+_reflns.d_resolution_low	12.463	1	1.00	2	17645 {4.999 - 540.072}
+_reflns.details	0.002	1	1.00	1	1 {text}	2 {line}
+_reflns.entry_id	7.432	1	1.00	1	10499 {word}	23 {1 - 4e+99}
+_reflns.limit_h_max	12.443	1	1.00	1	17616 {0 - 240}
+_reflns.limit_h_min	12.443	1	1.00	1	17616 {-188 - 7}
+_reflns.limit_k_max	12.443	1	1.00	1	17616 {0 - 227}
+_reflns.limit_k_min	12.443	1	1.00	1	17616 {-121 - 8}
+_reflns.limit_l_max	12.443	1	1.00	1	17616 {0 - 493}
+_reflns.limit_l_min	12.443	1	1.00	1	17616 {-493 - 6}
+_reflns.number_all	12.463	1	1.00	2	17645 {147 - 3.5244e+06}
+_reflns.number_obs	12.444	1	1.00	1	17618 {0 - 3.00194e+06}
+_reflns.pdbx_diffrn_id	0.004	1	1.00	1	5 1
+_reflns.pdbx_ordinal	0.004	1	1.00	1	5 1
+_reflns_scale.group_code	93.821	1	1.00	1	132828 1
+_space_group_symop.id	0.001	4	4.00	4	1 1	1 2	1 3	1 4
+_space_group_symop.operation_xyz	0.001	4	4.00	4	1 -x+1/2,-y,z+1/2	1 -x,y+1/2,-z+1/2	1 x+1/2,-y+1/2,-z	1 x,y,z
+_symmetry.Int_Tables_number	65.707	1	1.00	1	93025 {-155 - 4005}
+_symmetry.entry_id	88.961	1	1.00	1	125551 {word}	397 {1 - 6e+99}
+_symmetry.space_group_name_H-M	94.628	1	1.00	1	1 {text}	133941 {line}	28 {word}	1 {172 - 172}
+_symmetry_equiv.id	53.881	1	5.81	96	2 {word}	442848 {1 - 96}
+_symmetry_equiv.pos_as_xyz	53.881	1	5.81	96	389757 {line}	53092 {word}
