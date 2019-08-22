@@ -38,7 +38,7 @@ https://project-gemmi.github.io/pdb-stats/calendar.html
 
 It uses a separate C++ program that needs to be compiled:
 
-    $ g++-7 -O3 -I../gemmi/include -I../gemmi/third_party -o tagstat tagstat.cpp -lz
+    $ g++-7 -O3 -I../gemmi/include -o tagstat tagstat.cpp -lz
 
 Then it can be used to update the data:
 
