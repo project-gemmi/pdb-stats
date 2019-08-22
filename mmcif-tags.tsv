@@ -1045,7 +1045,7 @@ _pdbx_phasing_MR.d_res_low_rotation	3.592	1	1.00	1	5573 {1.2 - 335.49}
 _pdbx_phasing_MR.d_res_low_translation	3.309	1	1.00	1	5134 {1.84 - 1000}
 _pdbx_phasing_MR.entry_id	3.793	1	1.00	1	5861 {word}	25 {3e+07 - 4e+97}
 _pdbx_phasing_MR.method_rotation	0.032	1	1.00	1	49 fast direct	1 direct
-_pdbx_phasing_MR.method_translation	0.061	1	1.00	1	63 general	27 &STRIP%trans_method	3 general: ! target for PC-refinement= e2e2	1 STRIPtrans_method	1 phased
+_pdbx_phasing_MR.method_translation	0.061	1	1.00	1	63 general	27 &amp;STRIP%trans_method	3 general: ! target for PC-refinement= e2e2	1 STRIPtrans_method	1 phased
 _pdbx_phasing_MR.model_details	2.047	1	1.00	1	3162 Phaser MODE: MR_AUTO	3 Phaser MODE: EP_AUTO	3 Phaser MODE: MR_RNP	3 Phaser MODE: MR_RTP	2 Phaser MODE: MR_FTF	1 Phaser MODE: MR_BRF	1 Phaser MODE: MR_FRF	1 Phaser MODE: MR_TRA
 _pdbx_phasing_MR.packing	0.071	1	1.00	1	110 {0 - 56}
 _pdbx_phasing_MR.reflns_percent_rotation	0.014	1	1.00	1	2 97.100	2 99.900	2 99.400	2 98.500	1 88.700	1 93.900	1 94.800	1 95.700	1 96.700	1 100.000	1 97.400	1 98.200	1 88.200	1 99.100	1 99.300	1 74.700	1 99.600	1 61.800
@@ -1908,8 +1908,8 @@ _software.classification	90.702	1	4.62	18	146217 refinement	136463 data scaling	
 _software.contact_author	14.234	1	3.82	10	1 {text}	62623 {line}	21740 {word}
 _software.contact_author_email	14.230	1	3.55	8	44 {line}	78413 {word}
 _software.date	14.167	1	1.37	6	24625 {line}	5284 {word}	293 {1998 - 2008}
-_software.description	0.028	1	1.00	1	14 (un)restrained refinement or idealisation of macromolecular structures	14 (un)restrained refinement or idealisation of macromolecularstructures	11 scale together multiple observations of reflections	3 calculates a best estimate of scaled F from I & sd(I)	1 (phenix.refine)	1 maximum likelihood heavy atom refinement & phase calculation
-_software.language	14.212	1	2.31	5	27412 C++	21951 Fortran_77	1391 Fortran	105 C/C++	16 Python/C++	13 Python	5 Java & Fortran	4 Fortran 90	2 Java	1 C	1 Other
+_software.description	0.028	1	1.00	1	14 (un)restrained refinement or idealisation of macromolecular structures	14 (un)restrained refinement or idealisation of macromolecularstructures	11 scale together multiple observations of reflections	3 calculates a best estimate of scaled F from I &amp; sd(I)	1 (phenix.refine)	1 maximum likelihood heavy atom refinement &amp; phase calculation
+_software.language	14.212	1	2.31	5	27412 C++	21951 Fortran_77	1391 Fortran	105 C/C++	16 Python/C++	13 Python	5 Java &amp; Fortran	4 Fortran 90	2 Java	1 C	1 Other
 _software.location	14.083	1	3.85	9	84129 {word}
 _software.name	90.702	1	4.62	18	866 {line}	649903 {word}	12 {1 - 2016}
 _software.os	0.002	1	1.00	1	1 1.14_3260	1 1.8.4_1496	1 5.8.0069

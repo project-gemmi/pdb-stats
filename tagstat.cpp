@@ -18,6 +18,16 @@ namespace rules = gemmi::cif::rules;
 
 constexpr int ENUM_LIMIT = 20;
 
+// function copied from gemmi/src/grep.cpp
+static void replace_all(std::string &s,
+                        const std::string &old, const std::string &new_) {
+  std::string::size_type pos = 0;
+  while ((pos = s.find(old, pos)) != std::string::npos) {
+    s.replace(pos, old.size(), new_);
+    pos += new_.size();
+  }
+}
+
 struct TagStats {
   int file_count = 0;
   int block_count = 0;
@@ -203,8 +213,11 @@ int main(int argc, char **argv) {
       std::vector<Pair> pairs(st.values.begin(), st.values.end());
       std::sort(pairs.begin(), pairs.end(),
                 [](Pair& a, Pair& b) { return a.second > b.second; });
-      for (auto& value_count : pairs)
+      for (auto& value_count : pairs) {
+        replace_all(value_count.first, "&", "&amp;");
+        replace_all(value_count.first, "<", "&lt;");
         std::printf("\t%d %s", value_count.second, value_count.first.c_str());
+      }
     } else {
       if (st.text_count != 0)
         std::printf("\t%zu {text}", st.text_count);
