@@ -36,15 +36,9 @@ https://project-gemmi.github.io/pdb-stats/calendar.html
 
 ### Tag statistics
 
-It uses a separate C++ program that needs to be compiled:
-
-    $ g++-7 -O3 -I../gemmi/include -o tagstat tagstat.cpp -lz
-
-Then it can be used to update the data:
-
-    $ ./tagstat components.cif > ccd-tags.tsv
-    $ ./tagstat $PDB_DIR/structures/divided/mmCIF > mmcif-tags.tsv
-    $ ./tagstat $PDB_DIR/structures/divided/structure_factors > sf-tags.tsv
+    $ gemmi tags --full components.cif > ccd-tags.tsv
+    $ gemmi tags --full $PDB_DIR/structures/divided/mmCIF > mmcif-tags.tsv
+    $ gemmi tags --full $PDB_DIR/structures/divided/structure_factors > sf-tags.tsv
     $ sed -i s"/ on 20..-..-../ on $(date -Idate)/" tags.html
 
 https://project-gemmi.github.io/pdb-stats/tags.html
