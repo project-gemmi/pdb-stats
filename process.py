@@ -62,6 +62,7 @@ SYNCHROTRONS = {
     'SPring-8':                '8 SPring-8 (JP)',
     'BESSY':                   'b BESSY (DE)',
     'Australian Synchrotron':  'u Australian S. (AU)',
+    'AUSTRALIAN SYNCHROTRON':  'u Australian S. (AU)',
     'SOLEIL':                  'f SOLEIL (FR)',
     'PAL/PLS':                 'k PAL/PLS (KR)',
     'CLSI':                    'c CLSI (CA)',

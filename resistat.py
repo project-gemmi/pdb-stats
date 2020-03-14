@@ -23,7 +23,7 @@ def get_file_stats(path):
     st = gemmi.read_structure(path)
     counters = defaultdict(lambda: [0, 0])
     for chain in st[0]:
-        ent = st.get_entity_of(chain)
+        ent = st.get_entity_of(chain.get_polymer())
         idx = 1
         if ent is not None and ent.entity_type == gemmi.EntityType.Polymer:
             idx = 0
