@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "datatables.net": "^1.10.16",
-    "http-server": "^0.11.1",
+    "serve": "^11.3.0",
     "tablesort": "^5.0.2"
   },
   "repository": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/project-gemmi/pdb-stats.git"
   },
   "scripts": {
-    "start": "http-server -a localhost -p 7890 -c-1"
+    "start": "serve -l 7890"
   },
   "license": "MPL-2.0"
 }
