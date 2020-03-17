@@ -46,6 +46,14 @@ To get more recent PDB entries in tooltips use --entries-idx=/.../entries.idx
 
 https://project-gemmi.github.io/pdb-stats/tags.html
 
+Similarly, for for COD:
+
+    $ gemmi tags --full path/to/cod/cif/ > cod-cif-tags.tsv
+    $ gemmi tags --full --glob='*.hkl' path/to/cod/hkl/ > cod-hkl-tags.tsv
+    $ sed -i s"/ on 20..-..-../ on $(date -Idate)/" cod-tags.html
+
+https://project-gemmi.github.io/pdb-stats/cod-tags.html
+
 ### Residue statistics
 
     $ curl -O ftp://ftp.wwpdb.org/pub/pdb/data/monomers/components.cif.gz
