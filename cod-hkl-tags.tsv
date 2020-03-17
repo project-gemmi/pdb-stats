@@ -1,0 +1,600 @@
+_(i)_f_calc_maximum	0.002	1	1.00	1	1 2012219_Fobs 78.70
+_(i)_f_squared_multiplier	0.002	1	1.00	1	1 2012219_Fobs 1.000
+_(i)_refln_list_code	0.002	1	1.00	1	1 2012219_Fobs 4
+_(i)_title	0.002	1	1.00	1	1 2012219_Fobs Benzimidazolium 3-nitrobenzoate
+_(ii)_f_calc_maximum	0.002	1	1.00	1	1 2012220_Fobs 150.01
+_(ii)_f_squared_multiplier	0.002	1	1.00	1	1 2012220_Fobs 1.000
+_(ii)_refln_list_code	0.002	1	1.00	1	1 2012220_Fobs 4
+_(ii)_title	0.002	1	1.00	1	1 2012220_Fobs Benzimidazolium 4-nitrobenzoate
+_(iii)_f_calc_maximum	0.002	1	1.00	1	1 2012221_Fobs 180.01
+_(iii)_f_squared_multiplier	0.002	1	1.00	1	1 2012221_Fobs 1.000
+_(iii)_refln_list_code	0.002	1	1.00	1	1 2012221_Fobs 4
+_(iii)_title	0.002	1	1.00	1	1 2012221_Fobs Benzotriazole 3-nitrobenzoic acid clathrate
+_(iv)_f_calc_maximum	0.002	1	1.00	1	1 2012222_Fobs 216.15
+_(iv)_f_squared_multiplier	0.002	1	1.00	1	1 2012222_Fobs 1.000
+_(iv)_refln_list_code	0.002	1	1.00	1	1 2012222_Fobs 4
+_(iv)_title	0.002	1	1.00	1	1 2012222_Fobs Imidazolium 3-nitrobenzoate
+_(v)_f_calc_maximum	0.002	1	1.00	1	1 2012223_Fobs 111.86
+_(v)_f_squared_multiplier	0.002	1	1.00	1	1 2012223_Fobs 1.000
+_(v)_refln_list_code	0.002	1	1.00	1	1 2012223_Fobs 4
+_(v)_title	0.002	1	1.00	1	1 2012223_Fobs Imidazolium 4-nitrobenzoate
+_[local]_cod_data_source_block	0.011	1	1.00	1	1 3000023 an205	1 3000022 an217a_2	1 3000018 an410	1 3000019 an486	1 3000020 coperdmtp	1 3000021 niperdmtp
+_[local]_cod_data_source_file	0.011	1	1.00	1	1 3000018 Compound1.fcf	1 3000019 Compound2.fcf	1 3000020 Compound3.fcf	1 3000021 Compound4.fcf	1 3000022 Compound5.fcf	1 3000023 Compound6.fcf
+_atom_site_B_iso_or_equiv	0.004	69	95.00	121	69 2105812 3.19(16)	52 2105812 2.65(13)	34 2105811 4.63(16)	33 2105811 3.86(13)	1 2105811 4.32(20)	1 2105811 7.53(24)
+_atom_site_Fourier_wave_vector_seq_id	0.002	2	2.00	2	1 2100429_Fobs 1	1 2100429_Fobs 2
+_atom_site_Fourier_wave_vector_x	0.002	2	2.00	2	2 2100429_Fobs 0.30720
+_atom_site_Fourier_wave_vector_y	0.002	2	2.00	2	1 2100429_Fobs -0.30720	1 2100429_Fobs 0.30720
+_atom_site_Fourier_wave_vector_z	0.002	2	2.00	2	2 2100429_Fobs 0.00000
+_atom_site_U_Fourier_atom_site_label	0.002	36	36.00	36	12 2100429_Fobs Ba	12 2100429_Fobs K	12 2100429_Fobs Sr2
+_atom_site_U_Fourier_param_cos	0.002	36	36.00	36	6 2100429_Fobs -0.00890(14)	6 2100429_Fobs 0.00021(13)	6 2100429_Fobs 0.00063(12)	6 2100429_Fobs 0.01438(15)	3 2100429_Fobs -0.0019(2)	3 2100429_Fobs -0.01290(19)	3 2100429_Fobs 0.0034(2)	3 2100429_Fobs 0.00600(17)
+_atom_site_U_Fourier_param_sin	0.002	36	36.00	36	6 2100429_Fobs -0.00077(12)	6 2100429_Fobs -0.01454(16)	6 2100429_Fobs 0	3 2100429_Fobs -0.00068(18)	3 2100429_Fobs -0.0014(2)	3 2100429_Fobs -0.01199(16)	3 2100429_Fobs 0.00068(18)	3 2100429_Fobs 0.01199(16)	3 2100429_Fobs 0.01362(19)
+_atom_site_U_Fourier_tens_elem	0.002	36	36.00	36	6 2100429_Fobs U11	6 2100429_Fobs U12	6 2100429_Fobs U13	6 2100429_Fobs U22	6 2100429_Fobs U23	6 2100429_Fobs U33
+_atom_site_U_Fourier_wave_vector_seq_id	0.002	36	36.00	36	18 2100429_Fobs 1	18 2100429_Fobs 2
+_atom_site_U_iso_or_equiv	0.052	2	40.10	151	1163 1529436 {0 - 0.221}
+_atom_site_adp_type	0.048	2	36.04	151	493 1542452 Uani	480 1529436 Uiso
+_atom_site_aniso_U_11	0.045	2	19.72	71	493 1542452 {0.00233 - 0.142}
+_atom_site_aniso_U_12	0.045	2	19.72	71	493 1542452 {-0.079 - 0.0577}
+_atom_site_aniso_U_13	0.045	2	19.72	71	493 1542452 {-0.03 - 0.07}
+_atom_site_aniso_U_22	0.045	2	19.72	71	493 1542452 {0.00234 - 0.238}
+_atom_site_aniso_U_23	0.045	2	19.72	71	493 1542452 {-0.098 - 0.087}
+_atom_site_aniso_U_33	0.045	2	19.72	71	493 1542452 {0.0033 - 0.332}
+_atom_site_aniso_label	0.045	2	19.72	71	493 1542452 {word}
+_atom_site_aniso_type_symbol	0.007	7	11.00	14	12 2105046_Fobs O	7 2017665_Fobs Se	4 2105046_Fobs Fe	4 2017665_Fobs Mo	3 2108227 B	2 2105046_Fobs Ca	2 2100429_Fobs Na	2 2100429_Fobs Nb	2 2100429_Fobs Sr	2 2017665_Fobs Tl	1 2017665_Fobs Ag	1 2100429_Fobs Ba	1 2105046_Fobs Ti	1 2108227 Y
+_atom_site_calc_flag	0.046	2	37.15	151	641 1542452 d	295 1542452 calc	30 2219505_Fobs c
+_atom_site_disorder_assembly	0.002	16	16.00	16	12 1542452 B	4 1542452 A
+_atom_site_disorder_group	0.002	14	14.00	14	7 1542452 1	7 1542452 2
+_atom_site_displace_Fourier_atom_site_label	0.002	72	72.00	72	6 2100429_Fobs Ba	6 2100429_Fobs K	6 2100429_Fobs Na1	6 2100429_Fobs Nb1	6 2100429_Fobs Nb2	6 2100429_Fobs O1	6 2100429_Fobs O2	6 2100429_Fobs O3	6 2100429_Fobs O4	6 2100429_Fobs O5	6 2100429_Fobs Sr1	6 2100429_Fobs Sr2
+_atom_site_displace_Fourier_axis	0.002	72	72.00	72	24 2100429_Fobs x	24 2100429_Fobs y	24 2100429_Fobs z
+_atom_site_displace_Fourier_param_cos	0.002	72	72.00	72	72 2100429_Fobs {-0.0218 - 0.0172}
+_atom_site_displace_Fourier_param_sin	0.002	72	72.00	72	72 2100429_Fobs {-0.0314 - 0.0249}
+_atom_site_displace_Fourier_wave_vector_seq_id	0.002	72	72.00	72	36 2100429_Fobs 1	36 2100429_Fobs 2
+_atom_site_fract_x	0.052	2	40.10	151	1163 1529436 {-1.02993 - 1.598}
+_atom_site_fract_y	0.052	2	40.10	151	1163 1529436 {-0.895 - 1.3839}
+_atom_site_fract_z	0.052	2	40.10	151	1163 1529436 {-1.31381 - 1.2233}
+_atom_site_label	0.052	2	40.10	151	1163 1529436 {word}
+_atom_site_occupancy	0.052	2	40.10	151	1043 1542452 1	78 2219505_Fobs 1.00	7 1529436 1.00000	7 1542452 0.25	7 2105046_Fobs 0.5	7 1542452 0.75	1 2100429_Fobs 0.712(4)	1 2108227 0.950(3)	1 2300368_Fobs 0.90	1 2017665_Fobs 0.845(3)	1 2300369_Fobs 0.83	1 2105046_Fobs 0.749(14)	1 2108227 0.050(3)	1 2100429_Fobs 0.560(8)	1 2105046_Fobs 0.251(14)	1 2100429_Fobs 0.247(8)	1 2100429_Fobs 0.1975	1 2300369_Fobs 0.17	1 2100429_Fobs 0.12	1 2300368_Fobs 0.10
+_atom_site_refinement_flags	0.021	1	18.25	82	192 1542452 R	12 1542452 PR	9 2219385_Fobs S	4 2300368_Fobs SP	1 1542452 P	1 1542452 PU
+_atom_site_refinement_flags_adp	0.009	1	11.00	26	29 2108128 T	26 2237882_Fobs U
+_atom_site_refinement_flags_occupancy	0.007	1	7.25	24	29 2108128 P
+_atom_site_refinement_flags_posn	0.014	6	20.50	30	76 2108128 R	38 2108128 GR	20 2108128 S	11 2108128 D	7 2108128 DR	7 2240837 RS	2 2108129 DGR	2 2108128 DS	1 2108128 G
+_atom_site_site_symmetry_multiplicity	0.004	14	48.00	82	82 2021020 4	7 2108227 3	7 2108227 6
+_atom_site_site_symmetry_order	0.014	16	36.12	56	260 2108128 1	28 2108128 2	1 2240837 4
+_atom_site_symmetry_multiplicity	0.025	2	42.93	151	362 1542452 1	190 2105811 0	18 2017665_Fobs 2	14 2100429_Fobs 8	9 2017665_Fobs 6	4 2100429_Fobs 16	4 2100429_Fobs 4
+_atom_site_type_symbol	0.052	2	40.10	151	1163 1529436 {word}
+_atom_sites_solution_hydrogens	0.059	1	1.00	1	21 1519943 geom	11 2108128 mixed	1 4025343 geom, diff
+_atom_sites_solution_primary	0.070	1	1.00	1	38 1519943 direct	1 2242404 iterative
+_atom_sites_solution_secondary	0.061	1	1.00	1	34 1519943 difmap
+_atom_type_description	0.043	2	4.50	7	20 1519943 H	19 1542452 C	19 1519943 O	12 1542452 N	6 1542452 S	5 1519943 Si	4 2241396 Ge	3 2240428 B	3 2108128 Br	3 2105811 Cl	3 1542452 F	2 2240837 Fe	2 2219505_Fobs Ag	2 1519943 Ca	1 1519943 Na	1 1519943 Cu	1 2219505_Fobs P	1 2300387_Fobs Ba	1 2108129 Sr
+_atom_type_number_in_cell	0.004	4	4.50	5	5 2020388 2.0	2 2020388 12.0	1 2020389 14.0	1 2020388 18.0
+_atom_type_scat_Cromer_Mann_a1	0.052	2	3.45	6	100 2012633_Fobs {0.493 - 22.6845}
+_atom_type_scat_Cromer_Mann_a2	0.052	2	3.45	6	100 2012633_Fobs {0.0057 - 43.6427}
+_atom_type_scat_Cromer_Mann_a3	0.052	2	3.45	6	100 2012633_Fobs {0.1402 - 19.6847}
+_atom_type_scat_Cromer_Mann_a4	0.052	2	3.45	6	100 2012633_Fobs {0.0408 - 32.3337}
+_atom_type_scat_Cromer_Mann_b1	0.052	2	3.45	6	100 2012633_Fobs {0.14019 - 20.8439}
+_atom_type_scat_Cromer_Mann_b2	0.052	2	3.45	6	100 2012633_Fobs {0.1256 - 103.483}
+_atom_type_scat_Cromer_Mann_b3	0.052	2	3.45	6	100 2012633_Fobs {0.04081 - 85.7484}
+_atom_type_scat_Cromer_Mann_b4	0.052	2	3.45	6	100 2012633_Fobs {0.542 - 178.437}
+_atom_type_scat_Cromer_Mann_c	0.052	2	3.45	6	100 2012633_Fobs {-16.378 - 4.3875}
+_atom_type_scat_dispersion_imag	0.100	2	3.96	7	222 1519943 {0 - 10.93}
+_atom_type_scat_dispersion_real	0.100	2	3.96	7	222 1519943 {-3.43 - 0.3639}
+_atom_type_scat_length_neutron	0.130	2	4.82	6	352 CB1-4_p_02 {-0.19 - 1.229}
+_atom_type_scat_source	0.232	2	4.45	7	6 2219505_Fobs {text}	126 1519943 {line}	447 2012633_Fobs {word}
+_atom_type_scat_versus_stol_list	0.002	6	6.00	6	6 2100429_Fobs {text}
+_atom_type_symbol	0.234	2	4.45	7	6 2012633_Fobs {line}	577 1519943 {word}
+_audit_author_name	0.084	1	1.00	1	10 4308609 R.E.D.	10 I2MB_T_p_01 me	6 4117532_diffractogram_1 John Claridge	4 4117483 Chris Ling	4 4109804 Efrain E. Rodriguez	4 4105040 Fortes AD	3 2017951_Fobs Jung-Hwa Hong	3 4311660 Li2BeH4	1 2018117_Fobs Hyung-Kyu Lim	1 4310588 Naima	1 4336823 Richard Mole
+_audit_contact_author_address	0.002	1	1.00	1	1 2105046_Fobs {text}
+_audit_contact_author_email	0.002	1	1.00	1	1 2105046_Fobs Hannes.Krueger@uibk.ac.at
+_audit_contact_author_fax	0.002	1	1.00	1	1 2105046_Fobs 43(512)5072926
+_audit_contact_author_name	0.002	1	1.00	1	1 2105046_Fobs Kr\"uger, Hannes
+_audit_contact_author_phone	0.002	1	1.00	1	1 2105046_Fobs 43(512)5075502
+_audit_creation_date	0.962	1	1.00	1	10 4310585_4310586 {line}	528 1542452 {word}
+_audit_creation_method	1.128	1	1.00	1	62 1542452 {text}	80 2017951_Fobs {line}	489 1519943 {word}
+_audit_update_record	0.184	1	1.00	1	50 1542452 {text}	53 4100306 {line}
+_cell_angle_alpha	95.933	1	1.00	1	53667 1100908 {58.32 - 121.63}
+_cell_angle_beta	95.933	1	1.00	1	53667 1100908 {60.758 - 162.404}
+_cell_angle_gamma	95.933	1	1.00	1	53667 1100908 {32.307 - 127.3}
+_cell_formula_units_Z	0.313	1	1.00	1	74 1519943 4	43 2011802_Fobs 2	36 2013603_Fobs 8	9 2108227 3	5 1519942 1	2 2200017_Fobs 16	2 4314864 6	1 2100429_Fobs 10	1 2014283_Fobs 18	1 4323043 2.00	1 2219385_Fobs 20
+_cell_length_a	95.933	1	1.00	1	53667 1100908 {2.4473 - 110.75}
+_cell_length_b	95.933	1	1.00	1	53667 1100908 {2.5408 - 85.482}
+_cell_length_c	95.933	1	1.00	1	53667 1100908 {2.8223 - 110.079}
+_cell_measurement_reflns_used	0.095	1	1.00	1	1 4310360 {line}	52 1519943 {15 - 35077}
+_cell_measurement_temperature	0.181	1	1.00	1	101 1519943 {90 - 1053}
+_cell_measurement_theta_max	0.098	1	1.00	1	55 1519943 {8.02 - 72.2007}
+_cell_measurement_theta_min	0.098	1	1.00	1	55 1519943 {0.7 - 12.5}
+_cell_modulation_dimension	0.004	1	1.00	1	1 2108042 1	1 2100429_Fobs 2
+_cell_volume	0.374	1	1.00	1	209 1519942 {105.865 - 12605.6}
+_cell_wave_vector_seq_id	0.004	1	1.50	2	2 2100429_Fobs 1	1 2100429_Fobs 2
+_cell_wave_vector_x	0.004	1	1.50	2	2 2100429_Fobs 0.30720	1 2108042 0.300100
+_cell_wave_vector_y	0.004	1	1.50	2	1 2100429_Fobs -0.30720	1 2108042 0.000000	1 2100429_Fobs 0.30720
+_cell_wave_vector_z	0.004	1	1.50	2	2 2100429_Fobs 0.00000	1 2108042 0.500000
+_chemical_absolute_configuration	0.034	1	1.00	1	11 4025333 rmad	4 2212069_Fobs syn	2 2108128 ad	2 4025335 rm
+_chemical_compound_source	0.020	1	1.00	1	7 4025335 Local laboratory	1 4029696 chemical synthesis	1 2200845_Fobs synthesis	1 8102661_Fobs synthesised by authors, see text	1 4320274 synthesized by the authors, see text
+_chemical_formula_analytical	0.002	1	1.00	1	1 2108227 B4 Bi0.05 Fe3 O12 Y0.95
+_chemical_formula_iupac	0.013	1	1.00	1	1 2013706_Fobs {text}	6 2013705_Fobs {line}
+_chemical_formula_moiety	0.177	1	1.00	1	1 2013706_Fobs {text}	98 1542452 {line}
+_chemical_formula_structural	0.023	1	1.00	1	3 4311660 Li2 [Be D4]	2 2021811 C8 H9 N O2	1 4029696 (C26 H35 N O8) 0.25(C2 H6 O)	1 2108227 B4 Bi0.05 Fe3 O12 Y0.95	1 4314775 Cs2 Mn [Mn (CN)6]	1 4320274 Ir(PCH3)(Cp*)(S4)	1 4314864 K Pd2 O3	1 4314773 K2 Mn [Mn (CN)6]	1 4314774 Rb2 Mn [Mn (CN)6]	1 2108369 W O3 N2 H4
+_chemical_formula_sum	0.345	1	1.00	1	193 1519943 {line}
+_chemical_formula_weight	0.282	1	1.00	1	158 1519943 {30.95 - 3017.9}
+_chemical_melting_point	0.007	1	1.00	1	3 2015033_Fobs not determined	1 4317526 257
+_chemical_name_common	0.052	1	1.00	1	21 2014017_Fobs {line}	8 1519943 {word}
+_chemical_name_systematic	0.145	1	1.00	1	42 1519943 {text}	37 2010770_Fobs {line}	2 2108369 {word}
+_chemical_oxdiff_formula	0.004	1	1.00	1	1 2242404 B1 C7 N1 O2	1 2237882_Fobs C24 H25 N3 Cl
+_chemical_oxdiff_usercomment	0.002	1	1.00	1	1 2237882_Fobs Yathi's HSY-579
+_cod_data_source_block	99.197	1	1.00	3	54156 1100908 {word}	1356 1529217 {1 - 1.90176e+06}
+_cod_data_source_file	99.206	1	1.00	3	55514 1100908 {word}
+_cod_database_code	0.034	1	1.42	2	8 4310585_4310586 4310585	8 4310585_4310586 4310586	3 4311660 4311660	1 2200682_Fobs 2200682	1 4025916_Fobs 4025916	1 4307628 4307628	1 4310360 4310360	1 4310588 4310588	1 4310642 4310642	1 4310736 4310736	1 8102661_Fobs 8102661
+_cod_depositor_comments	0.020	1	1.00	1	11 1542844 {text}
+_cod_error_description	0.004	1	1.00	1	2 2222322_Fobs {text}
+_cod_error_flag	0.005	1	1.00	1	2 2220993_Fobs errors	1 4307628 warnings
+_cod_error_source	0.005	1	1.00	1	3 2220993_Fobs original
+_cod_original_cell_volume	0.011	1	1.00	1	3 4311660 490.52(1)	1 4310736 259.4249	1 4307628 461.7259	1 4310588 801.91095
+_cod_original_formula_sum	0.005	1	1.00	1	1 4310642 H0.9 Na0.22 O2.45 Ru1	1 4310360 Na2 O4 Ru1	1 4310736 Pd1 Se2
+_cod_original_sg_symbol_H-M	0.084	1	1.00	1	12 2002947_Fobs {line}	35 2013603_Fobs {word}
+_cod_original_sg_symbol_Hall	0.061	1	1.00	1	8 2013706_Fobs -p_2ybc	7 2013604_Fobs -p_1	3 4311660 -P2ybc	2 2013705_Fobs -c_2yc	2 2013603_Fobs -p_2yn	2 2011802_Fobs P_2y1	2 2014285_Fobs p_2c_-2n	1 2105046_Fobs -A -2xa;-2y;-2za	1 8102661_Fobs -P 2yn  	1 2013712_Fobs -p_2_2n	1 2011803_Fobs C_2y	1 2206580_Fobs P_-4_2_3	1 2200017_Fobs i_4bw_-1bw	1 2200845_Fobs p_2y1	1 2014283_Fobs r_3_-2"c
+_computing_cell_refinement	0.048	1	1.00	1	3 1542452 {text}	21 1519943 {line}	3 2211559_Fobs {word}
+_computing_data_collection	0.055	1	1.00	1	3 1542452 {text}	21 1519943 {line}	7 2211559_Fobs {word}
+_computing_data_reduction	0.063	1	1.00	1	3 1542452 {text}	22 1519943 {line}	10 2016709_Fobs {word}
+_computing_molecular_graphics	0.048	1	1.00	1	1 1542452 {text}	21 2016709_Fobs {line}	5 1519943 {word}
+_computing_publication_material	0.050	1	1.00	1	1 1542452 {text}	23 2017665_Fobs {line}	4 2016709_Fobs {word}
+_computing_structure_refinement	0.136	1	1.00	1	1 1542452 {text}	31 1519943 {line}	44 2219505_Fobs {word}
+_computing_structure_solution	0.038	1	1.00	1	3 1542452 {text}	17 1519943 {line}	1 2219505_Fobs {word}
+_crystan_f_calc_maximum	0.004	1	1.00	1	2 2006592_Fobs 32000.
+_diffrn_ambient_temperature	0.098	1	1.00	1	12 2017665_Fobs 293	11 2020388 298	8 1519943 293(2)	6 2105811 298(2)	4 4105040 180	4 4109804 295	1 2240428 100.0	1 2241396 120	1 2240837 133.15	1 2237882_Fobs 173(2)	1 2242068 243.15	1 4025916_Fobs 268(2)	1 1542452 295(2)	1 4002072 296.15	1 2300576 473	1 2108227 90
+_diffrn_detector	0.045	1	1.00	1	2 2105811 {text}	18 2105046_Fobs {line}	5 4105040 {word}
+_diffrn_detector_area_resol_mean	0.021	1	1.00	1	2 2108128 10.2890	2 2218767_Fobs 9	1 2300387_Fobs 10.3457	1 1542452 15.9555	1 2237882_Fobs 16.0416	1 2105046_Fobs 6.67	1 2219505_Fobs 7.31	1 2240428 7.9	1 2241396 8	1 2242404 8.0945
+_diffrn_detector_type	0.018	1	1.00	1	4 4105040 3He tube	2 2108128 Ruby	1 2240428 Bruker SMART CCD 1K area detector	1 2242404 EosS2	1 2105046_Fobs STOE	1 FINAL_p_03 scintillation
+_diffrn_measured_fraction_theta_full	0.050	1	1.00	1	6 1519943 0.998	4 2240428 1.000	2 2215245_Fobs 0.999	2 2108128 0.996	2 2017665_Fobs 0.99	1 2219505_Fobs 0.988	1 2016709_Fobs 1	1 2237882_Fobs 0.9998	1 2215591_Fobs 0.995	1 2105046_Fobs 0.95	1 8102661_Fobs 0.986	1 2300387_Fobs 0.982	1 2108227 0.98	1 2300369_Fobs 0.973	1 4025916_Fobs 0.97	1 2300368_Fobs 0.958	1 1542452 0.9529
+_diffrn_measured_fraction_theta_max	0.048	1	1.00	1	27 1519943 {0.878 - 1}
+_diffrn_measurement_details	0.009	1	1.00	1	5 1542452 {text}
+_diffrn_measurement_device	0.014	1	1.00	1	4 2108128 four-circle diffractometer	2 2218767_Fobs 95mm CCD camera on \k-goniostat	1 2105046_Fobs 2-circle goniometer	1 2240428 three-circle diffractometer
+_diffrn_measurement_device_type	0.088	1	1.00	1	2 2105811 {text}	43 1519943 {line}	4 2218767_Fobs {word}
+_diffrn_measurement_method	0.054	1	1.00	1	7 1542452 \w scans	4 2205226_Fobs CCD	2 2016709_Fobs \f and \w	2 2214695_Fobs \f and \w scan	2 2242068 \f and \w scans	2 2211559_Fobs \w/2\q	2 2215591_Fobs phi and omega scans	1 1519943 1K CCD-based area detector	1 2238977 \f scan and \w scans with \k offset	1 2108227 \f scans	1 2240837 \f scans and \w scans with \k offset	1 4310736 \q/2\q	1 2219505_Fobs \w	1 2241396 \w and \f scans	1 2105046_Fobs rotation method	1 2100429_Fobs w scan, intergration method
+_diffrn_measurement_temperature	0.014	1	1.00	1	8 4310585_4310586 10
+_diffrn_orient_matrix_UB_11	0.011	1	1.00	1	1 2242404 -0.0367450000	1 2238080_Fobs 0.0089235	1 2237882_Fobs 0.0166252000	1 2300387_Fobs 0.0263614000	1 1542452 0.0517275000	1 2218767_Fobs 0.1313924
+_diffrn_orient_matrix_UB_12	0.011	1	1.00	1	1 2237882_Fobs -0.0047910000	1 2238080_Fobs -0.0120213	1 1542452 -0.0257383000	1 2300387_Fobs -0.0355061000	1 2218767_Fobs -0.0616553	1 2242404 0.0217991000
+_diffrn_orient_matrix_UB_13	0.011	1	1.00	1	1 2242404 -0.0530451000	1 2238080_Fobs -0.0698777	1 1542452 0.0224415000	1 2218767_Fobs 0.0375516	1 2300387_Fobs 0.0418851000	1 2237882_Fobs 0.0815423000
+_diffrn_orient_matrix_UB_21	0.011	1	1.00	1	1 2238080_Fobs -0.0116056	1 1542452 -0.0368118000	1 2300387_Fobs -0.0866981000	1 2242404 0.0139583000	1 2218767_Fobs 0.0520849	1 2237882_Fobs 0.1486551000
+_diffrn_orient_matrix_UB_22	0.011	1	1.00	1	1 2300387_Fobs -0.0027334000	1 2237882_Fobs -0.0118375000	1 2218767_Fobs -0.0255261	1 1542452 -0.0327710000	1 2242404 0.0380914000	1 2238080_Fobs 0.1176871
+_diffrn_orient_matrix_UB_23	0.011	1	1.00	1	1 2237882_Fobs -0.0080349000	1 2238080_Fobs -0.0179333	1 2218767_Fobs -0.0779861	1 1542452 0.0102620000	1 2300387_Fobs 0.0250809000	1 2242404 0.0307674000
+_diffrn_orient_matrix_UB_31	0.011	1	1.00	1	1 1542452 -0.0108125000	1 2300387_Fobs -0.0219358000	1 2237882_Fobs 0.0136574000	1 2218767_Fobs 0.0212850	1 2238080_Fobs 0.0367359	1 2242404 0.1824372000
+_diffrn_orient_matrix_UB_32	0.011	1	1.00	1	1 1542452 -0.0114030000	1 2300387_Fobs -0.0319188000	1 2242404 0.0014819000	1 2238080_Fobs 0.0400999	1 2218767_Fobs 0.1320238	1 2237882_Fobs 0.1351137000
+_diffrn_orient_matrix_UB_33	0.011	1	1.00	1	1 2242404 -0.0092709000	1 2218767_Fobs -0.0262779	1 2300387_Fobs -0.0487074000	1 1542452 -0.0802339000	1 2237882_Fobs 0.0022603000	1 2238080_Fobs 0.0316834
+_diffrn_orient_matrix_type	0.005	1	1.00	1	2 2218767_Fobs by Nonius Collect from scalepack cell	1 2242404 CrysAlisPro convention (1999,Acta A55,543-557)
+_diffrn_radiation_collimation	0.002	1	1.00	1	1 2105046_Fobs 0.5 mm diameter, multiple pinhole
+_diffrn_radiation_monochromator	0.066	1	1.00	1	2 2105811 {text}	11 2020388 {line}	24 1519943 {word}
+_diffrn_radiation_polarisn_norm	0.002	1	1.00	1	1 2105046_Fobs 0
+_diffrn_radiation_polarisn_ratio	0.070	1	1.00	1	18 4313200 0.0	6 4115657 0.93	4 4318187 0.97	3 4300179 .5	2 4300181 .97	2 I2MB_T_p_01 1.0	1 FINAL_p_03 0.444	1 4100306 0.626	1 4310588 0.9	1 4115658 0.95
+_diffrn_radiation_probe	0.215	1	1.00	1	73 CB1-4_p_02 neutron	33 2020388 x-ray	8 2108246 x-rays	4 2300576 neutrons	2 2021020 X-ray
+_diffrn_radiation_source	0.025	1	1.00	1	13 1519943 fine-focus sealed tube	1 2017665_Fobs X-ray tube
+_diffrn_radiation_type	0.130	1	1.23	2	2 2105811 {text}	27 1542452 {line}	61 1519943 {word}
+_diffrn_radiation_wavelength	0.234	1	1.13	2	148 1519943 {0.499797 - 2.39845}
+_diffrn_radiation_wavelength_id	0.036	1	1.85	2	17 4100306 1	17 4100306 2	3 2205226_Fobs all
+_diffrn_radiation_wavelength_wt	0.030	2	2.00	2	17 4100306 0.500	17 4100306 1.000
+_diffrn_refln_index_h	0.007	9867	20184.75	27038	80739 4027968 {-15 - 15}
+_diffrn_refln_index_k	0.007	9867	20184.75	27038	80739 4027968 {-12 - 11}
+_diffrn_refln_index_l	0.007	9867	20184.75	27038	80739 4027968 {-33 - 32}
+_diffrn_refln_intensity_net	0.007	9867	20184.75	27038	80739 4027968 {-1926.49 - 999999}
+_diffrn_refln_intensity_u	0.007	9867	20184.75	27038	80739 4027968 {0 - 4232.56}
+_diffrn_reflns_Laue_measured_fraction_full	0.014	1	1.00	1	3 2240428 1.000	2 2108128 0.996	2 2237882_Fobs 0.999	1 2242404 0.998
+_diffrn_reflns_Laue_measured_fraction_max	0.014	1	1.00	1	4 2108128 0.998	1 2108129 0.964	1 2241396 0.985	1 2237882_Fobs 0.991	1 2242068 0.996
+_diffrn_reflns_av_R_equivalents	0.057	1	1.00	1	32 1519943 {0.0148 - 0.131}
+_diffrn_reflns_av_sigmaI/netI	0.030	1	1.00	1	1 1519943 0.0272	1 2219385_Fobs 0.1307	1 4310360 0.1043	1 2215591_Fobs 0.1018	1 4310642 0.0628	1 2017665_Fobs 0.0622	1 4025916_Fobs 0.0537	1 8102661_Fobs 0.0528	1 2214695_Fobs 0.0317	1 2105046_Fobs 0.0046	1 2215248_Fobs 0.0259	1 4307628 0.0249	1 2300387_Fobs 0.0226	1 2300368_Fobs 0.0158	1 2100429_Fobs 0.0155	1 2300365_Fobs 0.0123	1 2300369_Fobs 0.0113
+_diffrn_reflns_av_unetI/netI	0.018	1	1.00	1	1 2240428 0.0125	1 2242404 0.0145	1 2237882_Fobs 0.0240	1 2242068 0.0247	1 2108227 0.0287	1 2240837 0.0395	1 2241396 0.0434	1 2108128 0.0446	1 1542452 0.0475	1 2108129 0.0800
+_diffrn_reflns_limit_h_max	0.055	1	1.00	1	3 2242068 11	3 2108227 12	3 2105046_Fobs 7	3 2214695_Fobs 10	2 2016709_Fobs 20	2 2100429_Fobs 22	2 1542452 14	2 2215248_Fobs 13	1 4310360 17	1 2017665_Fobs 18	1 1519943 19	1 2219505_Fobs 16	1 2108129 27	1 2219385_Fobs 36	1 2240837 38	1 2242404 4	1 4310642 5	1 2300365_Fobs 8	1 2211559_Fobs 9
+_diffrn_reflns_limit_h_min	0.055	1	1.00	1	5 2237882_Fobs -11	3 2105046_Fobs -7	3 2215591_Fobs -19	2 2100429_Fobs -22	2 2211559_Fobs -8	2 2214695_Fobs -10	2 2017665_Fobs -17	2 2108227 -12	1 1519943 -18	1 2016709_Fobs -20	1 4025916_Fobs -14	1 2108129 -27	1 2240837 -38	1 2242404 -4	1 2219385_Fobs -49	1 4310642 -5	1 2215248_Fobs -13	1 1542452 -9
+_diffrn_reflns_limit_index_m_1_max	0.002	1	1.00	1	1 2100429_Fobs 1
+_diffrn_reflns_limit_index_m_1_min	0.002	1	1.00	1	1 2100429_Fobs -1
+_diffrn_reflns_limit_index_m_2_max	0.002	1	1.00	1	1 2100429_Fobs 1
+_diffrn_reflns_limit_index_m_2_min	0.002	1	1.00	1	1 2100429_Fobs -1
+_diffrn_reflns_limit_k_max	0.055	1	1.00	1	5 2215591_Fobs 7	3 2108128 11	3 2100429_Fobs 19	3 1519943 24	2 2108129 13	2 2108227 14	2 2242404 20	2 2241396 22	2 2214695_Fobs 9	1 2017665_Fobs 15	1 1542452 18	1 2300387_Fobs 21	1 2105046_Fobs 35	1 4310642 4	1 2240837 6	1 2016709_Fobs 8
+_diffrn_reflns_limit_k_min	0.055	1	1.00	1	4 2215591_Fobs -7	4 2016709_Fobs -8	3 2100429_Fobs -22	3 1519943 -24	2 2108128 -11	2 2108227 -14	2 2219505_Fobs -19	2 2242404 -20	2 1542452 -21	1 2214695_Fobs -10	1 2211559_Fobs -12	1 2108129 -13	1 2017665_Fobs -18	1 2105046_Fobs -35	1 4310642 -4	1 2215248_Fobs -9
+_diffrn_reflns_limit_l_max	0.055	1	1.00	1	31 1519943 {7 - 52}
+_diffrn_reflns_limit_l_min	0.055	1	1.00	1	31 1519943 {-48 - -7}
+_diffrn_reflns_number	0.057	1	1.00	1	32 1519943 {1125 - 96783}
+_diffrn_reflns_point_group_measured_fraction_full	0.014	1	1.00	1	3 2240428 1.000	2 2237882_Fobs 0.999	1 2108129 0.947	1 2108128 0.976	1 2242404 0.998
+_diffrn_reflns_point_group_measured_fraction_max	0.014	1	1.00	1	3 2240428 0.998	1 2108129 0.872	1 2108128 0.953	1 2241396 0.985	1 2237882_Fobs 0.991	1 2242068 0.996
+_diffrn_reflns_reduction_process	0.004	1	1.00	1	2 2105046_Fobs {text}
+_diffrn_reflns_theta_full	0.052	1	1.00	1	29 1519943 {25 - 67.684}
+_diffrn_reflns_theta_max	0.059	1	1.00	1	33 1519943 {25 - 72.349}
+_diffrn_reflns_theta_min	0.055	1	1.00	1	31 1519943 {1.21 - 6.59}
+_diffrn_source	0.054	1	1.00	1	7 2108246 X-ray tube	5 4109804 neutron	4 1542452 Enhance (Mo) X-ray Source	4 4105040 Institut Laue Langevin	3 2020388 sealed X-ray tube	2 2105811 sealed x-ray tube	1 2237882_Fobs Enhance (Cu) X-ray Source	1 2242404 micro-focus sealed X-ray tube	1 FINAL_p_03 sealed X-Ray tube	1 2105046_Fobs sealed X-ray tube, 12 x 0.4 mm long-fine focus	1 2241396 sealed tube
+_diffrn_source_current	0.002	1	1.00	1	1 2105046_Fobs 40
+_diffrn_source_power	0.004	1	1.00	1	1 4002072 12	1 2105046_Fobs 2.00
+_diffrn_source_target	0.023	1	1.00	1	6 2108246 Cu	4 4109804 W	2 2108250 Co	1 2240428 Mo
+_diffrn_source_type	0.023	1	1.00	1	4 4109804 Spallation source	4 4105040 reactor	1 FINAL_p_03 Cu K\a~1~	1 2242404 SuperNova (Mo) X-ray Source	1 FINAL_p_01 pulsed nuclear reactor	1 4002072 rotating anode	1 2021020 synchrotron radiation
+_diffrn_source_voltage	0.002	1	1.00	1	1 2105046_Fobs 50
+_diffrn_standards_interval_time	0.002	1	1.00	1	1 1519943 120
+_diffrn_standards_number	0.002	1	1.00	1	1 2214695_Fobs 0
+_exptl_absorpt_coefficient_mu	0.091	1	1.00	1	51 1519943 {0 - 39.408}
+_exptl_absorpt_correction_T_max	0.240	1	1.00	1	134 1519943 {0.07225 - 1.00127}
+_exptl_absorpt_correction_T_min	0.240	1	1.00	1	134 1519943 {0.0323 - 1.00127}
+_exptl_absorpt_correction_details	0.002	1	1.00	1	1 2010647_Fobs North, Philliphs &amp; Mathews (1968)
+_exptl_absorpt_correction_type	0.082	1	1.00	1	12 2008271_Fobs none	10 1519943 multi-scan	6 2108128 gaussian	4 2003032_Fobs psi-scan	3 2105046_Fobs integration	2 2100429_Fobs Sphere	2 2215591_Fobs empirical	2 2009330_Fobs psi scan	1 4310360 Cylindrical	1 2214695_Fobs Multi-scan	1 4310642 None	1 2011097_Fobs \y-scan	1 2240837 numerical
+_exptl_absorpt_process_details	0.254	1	1.00	1	127 1542452 {text}	12 1519943 {line}	3 2108227 {word}
+_exptl_crystal_F_000	95.184	1	1.00	1	53248 1100908 {9.15 - 864435}
+_exptl_crystal_colour	0.050	1	1.00	1	9 1542452 colourless	6 2108244 yellow	2 2105046_Fobs black	1 2214695_Fobs Colorless	1 4025916_Fobs Colourless 	1 2108449 White	1 2240428 clear light colourless	1 2237882_Fobs clear orangish orange	1 2219505_Fobs colorless	1 2108227 light-green	1 2242068 orange	1 1519943 pale blue	1 2100429_Fobs transparent	1 2016709_Fobs white
+_exptl_crystal_colour_lustre	0.004	1	1.00	1	2 2237882_Fobs clear
+_exptl_crystal_colour_modifier	0.004	1	1.00	1	1 2240428 light	1 2237882_Fobs orangish
+_exptl_crystal_colour_primary	0.014	1	1.00	1	6 1542452 colourless	2 2237882_Fobs orange
+_exptl_crystal_density_diffrn	0.105	1	1.00	1	59 1519943 {1.099 - 7.4523}
+_exptl_crystal_density_method	0.041	1	1.00	1	22 1519943 not measured	1 2014284_Fobs not  measured
+_exptl_crystal_description	0.052	1	1.00	1	3 2016709_Fobs rectangular	3 2105046_Fobs block	3 2108128 prism	2 2100429_Fobs Sphere	2 2237882_Fobs irregular	2 2211559_Fobs needle	2 2215591_Fobs prismatic	2 2013791_Fobs plate	2 2105811 powder	1 1542452 plank	1 1519943 thin plate	1 2300387_Fobs tabular	1 2219505_Fobs platelet	1 2214695_Fobs Block	1 2108449 Table	1 4025916_Fobs Prism	1 8102661_Fobs Plate
+_exptl_crystal_face_index_h	0.005	8	9.00	10	13 2105046_Fobs 0	4 2105046_Fobs 1	3 2105046_Fobs -1	3 2105046_Fobs -5	1 2105046_Fobs -6	1 2105046_Fobs 3	1 2105046_Fobs 4	1 2242404 5
+_exptl_crystal_face_index_k	0.005	8	9.00	10	6 8102661_Fobs 0	5 2105046_Fobs 1	4 2105046_Fobs -1	1 2105046_Fobs -11	1 2105046_Fobs -12	1 2242404 -16	1 2242404 -19	1 2105046_Fobs -4	1 2105046_Fobs -8	1 2105046_Fobs 10	1 2242404 16	1 2242404 19	1 2242404 3	1 2105046_Fobs 4	1 2105046_Fobs 7
+_exptl_crystal_face_index_l	0.005	8	9.00	10	6 2105046_Fobs 0	3 2105046_Fobs -1	3 2105046_Fobs 1	2 2105046_Fobs -5	2 2242404 2	1 2105046_Fobs -10	1 2242404 -11	1 2242404 -16	1 8102661_Fobs -2	1 2105046_Fobs -3	1 2242404 -9	1 2242404 11	1 2242404 16	1 2105046_Fobs 5	1 2105046_Fobs 7	1 2242404 9
+_exptl_crystal_face_perp_dist	0.005	8	9.00	10	27 2105046_Fobs {0.0233 - 0.2968}
+_exptl_crystal_preparation	0.002	1	1.00	1	1 2240428 {text}
+_exptl_crystal_recrystallization_method	0.002	1	1.00	1	1 2240428 {text}
+_exptl_crystal_size_max	0.052	1	1.00	1	29 1519943 {0.08 - 0.497}
+_exptl_crystal_size_mid	0.050	1	1.00	1	28 1519943 {0.06 - 0.411}
+_exptl_crystal_size_min	0.052	1	1.00	1	29 1519943 {0.003 - 0.26}
+_exptl_crystal_size_rad	0.004	1	1.00	1	1 2108227 0.09	1 2100429_Fobs 0.117
+_exptl_oxdiff_crystal_face_indexfrac_h	0.002	9	9.00	9	1 2242404 -0.0210	1 2242404 -0.0836	1 2242404 -0.1332	1 2242404 -0.2335	1 2242404 -5.3296	1 2242404 -5.3428	1 2242404 0.2110	1 2242404 0.2444	1 2242404 5.2037
+_exptl_oxdiff_crystal_face_indexfrac_k	0.002	9	9.00	9	1 2242404 -0.5380	1 2242404 -0.7958	1 2242404 -16.3553	1 2242404 -18.6272	1 2242404 0.5135	1 2242404 0.6916	1 2242404 16.3510	1 2242404 18.6838	1 2242404 2.7135
+_exptl_oxdiff_crystal_face_indexfrac_l	0.002	9	9.00	9	1 2242404 -11.2504	1 2242404 -16.1154	1 2242404 -4.8568	1 2242404 -9.2823	1 2242404 1.0197	1 2242404 11.2474	1 2242404 16.1385	1 2242404 2.4032	1 2242404 9.2204
+_exptl_oxdiff_crystal_face_x	0.002	9	9.00	9	1 2242404 -0.0787	1 2242404 -0.8400	1 2242404 -0.9446	1 2242404 0.0515	1 2242404 0.0786	1 2242404 0.0815	1 2242404 0.2009	1 2242404 0.8439	1 2242404 0.9442
+_exptl_oxdiff_crystal_face_y	0.002	9	9.00	9	1 2242404 -0.0309	1 2242404 -0.0505	1 2242404 -0.2802	1 2242404 -0.5166	1 2242404 -0.9922	1 2242404 0.0603	1 2242404 0.2801	1 2242404 0.5142	1 2242404 0.9942
+_exptl_oxdiff_crystal_face_z	0.002	9	9.00	9	1 2242404 -0.0730	1 2242404 -0.1711	1 2242404 -0.1732	1 2242404 -0.9778	1 2242404 -0.9982	1 2242404 0.0969	1 2242404 0.1448	1 2242404 0.1731	1 2242404 0.9954
+_exptl_special_details	0.059	1	1.00	1	15 4309913 {text}	18 4105040 {line}
+_f_calc_maximum	0.004	1	1.00	1	1 2300509 102.89	1 2106020 804
+_f_multiplier	0.002	1	1.00	1	1 2004620_Fobs 10.00
+_geom_angle	0.048	7	117.70	582	3178 1542452 {0 - 180}
+_geom_angle_atom_site_label_1	0.048	7	117.70	582	3178 1542452 {word}
+_geom_angle_atom_site_label_2	0.048	7	117.70	582	3178 1542452 {word}
+_geom_angle_atom_site_label_3	0.048	7	117.70	582	3178 1542452 {word}
+_geom_angle_publ_flag	0.009	127	251.60	582	829 2017665_Fobs yes	429 2105811 no
+_geom_angle_site_symmetry_1	0.023	3	61.77	408	729 2017665_Fobs {word}	74 2108129 {2 - 6}
+_geom_angle_site_symmetry_3	0.023	2	71.38	457	883 2017665_Fobs {word}	45 2108129 {2 - 6}
+_geom_bond_atom_site_label_1	0.050	5	47.89	157	1341 1542452 {word}
+_geom_bond_atom_site_label_2	0.050	5	47.89	157	1341 1542452 {word}
+_geom_bond_distance	0.048	5	47.11	157	1272 1542452 {0 - 3.9897}
+_geom_bond_distance_av	0.002	69	69.00	69	69 2100429_Fobs {1.842 - 3.462}
+_geom_bond_distance_max	0.002	69	69.00	69	8 2100429_Fobs 3.165(5)	8 2100429_Fobs 2.906(5)	8 2100429_Fobs 2.841(4)	6 2100429_Fobs 4.105(5)	6 2100429_Fobs 3.299(5)	6 2100429_Fobs 2.976(5)	4 2100429_Fobs 2.018(5)	3 2100429_Fobs 2.835(6)	3 2100429_Fobs 3.039(6)	3 2100429_Fobs 3.366(4)	3 2100429_Fobs 3.804(5)	3 2100429_Fobs 3.805(5)	1 2100429_Fobs 2.051(5)	1 2100429_Fobs 2.174(6)	1 2100429_Fobs 2.187(10)	1 2100429_Fobs 2.050(5)	1 2100429_Fobs 2.011(5)	1 2100429_Fobs 2.000(5)	1 2100429_Fobs 1.915(6)	1 2100429_Fobs 1.911(13)
+_geom_bond_distance_min	0.002	69	69.00	69	69 2100429_Fobs {1.734 - 2.775}
+_geom_bond_publ_flag	0.011	34	72.17	123	224 2105811 no	209 2017665_Fobs yes
+_geom_bond_site_symmetry_2	0.025	2	16.21	56	213 2017665_Fobs {word}	14 2108129 {2 - 6}
+_geom_contact_atom_site_label_1	0.002	226	226.00	226	226 2219505_Fobs {word}
+_geom_contact_atom_site_label_2	0.002	226	226.00	226	226 2219505_Fobs {word}
+_geom_contact_distance	0.002	226	226.00	226	226 2219505_Fobs {2.429 - 3.595}
+_geom_contact_site_symmetry_2	0.002	198	198.00	198	36 2219505_Fobs 3_565	32 2219505_Fobs 3_666	17 2219505_Fobs 4_455	17 2219505_Fobs 4_554	15 2219505_Fobs 1_455	15 2219505_Fobs 1_655	13 2219505_Fobs 3_665	10 2219505_Fobs 2_645	10 2219505_Fobs 2_655	9 2219505_Fobs 3_566	8 2219505_Fobs 2_545	8 2219505_Fobs 2_555	4 2219505_Fobs 4_454	4 2219505_Fobs 4_555
+_geom_hbond_angle_DHA	0.014	1	2.75	4	22 2021020 {116.2 - 177}
+_geom_hbond_atom_site_label_A	0.014	1	2.75	4	5 2105812 N1	2 2105811 Cl1	2 2215245_Fobs O1	2 2240837 O2	2 2215245_Fobs O3	2 2215245_Fobs O4	2 2021020 O5a	1 2105812 O11	1 2105812 O12	1 2021020 O3a	1 2021020 O3b	1 2105812 O5
+_geom_hbond_atom_site_label_D	0.014	1	2.75	4	3 2240837 O1	2 2215245_Fobs C4	2 2021020 C11a	1 2215245_Fobs N1	1 2105812 O9	1 2105812 O7	1 2105812 O6	1 2105811 O55	1 2242404 O2	1 2105812 O12	1 2105811 N7	1 2021020 C5a	1 2242404 C2	1 2237882_Fobs C19	1 2215245_Fobs C17	1 2215245_Fobs C15	1 2215248_Fobs C14	1 2021020 C13a
+_geom_hbond_atom_site_label_H	0.014	1	2.75	4	22 2021020 {word}
+_geom_hbond_distance_DA	0.014	1	2.75	4	22 2021020 {2.696 - 3.553}
+_geom_hbond_distance_DH	0.014	1	2.75	4	4 2021020 1.00	2 2242404 0.82	2 2242404 0.93	1 2215245_Fobs 0.91	1 2215248_Fobs 1.045(5)	1 2237882_Fobs 0.99	1 2215245_Fobs 0.97	1 2105811 0.952(16)	1 2215245_Fobs 0.92	1 2105812 0.91(2)	1 2105812 0.807(17)	1 2215245_Fobs 0.89	1 2105812 0.874(19)	1 2105811 0.867(12)	1 2240837 0.820(18)	1 2105812 0.82(2)	1 2240837 0.814(18)
+_geom_hbond_distance_HA	0.014	1	2.75	4	22 2021020 {1.911 - 2.79}
+_geom_hbond_publ_flag	0.005	1	2.33	4	6 2105811 no	1 2215248_Fobs yes
+_geom_hbond_site_symmetry_A	0.007	1	2.50	4	2 2021020 1_545	2 2215245_Fobs 3_565	1 2240837 2_657	1 2021020 3_556	1 2215245_Fobs 3_665	1 2215248_Fobs 3_775	1 2021020 4_457	1 2215245_Fobs 4_576
+_geom_hbond_site_symmetry_D	0.002	4	4.00	4	2 2242404 3_665	1 2242404 3_766	1 2242404 4_475
+_geom_torsion	0.027	2	71.00	297	1065 1542452 {-180 - 180}
+_geom_torsion_atom_site_label_1	0.027	2	71.00	297	1065 1542452 {word}
+_geom_torsion_atom_site_label_2	0.027	2	71.00	297	1065 1542452 {word}
+_geom_torsion_atom_site_label_3	0.027	2	71.00	297	1065 1542452 {word}
+_geom_torsion_atom_site_label_4	0.027	2	71.00	297	1065 1542452 {word}
+_geom_torsion_site_symmetry_1	0.005	2	5.33	12	4 2219505_Fobs 2_545	4 2219505_Fobs 4_555	2 2219505_Fobs 2_555	2 2219385_Fobs 2_655	2 2219505_Fobs 4_454	2 2240837 6_565
+_geom_torsion_site_symmetry_3	0.002	8	8.00	8	4 2219505_Fobs 2_545	4 2219505_Fobs 4_555
+_geom_torsion_site_symmetry_4	0.004	2	6.00	10	4 2219505_Fobs 2_545	4 2219505_Fobs 4_555	2 2219385_Fobs 2_655	1 2219505_Fobs 2_555	1 2219505_Fobs 4_454
+_gsas_exptl_extinct_corr_T_max	0.055	1	1.00	1	31 4309913 1.00000
+_gsas_exptl_extinct_corr_T_min	0.055	1	1.00	1	31 4309913 1.00000
+_gsas_exptl_extinct_corr_t_max	0.120	1	1.00	1	67 4100306 1.00000
+_gsas_exptl_extinct_corr_t_min	0.120	1	1.00	1	67 4100306 1.00000
+_gsas_i100_meas	0.434	14	707.54	3793	171933 2013056_Fobs {0 - 100.12}
+_hkl_oxdiff_ba	0.004	8714	29761.00	50808	15226 4334258 1	10346 4334258 2	8543 4334258 4	8495 4334258 3	8494 4334258 5	8418 4334258 6
+_hkl_oxdiff_f2	0.004	8714	29761.00	50808	59522 4334258 {-450.896 - 134934}
+_hkl_oxdiff_h	0.004	8714	29761.00	50808	59522 4334258 {-18 - 18}
+_hkl_oxdiff_k	0.004	8714	29761.00	50808	59522 4334258 {-39 - 39}
+_hkl_oxdiff_l	0.004	8714	29761.00	50808	59522 4334258 {-47 - 47}
+_hkl_oxdiff_sig	0.004	8714	29761.00	50808	59522 4334258 {3.87867 - 1918.67}
+_i_f_calc_maximum	0.002	1	1.00	1	1 2013491_Fobs 137.77
+_i_f_squared_multiplier	0.002	1	1.00	1	1 2013491_Fobs 1.000
+_i_refln_list_code	0.002	1	1.00	1	1 2013491_Fobs 4
+_i_title	0.002	1	1.00	1	1 2013491_Fobs 1,2,4,5-cyclohexanetetracarboxylic acid
+_ii_f_calc_maximum	0.002	1	1.00	1	1 2013492_Fobs 108.83
+_ii_f_squared_multiplier	0.002	1	1.00	1	1 2013492_Fobs 1.000
+_ii_refln_list_code	0.002	1	1.00	1	1 2013492_Fobs 4
+_ii_title	0.002	1	1.00	1	1 2013492_Fobs  1,2,4,5-cyclohexanetetracalboxylic dianhydride
+_iucr_geom_hbonds_special_details	0.002	1	1.00	1	1 2242404 {text}
+_iucr_refine_fcf_details	0.004	1	1.00	1	2 2020937 {text}
+_iucr_refine_instructions_details	0.013	1	1.00	1	7 2108128 {text}
+_iucr_refine_reflections_details	0.005	1	1.00	1	3 2108527 {text}
+_jana_refln_twin_domain	0.043	164	6212.79	81255	54076 2018922_Fobs 1	36037 2018922_Fobs -2	27030 2018922_Fobs -3	13675 2018922_Fobs -4	10377 2018922_Fobs -5	7912 2019540 2
+_journal_coden_ASTM	0.043	1	1.00	1	20 4100306 JACSAT	4 2006467 ACSCEE
+_journal_coeditor_code	62.488	1	1.00	1	34957 2004998_Fobs {word}
+_journal_coeditor_notes	0.004	1	1.00	1	1 2213921_Fobs   ?	1 2011161_Fobs  ?
+_journal_issue	82.639	1	1.00	1	4551 2004231_Fobs 12	4149 2003739_Fobs 8	4094 2003032_Fobs 6	4050 1100908 11	4014 2003649_Fobs 7	3914 2002995_Fobs 5	3823 2002915_Fobs 2	3695 2002932_Fobs 4	3598 2003931_Fobs 9	3556 2002925_Fobs 1	3498 2003995_Fobs 10	3267 2002947_Fobs 3	10 I2MB_T_p_01 24	4 4105040 37	4 4109804 33	2 4100306 40	1 4101528 27
+_journal_name_full	82.988	1	1.00	1	4 2006467 {text}	46421 1100908 {line}
+_journal_page_first	82.979	1	1.00	1	42794 1100908 {word}	3626 1519649 {1 - 16212}
+_journal_page_last	48.994	1	1.00	1	23785 1100908 {word}	3623 1519649 {4 - 16224}
+_journal_paper_doi	0.100	1	1.00	1	56 1100908 {word}
+_journal_techeditor_notes	0.005	1	1.00	1	2 2011161_Fobs  ?	1 2213921_Fobs   ?
+_journal_volume	82.979	1	1.00	1	46420 1100908 {2 - 134}
+_journal_year	82.941	1	1.00	1	46399 1100908 {1967 - 2019}
+_observed_status	0.004	2798	6119.50	9441	6333 2003165_Fobs o	5906 2003165_Fobs &lt;
+_olex2_date_sample_data_collection	0.004	1	1.00	1	1 2242404 2017-12-15	1 2240428 6-17-13
+_olex2_date_sample_submission	0.002	1	1.00	1	1 2240428 11-23-14
+_olex2_refinement_description	0.011	1	1.00	1	6 2237882_Fobs {text}
+_olex2_submission_original_sample_id	0.002	1	1.00	1	1 2240428 maxk2
+_olex2_submission_special_instructions	0.009	1	1.00	1	5 2240428 No special instructions were received
+_oxdiff_exptl_absorpt_empirical_details	0.002	1	1.00	1	1 2242404 {text}
+_oxdiff_exptl_absorpt_empirical_full_max	0.002	1	1.00	1	1 2242404 1.429
+_oxdiff_exptl_absorpt_empirical_full_min	0.002	1	1.00	1	1 2242404 0.737
+_oxford_structure_analysis_title	0.061	1	1.00	1	34 2104639_Fobs {line}
+_pd_block_diffractogram_id	0.002	1	1.00	1	1 4104626 TCMP_dimer_profile
+_pd_block_id	0.542	1	1.00	1	88 BL2810_p_01 {line}	215 1518798 {word}
+_pd_calc_intensity_net	0.166	782	6290.85	38914	585049 1518798 {0 - 348771}
+_pd_calc_intensity_total	0.644	130	4782.14	52408	1721571 1543051 {-23.6 - 908563}
+_pd_calc_method	0.409	1	1.00	1	216 2020388 Rietveld Refinement	13 2107462    Rietveld Refinement
+_pd_calibration_special_details	0.064	1	1.00	1	16 4309913 {text}	20 DRP053__EX_POL_RT_SJ_p_01 {line}
+_pd_char_colour	0.023	1	1.00	1	4 4109804 dark grey	3 4311660 White	2 2105811 colourless	2 2021020 white	1 2108251 dark blue	1 2108247 pale brown-pink
+_pd_instr_dist_mono/spec	0.005	1	1.00	1	3 2020388 130
+_pd_instr_dist_spec/detc	0.005	1	1.00	1	2 2020388 173	1 FINAL_p_03 130
+_pd_instr_dist_src/mono	0.005	1	1.00	1	3 2020388 260
+_pd_instr_location	0.091	1	1.00	1	15 4309913 {text}	36 2020388 {line}
+_pd_instr_radiation_probe	0.206	1	1.00	1	104 4310585_4310586 neutron	11 4115657 x-ray
+_pd_meas_2theta	0.002	6474	6474.00	6474	6474 4335253 {5.05897 - 90.0495}
+_pd_meas_2theta_fixed	0.104	1	1.00	1	12 DRP053__EX_POL_RT_SJ_p_05 90.00	11 DRP053__EX_POL_RT_SJ_p_04 145.00	11 DRP053__EX_POL_RT_SJ_p_01 35.00	4 NEUTRON_FD3_2_p_08 154.4	4 NEUTRON_FD3_2_p_04 63.62	4 NEUTRON_FD3_2_p_05 91.3	2 4117483 168.33	2 NEUTRON_FD3_2_p_02 17.98	2 I2MB_T_p_04 34.96	2 BA3BIIR2O9_70K_p_02 89.58	1 TCO2_295K_HIPD_12-1-_p_02 -153.00	1 TCO2_295K_HIPD_12-1-_p_04 -90.00	1 FINAL_p_01 152.00	1 4109804 153.00
+_pd_meas_2theta_range_inc	0.202	1	1.00	1	113 2020388 {0.001 - 5}
+_pd_meas_2theta_range_max	0.202	1	1.00	1	113 2020388 {0 - 180}
+_pd_meas_2theta_range_min	0.202	1	1.00	1	113 2020388 {0 - 18.008}
+_pd_meas_2theta_scan	0.027	40	17026.33	64494	255395 1543051 {0.5 - 120}
+_pd_meas_counts	0.005	1280	2174.00	3498	6522 2300615 {0 - 24263}
+_pd_meas_counts_total	0.168	564	4597.19	30464	432136 2020388 {-37600 - 879596}
+_pd_meas_intensity	0.002	6474	6474.00	6474	6474 4335253 {60 - 6867}
+_pd_meas_intensity_sigma	0.004	130	249.50	369	499 2012968_Fobs {0.001 - 70.748}
+_pd_meas_intensity_total	0.424	130	7470.12	67691	2 I2MB_T_p_06 {word}	1770417 2012968_Fobs {-0.00163 - 748000}
+_pd_meas_number_of_points	0.551	1	1.00	1	308 2020388 {0 - 49495}
+_pd_meas_point_id	0.004	1800	4137.00	6474	8274 4101988 {1 - 6474}
+_pd_meas_scan_method	0.034	1	1.00	1	9 2020388 step	5 2108246 cont	4 4109804 tof	1 FINAL_p_01 TOF
+_pd_meas_special_details	0.055	1	1.00	1	15 4309913 {text}	16 DRP053__EX_POL_RT_SJ_p_01 {line}
+_pd_meas_time_of_flight	0.266	1148	3744.59	5897	557944 DRP053__EX_POL_RT_SJ_p_01 {1000 - 135554}
+_pd_phase_block_id	0.375	1	2.79	5	16 BL2810_p_01 {line}	569 4100306 {word}
+_pd_phase_id	0.370	1	2.82	5	203 4100306 1	154 NEUTRON_FD3_2_p_02 2	139 DRP053__EX_POL_RT_SJ_p_01 3	47 4105040 4	37 DRP053__EX_POL_RT_SJ_p_01 5	4 4105040 6
+_pd_phase_mass_%	0.147	1	2.82	5	231 4100306 {0.13 - 100}
+_pd_phase_name	0.011	1	1.00	1	3 4311660 Li2BeD4	1 4310588 CDCLPO3C2N	1 2021812 form III Pac21 MSL	1 2021811 form III Pc SML 100K
+_pd_prep_pressure	0.007	1	1.00	1	4 4109804 101.325
+_pd_prep_temperature	0.014	1	1.00	1	4 4105040 180	4 4109804 973
+_pd_proc_2theta_corrected	0.220	782	7164.02	64494	881175 1518798 {0.4923 - 164.825}
+_pd_proc_2theta_range_inc	0.209	1	1.00	1	117 1543051 {0.002 - 5}
+_pd_proc_2theta_range_max	0.211	1	1.00	1	118 1543051 {-0.04 - 180}
+_pd_proc_2theta_range_min	0.211	1	1.00	1	118 1543051 {-0.103218 - 18.277}
+_pd_proc_d_spacing	0.277	643	3545.59	9809	549566 2107284 {0.149346 - 20.0469}
+_pd_proc_info_data_reduction	0.007	1	1.00	1	4 4109804 Used FITSPEC to normalize data
+_pd_proc_info_datetime	0.384	1	1.00	1	37 4115657 {line}	178 2020388 {word}
+_pd_proc_info_excluded_regions	0.089	1	1.00	1	15 4309913 {text}	35 2020388 {line}
+_pd_proc_intensity_bkg_calc	0.417	563	5537.79	52697	1290304 1543367 {-4.49815e+15 - 1.15879e+15}
+_pd_proc_intensity_calc_bkg	0.202	1148	3311.65	13333	374216 4115456 {-1.1257 - 105455}
+_pd_proc_intensity_net	0.179	782	6497.03	38914	649703 1518798 {-308.024 - 351900}
+_pd_proc_intensity_total	0.063	1250	5075.83	14150	177654 1543051 {0.096 - 758350}
+_pd_proc_ls_background_function	0.207	1	1.00	1	100 2020388 {text}	16 2021020 {line}
+_pd_proc_ls_peak_cutoff	0.204	1	2.36	5	143 2020388 0.00100	57 4105040 0.00050	20 YBFO8_p_02 0.05000	17 NEUTRON_FD3_2_p_04 0.00010	17 4100306 0.01000	13 2107462 0.00500	1 FINAL_p_01 0.00020	1 FINAL_p_03 0.00200
+_pd_proc_ls_pref_orient_corr	0.025	1	2.64	4	34 4100306 {text}	3 2021020 {word}
+_pd_proc_ls_prof_R_factor	0.415	1	1.00	1	5 4300179 {word}	227 2020388 {0.0126 - 9.0462}
+_pd_proc_ls_prof_chi2	0.023	1	1.00	1	1 2108251 1.3335	1 2108247 1.4307	1 2108246 1.6060	1 2108248 1.8335	1 2300576 12.8345	1 2108249 16.8175	1 3500039 3.3256	1 2107462 6.6199	1 2108250 6.8952	1 2300579 7.0280	1 2241524 7.9331	1 2300578 8.5282	1 2300577 9.8478
+_pd_proc_ls_prof_cr_factor	0.023	1	1.00	1	1 2107462 11.3386	1 2300577 14.9656	1 2300576 15.3296	1 2108250 15.3683	1 2300579 17.7082	1 2300578 17.8834	1 3500039 20.1869	1 2241524 27.1634	1 2108248 29.0658	1 2108246 41.5230	1 2108247 50.4154	1 2108249 9.9343	1 2108251 93.4410
+_pd_proc_ls_prof_cwr_expected	0.023	1	1.00	1	1 2108249 1.8142	1 2108248 15.5097	1 2108246 16.2518	1 2108251 19.3613	1 2108247 21.0048	1 2300576 4.1094	1 2107462 4.3217	1 2300577 4.3733	1 2108250 4.7984	1 2300578 5.0629	1 2300579 5.3761	1 2241524 9.2274	1 3500039 9.9647
+_pd_proc_ls_prof_cwr_factor	0.023	1	1.00	1	1 2107462 11.1194	1 2108250 12.6000	1 2300577 13.7238	1 2300579 14.2522	1 2300576 14.7221	1 2300578 14.7853	1 3500039 18.1720	1 2108246 20.5957	1 2108248 21.0014	1 2108251 22.3581	1 2108247 25.1245	1 2241524 25.9897	1 2108249 7.4400
+_pd_proc_ls_prof_echi2	0.023	1	1.00	1	1 2108251 1.3454	1 2108247 1.4527	1 2108246 1.6469	1 2108248 1.8490	1 2300576 12.8345	1 2108249 16.6669	1 3500039 3.8470	1 2107462 6.8460	1 2108250 6.9180	1 2300579 7.0406	1 2241524 7.9331	1 2300578 8.5488	1 2300577 9.8478
+_pd_proc_ls_prof_wR_expected	0.413	1	1.00	1	5 4300179 {word}	226 2020388 {0.0047 - 5.1369}
+_pd_proc_ls_prof_wR_factor	0.415	1	1.00	1	5 4300179 {word}	227 2020388 {0.0092 - 12.0057}
+_pd_proc_ls_profile_function	0.209	1	2.32	5	256 2020388 {text}	15 2105811 {line}	1 2021020 {word}
+_pd_proc_ls_weight	0.738	563	5300.15	52697	2188960 1518798 {0 - 2.93745e+07}
+_pd_proc_number_of_points	0.572	1	1.00	1	320 2020388 {1148 - 49495}
+_pd_proc_point_id	0.188	782	5736.07	38914	602287 1542840 {1 - 38914}
+_pd_proc_wavelength	0.018	1	1.00	1	9 1543051 1.54056	1 2019941 1.5418
+_pd_refln_d_spacing	0.002	279	279.00	279	279 4101988 {1.57255 - 8.92146}
+_pd_refln_i100_meas	0.198	9	205.90	1059	22855 4115657 {0 - 100}
+_pd_refln_id	0.002	1663	1663.00	1663	1663 4335253 {1 - 1663}
+_pd_refln_index_h	0.195	9	206.11	1059	4072 4300179 2	3697 4300179 3	3528 4300179 4	3475 4300179 1	2515 4300179 5	1961 4300179 0	1811 4300182 6	788 4300182 7	395 4300182 8	118 4300182 9	70 4300182 10	26 4300182 11	9 4313231 12	1 4313231 13
+_pd_refln_index_k	0.195	9	206.11	1059	22466 4300179 {0 - 24}
+_pd_refln_index_l	0.195	9	206.11	1059	22466 4300179 {-9 - 13}
+_pd_refln_phase_id	0.438	9	596.29	6050	88277 2016169_Fobs 1	26299 2016169_Fobs 2	15820 2016169_Fobs 3	12912 2016169_Fobs 4	1722 2016169_Fobs 6	1060 2016169_Fobs 5
+_pd_refln_wavelength_id	0.084	22	582.49	3548	14267 2016169_Fobs 1	13110 2016169_Fobs 2
+_pd_spec_mount_mode	0.025	1	1.00	1	7 2108246 reflection	7 2020388 transmission
+_pd_spec_mounting	0.091	1	1.00	1	15 4309913 {text}	36 2020388 {line}
+_pd_spec_shape	0.032	1	1.00	1	9 2021020 cylinder	7 2108246 irregular	2 2020388 flat_sheet
+_pd_spec_size_axial	0.021	1	1.00	1	9 2105811 10	2 2020388 8	1 2108248 15
+_pd_spec_size_equat	0.021	1	1.00	1	3 2108247 10	3 2108246 5	2 2105811 1	2 2020388 8	1 2105812 0.7	1 2108248 15
+_pd_spec_size_thick	0.016	1	1.00	1	7 2108246 0.1	1 2105812 0.7	1 2105811 1
+_publ_author_name	83.023	1	3.71	25	172056 1100908 {line}	252 2008071_Fobs {word}
+_publ_contact_author	0.088	1	1.00	1	23 2011161_Fobs {text}	26 4320485 {line}
+_publ_contact_author_address	0.091	1	1.00	1	40 1542452 {text}	11 2108128 {line}
+_publ_contact_author_email	0.254	1	1.00	1	9 4309913 {line}	133 1542452 {word}
+_publ_contact_author_fax	0.163	1	1.00	1	59 2010713_Fobs {line}	32 2015276_Fobs {word}
+_publ_contact_author_name	0.163	1	1.00	1	1 4315781 {text}	82 1542452 {line}	8 4310585_4310586 {word}
+_publ_contact_author_phone	0.172	1	1.00	1	66 2010713_Fobs {line}	26 2015276_Fobs {word}	4 1542452 {6.6848e+09 - 3.90117e+11}
+_publ_section_exptl	0.002	1	1.00	1	1 2240428 {text}
+_publ_section_keywords	0.009	1	1.00	1	5 1542452 {text}
+_publ_section_related_literature	0.007	1	1.00	1	4 1542452 {text}
+_publ_section_title	83.000	1	1.00	1	46432 1100908 {text}
+_publ_section_title_footnote	0.002	1	1.00	1	1 2213921_Fobs   ?
+_publcif_datablock.id	0.009	1	1.00	1	1 2240256 {177444a1-a6c5-4c12-9000-1fb1c46d0d4b}	1 2242404 {1eabab0e-05e6-49dd-b377-a6df6b5e513e}	1 2240837 {67e69a6d-8c1d-4081-97d9-5af64d768e22}	1 1542452 {816b25b6-cd4d-49b9-9a95-f96b6e7582d0}	1 2242068 {99a8367a-d69b-4d8a-a6aa-5a0da8f54fb7}
+_publcif_funding_html	0.002	1	1.00	1	1 2242404 {text}
+_publcif_info_cif.paper_type	0.009	1	1.00	1	3 2240837 EE	2 1542452 E
+_publcif_info_datablock.id	0.007	1	1.00	1	1 2242404 {1eabab0e-05e6-49dd-b377-a6df6b5e513e}	1 2240837 {67e69a6d-8c1d-4081-97d9-5af64d768e22}	1 1542452 {816b25b6-cd4d-49b9-9a95-f96b6e7582d0}	1 2242068 {99a8367a-d69b-4d8a-a6aa-5a0da8f54fb7}
+_publcif_info_datablock.publ_exptl	0.007	1	1.00	1	4 1542452 y
+_publcif_info_datablock.publ_geom	0.007	1	1.00	1	4 1542452 y
+_publcif_info_datablock.structure	0.007	1	1.00	1	4 1542452 y
+_publcif_info_exptl_table_extra_item	0.007	1	1.00	1	4 1542452 sin_theta_over_lambda_max
+_publcif_info_exptl_table_header_item	0.002	1	1.00	1	1 2240837 Datablock_name
+_publcif_info_exptl_table_max_cols	0.007	1	1.00	1	3 1542452 4	1 2240837 5
+_publcif_info_exptl_table_use_headnotes	0.007	1	1.00	1	4 1542452 n
+_publcif_info_tables.block_id	0.005	1	1.67	3	3 2240837 {67e69a6d-8c1d-4081-97d9-5af64d768e22}	1 2242404 {1eabab0e-05e6-49dd-b377-a6df6b5e513e}	1 2242068 {99a8367a-d69b-4d8a-a6aa-5a0da8f54fb7}
+_publcif_info_tables.reference_item	0.005	1	1.67	3	3 2240837 _publcif_info_datablock.publ_exptl	1 2240837 _geom_extra_table_headA	1 2240837 _geom_hbond_atom_site_label_D
+_refine_diff_density_max	0.048	1	1.00	1	27 1519943 {0.199 - 3.78}
+_refine_diff_density_min	0.048	1	1.00	1	27 1519943 {-5.07 - -0.17}
+_refine_diff_density_rms	0.032	1	1.00	1	2 2214695_Fobs 0.074	1 2242404 0.073	1 2300387_Fobs 0.289	1 1519943 0.134	1 2108129 0.131	1 2300368_Fobs 0.094	1 2242068 0.089	1 2300365_Fobs 0.081	1 2108128 0.075	1 2237882_Fobs 0.036	1 2241396 0.071	1 2215591_Fobs 0.069	1 2240837 0.058	1 2219385_Fobs 0.052	1 2240428 0.050	1 1542452 0.046	1 2215248_Fobs 0.043
+_refine_ls_R_Fsqd_factor	0.179	1	1.00	1	100 2020388 {0.01768 - 0.72689}
+_refine_ls_R_I_factor	0.004	1	1.00	1	1 2105812 0.008	1 2105811 0.030
+_refine_ls_R_factor_all	0.043	1	1.00	1	24 1519943 {0.0091 - 0.1631}
+_refine_ls_R_factor_gt	0.050	1	1.00	1	28 1519943 {0.0088 - 0.0703}
+_refine_ls_abs_structure_Flack	0.011	1	1.00	1	1 2300369_Fobs -0.01(3)	1 2300368_Fobs -0.07(4)	1 2108128 0.009(7)	1 2108129 0.014(8)	1 2300365_Fobs 0.09(2)	1 2108227 0.505(7)
+_refine_ls_abs_structure_details	0.011	1	1.00	1	2 2108128 {text}	4 2108227 {line}
+_refine_ls_extinction_coef	0.020	1	1.00	1	1 2219385_Fobs 0.00016(4)	1 2007094_Fobs 0.00023(5)	1 2237882_Fobs 0.0043(3)	1 2300369_Fobs 0.031(3)	1 2300387_Fobs 0.0347(5)	1 2100429_Fobs 0.069(3)	1 2300365_Fobs 0.226(6)	1 2300368_Fobs 0.275(11)	1 2010771_Fobs 0.393(13)	1 2017665_Fobs 340(30)	1 2108227 420(160)
+_refine_ls_extinction_expression	0.013	1	1.00	1	6 2219385_Fobs Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^	1 2007094_Fobs Fc^*^=kFc[1+0.001xFc^2^l^3^/sin(2q)]^-1/4^
+_refine_ls_extinction_method	0.064	1	1.00	1	25 1519943 none	7 2007094_Fobs SHELXL	2 2100429_Fobs B-C type 1 Lorentzian isotropic (Becker &amp; Coppens, 1974)	1 2017665_Fobs B-C type 1 Gaussian isotropic (Becker &amp; Coppens, 1974)	1 2010771_Fobs SHELXL97
+_refine_ls_goodness_of_fit_all	0.059	1	1.00	1	6 4117532_diffractogram_1 1.03	5 I2MB_T_p_01 2.56	5 IMMA_T_p_01 2.63	4 4105040 1.46	4 4109804 1.58	2 4117484 2.03	2 4117483 2.28	2 4100306 3.42	1 2021020 1.35	1 2105812 1.535	1 2105811 2.254
+_refine_ls_goodness_of_fit_gt	0.009	1	1.00	1	1 2108227 1.32	1 2017665_Fobs 1.40	1 2108242 2.06	1 2100429_Fobs 2.32	1 2105046_Fobs 2.63
+_refine_ls_goodness_of_fit_ref	0.048	1	1.00	1	27 1519943 {0.856 - 2.61}
+_refine_ls_hydrogen_treatment	0.038	1	1.00	1	9 2021020 constr	9 1519943 mixed	3 2105811 refall
+_refine_ls_matrix_type	0.095	1	1.00	1	51 1519943 full	2 2105811 fullcycle
+_refine_ls_number_constraints	0.011	1	1.00	1	3 2017665_Fobs 0	1 2108242 119	1 2021020 182	1 2108227 2
+_refine_ls_number_parameters	0.107	1	1.00	1	60 1519943 {16 - 648}
+_refine_ls_number_reflns	0.048	1	1.00	1	27 1519943 {279 - 10373}
+_refine_ls_number_restraints	0.102	1	1.00	1	36 1519943 0	12 1542452 6	4 4105040 18	1 2021020 132	1 2240837 2	1 2105811 201	1 2105812 359	1 2108128 9
+_refine_ls_restrained_S_all	0.038	1	1.00	1	21 1519943 {0.856 - 1.22}
+_refine_ls_shift/su_max	0.107	1	1.00	1	10 I2MB_T_p_01 0.04	9 1519943 0.000	9 2016709_Fobs 0.001	6 4117532_diffractogram_1 0.06	6 4100306 0.01	4 4105040 0.07	2 4117484 2.39	2 2211559_Fobs 0	2 4117483 1.80	2 2241396 0.002	1 2108242 0.0171	1 2017665_Fobs 0.0236	1 2021020 0.0383	1 2219385_Fobs 0.011	1 2108227 0.0483	1 2100429_Fobs 0.0059	1 2105046_Fobs 0.0002	1 2219505_Fobs 0.0000
+_refine_ls_shift/su_mean	0.097	1	1.00	1	17 1519943 0.000	14 I2MB_T_p_01 0.00	12 4100306 0.01	2 4117484 0.09	2 4117483 0.28	1 2105046_Fobs 0.0000	1 2219385_Fobs 0.001	1 2100429_Fobs 0.0010	1 2108242 0.0018	1 2017665_Fobs 0.0025	1 2021020 0.0033	1 2108227 0.0078
+_refine_ls_structure_factor_coef	0.048	1	1.00	1	24 1519943 Fsqd	3 2100429_Fobs F
+_refine_ls_wR_factor_all	0.002	1	1.00	1	1 2021020 0.0706
+_refine_ls_wR_factor_gt	0.043	1	1.00	1	24 1519943 {0.0211 - 0.1461}
+_refine_ls_wR_factor_ref	0.048	1	1.00	1	27 1519943 {0.0211 - 0.1824}
+_refine_ls_weighting_details	0.048	1	1.00	1	1 2237882_Fobs {text}	21 1519943 {line}	5 2017665_Fobs {word}
+_refine_ls_weighting_scheme	0.054	1	1.00	1	22 1519943 calc	8 2017665_Fobs sigma
+_refln_10*f_calc	0.005	1703	1833.67	1928	178 2010637_Fobs {word}	5323 2010637_Fobs {-9 - 2753}
+_refln_10*f_meas	0.005	1703	1833.67	1928	178 2010637_Fobs {word}	5323 2010637_Fobs {-9 - 2871}
+_refln_10*f_sigm	0.004	1703	1786.50	1870	120 2011567_Fobs {word}	3453 2011567_Fobs {-9 - 2257}
+_refln_10f_calc	0.002	1682	1682.00	1682	1682 2010581_Fobs {69 - 3215}
+_refln_10f_meas	0.002	1682	1682.00	1682	1682 2010581_Fobs {5 - 3283}
+_refln_2theta	0.002	1663	1663.00	1663	1663 4335253 {7.45 - 89.975}
+_refln_A_calc	0.299	180	4556.86	38517	760995 1513570 {-5098.94 - 4811.23}
+_refln_B_calc	0.299	180	4556.86	38517	760995 1513570 {-848.263 - 711.808}
+_refln_F_calc	1.673	33	3686.24	43173	4885 2004620_Fobs {word}	3445435 1513566 {-3197 - 30797.5}
+_refln_F_meas	1.410	33	3896.20	43173	144 2006104_Fobs {word}	3073958 1513570 {-175 - 97983.1}
+_refln_F_sigma	1.348	44	3963.51	43173	1189 2004620_Fobs {word}	2987296 1513570 {-29 - 15146}
+_refln_F_squared_calc	97.229	1	4042.59	95898	5795 2006097_Fobs {word}	219878797 1100908 {-129979 - 9.09086e+07}
+_refln_F_squared_meas	97.939	1	4072.51	384190	5520 2006097_Fobs {word}	223123417 1100908 {-149596 - 1.47484e+08}
+_refln_F_squared_sigma	96.972	1	4105.02	384190	3835 2006097_Fobs {word}	222685175 1100908 {-5885.51 - 3.80385e+08}
+_refln_d_spacing	0.547	14	925.98	14225	115 2300624 {word}	283235 1543903 {-9 - 69403.5}
+_refln_f_10*sigm	0.002	1928	1928.00	1928	58 2010637_Fobs {word}	1870 2010637_Fobs {-9 - 806}
+_refln_f_a	0.002	5127	5127.00	5127	1 2103479_Fobs {word}	5126 2103479_Fobs {-349.931 - 355.311}
+_refln_f_b	0.002	5127	5127.00	5127	1 2103479_Fobs {word}	5126 2103479_Fobs {-246.343 - 292.158}
+_refln_f_calc_	0.002	2989	2989.00	2989	2989 2006929_Fobs {1 - 3434}
+_refln_f_ext	0.002	5127	5127.00	5127	5126 2103479_Fobs 1.000	1 2103479_Fobs ext
+_refln_f_fofc	0.002	5127	5127.00	5127	1 2103479_Fobs {word}	5126 2103479_Fobs {-89.1058 - 22.2394}
+_refln_f_imag	0.002	40	40.00	40	40 7226121 {-76.584 - 76.584}
+_refln_f_meas_friedel	0.014	2328	4444.38	7785	35555 2010930_Fobs {0 - 1255.63}
+_refln_f_meas_sigma	0.002	5127	5127.00	5127	1 2103479_Fobs {word}	5126 2103479_Fobs {0.2113 - 6.2547}
+_refln_f_nref	0.002	5127	5127.00	5127	239 2103479_Fobs {word}	4888 2103479_Fobs {1 - 5126}
+_refln_f_obs	0.004	156	1004.50	1853	728 2004620_Fobs {word}	1281 2004620_Fobs {1 - 1654}
+_refln_f_real	0.002	40	40.00	40	40 7226121 {-582.693 - 571.86}
+_refln_f_sigma_friedel	0.014	2328	4444.38	7785	35555 2010930_Fobs {0.017 - 80.945}
+_refln_f_sinthl	0.002	5127	5127.00	5127	1 2103479_Fobs {word}	5126 2103479_Fobs {0.037359 - 1.22036}
+_refln_f_squared_\s	0.002	2291	2291.00	2291	2291 2225002_Fobs {3.87 - 1024.88}
+_refln_f_squared_calc_comp1	0.009	3692	12313.60	30485	61568 2016357_Fobs {-1 - 110797}
+_refln_f_squared_calc_comp2	0.009	3692	12313.60	30485	61568 2016357_Fobs {-1 - 93820.5}
+_refln_f_squared_meas_friedel	0.005	2676	3051.33	3239	222 2010930_Fobs {word}	8932 2010930_Fobs {0 - 998893}
+_refln_f_squared_sigma_friedel	0.005	2676	3051.33	3239	9154 2010930_Fobs {5.316 - 98407.1}
+_refln_f_squared_weight	0.007	2913	4098.00	5512	16392 1551405 {0 - 13683.7}
+_refln_include_status	0.007	1098	2519.00	5017	8353 2014158_Fobs o	1723 2014158_Fobs &lt;
+_refln_index_h	99.187	1	4078.51	384190	3046 2004620_Fobs {word}	226301226 1100908 {-7265.67 - 2.47805e+06}
+_refln_index_k	99.187	1	4078.51	384190	1487 2004620_Fobs {word}	226302777 1100908 {-5215.26 - 3.49757e+06}
+_refln_index_l	99.187	1	4078.51	384190	2183 2004620_Fobs {word}	226302067 1100908 {-5015.97 - 1.86636e+06}
+_refln_index_m	0.004	3546	4336.50	5127	5808 2103479_Fobs 0	1388 2103479_Fobs 1	563 2103479_Fobs -1	466 2103923_Fobs 3	319 2103923_Fobs 5	128 2103923_Fobs 7	1 2103479_Fobs m
+_refln_index_m_1	0.077	562	8207.09	88532	352905 2100428_Fobs {-15 - 11}
+_refln_index_m_2	0.007	1192	4816.25	8611	13021 2100428_Fobs 0	3130 2100428_Fobs 1	2636 2100428_Fobs -1	231 2104269_Fobs 2	209 4324909 -2	36 2104269_Fobs 3	2 2104269_Fobs 4
+_refln_index_n	0.002	3546	3546.00	3546	1615 2103923_Fobs 0	732 2103923_Fobs 1	631 2103923_Fobs 3	413 2103923_Fobs 5	155 2103923_Fobs 7
+_refln_intensity_calc	0.123	49	4560.55	40785	314678 2006286_Fobs {-130 - 1.12771e+06}
+_refln_intensity_meas	0.139	49	4807.17	40785	374959 2006286_Fobs {-749.4 - 963846}
+_refln_intensity_sigma	0.125	49	5337.86	40785	373650 2013324_Fobs {-150 - 115530}
+_refln_list_code	0.004	1	1.00	1	2 2106020 4
+_refln_mult	0.046	125	928.19	4790	14627 2100723_Fobs 4	6341 2104213_Fobs 8	1333 2021443 2	984 2021443 24	350 2021443 12	346 2108246 48	98 2300576 16	54 2021443 6
+_refln_nonius_diffracted_cos_astar	0.004	17241	17343.50	17446	34687 2214174_Fobs {-0.99998 - 0.99998}
+_refln_nonius_diffracted_cos_bstar	0.004	17241	17343.50	17446	34687 2214174_Fobs {-0.9903 - 0.6587}
+_refln_nonius_diffracted_cos_cstar	0.004	17241	17343.50	17446	34687 2214174_Fobs {-0.99795 - 0.99991}
+_refln_nonius_incident_cos_astar	0.004	17241	17343.50	17446	34687 2214174_Fobs {-0.99836 - 0.99595}
+_refln_nonius_incident_cos_bstar	0.004	17241	17343.50	17446	34687 2214174_Fobs {-0.99999 - 0.99996}
+_refln_nonius_incident_cos_cstar	0.004	17241	17343.50	17446	34687 2214174_Fobs {-0.99696 - 0.99286}
+_refln_observed_status	97.519	1	4029.75	95898	219756030 1100908 {word}	82968 2011083_Fobs {-3129.16 - 3.79822e+06}
+_refln_observed_status#	0.002	1388	1388.00	1388	1388 2011341_Fobs o
+_refln_phase_calc	1.623	9	1896.19	18849	1721745 1513566 {-180 - 360}
+_refln_phase_id	0.004	157	194.50	232	389 4115657 1
+_refln_refinement_status	0.014	1556	4236.88	8885	26328 2003133_Fobs incl	7567 2003133_Fobs excl
+_refln_refinement_weight	0.125	295	5485.19	39589	383963 1543126 {0 - 116.3}
+_refln_scale_group_code	0.068	237	7099.45	38065	269779 2002947_Fobs {-2 - 501}
+_refln_sint/lambda	0.284	699	13185.68	83949	2096523 1544579 {0.02205 - 104.966}
+_refln_status	0.002	279	279.00	279	279 4101988 o
+_refln_wavelength_id	0.002	1663	1663.00	1663	833 4335253 1	830 4335253 2
+_refln_xd_refine_code	0.138	2378	18226.66	83949	1202977 2015645_Fobs 0	163321 2015645_Fobs -2	26655 2104980_Fobs -4	8862 2015645_Fobs -3	1622 2104980_Fobs -6	9 4103814 -7	7 2019558 -1
+_reflns_Friedel_coverage	0.014	1	1.00	1	6 2237882_Fobs 0.000	1 2108129 0.716	1 2108128 0.790
+_reflns_Friedel_fraction_full	0.004	1	1.00	1	1 2108129 0.890	1 2108128 0.952
+_reflns_Friedel_fraction_max	0.004	1	1.00	1	1 2108129 0.770	1 2108128 0.902
+_reflns_d_resolution_high	94.770	1	1.00	1	53016 1100908 {0.2112 - 9999}
+_reflns_d_resolution_low	0.433	1	1.00	1	242 2016169_Fobs {0 - 25.161}
+_reflns_limit_h_max	0.431	1	1.00	1	241 2016169_Fobs {2 - 24}
+_reflns_limit_h_min	0.431	1	1.00	1	210 2016169_Fobs 0	31 4104916 1
+_reflns_limit_k_max	0.431	1	1.00	1	241 2016169_Fobs {2 - 63}
+_reflns_limit_k_min	0.431	1	1.00	1	226 2017951_Fobs 0	6 4117532_diffractogram_1 -5	4 I2MB_T_p_06 -64	2 2016169_Fobs -4	2 4100306 -8	1 2020388 -6
+_reflns_limit_l_max	0.431	1	1.00	1	241 2016169_Fobs {2 - 57}
+_reflns_limit_l_min	0.431	1	1.00	1	176 2240592 0	10 2017951_Fobs -11	9 DRP053__EX_POL_RT_SJ_p_04 -16	7 4101988 -12	7 2020388 -8	6 DRP053__EX_POL_RT_SJ_p_01 -6	5 4310585_4310586 -4	3 4300179 -3	3 2018117_Fobs -9	2 BL2810_p_03 -15	2 4117532_diffractogram_3 -17	2 4117483 -22	2 4117532_diffractogram_2 -28	2 4117532_diffractogram_1 -32	2 2020389 -7	2 4100306 -10	1 2016169_Fobs -5
+_reflns_number_gt	0.048	1	1.00	1	27 1519943 {274 - 6196}
+_reflns_number_observed	0.216	1	1.00	1	121 4112329 {0 - 1632}
+_reflns_number_total	0.270	1	1.00	1	151 1519943 {80 - 10373}
+_reflns_odcompleteness_completeness	0.004	1	1.00	1	1 2242404 99.67	1 2237882_Fobs 99.98
+_reflns_odcompleteness_iscentric	0.004	1	1.00	1	2 2237882_Fobs 1
+_reflns_odcompleteness_theta	0.004	1	1.00	1	1 2242404 26.32	1 2237882_Fobs 66.97
+_reflns_scale_group_code	0.007	1	1.00	1	4 2004538_Fobs 1
+_reflns_scale_meas_F	0.023	1	1.00	1	2 2218767_Fobs 1.0	1 2010641_Fobs .085957	1 2008210_Fobs .245591	1 2008208_Fobs .245666	1 2010642_Fobs .287903	1 2008209_Fobs .387194	1 2007264_Fobs .453802	1 2002947_Fobs .571762	1 2004539_Fobs 1.293607	1 2011150_Fobs 2.2157	1 2004538_Fobs 3.646554	1 2007364_Fobs 4.5774
+_reflns_sq3239_resolution_high	0.002	1	1.00	1	1 2017590_Fobs 0.8210
+_reflns_threshold_expression	0.048	1	1.00	1	9 1519943 >2sigma(I)	8 2108128 I > 2\s(I)	4 2100429_Fobs I>3\s(I)	3 2300365_Fobs >2\s(I)	2 2017665_Fobs I>2\s(I)	1 2219505_Fobs F^2^>2.0\s(F^2^)
+_shelx_F_calc_maximum	0.020	1	1.00	1	1 4025345 145.27	1 4025338 158.40	1 4320752 164.17	1 4025334 172.32	1 4025333 175.14	1 4322638 325.93	1 4320274 343.57	1 4321422 611.91	1 4025340 83.46	1 4025341 84.02	1 4025344 98.67
+_shelx_F_squared_multiplier	0.032	1	1.00	1	18 4025333 1.000
+_shelx_estimated_absorpt_t_max	0.004	1	1.00	1	1 2242404 0.980	1 2240428 0.986
+_shelx_estimated_absorpt_t_min	0.004	1	1.00	1	1 2242404 0.954	1 2240428 0.977
+_shelx_f_calc_maximum	94.972	1	1.00	1	53129 1100908 {11.09 - 277522}
+_shelx_f_multiplier	0.002	1	1.00	1	1 2005410_Fobs 1.46007
+_shelx_f_squared_multiplier	94.353	1	1.00	1	52606 1100908 1.000	133 1529218 1	29 2015304_Fobs 0.010	6 2012109_Fobs 100.000	2 2008020_Fobs -1.000	2 2207068_Fobs 0.100	1 2222322_Fobs .99:	1 2104375_Fobs 0.0001	1 2104374_Fobs 0.001	1 2205114_Fobs 1.00	1 2013688_Fobs 10.00
+_shelx_fab_checksum	0.007	1	1.00	1	1 4336790 13331	1 4336746 82737	1 4119469 89653	1 4336749 98630
+_shelx_fab_file	0.007	1	1.00	1	4 4119469 {text}
+_shelx_hkl_checksum	0.331	1	1.00	1	185 4028496 {1035 - 99419}
+_shelx_hkl_file	0.329	1	1.00	1	184 4028496 {text}
+_shelx_refinement_sigma	0.009	2322	9391.80	14225	46959 1543903 {0.445 - 23422.9}
+_shelx_refln_list_code	95.014	1	1.00	1	52660 1100908 4	319 1513566 6	165 1513570 3	5 1543903 8	3 2005410_Fobs 7	1 2016357_Fobs 5
+_shelx_res_file	0.002	1	1.00	1	1 2237882_Fobs {text}
+_shelx_shelxl_version_number	0.004	1	1.00	1	1 2242068 2014/7	1 2242404 2016/4
+_shelx_space_group_comment	0.014	1	1.00	1	8 2108128 {text}
+_shelx_title	94.746	1	1.00	1	98 2008860_Fobs {text}	52409 1100908 {line}	487 1513209 {word}	9 2008972_Fobs {1 - 120314}
+_shelxl_F_squared_multiplier	0.002	1	1.00	1	1 4317526 1.000
+_shelxl_version_number	0.007	1	1.00	1	1 2237882_Fobs 2012-9	1 2240428 2013-4	1 2240837 2014-3	1 2241396 2014/6
+_space_group_IT_number	82.502	1	1.00	1	46153 1542452 {1 - 230}
+_space_group_crystal_system	0.064	1	1.00	1	24 1542452 monoclinic	7 2239717 triclinic	2 4314773 Monoclinic	2 2105812 orthorhombic	1 4314775 Cubic
+_space_group_name_H-M_alt	0.064	1	1.00	1	7 2239717 P -1	6 2240428 P 1 21/n 1	5 1542452 P 1 21/c 1	4 2241396 C 1 2/c 1	4 4028496 P 21/c	2 2108128 C 1 2 1	1 2240837 C 1 2/m 1	1 4314775 F m -3 m	1 1542454 P 1 21/m 1	1 2108541 P 1 n 1	1 4028881 P 21	1 2105812 P 21 21 21	1 2237882_Fobs P 21/n	1 4028787 P c c n
+_space_group_name_Hall	0.059	1	1.00	1	9 1542452 -P 2ybc	7 2239717 -P 1	5 2237882_Fobs -P 2yn	4 2241396 -C 2yc	2 2108128 C 2y	1 2108541  P -2yac 	1 2240837 -C 2y	1 4028787 -P 2ab 2ac	1 1542454 -P 2yb	1 2105812 P 2ac 2ab	1 4028881 P 2yb
+_space_group_ssg_name	0.002	1	1.00	1	1 2108042 Pbam(\a01/2)0ss
+_space_group_symop_id	0.023	2	4.15	8	13 1519649 1	13 1519649 2	9 1519649 3	9 1519649 4	3 2108227 5	3 2108227 6	2 2108449 7	2 2108449 8
+_space_group_symop_operation_xyz	10.715	1	4.95	192	29609 1513570 {line}	50 1519649 {word}
+_space_group_symop_ssg_id	0.016	4	7.56	16	44 2107629 {line}	24 2100429_Fobs {1 - 16}
+_space_group_symop_ssg_operation_algebraic	0.013	2	9.14	18	40 2104860_Fobs {line}	24 2100429_Fobs {word}
+_symmetry_Int_Tables_number	0.041	1	1.00	1	6 2016709_Fobs 14	6 2011019_Fobs 15	2 2021020 19	2 2242346 2	2 2011018_Fobs 33	1 1542454 11	1 2108227 152	1 4101988 5	1 2300387_Fobs 62	1 4101528 69
+_symmetry_cell_setting	0.281	1	1.00	1	60 2011802_Fobs monoclinic	31 2013712_Fobs orthorhombic	21 2013604_Fobs triclinic	13 2214695_Fobs Monoclinic	13 2100429_Fobs tetragonal	7 2014283_Fobs trigonal	5 4025336 Orthorhombic	4 4026209 hexagonal	1 2012633_Fobs Monoclinic 	1 4315352 Triclinic	1 4318188 cubic
+_symmetry_eincoming/008096quiv_pos_as_xyz	0.002	18	18.00	18	1 2204445_Fobs -y+2/3, x-y+1/3, z+1/3	1 2204445_Fobs x, y, z	1 2204445_Fobs x, x-y, z	1 2204445_Fobs x+2/3, y+1/3, z+1/3	1 2204445_Fobs x+2/3, x-y+1/3, z+1/3	1 2204445_Fobs x+1/3, y+2/3, z+2/3	1 2204445_Fobs x+1/3, x-y+2/3, z+2/3	1 2204445_Fobs -y, x-y, z	1 2204445_Fobs -y, -x, z	1 2204445_Fobs -x+y+1/3, -x+2/3, z+2/3	1 2204445_Fobs -y+2/3, -x+1/3, z+1/3	1 2204445_Fobs -y+1/3, x-y+2/3, z+2/3	1 2204445_Fobs -y+1/3, -x+2/3, z+2/3	1 2204445_Fobs -x+y, y, z	1 2204445_Fobs -x+y, -x, z	1 2204445_Fobs -x+y+2/3, y+1/3, z+1/3	1 2204445_Fobs -x+y+2/3, -x+1/3, z+1/3	1 2204445_Fobs -x+y+1/3, y+2/3, z+2/3
+_symmetry_equiv_pos_as_xyz	84.194	1	4.73	192	221642 1100908 {line}	1236 1543126 {word}	18 7221623 {1 - 18}
+_symmetry_equiv_pos_site_id	0.068	2	7.21	36	274 1529436 {-304 - 304}
+_symmetry_space_group_name_H-M	82.518	1	1.00	1	46160 1519649 {line}	2 2100429_Fobs {word}
+_symmetry_space_group_name_Hall	82.494	1	1.00	1	46149 1529436 {line}
+_title	0.005	1	1.00	1	1 2004620_Fobs  MV560	1 2300509 Ammonium 2, 4 dinitrophenolate hydrate in P n a 21	1 2106020 MOZTS in Pca21
+_trans_f_calc_maximum	0.002	1	1.00	1	1 2209564_Fobs 264.81
+_trans_f_squared_multiplier	0.002	1	1.00	1	1 2209564_Fobs 1.000
+_trans_refln_list_code	0.002	1	1.00	1	1 2209564_Fobs 4
+_trans_title	0.002	1	1.00	1	1 2209564_Fobs trans
+_twin_individual_id	0.004	2	2.00	2	2 2108227 1	2 2108227 2
+_twin_individual_mass_fraction_refined	0.004	2	2.00	2	1 2242068 0.2108(12)	1 2108227 0.495(7)	1 2108227 0.505(7)	1 2242068 0.7892(12)
+_twin_individual_twin_matrix_11	0.002	2	2.00	2	1 2108227 -1	1 2108227 1
+_twin_individual_twin_matrix_12	0.002	2	2.00	2	2 2108227 0
+_twin_individual_twin_matrix_13	0.002	2	2.00	2	2 2108227 0
+_twin_individual_twin_matrix_21	0.002	2	2.00	2	2 2108227 0
+_twin_individual_twin_matrix_22	0.002	2	2.00	2	1 2108227 -1	1 2108227 1
+_twin_individual_twin_matrix_23	0.002	2	2.00	2	2 2108227 0
+_twin_individual_twin_matrix_31	0.002	2	2.00	2	2 2108227 0
+_twin_individual_twin_matrix_32	0.002	2	2.00	2	2 2108227 0
+_twin_individual_twin_matrix_33	0.002	2	2.00	2	1 2108227 -1	1 2108227 1
+_twin_refln_datum_id	0.011	261	42436.83	152758	254621 2020013 {1 - 59443}
+_twin_refln_f_squared_calc	0.011	261	42436.83	152758	254621 2020013 {0 - 627059}
+_twin_refln_f_squared_meas	0.011	261	42436.83	152758	254621 2020013 {-821.11 - 693955}
+_twin_refln_f_squared_sigma	0.011	261	42436.83	152758	254621 2020013 {0.12 - 42870.8}
+_twin_refln_include_status	0.011	261	42436.83	152758	132570 2020013 &lt;	122051 2020013 o
+_twin_refln_index_h	0.011	261	42436.83	152758	254621 2020013 {-14 - 14}
+_twin_refln_index_k	0.011	261	42436.83	152758	254621 2020013 {-40 - 40}
+_twin_refln_index_l	0.011	261	42436.83	152758	254621 2020013 {-28 - 29}
+_twin_refln_index_m_1	0.004	48048	100403.00	152758	67242 2107629 0	66839 2107629 1	66725 2107629 -1
+_twin_refln_individual_id	0.011	261	42436.83	152758	69447 2020013 2	67400 2020013 1	41395 2107629 3	25473 2107629 5	25464 2107629 4	25442 2107629 6
