@@ -1,67 +1,84 @@
-_chem_comp.formula	99.997	1	1.00	1	30848 000 {line}	122 0BE {word}
-_chem_comp.formula_weight	100.000	1	1.00	1	30971 000 {0 - 4363.03}
-_chem_comp.id	100.000	1	1.00	1	29942 00A {word}	1029 000 {0 - 9e+09}
-_chem_comp.mon_nstd_parent_comp_id	5.085	1	1.00	1	1 5SQ {text}	72 175 {line}	1502 00A {word}
-_chem_comp.name	100.000	1	1.00	1	923 01G {text}	9547 000 {line}	20501 002 {word}
-_chem_comp.one_letter_code	4.779	1	1.00	1	1480 00C {word}
-_chem_comp.pdbx_ambiguous_flag	95.993	1	1.00	1	29545 000 N	185 067 Y
-_chem_comp.pdbx_formal_charge	100.000	1	1.00	1	29415 000 0	869 02P 1	225 0BE 2	220 0A2 -1	73 2PB -2	59 0FY 3	25 2FJ 4	23 3AG -3	16 3H9 -4	14 7MT 5	12 6MO 6	6 8M0 -8	5 DVT -6	4 H1Q -5	3 CUM 7	1 9F0 12	1 WSQ 8
-_chem_comp.pdbx_ideal_coordinates_details	79.222	1	1.00	1	23728 000 Corina	385 003 OpenEye/OEToolkits V1.4.2	183 11R Corina V3.40	162 047 OpenEye OEToolkits	78 1FH not provided
-_chem_comp.pdbx_ideal_coordinates_missing_flag	100.000	1	1.00	1	30398 000 N	573 03R Y
-_chem_comp.pdbx_initial_date	100.000	1	1.00	1	30971 000 {word}
-_chem_comp.pdbx_model_coordinates_db_code	93.655	1	1.00	1	28892 000 {word}	114 0GQ {1 - 6e+99}
-_chem_comp.pdbx_model_coordinates_details	0.507	1	1.00	1	155 01E not provided	1 9VD 5W4K	1 VV7 missing
-_chem_comp.pdbx_model_coordinates_missing_flag	100.000	1	1.00	1	29732 000 N	1239 00O Y
-_chem_comp.pdbx_modified_date	100.000	1	1.00	1	30971 000 {word}
-_chem_comp.pdbx_processing_site	100.000	1	1.00	1	20261 000 RCSB	7464 007 EBI	3049 009 PDBJ	197 6M4 PDBE
-_chem_comp.pdbx_release_status	100.000	1	1.00	1	30413 000 REL	558 0A3 OBS
-_chem_comp.pdbx_replaced_by	1.124	1	1.00	1	343 0A3 {word}	5 13H {243 - 961}
-_chem_comp.pdbx_replaces	0.872	1	1.00	1	2 5P8 {line}	261 0DA {word}	7 961 {119 - 638}
-_chem_comp.pdbx_subcomponent_list	1.556	1	1.00	1	482 006 {line}
-_chem_comp.pdbx_synonyms	17.968	1	1.00	1	216 0CR {text}	2191 00C {line}	3157 001 {word}	1 TTX {0 - 0}
-_chem_comp.pdbx_type	99.109	1	1.00	1	27544 001 HETAIN	1454 000 ATOMP	699 02I ATOMN	559 045 ATOMS	234 04J HETAD	128 0BE HETAI	38 1CU HETIC	32 2CP HETAC	5 DIS HETAS	2 S6L hetain
-_chem_comp.three_letter_code	99.651	1	1.00	1	29840 00A {word}	1023 000 {0 - 9e+09}
-_chem_comp.type	100.000	1	1.00	1	2166 004 {line}	28805 000 {word}
-_chem_comp_atom.alt_atom_id	99.997	1	46.56	440	209 2FH {line}	1441815 000 {word}
-_chem_comp_atom.atom_id	99.997	1	46.56	440	1442024 000 {word}
-_chem_comp_atom.charge	99.990	1	46.56	440	1437676 000 0	2342 018 1	1616 018 -1	121 0BE 2	53 3CO 3	12 4MO 4	6 3G0 -2	4 6MO 6	1 GWQ -4
-_chem_comp_atom.comp_id	99.997	1	46.56	440	1390962 00A {word}	51062 000 {0 - 9e+09}
-_chem_comp_atom.model_Cartn_x	99.842	1	46.17	440	1427785 000 {-628.928 - 850.661}
-_chem_comp_atom.model_Cartn_y	99.842	1	46.17	440	1427785 000 {-939.601 - 507.801}
-_chem_comp_atom.model_Cartn_z	99.842	1	46.17	440	1427785 000 {-348.143 - 1053.93}
-_chem_comp_atom.pdbx_align	99.997	1	46.56	440	1275238 000 1	166786 001 0
-_chem_comp_atom.pdbx_aromatic_flag	99.997	1	46.56	440	1149878 000 N	292146 001 Y
-_chem_comp_atom.pdbx_component_atom_id	99.997	1	46.56	440	8 6HE {line}	1442015 000 {word}	1 LVT {1 - 1}
-_chem_comp_atom.pdbx_component_comp_id	99.997	1	46.56	440	1390843 006 {word}	51181 000 {0 - 9e+09}
-_chem_comp_atom.pdbx_leaving_atom_flag	99.997	1	46.56	440	1434933 000 N	7091 000 Y
-_chem_comp_atom.pdbx_model_Cartn_x_ideal	98.666	1	46.46	440	1419708 000 {-117.4 - 267.348}
-_chem_comp_atom.pdbx_model_Cartn_y_ideal	98.666	1	46.46	440	1419708 000 {-63.504 - 178.332}
-_chem_comp_atom.pdbx_model_Cartn_z_ideal	98.666	1	46.46	440	1419708 000 {-63.696 - 277.296}
-_chem_comp_atom.pdbx_ordinal	99.997	1	46.56	440	1442024 000 {1 - 440}
-_chem_comp_atom.pdbx_stereo_config	99.997	1	46.56	440	1388332 000 N	28229 002 R	25463 001 S
-_chem_comp_atom.type_symbol	99.997	1	46.56	440	1442024 000 {word}
-_chem_comp_bond.atom_id_1	99.655	1	48.48	446	1496140 000 {word}
-_chem_comp_bond.atom_id_2	99.655	1	48.48	446	1496140 000 {word}
-_chem_comp_bond.comp_id	99.655	1	48.48	446	1442836 00A {word}	53304 000 {0 - 9e+09}
-_chem_comp_bond.pdbx_aromatic_flag	99.655	1	48.48	446	1193507 000 N	302633 001 Y
-_chem_comp_bond.pdbx_ordinal	99.655	1	48.48	446	1496140 000 {1 - 446}
-_chem_comp_bond.pdbx_stereo_config	99.655	1	48.48	446	1492190 000 N	2600 02E E	1350 03F Z
-_chem_comp_bond.value_order	99.655	1	48.48	446	1287230 000 SING	207301 000 DOUB	1609 02Y TRIP
-_pdbx_chem_comp_audit.action_type	100.000	1	2.27	10	70154 000 {line}
-_pdbx_chem_comp_audit.comp_id	100.000	1	2.27	10	67661 00A {word}	2493 000 {0 - 9e+09}
-_pdbx_chem_comp_audit.date	100.000	1	2.27	10	70154 000 {word}
-_pdbx_chem_comp_audit.processing_site	100.000	1	2.26	10	57866 000 RCSB	8544 007 EBI	3450 009 PDBJ	271 04U PDBE	1 GJV AM	1 2GC CS	1 FHE PDB	1 9O9 PDBj
-_pdbx_chem_comp_descriptor.comp_id	99.997	1	6.80	7	203451 00A {word}	7119 000 {0 - 9e+09}
-_pdbx_chem_comp_descriptor.descriptor	99.997	1	6.80	7	2010 01A {text}	22 09U {line}	208538 000 {word}
-_pdbx_chem_comp_descriptor.program	99.997	1	6.80	7	61916 000 CACTVS	61914 000 InChI	61878 000 OpenEye OEToolkits	24858 000 ACDLabs	4 GLX InChi
-_pdbx_chem_comp_descriptor.program_version	99.997	1	6.80	7	62868 000 {word}	147702 000 {1 - 12.01}
-_pdbx_chem_comp_descriptor.type	99.997	1	6.80	7	86755 000 SMILES	61897 000 SMILES_CANONICAL	30957 000 InChI	30957 000 InChIKey	4 GLX INCHI
-_pdbx_chem_comp_feature.comp_id	0.013	1	2.50	5	5 ROC ROC	2 PDF PDF	2 X99 X99	1 0Q4 0Q4
-_pdbx_chem_comp_feature.source	0.013	1	2.50	5	4 0Q4 CAS	4 PDF PUBCHEM	1 ROC DRUGBANK	1 ROC KEGG
-_pdbx_chem_comp_feature.type	0.013	1	2.50	5	4 0Q4 CAS REGISTRY #	3 PDF PUBCHEM ID	1 ROC DRUGBANK ID	1 ROC ENZYME INHIBITED	1 ROC FUNCTION
-_pdbx_chem_comp_feature.value	0.013	1	2.50	5	1 ROC 127779-20-8	1 0Q4 16785-65-6	1 X99 188587-28-2	1 X99 20640031	1 PDF 3016768	1 ROC 441243	1 PDF 52683-81-5	1 ROC DB01232	1 ROC HIV protease	1 ROC Inhibits human immunodeficiency virus (HIV) protease
-_pdbx_chem_comp_identifier.comp_id	98.576	1	1.79	6	52694 00A {word}	1950 000 {0 - 9e+09}
-_pdbx_chem_comp_identifier.identifier	98.576	1	1.79	6	1565 01A {text}	18556 000 {line}	34523 002 {word}
-_pdbx_chem_comp_identifier.program	98.576	1	1.79	6	29763 000 OpenEye OEToolkits	24854 000 ACDLabs	11 GL0 GMML	6 BLA ACD-LABS	5 BAZ OpenEye/Lexichem	4 GL0 PDB-CARE	1 DOD Lexichem
-_pdbx_chem_comp_identifier.program_version	98.576	1	1.79	6	14726 000 12.01	9726 001 10.04	9122 001 1.5.0	5742 09I 2.0.6	5364 03G 1.7.6	2624 04H 1.9.2	1786 000 1.7.0	1344 00J 1.6.1	1186 063 2.0.7	1048 1KL 2.0.4	936 02G 1.7.2	611 4IA 2.0.5	402 071 11.02	15 GL0 1.0	6 BLA 4.04	5 BAZ 1.4	1 DOD 1.1
-_pdbx_chem_comp_identifier.type	98.576	1	1.79	6	54629 000 SYSTEMATIC NAME	4 GL0 COMMON NAME	4 GL0 CONDENSED IUPAC CARB SYMBOL	4 GL0 IUPAC CARB SYMBOL	3 GL0 SNFG CARB SYMBOL
+_chem_comp.formula	99.997	1	1.00	1	33070 000 {line}	122 0BE {word}
+_chem_comp.formula_weight	99.991	1	1.00	1	33190 000 {1.008 - 5496.51}
+_chem_comp.id	100.000	1	1.00	1	32162 00A {word}	1031 000 {0 - 9e+09}
+_chem_comp.mon_nstd_parent_comp_id	5.769	1	1.00	1	76 175 {line}	1838 00A {word}	1 M7P {289 - 289}
+_chem_comp.name	100.000	1	1.00	1	1204 001 {text}	10113 000 {line}	21876 002 {word}
+_chem_comp.one_letter_code	4.543	1	1.00	1	1508 00C {word}
+_chem_comp.pdbx_ambiguous_flag	96.282	1	1.00	1	31774 000 N	185 067 Y
+_chem_comp.pdbx_formal_charge	100.000	1	1.00	1	31577 000 0	906 02P 1	230 0BE 2	229 0A2 -1	74 2PB -2	62 0FY 3	27 2FJ 4	23 3AG -3	15 3H9 -4	15 6MO 6	14 7MT 5	6 8M0 -8	5 DVT -6	5 H1Q -5	3 CUM 7	1 9F0 12	1 WSQ 8
+_chem_comp.pdbx_ideal_coordinates_details	80.662	1	1.00	1	25972 000 Corina	385 003 OpenEye/OEToolkits V1.4.2	183 11R Corina V3.40	157 047 OpenEye OEToolkits	77 1FH not provided
+_chem_comp.pdbx_ideal_coordinates_missing_flag	100.000	1	1.00	1	32605 000 N	588 03R Y
+_chem_comp.pdbx_initial_date	100.000	1	1.00	1	33193 000 {word}
+_chem_comp.pdbx_model_coordinates_db_code	94.056	1	1.00	1	31104 000 {word}	116 0GQ {1 - 6e+99}
+_chem_comp.pdbx_model_coordinates_details	0.473	1	1.00	1	155 01E not provided	1 9VD 5W4K	1 VV7 missing
+_chem_comp.pdbx_model_coordinates_missing_flag	100.000	1	1.00	1	31888 000 N	1305 00O Y
+_chem_comp.pdbx_modified_date	100.000	1	1.00	1	33193 000 {word}
+_chem_comp.pdbx_processing_site	99.985	1	1.00	1	21499 000 RCSB	7619 007 EBI	3344 009 PDBJ	726 6M4 PDBE
+_chem_comp.pdbx_release_status	100.000	1	1.00	1	32498 000 REL	695 045 OBS
+_chem_comp.pdbx_replaced_by	1.073	1	1.00	1	351 0A3 {word}	5 13H {243 - 961}
+_chem_comp.pdbx_replaces	0.819	1	1.00	1	2 5P8 {line}	263 0DA {word}	7 961 {119 - 638}
+_chem_comp.pdbx_subcomponent_list	1.826	1	1.00	1	606 006 {line}
+_chem_comp.pdbx_synonyms	19.004	1	1.00	1	661 0BI {text}	2473 00C {line}	3173 001 {word}	1 TTX {0 - 0}
+_chem_comp.pdbx_type	99.208	1	1.00	1	29175 001 HETAIN	1497 000 ATOMP	1107 045 ATOMS	709 02I ATOMN	237 04J HETAD	128 0BE HETAI	38 1CU HETIC	32 2CP HETAC	5 DIS HETAS	2 S6L hetain
+_chem_comp.three_letter_code	99.681	1	1.00	1	32062 00A {word}	1025 000 {0 - 9e+09}
+_chem_comp.type	100.000	1	1.00	1	2637 004 {line}	30556 000 {word}
+_chem_comp_atom.alt_atom_id	99.997	1	46.47	440	209 2FH {line}	1542060 000 {word}
+_chem_comp_atom.atom_id	99.997	1	46.47	440	1542269 000 {word}
+_chem_comp_atom.charge	99.991	1	46.46	440	1537758 000 0	2445 018 1	1664 018 -1	131 0BE 2	53 3CO 3	12 4MO 4	7 3G0 -2	4 6MO 6	1 GWQ -4
+_chem_comp_atom.comp_id	99.997	1	46.47	440	1491076 00A {word}	51193 000 {0 - 9e+09}
+_chem_comp_atom.model_Cartn_x	99.831	1	46.08	440	1526944 000 {-628.928 - 850.661}
+_chem_comp_atom.model_Cartn_y	99.831	1	46.08	440	1526944 000 {-939.601 - 507.801}
+_chem_comp_atom.model_Cartn_z	99.831	1	46.08	440	1526944 000 {-348.143 - 1053.93}
+_chem_comp_atom.pdbx_align	99.997	1	46.47	440	1372609 000 1	169660 001 0
+_chem_comp_atom.pdbx_aromatic_flag	99.997	1	46.47	440	1228515 000 N	313754 001 Y
+_chem_comp_atom.pdbx_component_atom_id	99.997	1	46.46	440	8 6HE {line}	1542247 000 {word}	1 LVT {1 - 1}
+_chem_comp_atom.pdbx_component_comp_id	99.997	1	46.46	440	1491010 006 {word}	51246 000 {0 - 9e+09}
+_chem_comp_atom.pdbx_component_id	0.359	37	72.45	213	8621 045 1
+_chem_comp_atom.pdbx_leaving_atom_flag	99.997	1	46.47	440	1532365 000 N	9904 000 Y
+_chem_comp_atom.pdbx_model_Cartn_x_ideal	98.708	1	46.36	440	1518992 000 {-117.4 - 267.348}
+_chem_comp_atom.pdbx_model_Cartn_y_ideal	98.708	1	46.36	440	1518992 000 {-63.504 - 178.332}
+_chem_comp_atom.pdbx_model_Cartn_z_ideal	98.708	1	46.36	440	1518992 000 {-63.696 - 277.296}
+_chem_comp_atom.pdbx_ordinal	99.997	1	46.47	440	1542269 000 {1 - 440}
+_chem_comp_atom.pdbx_polymer_type	0.359	37	72.45	213	8621 045 polymer
+_chem_comp_atom.pdbx_residue_numbering	0.359	37	72.45	213	2942 045 1	2704 045 2	1386 045 3	652 0TS 4	485 0TS 5	247 4CQ 6	140 4CQ 7	65 4CQ 8
+_chem_comp_atom.pdbx_stereo_config	99.997	1	46.47	440	1485703 000 N	29606 002 R	26960 001 S
+_chem_comp_atom.type_symbol	99.997	1	46.47	440	1542269 000 {word}
+_chem_comp_bond.atom_id_1	99.678	1	48.38	446	1600780 000 {word}
+_chem_comp_bond.atom_id_2	99.678	1	48.38	446	1600780 000 {word}
+_chem_comp_bond.comp_id	99.678	1	48.38	446	1547338 00A {word}	53442 000 {0 - 9e+09}
+_chem_comp_bond.pdbx_aromatic_flag	99.678	1	48.38	446	1275964 000 N	324816 001 Y
+_chem_comp_bond.pdbx_ordinal	99.678	1	48.38	446	1600780 000 {1 - 446}
+_chem_comp_bond.pdbx_stereo_config	99.678	1	48.38	446	1596572 000 N	2770 02E E	1438 03F Z
+_chem_comp_bond.value_order	99.678	1	48.38	446	1377116 000 SING	221903 000 DOUB	1761 02Y TRIP
+_pdbx_chem_comp_atom_related.atom_id	0.910	18	23.69	39	7153 07E {word}
+_pdbx_chem_comp_atom_related.comp_id	0.910	18	23.69	39	7053 07E {word}	100 145 {145 - 491}
+_pdbx_chem_comp_atom_related.ordinal	0.910	18	23.69	39	7153 07E {1 - 39}
+_pdbx_chem_comp_atom_related.related_atom_id	0.910	18	23.69	39	7153 07E {word}
+_pdbx_chem_comp_atom_related.related_comp_id	0.910	18	23.69	39	7126 07E {word}	27 M7P {289 - 289}
+_pdbx_chem_comp_atom_related.related_type	0.910	18	23.69	39	7153 07E Carbohydrate core
+_pdbx_chem_comp_audit.action_type	99.717	1	2.51	13	83118 000 {line}
+_pdbx_chem_comp_audit.annotator	0.003	1	1.00	1	1 8LH MJC
+_pdbx_chem_comp_audit.comp_id	99.717	1	2.51	13	80408 00A {word}	2710 000 {0 - 9e+09}
+_pdbx_chem_comp_audit.date	99.717	1	2.51	13	83118 000 {word}
+_pdbx_chem_comp_audit.processing_site	99.717	1	2.51	13	66975 000 RCSB	8691 007 EBI	3771 009 PDBJ	3658 001 PDBE	1 GJV AM	1 2GC CS	1 FHE PDB	1 9O9 PDBj
+_pdbx_chem_comp_descriptor.comp_id	99.994	1	6.78	7	217792 00A {word}	7132 000 {0 - 9e+09}
+_pdbx_chem_comp_descriptor.descriptor	99.994	1	6.78	7	1378 01A {text}	22 09U {line}	223524 000 {word}
+_pdbx_chem_comp_descriptor.program	99.994	1	6.78	7	66358 000 CACTVS	66354 000 InChI	66320 000 OpenEye OEToolkits	25888 000 ACDLabs	4 GLX InChi
+_pdbx_chem_comp_descriptor.program_version	99.994	1	6.78	7	67310 000 {word}	157614 000 {1 - 12.01}
+_pdbx_chem_comp_descriptor.type	99.994	1	6.78	7	92227 000 SMILES	66339 000 SMILES_CANONICAL	33177 000 InChI	33177 000 InChIKey	4 GLX INCHI
+_pdbx_chem_comp_feature.comp_id	2.549	1	3.83	4	3199 05L {word}	43 145 {145 - 604}
+_pdbx_chem_comp_feature.source	2.549	1	3.83	4	3242 05L PDB
+_pdbx_chem_comp_feature.type	2.549	1	3.83	4	843 05L CARBOHYDRATE ISOMER	837 05L CARBOHYDRATE RING	832 05L CARBOHYDRATE PRIMARY CARBONYL GROUP	730 05L CARBOHYDRATE ANOMER
+_pdbx_chem_comp_feature.value	2.549	1	3.83	4	714 05L D	705 05L aldose	702 05L pyranose	385 0HX alpha	345 05L beta	129 0HX L	127 0LP ketose	87 1X4 furanose	39 0LP dihydropyran	5 0HX dihydrofuran	4 0YT thiopyranose
+_pdbx_chem_comp_identifier.comp_id	98.473	1	1.79	6	56595 00A {word}	1956 000 {0 - 9e+09}
+_pdbx_chem_comp_identifier.identifier	98.473	1	1.79	6	1302 01A {text}	19590 000 {line}	37659 002 {word}
+_pdbx_chem_comp_identifier.program	98.473	1	1.79	6	31890 000 OpenEye OEToolkits	25884 000 ACDLabs	464 0MK GMML	301 0MK PDB-CARE	6 BLA ACD-LABS	5 BAZ OpenEye/Lexichem	1 DOD Lexichem
+_pdbx_chem_comp_identifier.program_version	98.473	1	1.79	6	15797 000 12.01	9688 001 10.04	9086 001 1.5.0	6049 09I 2.0.6	5391 03G 1.7.6	3032 063 2.0.7	2617 04H 1.9.2	1784 000 1.7.0	1340 00J 1.6.1	1048 1KL 2.0.4	935 02G 1.7.2	765 0MK 1.0	608 4IA 2.0.5	399 071 11.02	6 BLA 4.04	5 BAZ 1.4	1 DOD 1.1
+_pdbx_chem_comp_identifier.type	98.473	1	1.79	6	57786 000 SYSTEMATIC NAME	301 0MK IUPAC CARBOHYDRATE SYMBOL	173 0MK CONDENSED IUPAC CARBOHYDRATE SYMBOL	169 0MK COMMON NAME	122 0MK SNFG CARBOHYDRATE SYMBOL
+_pdbx_chem_comp_related.comp_id	0.910	1	1.00	1	298 07E {word}	4 145 {145 - 491}
+_pdbx_chem_comp_related.related_comp_id	0.910	1	1.00	1	301 07E {word}	1 M7P {289 - 289}
+_pdbx_chem_comp_related.relationship_type	0.910	1	1.00	1	302 07E Carbohydrate core
+_pdbx_chem_comp_synonyms.comp_id	10.186	1	1.61	10	5291 00J {word}	167 001 {0 - 8e+08}
+_pdbx_chem_comp_synonyms.name	10.186	1	1.61	10	33 5KQ {text}	1948 01E {line}	3476 001 {word}	1 4D6 {5.66497e+07 - 5.66497e+07}
+_pdbx_chem_comp_synonyms.ordinal	10.186	1	1.61	10	3381 001 1	855 05L 2	666 05L 3	397 0HX 4	116 0NZ 5	23 49T 6	12 49T 7	5 4D6 8	2 DDA 9	1 DDA 10
+_pdbx_chem_comp_synonyms.provenance	2.253	1	3.39	10	2519 05L PDB	5 F86 AUTHOR	5 4D6 PUBCHEM	4 4D6 DRUGBANK	1 58A CHEBI	1 4D6 CHEMBL
