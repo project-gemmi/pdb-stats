@@ -181,8 +181,8 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
  Uses <a href="https://dc-js.github.io/dc.js/">dc.js</a>,
  <a href="https://d3js.org/">d3</a> and
  <a href="http://crossfilter.github.io/crossfilter/">crossfilter</a>.
- Last update: 2020-03-14.
- Images are from <a href="http://www.rcsb.org/">RCSB</a>.
+ Last update: 2021-01-21.
+ Images are from <a href="http://www.pdbj.org/">PDBj</a>.
  <b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
 </div>
@@ -401,7 +401,7 @@ d3.json('data.json', function(json) {
       .colors(d3.scale.ordinal().range(['#1f77b4', '#8899cc',
                     '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b']));
 
-  var date_range = [new Date(2005, 0), new Date(2020, 0)];
+  var date_range = [new Date(2005, 0), new Date(2021, 0)];
   setup_chart(coltime_chart)
       .width(null).height(100)
       .margins({top: 5, right: 5, bottom: 20, left: 36})
@@ -491,7 +491,7 @@ d3.json('data.json', function(json) {
     box.firstChild.innerHTML = '<b>'+code+'</b><br>solved by: ' +
       STRUCT_SOL[d[6]] + '<br>software: ' + REDUC_SOFT[d[3][0]] + ' / ' +
       SCALE_SOFT[d[3][1]] + ' / ' + REF_SOFT[d[3][2]];
-    var src = 'http://www.rcsb.org/pdb/images/' + code + '_bio_r_250.jpg';
+    var src = 'https://pdbj.org/rest/molmil-renderer?type=mine&id=' + code.toLowerCase();
     if (box.lastChild.src === src) {
       box.style.visibility = 'visible';
       return;
@@ -500,8 +500,7 @@ d3.json('data.json', function(json) {
     box.lastChild.style.top = (y > 200 ? -250 : 50) + 'px';
     box.style.visibility = 'visible';
     timer = setTimeout(function() {
-      box.lastChild.src = 'http://www.rcsb.org/pdb/images/' + code +
-                          '_bio_r_250.jpg';
+        box.lastChild.src = src;
     }, 500);
     return false;
   }

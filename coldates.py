@@ -10,7 +10,7 @@ OUTPUT_SYN = ['APS', 'Diamond', 'ESRF', 'SSRF', 'SLS',
               'SOLEIL', 'PAL/PLS', 'CLSI', 'DESY']
 ALL_OUTPUT = OUTPUT_SYN + ['home']
 
-OUTPUT_YEARS = [2014, 2015, 2016, 2017]
+OUTPUT_YEARS = [2015, 2016, 2017, 2018]
 
 def days_in_year(year):
     if year % 4 == 0:

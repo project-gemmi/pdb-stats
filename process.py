@@ -72,6 +72,7 @@ SYNCHROTRONS = {
     'EMBL/DESY, Hamburg':      'D DESY (DE)',
     'EMBL/DESY, HAMBURG':      'D DESY (DE)',
     'LNLS':                    'L LNLS (BR)',
+    'LNLS SIRUS':              'L LNLS (BR)',
     'PETRA III EMBL c/o DESY': 'D DESY (DE)',
     'PETRA II STORAGE RING':   'D DESY (DE)',
     'ALBA':                    'Z ALBA (ES)',

@@ -42,7 +42,7 @@ text.tiny { font-size: 10px; fill: #89a; }
 <body>
 <h1>Synchrotron Work Patterns</h1>
 <h4>Data <a href="http://mmcif.wwpdb.org/dictionaries/mmcif_pdbx.dic/Items/_diffrn_detector.pdbx_collection_date.html">collection</a>
-dates from <b>PDB entries released before 2020-03-14</b>.</h4>
+dates from <b>PDB entries released before 2021-01-21</b>.</h4>
 
 <div class="cal" id="APS">
 <h2>APS <span style="background-image: url(flags/us.svg)"></span></h2>
@@ -145,7 +145,7 @@ function monthPath(t0) {
 }
 
 var svg = d3.selectAll(".cal").selectAll("svg")
-    .data(d3.range(2014, 2018))
+    .data(d3.range(2015, 2019))
   .enter().append("svg")
     .attr("width", width)
     .attr("height", function(d, i) {
@@ -212,7 +212,7 @@ d3.json('calendar.json', function(error, json) {
   d3.selectAll(".cal").each(function() {
     var data = {}
     var syn_data = json[this.id];
-    for (var year = 2014; year < 2018; year++) {
+    for (var year = 2015; year < 2019; year++) {
       var arr = syn_data[''+year];
       for (var j = 0; j < arr.length; ++j) {
         var key = format(new Date(year, 0, 1+j));
