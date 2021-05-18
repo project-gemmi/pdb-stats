@@ -7,7 +7,9 @@ import gemmi
 
 PLAIN_TEXT = False
 CCD_PATH = 'components.cif.gz'
-MON_LIB_LIST = os.path.expanduser('~/checkout/monomers/list/mon_lib_list.cif')
+#MON_LIB_DIR = os.path.expanduser('~/checkout/monomers')
+MON_LIB_DIR = os.path.expanduser('~/ccp4/ccp4-7.1/lib/data/monomers')
+MON_LIB_LIST = MON_LIB_DIR + '/list/mon_lib_list.cif'
 
 
 def sorted_search(top_dir):
@@ -39,7 +41,11 @@ def main():
     pdb_data = []
     for arg in sys.argv[1:]:
         for path in sorted_search(arg):
-            item = get_file_stats(path)
+            try:
+                item = get_file_stats(path)
+            except RuntimeError as e:
+                sys.stderr.write('Failed to read %s: %s\n' % (path, e))
+                continue
             pdb_data.append(item)
             if PLAIN_TEXT:
                 print('%s %5.0f %3.1g  %s' % item)
