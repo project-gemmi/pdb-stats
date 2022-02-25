@@ -68,12 +68,15 @@ def main():
             if score > d['pdb'][1]:
                 d['pdb'] = (pdb_id, score)
 
-    # stage 2a: add category from components.cif
+    # stage 2a: add category from components.cif; also, count metal atoms
     ccd_category = {}
+    metal_count = {}
     ccd = gemmi.cif.read(CCD_PATH)
     for block in ccd:
         comp_id = block.find_value('_chem_comp.id')
         ccd_category[comp_id] = block.find_value('_chem_comp.type')
+        symbols = block.find_values('_chem_comp_atom.type_symbol')
+        metal_count[comp_id] = sum(gemmi.Element(s).is_metal for s in symbols)
 
     # stage 2b: add category from the Refmac monomer library
     monlist = gemmi.cif.read(MON_LIB_LIST)['comp_list']
@@ -87,9 +90,9 @@ def main():
     sep = ''
     for key in sorted(stats.keys(), key=lambda k: -stats[k]['files']):
         cat = ccd_category.get(key, '?').strip('"\'').lower()
-        cat = cat.replace('-beta', '-\u03B2')
-        cat = cat.replace('-gamma', '-\u03B3')
-        cat = cat.replace('-delta', '-\u03B4')
+        cat = cat.replace('beta', '\u03B2')
+        cat = cat.replace('gamma', '\u03B3')
+        cat = cat.replace('delta', '\u03B4')
         if 'terminus' in cat:
             cat = cat.replace('NH3 amino terminus', 'N-terminus')
             cat = cat.replace('cooh carboxy terminus', 'C-terminus')
@@ -101,11 +104,12 @@ def main():
         poly_percent = 100.0 * d['poly'] / total
         example = d['pdb'][0]
         if PLAIN_TEXT:
-            print('%3s %7.3f %5d %7.3f %s' %
-                  (key, d['files'], total, poly_percent, example))
+            print('%3s %2d %7d %5d %7.3f %s' %
+                  (key, metal_count[key], d['files'], total,
+                   poly_percent, example))
         else:
-            print('%s\n["%s","%s","%s",%d,%d,%.3f,"%s"]' %
-                  (sep, key, cat, rcat, d['files'], total,
+            print('%s\n["%s",%d,"%s","%s",%d,%d,%.3f,"%s"]' %
+                  (sep, key, metal_count[key], cat, rcat, d['files'], total,
                    poly_percent, example),
                   end='')
         sep = ','

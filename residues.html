@@ -7,7 +7,7 @@
 
 <link rel="stylesheet" type="text/css" href="css/datatables.min.css"/>
 <style>
-html { margin: 0 auto; max-width: 760px; overflow-y: scroll; color: #3b4044;
+html { margin: 0 auto; max-width: 800px; overflow-y: scroll; color: #3b4044;
        background-color: #f8f8f8; }
 body { font: 13px sans-serif; line-height: 150%; margin: 0; }
 h1 { text-align: center; font-size: 30px; font-weight: normal; }
@@ -23,6 +23,7 @@ a:link, a:visited { text-decoration: none; }
  <thead>
   <tr>
    <th>code</th>
+   <th>has metal</th>
    <th>CCD type</th>
    <th>refmac type</th>
    <th>PDB entries</th>
@@ -34,6 +35,7 @@ a:link, a:visited { text-decoration: none; }
  <tfoot>
   <tr>
    <th>code</th>
+   <th>has metal</th>
    <th>CCD type</th>
    <th>refmac type</th>
    <th>PDB entries</th>
@@ -50,7 +52,7 @@ a:link, a:visited { text-decoration: none; }
  This is part of the
  <a href="https://project-gemmi.github.io/">project GEMMI</a>.
  Uses <a href="https://datatables.net">DataTables</a>.
- Data was extracted from wwPDB on 2021-05-18.
+ Data was extracted from wwPDB on 2022-02-24.
  <p><b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
 </div>
@@ -58,20 +60,26 @@ a:link, a:visited { text-decoration: none; }
 <script src="js/datatables.min.js"></script>
 <script type="text/javascript">
 "use strict";
-var file_count = 177654;
+var file_count = 187423;
 function render_percent(data) {
  return data === 0 ? '0%' : data.toFixed(3) + '%';
 }
 function render_file_percent(data) {
  return (100.0 * data / file_count).toFixed(3) + '%';
 }
+function render_metals(data) {
+ return data === 0 ? 'N' : 'Y';
+}
 $(document).ready(function() {
   $('#table').DataTable({
     ajax: 'residues.json',
-    lengthMenu: [100, 200, 500, 1000],
+    lengthMenu: [100, 300, 1000, 3000, 10000, 30000, 100000],
     order: [],
     'columns': [
      null,
+     { searchable: false, className: 'dt-center',
+       render: { display: render_metals }
+     },
      null,
      null,
      { searchable: false, className: 'dt-right',

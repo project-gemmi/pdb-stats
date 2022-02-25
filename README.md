@@ -58,6 +58,7 @@ https://project-gemmi.github.io/pdb-stats/cod-tags.html
 
     $ curl -O ftp://ftp.wwpdb.org/pub/pdb/data/monomers/components.cif.gz
     $ ./resistat.py $PDB_DIR/structures/divided/mmCIF > residues.json
+    $ # update file_count and date in residues.html (take file_count from json)
 
 https://project-gemmi.github.io/pdb-stats/residues.html
 
