@@ -7,11 +7,15 @@
 
 <link rel="stylesheet" type="text/css" href="css/datatables.min.css"/>
 <style>
-html { margin: 0 auto; max-width: 800px; overflow-y: scroll; color: #3b4044;
+html { margin: 0 auto; max-width: 1200px; overflow-y: scroll; color: #3b4044;
        background-color: #f8f8f8; }
 body { font: 13px sans-serif; line-height: 150%; margin: 0; }
 h1 { text-align: center; font-size: 30px; font-weight: normal; }
 h2 { text-align: center; font-size: 20px; margin-top: 40px; }
+th, #table th.dt-right { text-align: center; }
+#table thead tr th.sorting { padding-right: 18px; }
+#table tfoot th { font-size: 11px; text-align: center; }
+#table tfoot th { padding: 1px; }
 a:link, a:visited { text-decoration: none; }
 #footnote a { border-bottom: 1px dashed; color: #24a; }
 #footnote { font-size: 12px; text-align: center; padding: 30px 0; }
@@ -25,34 +29,46 @@ a:link, a:visited { text-decoration: none; }
    <th>code</th>
    <th>has metal</th>
    <th>CCD type</th>
-   <th>refmac type</th>
+   <th>Refmac type</th>
    <th>PDB entries</th>
    <th>total count</th>
-   <th>in polymers</th>
+   <th>in non-polym.</th>
+   <th>in<br/>branch.</th>
+   <th>in<br/>L-pept</th>
+   <th>in<br/>D-pept</th>
+   <th>in<br/>DNA</th>
+   <th>in<br/>RNA</th>
+   <th>in<br/>h.NA</th>
+   <th>in<br/>other</th>
    <th>example</th>
   </tr>
  </thead>
  <tfoot>
   <tr>
    <th>code</th>
-   <th>has metal</th>
+   <th>contains metal</th>
    <th>CCD type</th>
-   <th>refmac type</th>
-   <th>PDB entries</th>
+   <th>Refmac group</th>
+   <th>in % of PDB entries</th>
    <th>total count</th>
-   <th>in polymers</th>
+   <th>in non-polymer</th>
+   <th>in bran&shy;ched</th>
+   <th>in poly&shy;pep&shy;tide(L)</th>
+   <th>in poly&shy;pep&shy;tide(D)</th>
+   <th>in DNA</th>
+   <th>in RNA</th>
+   <th>in DNA/RNA hybrid</th>
+   <th>in<br/>pept.-NA<br/>or other</th>
    <th>example</th>
   </tr>
  </tfoot>
 </table>
 
-
-
 <div id="footnote">
  This is part of the
  <a href="https://project-gemmi.github.io/">project GEMMI</a>.
  Uses <a href="https://datatables.net">DataTables</a>.
- Data was extracted from wwPDB on 2022-02-24.
+ Data was extracted from wwPDB on 2023-01-01.
  <p><b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
 </div>
@@ -60,12 +76,13 @@ a:link, a:visited { text-decoration: none; }
 <script src="js/datatables.min.js"></script>
 <script type="text/javascript">
 "use strict";
-var file_count = 187423;
+var file_count = 199766;
+var file_percent_mult = 100.0 / file_count;
 function render_percent(data) {
  return data === 0 ? '0%' : data.toFixed(3) + '%';
 }
 function render_file_percent(data) {
- return (100.0 * data / file_count).toFixed(3) + '%';
+ return (file_percent_mult * data).toFixed(3) + '%';
 }
 function render_metals(data) {
  return data === 0 ? 'N' : 'Y';
@@ -73,23 +90,39 @@ function render_metals(data) {
 $(document).ready(function() {
   $('#table').DataTable({
     ajax: 'residues.json',
+    autoWidth: false,
     lengthMenu: [100, 300, 1000, 3000, 10000, 30000, 100000],
     order: [],
+    columnDefs: [
+      {
+        // count columns
+        orderSequence: [ 'desc', 'asc' ],
+        searchable: false,
+        className: 'dt-right',
+        targets: [ 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ]
+      }
+     ],
     'columns': [
-     null,
-     { searchable: false, className: 'dt-center',
+     { width: '60px' },  // code
+     { width: '50px', searchable: false, className: 'dt-center',
+       orderSequence: [ 'desc', 'asc' ],
        render: { display: render_metals }
      },
-     null,
-     null,
-     { searchable: false, className: 'dt-right',
+     { width: '120px' },  // CCD type
+     { width: '110px' },  // Refmac type
+     { width: '75px', searchable: false, className: 'dt-right',
        render: { display: render_file_percent }
      },
-     { searchable: false, className: 'dt-right' },
-     { searchable: false, className: 'dt-right',
-       render: { display: render_percent }
-     },
-     { searchable: false, className: 'dt-center' },
+     { width: '85px' },  // total count
+     { width: '80px' },  // non-polymer
+     { width: '70px' },  // branched
+     { width: '70px' },  // L-pept
+     { width: '70px' },  // D-pept
+     { width: '70px' },  // DNA
+     { width: '70px' },  // RNA
+     { width: '55px' },  // DNA/RNA
+     { width: '55px' },  // other
+     { width: '80px', searchable: false, className: 'dt-center', orderable: false },
     ]
   });
 });
