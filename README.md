@@ -34,11 +34,23 @@ https://project-gemmi.github.io/pdb-stats/
 
 https://project-gemmi.github.io/pdb-stats/calendar.html
 
+### Residue statistics
+
+    $ curl -O ftp://ftp.wwpdb.org/pub/pdb/data/monomers/components.cif.gz
+    $ ./resistat.py $PDB_DIR/structures/divided/mmCIF > residues.json
+    $ # update file_count and date in residues.html (take file_count from json)
+
+https://project-gemmi.github.io/pdb-stats/residues.html
+
 ### Tag statistics
 
-    $ gemmi tags --full components.cif > ccd-tags.tsv
-    $ gemmi tags --full $PDB_DIR/structures/divided/mmCIF > mmcif-tags.tsv
-    $ gemmi tags --full $PDB_DIR/structures/divided/structure_factors > sf-tags.tsv
+File entries.idx is used to sort entries from the most recent ones,
+so that the example PDB ID in tooltip is the newest entry with given tag.
+
+    $ curl -O https://files.wwpdb.org/pub/pdb/derived_data/index/entries.idx
+    $ gemmi tags --full components.cif.gz > ccd-tags.tsv
+    $ gemmi tags --full --entries-idx=entries.idx $PDB_DIR/structures/divided/mmCIF > mmcif-tags.tsv
+    $ gemmi tags --full --entries-idx=entries.idx --sf $PDB_DIR/structures/divided/structure_factors > sf-tags.tsv
     $ sed -i s"/ on 20..-..-../ on $(date -Idate)/" tags.html
 
 To get more recent PDB entries in tooltips use --entries-idx=/.../entries.idx
@@ -53,13 +65,5 @@ Similarly, for COD:
     $ sed -i s"/ on 20..-..-../ on $(date -Idate)/" cod-tags.html
 
 https://project-gemmi.github.io/pdb-stats/cod-tags.html
-
-### Residue statistics
-
-    $ curl -O ftp://ftp.wwpdb.org/pub/pdb/data/monomers/components.cif.gz
-    $ ./resistat.py $PDB_DIR/structures/divided/mmCIF > residues.json
-    $ # update file_count and date in residues.html (take file_count from json)
-
-https://project-gemmi.github.io/pdb-stats/residues.html
 
 [1]: https://project-gemmi.github.io/
