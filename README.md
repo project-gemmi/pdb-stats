@@ -58,7 +58,7 @@ To get more recent PDB entries in tooltips use --entries-idx=/.../entries.idx
 
 https://project-gemmi.github.io/pdb-stats/tags.html
 
-Similarly, for COD:
+Similarly, for the COD:
 
     $ gemmi tags --full path/to/cod/cif/ > cod-cif-tags.tsv
     $ gemmi tags --full --glob='*.hkl' path/to/cod/hkl/ > cod-hkl-tags.tsv
