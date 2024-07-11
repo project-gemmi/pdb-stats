@@ -59,6 +59,7 @@ SYNCHROTRONS = {
     'NSLS':                    'n NSLS (US, NY)',
     'SSRF':                    'h Shanghai SRF (CN)',
     'Photon Factory':          'p Photon Factory (JP)',
+    'PHOTON FACTORY':          'p Photon Factory (JP)',
     'SPring-8':                '8 SPring-8 (JP)',
     'BESSY':                   'b BESSY (DE)',
     'Australian Synchrotron':  'u Australian S. (AU)',
@@ -73,6 +74,7 @@ SYNCHROTRONS = {
     'EMBL/DESY, HAMBURG':      'D DESY (DE)',
     'LNLS':                    'L LNLS (BR)',
     'LNLS SIRUS':              'L LNLS (BR)',
+    'LNLS SIRIUS':             'L LNLS (BR)',
     'PETRA III EMBL c/o DESY': 'D DESY (DE)',
     'PETRA II STORAGE RING':   'D DESY (DE)',
     'ALBA':                    'Z ALBA (ES)',
@@ -104,6 +106,7 @@ SYNCHROTRONS = {
     'LCLS':                    'F SLAC (US, CA)',
     'SLAC':                    'F SLAC (US, CA)',
     'SLAC LCLS':               'F SLAC (US, CA)',
+    'SwissFEL ARAMIS':         'F SwissFEL (CH)',
 
     # ?
     'SYNCHROTRON':             '?',

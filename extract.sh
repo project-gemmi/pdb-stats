@@ -3,10 +3,11 @@
 # This web page is part of an example how to use gemmi-grep.
 # gemmi-grep is an part of the GEMMI library, funded by GPhL and CCP4.
 
-PATH="$PATH":../gemmi/build
+PATH=../gemmi/build:"$PATH"
+PYTHONPATH=../gemmi/build
 
 # check that module gemmi is present
-python3 -c "import gemmi"
+[ "$1" = "--auto" ] && python3 -c "import gemmi"
 
 gemmi grep --delimiter=';' \
        _software.classification \
@@ -34,6 +35,8 @@ gemmi grep --delimiter=';' \
 if [ "$1" = "--auto" ]; then
   ./process.py >data.json
   sed -i s"/\(Last update:\) ....-..-../\1 $(date -Idate)/" xray.html
-  ./coldates.py >calendar.json
+  ./coldates.py 2011 2014 >calendar2011.json
+  ./coldates.py 2015 2018 >calendar2015.json
+  ./coldates.py 2019 2022 >calendar2019.json
   sed -i s"/\(released before\) ....-..-../\1 $(date -Idate)/" calendar.html
 fi

@@ -12,6 +12,8 @@ html { margin: 0 auto; max-width: 600px; overflow-y: scroll; color: #3b4044;
 body { font: 14px sans-serif; margin: 0; shape-rendering: crispEdges; }
 h1 { text-align: center; font-size: 30px; font-weight: normal; }
 h4 { text-align: center; font-size: 15px; font-weight: normal; }
+h5 { text-align: center; font-size: 14px; font-weight: normal; }
+h5 a { margin: 0 50px 0 50px; }
 h2 { text-align: center; font-size: 18px; margin: 30px 0 0 0; }
 .cal { min-height: 280px; padding-left: 50px; }
 @media only screen and (max-width: 600px) { .cal { padding-left: 0; } }
@@ -42,7 +44,13 @@ text.tiny { font-size: 10px; fill: #89a; }
 <body>
 <h1>Synchrotron Work Patterns</h1>
 <h4>Data <a href="http://mmcif.wwpdb.org/dictionaries/mmcif_pdbx.dic/Items/_diffrn_detector.pdbx_collection_date.html">collection</a>
-dates from <b>PDB entries released before 2021-01-21</b>.</h4>
+dates from <b>PDB entries released before 2024-07-09</b>.</h4>
+
+<h5>
+<a href="#from2011">2011-2014</a>
+<a href="#from2015">2015-2018</a>
+<a href="#from2019">2019-2022</a>
+</h5>
 
 <div class="cal" id="APS">
 <h2>APS <span style="background-image: url(flags/us.svg)"></span></h2>
@@ -111,7 +119,7 @@ dates from <b>PDB entries released before 2021-01-21</b>.</h4>
 <div id="footnote" style="clear:both;">
  This is part of the
  <a href="https://project-gemmi.github.io/">project GEMMI</a>.
- Uses <a href="https://bl.ocks.org/micahstubbs/89c6bd879d64aa511372064c6cf85711">this dc.js example</a>,
+ Uses <a href="https://bl.ocks.org/micahstubbs/89c6bd879d64aa511372064c6cf85711">this d3.js example</a>,
  <a href="https://github.com/lipis/flag-icon-css">SVG flags</a> and
  wwPDB data.
  <p><b><a href="https://github.com/project-gemmi/pdb-stats">
@@ -121,6 +129,13 @@ dates from <b>PDB entries released before 2021-01-21</b>.</h4>
 <!--script src="d3.v4.min.js"></script-->
 <script type="text/javascript">
 "use strict";
+
+var ystart = 2015;
+
+const fragment = window.location.hash.slice(1);
+if (fragment == "from2011" || fragment == "from2019") {
+  ystart = +fragment.slice(4);
+}
 
 var width = 520,
     height = 60,
@@ -144,8 +159,21 @@ function monthPath(t0) {
       + "H" + (w0 + 1) * cellSize + "Z";
 }
 
+d3.selectAll('h5 a')
+  .each(function() {
+    var h = this.getAttribute('href');
+    if (h === '#from' + ystart) {
+      d3.select(this).attr('href', null);
+    } else {
+      d3.select(this).on('click', function() {
+        window.location.href = 'calendar.html' + h;
+        window.location.reload();
+      });
+    }
+  });
+
 var svg = d3.selectAll(".cal").selectAll("svg")
-    .data(d3.range(2015, 2019))
+    .data(d3.range(ystart, ystart+4))
   .enter().append("svg")
     .attr("width", width)
     .attr("height", function(d, i) {
@@ -207,12 +235,13 @@ var colors = [
   "#202030", "#202020", "#1c1c1c", "#1c1c1c", "#1c1c1c",
   "#000000"];
 
-d3.json('calendar.json', function(error, json) {
+d3.json('calendar'+ystart+'.json', function(error, json) {
   if (error) throw error;
   d3.selectAll(".cal").each(function() {
     var data = {}
     var syn_data = json[this.id];
-    for (var year = 2015; year < 2019; year++) {
+    for (var i = 0; i < 4; i++) {
+      var year = ystart + i;
       var arr = syn_data[''+year];
       for (var j = 0; j < arr.length; ++j) {
         var key = format(new Date(year, 0, 1+j));
