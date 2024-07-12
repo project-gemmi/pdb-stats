@@ -4,10 +4,10 @@ import sys
 from process import read_data, parse_date, SYNCHROTRONS
 
 # alternative names are also included, see process.py
-OUTPUT_SYN = ['APS', 'Diamond', 'ESRF', 'SSRF', 'SLS',
-              'ALS', 'SSRL', 'Australian Synchrotron',
-              'SPring-8', 'BESSY', 'Photon Factory',
-              'SOLEIL', 'PAL/PLS', 'CLSI', 'DESY']
+OUTPUT_SYN = ['APS', 'Diamond', 'SSRF', 'ESRF', 'SLS',
+              'ALS', 'SSRL', 'SPring-8', 'BESSY',
+              'Australian Synchrotron', 'Photon Factory',
+              'SOLEIL', 'DESY', 'PAL/PLS', 'CLSI']
 ALL_OUTPUT = OUTPUT_SYN + ['home']
 
 FIRST_YEAR = int(sys.argv[1])
