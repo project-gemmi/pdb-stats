@@ -13,6 +13,7 @@ body { font: 14px sans-serif; margin: 0; shape-rendering: crispEdges; }
 h1 { text-align: center; font-size: 30px; font-weight: normal; }
 h4 { text-align: center; font-size: 15px; font-weight: normal; }
 h5 { text-align: center; font-size: 14px; font-weight: normal; }
+h6 { text-align: center; font-size: 12px; font-weight: normal; margin-top: 0; }
 h5 a { margin: 0 50px 0 50px; }
 h2 { text-align: center; font-size: 18px; margin: 30px 0 0 0; }
 .cal { min-height: 280px; padding-left: 50px; }
@@ -51,6 +52,8 @@ dates from <b>PDB entries released before 2024-07-09</b>.</h4>
 <a href="#from2015">2015-2018</a>
 <a href="#from2019">2019-2022</a>
 </h5>
+
+<h6>hover over a calendar day to see the count</h6>
 
 <div class="cal" id="APS">
 <h2>APS <span style="background-image: url(flags/us.svg)"></span></h2>
@@ -249,9 +252,13 @@ d3.json('calendar'+ystart+'.json', function(error, json) {
       }
     }
     d3.select(this).selectAll(".day")
-      //.attr("class", function(d) { return "day col" + Math.min(data[d], 15); })
       .style("fill", function(d) {
         var n = data[d];
+        /* alternative color scale: black - blue - green - yellow - red
+        if (n == 0) return "#000";
+        var x =  Math.max(50 - n, 0);
+        return "hsl(" + 0.095 * x * x + ",100%,50%)";
+        */
         return colors[Math.min(n, 40)];
       })
       .select("title").text(function(d) { return d + ": " + data[d]; });
