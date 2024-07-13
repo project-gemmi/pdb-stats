@@ -10,7 +10,7 @@ import gemmi
 import sys
 
 INPUT = 'grep.out'
-FROM_YEAR = 2008
+FROM_YEAR = 2004
 
 def read_data():
     with open(INPUT) as f_in:
@@ -167,12 +167,13 @@ def main():
         pipes = {'xia2', 'AutoPROC'}
         data_softs = {p[2] for p in entry if p[1] in
                               ['data processing', 'data reduction']} - pipes
+        data_softs -= {'SCALA', 'Aimless'}
         scal_softs = {p[2] for p in entry if p[1] == 'data scaling'} - pipes
         refi_softs = {p[2] for p in entry if p[1] == 'refinement'}
 
         if not data_softs:
             data_soft = '-'
-        elif data_softs <= {'XDS', 'autoXDS', 'XDS-package'}:
+        elif data_softs <= {'XDS', 'autoXDS', 'XDS-package', 'autoPROC', 'XSCALE'}:
             data_soft = 'XDS'
         elif data_softs <= {'DENZO', 'HKL-2000', 'HKL-3000', 'HKL'}:
             data_soft = 'HKL'
@@ -184,7 +185,7 @@ def main():
             data_soft = 'DIALS'
         else:
             data_soft = 'Other'
-            #print(data_softs)
+            #print('[reduction]', data_softs, file=sys.stderr)
 
         if not scal_softs:
             scal_soft = '-'
@@ -200,7 +201,7 @@ def main():
             scal_soft = 'd*TREK'
         else:
             scal_soft = 'Other'
-            #print(scal_softs)
+            #print('[scaling]', scal_softs, file=sys.stderr)
 
         if not refi_softs:
             refi = '-'
@@ -214,6 +215,7 @@ def main():
             refi = 'C'
         else:
             refi = '-'
+            #print('[refinement]', refi_softs, file=sys.stderr)
 
         first = entry[0]
 

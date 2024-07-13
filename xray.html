@@ -24,7 +24,7 @@ a.reset:hover, #rel_switch:hover { text-decoration: underline; }
 @media only screen and (max-width: 750px) {
   .time-comment { display: none; }
 }
-#top-row, #bottom-row { display: table; margin: 0 auto; }
+#top-row, #bottom-row { display: table; margin: 0 auto 10px; }
 #chart-facility, #chart-detec, #chart-reduc { margin-right: 20px; }
 #chart-facility select { min-width: 180px; min-height: 200px; }
 #chart-sg { margin-right: 5px; }
@@ -66,12 +66,13 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
   #info-box { display: none; }
 }
 #info-box span { color:#888; font-size:14px; }
-#info-box img { position: absolute; top:-250px; left:0; z-index:-1; }
+#info-box img { position: absolute; top:-250px; left:0; z-index:-1;
+                width:250px; height:auto; }
 </style>
 
 </head>
 <body>
-<h2>PDB entries deposited since 2008</h2>
+<h2>PDB entries deposited since 2004</h2>
 <p id="subh"><b>Each</b> chart can be used to filter data in other charts!
 <a id="reset-all" class="reset" style="visibility: hidden;"
    href="#" onclick="dc.filterAll();dc.redrawAll();return false;">reset
@@ -87,7 +88,7 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
  </div>
  <div id="chart-detec">
   <strong>Detector</strong>
-  <a class="reset" href="#";>reset</a>
+  <a class="reset" href="#">reset</a>
   <div class="clearfix"></div>
  </div>
  <div id="chart-reduc">
@@ -105,7 +106,7 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
 <div id="chart-coltime" style="position:relative">
  <strong>Data collections</strong> per month
  <span class="time-comment" style="left:40px; top:25px;">
-   old data was deposited mostly<br>before 2008 and is not shown</span>
+   data deposited before 2004<br> is not shown</span>
  <span class="time-comment" style="right:5px; top:25px;">
    recent data is <br>mostly unreleased</span>
  <a class="reset" href="#">reset</a>
@@ -115,10 +116,10 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
 <div id="chart-time" style="position:relative"><strong>Depositions</strong>
   (not <a href="#" id="rel_switch">releases</a>) per week
  <a class="reset" href="#">reset</a>
- <span class="time-comment" style="left:55px; top:30px;"
+ <span class="time-comment" style="left:55px; top:28px;"
    >select a time range to see<br>how things were changing</span>
- <span class="time-comment" style="right:77%; top:80px;"
-   >arbitrary cut-off &#8594;</span>
+ <span class="time-comment" style="left:6%; right:88.3%; top:72px; font-size:12px; line-height:100%;"
+   >arbitrary cut-off&nbsp;&#8594;</span>
  <div class="clearfix"></div>
 </div>
 
@@ -181,19 +182,17 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
  Uses <a href="https://dc-js.github.io/dc.js/">dc.js</a>,
  <a href="https://d3js.org/">d3</a> and
  <a href="http://crossfilter.github.io/crossfilter/">crossfilter</a>.
- Last update: 2021-01-21.
- Images are from <a href="http://www.pdbj.org/">PDBj</a>.
+ Last update: 2024-07-09.
+ Images are from <a href="http://www.rcsb.org/">RCSB</a>.
  <b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
 </div>
 
-<!--
-<script type="text/javascript" src="js/d3.js"></script>
--->
-<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
-<script type="text/javascript" src="js/crossfilter.js"></script>
-<script type="text/javascript" src="js/dc.min.js"></script>
-<script type="text/javascript">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<!--script src="js/d3.v4.js"></script-->
+<script src="js/crossfilter.js"></script>
+<script src="js/dc.js"></script>
+<script>
 "use strict";
 
 var data;
@@ -219,8 +218,8 @@ rel_switch.onclick = function() {
   time_chart.filterAll();
   time_chart.dimension().dispose();
   var time_dim = data.dimension(plot_rel_date
-      ? (function(d) { return d3.time.week(d[9]); })
-      : (function(d) { return d3.time.week(d[8]); }));
+      ? (function(d) { return d3.timeWeek(d[9]); })
+      : (function(d) { return d3.timeWeek(d[8]); }));
   time_chart.dimension(time_dim)
   time_chart.group(time_dim.group())
   dc.redrawAll();
@@ -228,6 +227,11 @@ rel_switch.onclick = function() {
 };
 
 d3.json('data.json', function(json) {
+  document.getElementById("loading").innerText = "SORTING DATA...";
+  window.setTimeout(function() { setup(json); }, 0);
+});
+
+function setup(json) {
   var SOURCES = {
     'H': 'home source',
     'F': 'XFEL (any)',
@@ -340,7 +344,7 @@ d3.json('data.json', function(json) {
   var detec_dim = data.dimension(function(d) { return d[2]; });
   var reduc_dim = data.dimension(function(d) { return d[3][0]; });
   var scale_dim = data.dimension(function(d) { return d[3][1]; });
-  var time_dim = data.dimension(function(d) { return d3.time.week(d[8]); });
+  var time_dim = data.dimension(function(d) { return d3.timeWeek(d[8]); });
   var coltime_dim = data.dimension(function(d) {
     return new Date(1989, d[7] || 0, 15);
   });
@@ -357,7 +361,7 @@ d3.json('data.json', function(json) {
   d3.select('#loading').remove();
   d3.select('#all-data').style('visibility', null);
   function setup_chart(chart) {
-    var root_el = chart.root()[0][0];
+    var root_el = chart.root().node();
     var reset_el = root_el.getElementsByClassName('reset')[0];
     reset_el.style.visibility = 'hidden';
     reset_el.onclick = function() {
@@ -385,31 +389,31 @@ d3.json('data.json', function(json) {
       .minAngleForLabel(0.0)
       .label(function(p) { return DETECT[p.key]; })
       .title(function(p) { return DETECT_FULL[p.key] + ': ' + p.value; })
-      .colors(d3.scale.ordinal().range(
+      .colors(d3.scaleOrdinal().range(
             ['#a6761d', '#66a61e', '#7570b3', '#e6ab02']));
   setup_circle(reduc_chart, reduc_dim)
       .ordering(function(p){ return 'MHdXO-D'.indexOf(p.key); })
       .minAngleForLabel(0.1)
       .label(function(p) { return REDUC_SOFT[p.key]; })
       .title(make_title(REDUC_SOFT))
-      .colors(d3.scale.category10());
-  setup_circle(scale_chart, scale_dim)
+      .colors(d3.scaleOrdinal().range(d3.schemeCategory10));
+ setup_circle(scale_chart, scale_dim)
       .ordering(function(p){ return 'ASHdXO-'.indexOf(p.key); })
       .minAngleForLabel(0.05)
       .label(function(p) { return SCALE_SOFT[p.key]; })
       .title(make_title(SCALE_SOFT))
-      .colors(d3.scale.ordinal().range(['#1f77b4', '#8899cc',
+      .colors(d3.scaleOrdinal().range(['#1f77b4', '#8899cc',
                     '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b']));
 
-  var date_range = [new Date(2005, 0), new Date(2021, 0)];
+  var date_range = [new Date(2002, 0), new Date(2025, 0)];
   setup_chart(coltime_chart)
       .width(null).height(100)
       .margins({top: 5, right: 5, bottom: 20, left: 36})
       .dimension(coltime_dim)
       .group(coltime_dim.group())
-      .xUnits(function() { return 13 * 12; })
+      .xUnits(function() { return 23 * 12; })
       .gap(1)
-      .x(d3.time.scale().domain(date_range))
+      .x(d3.scaleTime().domain(date_range))
       .elasticY(true)
       .controlsUseVisibility(true)
       .renderHorizontalGridLines(true);
@@ -422,7 +426,7 @@ d3.json('data.json', function(json) {
       .group(time_dim.group())
       .centerBar(true)
       .alwaysUseRounding(true)
-      .x(d3.time.scale().domain(date_range))
+      .x(d3.scaleTime().domain(date_range))
       .elasticY(true)
       .controlsUseVisibility(true)
       .renderHorizontalGridLines(true);
@@ -434,18 +438,18 @@ d3.json('data.json', function(json) {
       .title(function(p) { return SPACEGROUPS[p.key-1] + ': ' + p.value; })
       .order(function(a, b){ return b.value - a.value; })
       .controlsUseVisibility(true)
-      .multiple(true).numberVisible(10);
+      .multiple(true).numberVisible(9);
 
   setup_chart(resol_chart)
       .width(250).height(200)
-      .margins({top: 5, right: 10, bottom: 20, left: 35})
+      .margins({top: 5, right: 20, bottom: 20, left: 40})
       .dimension(resol_dim)
       .group(resol_dim.group())
       .centerBar(true)
       .gap(1)
-      .x(d3.scale.linear().domain([0, 5]))
+      .x(d3.scaleLinear().domain([0, 5]))
       .xUnits(function() { return 50; })
-      .colors(d3.scale.ordinal().range(['#41ab5d']))
+      .colors(d3.scaleOrdinal().range(['#41ab5d']))
       .controlsUseVisibility(true)
       .elasticY(true);
   resol_chart.yAxis().ticks(4).tickFormat(d3.format('d'));
@@ -458,10 +462,10 @@ d3.json('data.json', function(json) {
       .label(make_title(STRUCT_SOL))
       .title(make_title(STRUCT_SOL))
       .ordering(function(d){ return d.key; })
-      .margins({top: 5, right: 15, bottom: 20, left: 5})
+      .margins({top: 5, right: 25, bottom: 20, left: 15})
       .controlsUseVisibility(true)
       .elasticX(true)
-      .colors(d3.scale.ordinal().domain('kosmSiM-')
+      .colors(d3.scaleOrdinal().domain('kosmSiM-')
           .range(['#74a9cf', '#ffffb3', '#c2e699', '#78c679',
                   '#31a354','#78c679',  '#006d2c', '#f46d43']));
   sol_chart.xAxis().ticks(2);
@@ -471,12 +475,12 @@ d3.json('data.json', function(json) {
       .minAngleForLabel(0.1)
       .label(function(p) { return REF_SOFT[p.key]; })
       .title(make_title(REF_SOFT))
-      .colors(d3.scale.ordinal().range(
+      .colors(d3.scaleOrdinal().range(
             ['#d62728', '#8c564b', '#8899cc', '#9467bd', '#e6ab02']));
 
-  dc.dataCount('#data-count').dimension(data).group(all)
+  dc.dataCount('#data-count').crossfilter(data).groupAll(all)
     .on('renderlet', function(chart) {
-       var all = chart.dimension().size() == chart.group().value();
+       var all = chart.crossfilter().size() == chart.groupAll().value();
        d3.select('#reset-all').style('visibility', all ? 'hidden' : 'visible');
        });
 
@@ -491,13 +495,14 @@ d3.json('data.json', function(json) {
     box.firstChild.innerHTML = '<b>'+code+'</b><br>solved by: ' +
       STRUCT_SOL[d[6]] + '<br>software: ' + REDUC_SOFT[d[3][0]] + ' / ' +
       SCALE_SOFT[d[3][1]] + ' / ' + REF_SOFT[d[3][2]];
-    var src = 'https://pdbj.org/rest/molmil-renderer?type=mine&id=' + code.toLowerCase();
+    var src = 'https://cdn.rcsb.org/images/structures/' + code.toLowerCase() + '_assembly-1.jpeg';
     if (box.lastChild.src === src) {
       box.style.visibility = 'visible';
       return;
     }
     box.lastChild.src = ''
     box.lastChild.style.top = (y > 200 ? -250 : 50) + 'px';
+    box.lastChild.src = ''
     box.style.visibility = 'visible';
     timer = setTimeout(function() {
         box.lastChild.src = src;
@@ -509,7 +514,7 @@ d3.json('data.json', function(json) {
       .width(null).height(540)
       .size(30)
       .dimension(table_dim)
-      .group(function(d) { return 'Released ' + format_date(d[9]); })
+      .section(function(d) { return 'Released ' + format_date(d[9]); })
       .columns([
           function(d) { return d[0]; },
           function(d) { return d[5] ? d[5].toFixed(1) : ''; },
@@ -538,18 +543,21 @@ d3.json('data.json', function(json) {
         }
        });
 
+  var previous_width = null;
   var on_resize = function() {
     var body_w = d3.select('body').node().getBoundingClientRect().width;
+    if (body_w === previous_width) return;
     resol_chart.width(body_w > 980 ? 400 : body_w > 360 ? 340 : body_w-20);
     var time_tics = body_w > 700 ? 15 : 5;
     coltime_chart.xAxis().ticks(time_tics);
     time_chart.xAxis().ticks(time_tics);
     // maybe .brushOn(off) for mobile?
     dc.renderAll();
+    previous_width = body_w;
   };
   on_resize();
   d3.select(window).on('resize', on_resize);
-});
+};
 
 var set_table_size = function(n) {
   d3.select('#data-table').style('visibility', n === 0 ? 'hidden' : 'visible');

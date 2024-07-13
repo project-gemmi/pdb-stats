@@ -18,6 +18,7 @@ a.reset { text-decoration: none; padding: 0 3px;
           color: white; background: teal; }
 a.reset:hover { text-decoration: underline; }
 #subh { text-align:center; font-size:14px; color:#444; margin-top: 0; }
+#options { text-align:center; color:#444; margin-top: 0;}
 #footnote { font-size: 12px; text-align: center; color:#444; padding: 8px 0; }
 #chart-facility select { min-width: 180px; min-height: 440px; }
 #chart-facility { margin-right: 80px; margin-bottom: 10px; }
@@ -31,6 +32,12 @@ text.x-axis-label { font-size: 12px; }
 <p id="subh">
 A different presentation of the same data as on
 <a href="xray.html">the main page</a>.
+<br/>X axis:
+ <input type="radio" id="reldate" name="date" value="release"> release
+ <input type="radio" id="depdate" name="date" value="deposit"> deposition date
+&nbsp; &nbsp; &nbsp; Y axis:
+ <input type="radio" id="abs" name="absolute" value="y"> counts
+ <input type="radio" id="rel" name="absolute" value="n"> percentage
 <h1 id="loading">LOADING DATA...</h1>
 <div id="chart-facility" style="visibility: hidden;">
  <strong>Facility</strong>
@@ -55,7 +62,7 @@ A different presentation of the same data as on
    <div class="clearfix"></div>
  </div>
  <div id="chart-refinement">
-   <strong>Refinement Software</strong>
+   <strong>Refinement Software</strong> (before Servalcat)
    <div class="clearfix"></div>
  </div>
 </div>
@@ -65,11 +72,11 @@ A different presentation of the same data as on
  Source code and info...</a>
 </div>
 
-<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
-<!--script type="text/javascript" src="js/d3.js"></script-->
-<script type="text/javascript" src="js/crossfilter.js"></script>
-<script type="text/javascript" src="js/dc.min.js"></script>
-<script type="text/javascript">
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<!--script src="js/d3.v4.js"></script-->
+<script src="js/crossfilter.js"></script>
+<script src="js/dc.js"></script>
+<script>
 "use strict";
 
 var facility_chart = dc.selectMenu('#chart-facility');
@@ -79,23 +86,34 @@ var scaling_chart = dc.seriesChart('#chart-scaling');
 var solution_chart = dc.seriesChart('#chart-solution');
 var refinement_chart = dc.seriesChart('#chart-refinement');
 
-var YEARS = [2009, 2021.00];
-var DATE_FIELD = 9; // d[9] is release date
+
 var params = window.location.hash.substr(1).split('&');
 var PER_QUARTER = (params.indexOf('quarter') !== -1);
-var TIMESPAN = PER_QUARTER ? 'Quarter' : 'Year';
-var X_LABEL = 'Release ' + TIMESPAN;
-if (params.indexOf('depos') !== -1) { // deposition date
-  YEARS = [2008, 2020.0];
-  DATE_FIELD = 8; // d[8] is deposition date
-  X_LABEL = 'Deposition ' + TIMESPAN;
+var DEPOS = (params.indexOf('depos') !== -1);
+
+var YEARS = [2004, PER_QUARTER ? 2024.125 : 2024.00];
+if (PER_QUARTER) YEARS[1] += 0.125;
+
+if (DEPOS) { // deposition date
+  document.getElementById('depdate').checked = true;
+} else {
+  document.getElementById('reldate').checked = true;
 }
-if (PER_QUARTER) {
-    YEARS[1] += 0.125;
-}
+
 var AS_PERCENT = (params.indexOf('percent') !== -1);
 
+if (AS_PERCENT) {
+  document.getElementById('rel').checked = true;
+} else {
+  document.getElementById('abs').checked = true;
+}
+
 d3.json('data.json', function(json) {
+  document.getElementById("loading").innerText = "SORTING DATA...";
+  window.setTimeout(function() { setup(json); }, 0);
+});
+
+function setup(json) {
   var SOURCES = {
     'H': 'home source',
     'F': 'XFEL (any)',
@@ -145,28 +163,39 @@ d3.json('data.json', function(json) {
                    '-':'other/mix' };
   var STRUCT_SOL = ['known structure', 'MR', 'SAD', 'MAD', 'MIR/SIR',
                     'SIRAS', 'MIRAS', 'unspecified / other'];
-  if (PER_QUARTER) {
-    json.forEach(function (d) {
-      d[0] = 1989.125 + (((d[DATE_FIELD] >> 5) / 3) | 0) / 4;
-    });
-  } else {
-    json.forEach(function (d) {
-      d[0] = (1989 + (d[DATE_FIELD] >> 5) / 12) | 0;
-    });
-  }
 
-  var data = crossfilter(json);
+
+  function reuse_d0_for_date() {
+    var date_field = DEPOS ? 8 : 9; // d[8] is dep. date, d[9] is release date
+    if (PER_QUARTER) {
+      json.forEach(function (d) {
+        d[0] = ((d[date_field] >> 5) / 3) | 0;
+      });
+    } else {
+      json.forEach(function (d) {
+        d[0] = ((d[date_field] >> 5) / 12) | 0;
+      });
+    }
+  }
+  reuse_d0_for_date();
+
+  // Examples of dc.lineChart and seriesChart use a list of to items
+  // as dimension. For large number of rows, sorting lists inside
+  // dimension() is very slow, ~100x times slower than sorting numbers.
+  // It was too slow, so we switched to using bit manipulations instead.
+  var data = crossfilter();
+  data.add(json);
   var facil_dim = data.dimension(function(d) { return d[1]; });
-  var detec_dim = data.dimension(function(d) { return [d[2], d[0]]; });
-  var reduc_dim = data.dimension(function(d) { return [d[3][0], d[0]]; });
-  var scaling_dim = data.dimension(function(d) { return [d[3][1], d[0]]; });
-  var solution_dim = data.dimension(function(d) { return [d[6], d[0]]; });
-  var ref_dim = data.dimension(function(d) { return [d[3][2], d[0]]; });
+  var detec_dim = data.dimension(function(d) { return (d[2] << 16) | d[0]; });
+  var solution_dim = data.dimension(function(d) { return (d[6] << 16) | d[0]; });
+  var reduc_dim = data.dimension(function(d) { return (d[3].charCodeAt(0) << 16) | d[0]; });
+  var scaling_dim = data.dimension(function(d) { return (d[3].charCodeAt(1) << 16) | d[0]; });
+  var ref_dim = data.dimension(function(d) { return (d[3].charCodeAt(2) << 16) | d[0]; });
   d3.select('#loading').remove();
   d3.select('#chart-facility').style('visibility', null);
   d3.select('#all-data').style('visibility', null);
   function setup_reset(chart) {
-    var root_el = chart.root()[0][0];
+    var root_el = chart.root().node();
     var reset_el = root_el.getElementsByClassName('reset')[0];
     reset_el.style.visibility = 'hidden';
     reset_el.onclick = function() {
@@ -183,26 +212,27 @@ d3.json('data.json', function(json) {
       .chart(function(c) { return dc.lineChart(c).renderDataPoints(true); })
       .dimension(dim)
       .group(gr)
-      .x(d3.scale.linear().domain(YEARS))
+      .x(d3.scaleLinear().domain(YEARS))
       .brushOn(false)
-      .xAxisLabel(X_LABEL)
       .clipPadding(10)
       .elasticY(true)
       .mouseZoomable(false)
-      .keyAccessor(function(p) {return p.key[1];})
-      .legend(dc.legend().x(60).y(30));
-    if (AS_PERCENT) {
-      chart.valueAccessor(function(p) {
-        var all = gr.all();
-        var total = 0;
-        for (var i = 0; i < all.length; i++) {
-          if (all[i].key[1] === p.key[1]) total += all[i].value;
+      .legend(dc.legend().x(60).y(30))
+      .keyAccessor(PER_QUARTER ? function(p) { return (p.key & 0xffff) / 4 + 1989.125; }
+                               : function(p) { return (p.key & 0xffff) + 1989; })
+      .valueAccessor(function(p) {
+        if (AS_PERCENT) {
+          var key = chart.keyAccessor();
+          var all = chart.group().all();
+          var total = 0;
+          for (var i = 0; i < all.length; i++) {
+            if (key(all[i]) === key(p)) total += all[i].value;
+          }
+          return total !== 0 ? 100 * p.value / total : 0;
+        } else {
+          return p.value;
         }
-        return total !== 0 ? 100 * p.value / total : 0;
-      })
-    } else {
-      chart.valueAccessor(function(p) { return p.value; })
-    }
+      });
     chart.xAxis().tickFormat(d3.format('d'));
     chart.yAxis().tickFormat(d3.format('d'));
     chart.margins().left += 10;
@@ -218,27 +248,51 @@ d3.json('data.json', function(json) {
   setup_reset(facility_chart);
 
   setup_plot(detec_chart, detec_dim)
-    .seriesAccessor(function(p) { return DETECT_FULL[p.key[0]]; });
-
-  setup_plot(reduc_chart, reduc_dim)
-    .seriesAccessor(function(p) { return REDUC_SOFT[p.key[0]]; });
-
-  setup_plot(scaling_chart, scaling_dim)
-    .seriesAccessor(function(p) { return SCALE_SOFT[p.key[0]]; });
+    .seriesAccessor(function(p) { return DETECT_FULL[p.key >> 16]; });
 
   setup_plot(solution_chart, solution_dim)
-    .seriesAccessor(function(p) { return STRUCT_SOL[p.key[0]]; });
+    .seriesAccessor(function(p) { return STRUCT_SOL[p.key >> 16]; });
+
+  setup_plot(reduc_chart, reduc_dim)
+    .seriesAccessor(function(p) { return REDUC_SOFT[String.fromCharCode(p.key >> 16)]; });
+
+  setup_plot(scaling_chart, scaling_dim)
+    .seriesAccessor(function(p) { return SCALE_SOFT[String.fromCharCode(p.key >> 16)]; });
 
   setup_plot(refinement_chart, ref_dim)
-    .seriesAccessor(function(p) { return REF_SOFT[p.key[0]]; });
+    .seriesAccessor(function(p) { return REF_SOFT[String.fromCharCode(p.key >> 16)]; });
+
+  var plots = [detec_chart, solution_chart, reduc_chart, scaling_chart, refinement_chart];
+  function set_x_axis_labels() {
+    var label = (DEPOS ? ' Deposition ' : 'Release ') + (PER_QUARTER ? 'Quarter' : 'Year');
+    for (var i = 0; i < plots.length; ++i) {
+        plots[i].xAxisLabel(label);
+    }
+  }
+  set_x_axis_labels();
 
   var on_resize = function() {
     dc.renderAll();
   };
   on_resize();
   d3.select(window).on('resize', on_resize);
-});
 
+  d3.selectAll('input').on('change', function() {
+    if (this.name === 'date') {
+      DEPOS = (this.value === 'deposit');
+      reuse_d0_for_date();
+      // removing and readding all data might be inefficient,
+      // but it's fast enough and I don't know a simpler way.
+      data.remove(function() { return true; });
+      data.add(json);
+      set_x_axis_labels();
+      dc.renderAll();
+    } else if (this.name === 'absolute') {
+      AS_PERCENT = (this.value === 'n');
+      dc.renderAll();
+    }
+  });
+}
 
 </script>
 </body>
