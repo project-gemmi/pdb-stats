@@ -144,7 +144,7 @@ span[eg]:hover:after {
  <a href="https://project-gemmi.github.io/">project GEMMI</a>.
  Uses <a href="https://d3js.org/">d3.js</a>
  and <a href="http://tristen.ca/tablesort/demo/">tablesort</a>.
- Data was extracted from wwPDB on 2023-07-15.
+ Data was extracted from wwPDB on 2024-10-12.
  <p><b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
 </div>
@@ -161,38 +161,57 @@ span[eg]:hover:after {
 function tr_html(d) {
   var row = '<td>' + d[0] + '</td><td>' + d[1] + '</td><td>' +
          d[2] + '</td><td>' + d[3] + '</td><td>' + d[4] + '</td><td>';
-  for (var i = 5; i < d.length; ++i) {
-    var s1 = d[i].indexOf(' ');
-    var s2 = d[i].indexOf(' ', s1+1);
-    row += '<span eg="' + d[i].substring(s1+1, s2) + '">';
-    row += d[i].substring(0, s1);
-    if (d[i][s2+1] === '{') {
-      row += '×' + d[i].substring(s2+1);
+  var i = 4;
+  var sum = 0;
+  while (++i < d.length) {
+    var g = d[i];
+    if (g[0] == '/') {
+      row += '    ☞ ' + g.substring(1) + ' distinct values ' +  '(';
+      break;
+    }
+    var s1 = g.indexOf(' ');
+    var s2 = g.indexOf(' ', s1+1);
+    var count_str = g.substring(0, s1);
+    row += '<span eg="' + g.substring(s1+1, s2) + '">';
+    sum += +count_str;
+    if (g[s2+1] === '{') {
+      row += count_str + '×' + g.substring(s2+1);
     } else {
-      row += '×<code>' + d[i].substring(s2+1) + '</code>';
+      row += count_str + '×<code>' + g.substring(s2+1) + '</code>';
     }
     row += '</span> ';
+  }
+  if (i < d.length) {  // previous loop exited through break
+    while (++i < d.length) {
+      var g = d[i];
+      var s1 = g.indexOf(' ');
+      var s2 = g.indexOf(' ', s1+1);
+      var pct = +g.substring(0, s1) * (100 / sum);
+      row += ('<span eg="' + g.substring(s1+1, s2) + '">' +
+              pct.toFixed(pct > 1 && pct < 99 ? 1 : 2) + '% <code>' +
+              g.substring(s2+1) + '</code></span>, ');
+    }
+    row += '…)';
   }
   return row + '</td>';
 }
 
-d3.text('mmcif-tags.tsv', function(text) {
+function add_content(text, elem_id) {
   var data = d3.tsvParseRows(text);
-  var tbody = d3.select('#coor-table').append('tbody');
+  var elem = document.getElementById(elem_id);
+  var tbody = d3.select(elem).append('tbody');
   tbody.selectAll('tr').data(data).enter().append('tr').html(tr_html);
-  new Tablesort(document.getElementById('coor-table'));
+  new Tablesort(elem);
+}
+
+d3.text('mmcif-tags.tsv', function(text) {
+  add_content(text, 'coor-table');
 });
 d3.text('sf-tags.tsv', function(text) {
-  var data = d3.tsvParseRows(text);
-  var tbody = d3.select('#sf-table').append('tbody');
-  tbody.selectAll('tr').data(data).enter().append('tr').html(tr_html);
-  new Tablesort(document.getElementById('sf-table'));
+  add_content(text, 'sf-table');
 });
 d3.text('ccd-tags.tsv', function(text) {
-  var data = d3.tsvParseRows(text);
-  var tbody = d3.select('#ccd-table').append('tbody');
-  tbody.selectAll('tr').data(data).enter().append('tr').html(tr_html);
-  new Tablesort(document.getElementById('ccd-table'));
+  add_content(text, 'ccd-table');
 });
 </script>
 </body>

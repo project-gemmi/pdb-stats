@@ -1,294 +1,291 @@
-_atom_sites.entry_id	0.015	1	1.00	1	29 r2ynosf {word}
-_atom_sites.fract_transf_matrix[1][1]	0.015	1	1.00	1	29 r2ynosf {0.005551 - 1}
-_atom_sites.fract_transf_matrix[1][2]	0.015	1	1.00	1	22 r2ynosf 0.000000	1 r4b8csf -0.003938	1 r4aw6sf -0.005135	1 r4ayxsf 0.003205	1 r4aytsf 0.003297	1 r4aywsf 0.005677	1 r2xqzsf 0.007914	1 r4az4sf 0.010568
-_atom_sites.fract_transf_matrix[1][3]	0.015	1	1.00	1	20 r4b5osf 0.000000	1 r4b8csf -0.000005	1 r4aw6sf -0.002073	1 r2ynosf 0.001452	1 r4as1sf 0.002419	1 r1h8dsf 0.002585	1 r4as5sf 0.005075	1 r4b32sf 0.014036	1 r4b33sf 0.014065	1 r4b2isf 0.014169
-_atom_sites.fract_transf_matrix[2][1]	0.015	1	1.00	1	29 r2ynosf 0.000000
-_atom_sites.fract_transf_matrix[2][2]	0.015	1	1.00	1	29 r2ynosf {0.00641 - 1}
-_atom_sites.fract_transf_matrix[2][3]	0.015	1	1.00	1	27 r2ynosf 0.000000	1 r4b8csf -0.000073	1 r4aw6sf -0.002093
-_atom_sites.fract_transf_matrix[3][1]	0.015	1	1.00	1	29 r2ynosf 0.000000
-_atom_sites.fract_transf_matrix[3][2]	0.015	1	1.00	1	29 r2ynosf 0.000000
-_atom_sites.fract_transf_matrix[3][3]	0.015	1	1.00	1	29 r2ynosf {0.001852 - 1}
-_atom_sites.fract_transf_vector[1]	0.015	1	1.00	1	29 r2ynosf 0.00000
-_atom_sites.fract_transf_vector[2]	0.015	1	1.00	1	29 r2ynosf 0.00000
-_atom_sites.fract_transf_vector[3]	0.015	1	1.00	1	29 r2ynosf 0.00000
-_audit.creation_date	82.819	1	1.32	5	214567 r8te6sf {word}	1 r1vpfsf {19 - 19}
-_audit.creation_method	0.002	1	1.00	1	2 r4ttjsf {text}	1 r5wfnsf {line}
-_audit.revision_id	89.553	1	1.32	5	173666 r8te6sf 1_0	44187 r8inhsf 1_1	8880 r3zdwsf 4_0	2114 r8iglsf 1_2	1693 r7tqkAsf 1	113 r4b0psf 1_3	33 r5m3tsf 2_0	17 r5fw0sf 2	8 rxxxxsf 4_1	3 r2bypsf 5_0	3 r2vpqsf 3_0	3 r4b0rsf 3	1 r2ypusf 2_1	1 r2hhbsf 1_4	1 r3sn5sf 1-2	1 r1qm6sf 4_2	1 r4pwssf 1-1
-_audit.update_record	88.951	1	1.32	5	4421 r6dmlsf {text}	224368 r8te6sf {line}	726 r8inhsf {word}
+_atom_sites.entry_id	0.014	1	1.00	1	30 r2ynosf {word}	/30	1 r4asisf 4ASI
+_atom_sites.fract_transf_matrix[1][1]	0.014	1	1.00	1	30 r2ynosf {0.005551 - 1}	/29	2 r2c0wsf 1.000000	1 r4as1sf 0.011151
+_atom_sites.fract_transf_matrix[1][2]	0.014	1	1.00	1	22 r2ynosf 0.000000	1 r1h6osf 0.006761	1 r2xqzsf 0.007914	1 r4aw6sf -0.005135	1 r4aytsf 0.003297	1 r4aywsf 0.005677	1 r4ayxsf 0.003205	1 r4az4sf 0.010568	1 r4b8csf -0.003938
+_atom_sites.fract_transf_matrix[1][3]	0.014	1	1.00	1	21 r4b5osf 0.000000	1 r1h8dsf 0.002585	1 r4aw6sf -0.002073	1 r4as1sf 0.002419	1 r4b2isf 0.014169	1 r4b32sf 0.014036	1 r4b8csf -0.000005	1 r4as5sf 0.005075	1 r4b33sf 0.014065	1 r2ynosf 0.001452
+_atom_sites.fract_transf_matrix[2][1]	0.014	1	1.00	1	30 r2ynosf 0.000000
+_atom_sites.fract_transf_matrix[2][2]	0.014	1	1.00	1	30 r2ynosf {0.00641 - 1}	/29	2 r2c0wsf 1.000000	1 r4b1fsf 0.013162
+_atom_sites.fract_transf_matrix[2][3]	0.014	1	1.00	1	28 r2ynosf 0.000000	1 r4aw6sf -0.002093	1 r4b8csf -0.000073
+_atom_sites.fract_transf_matrix[3][1]	0.014	1	1.00	1	30 r2ynosf 0.000000
+_atom_sites.fract_transf_matrix[3][2]	0.014	1	1.00	1	30 r2ynosf 0.000000
+_atom_sites.fract_transf_matrix[3][3]	0.014	1	1.00	1	30 r2ynosf {0.001852 - 1}	/29	2 r2c0wsf 1.000000	1 r4az4sf 0.004359
+_atom_sites.fract_transf_vector[1]	0.014	1	1.00	1	30 r2ynosf 0.00000
+_atom_sites.fract_transf_vector[2]	0.014	1	1.00	1	30 r2ynosf 0.00000
+_atom_sites.fract_transf_vector[3]	0.014	1	1.00	1	30 r2ynosf 0.00000
+_audit.creation_date	81.717	1	1.30	5	226426 r9duesf {word}	1 r1vpfsf {19 - 19}
+_audit.creation_method	0.002	1	1.00	1	3 r8wzosf {text}	1 r5wfnsf {line}
+_audit.revision_id	88.923	1	1.29	5	187355 r9duesf 1_0	44377 r9iy2sf 1_1	8877 r3zdwsf 4_0	2220 r8zlhsf 1_2	1693 r7tqkAsf 1	122 r8ho1sf 1_3	33 r5m3tsf 2_0	17 r5fw0sf 2	8 rxxxxsf 4_1	3 r4b0rsf 3	3 r2bypsf 5_0	3 r2vpqsf 3_0	1 r1h6osf 0	1 r3sn5sf 1-2	1 r4pwssf 1-1	1 r1qm6sf 4_2	1 r2ypusf 2_1	1 r2hhbsf 1_4
+_audit.update_record	88.368	1	1.30	5	4420 r6dmlsf {text}	238057 r9duesf {line}	1029 r9iy2sf {word}
 _cell.Z_PDB	0.002	1	1.00	1	4 r4yawsf 8
-_cell.angle_alpha	99.229	1	1.00	1	194304 r8te6sf {58.8 - 124.813}
-_cell.angle_alpha_esd	0.001	1	1.00	1	1 r8b7xAsf 0.042	1 r7f1lAsf 90.000
-_cell.angle_beta	99.229	1	1.00	1	194304 r8te6sf {45.399 - 161.238}
-_cell.angle_beta_esd	0.001	1	1.00	1	1 r8b7xAsf 0.041	1 r7f1lAsf 109.103
-_cell.angle_gamma	99.229	1	1.00	1	194304 r8te6sf {57.764 - 123.614}
-_cell.angle_gamma_esd	0.001	1	1.00	1	1 r8b7xAsf 0.030	1 r7f1lAsf 90.000
-_cell.details	0.001	1	1.00	1	1 r7q3vsf The data have been expanded to P1 space group (see https://doi.org/10.1107/S2052252521011891). This is recognized as twinning by Xtriage.
-_cell.entry_id	95.205	1	1.00	1	185862 r8te6sf {word}	562 r8e90sf {1 - 7e+99}
-_cell.formula_units_Z	0.018	1	1.00	1	10 r4b8csf 4	6 r4b4csf 1	4 r4b33sf 2	4 r2ynosf 8	3 r4b13sf 12	2 r4b0fsf 56	2 r4ayxsf 6	1 r4as3sf 16	1 r2bjksf 18	1 r4asusf 36	1 r2c0wsf 5	1 r1h1ksf 52
-_cell.length_a	99.229	1	1.00	1	194304 r8te6sf {1 - 1009.8}
-_cell.length_a_esd	0.005	1	1.00	1	1 r8baxAsf 0.007	1 r7mm1Asf 0.008	1 r8b7xAsf 0.010	1 r7rinAsf 0.017	1 r8ccaAsf 0.019	1 r7yloBsf 0.060	1 r7zrpAsf 0.177	1 r8b2tAsf 0.768	1 r7f1lAsf 35.170
-_cell.length_b	99.229	1	1.00	1	194304 r8te6sf {1 - 1198.07}
-_cell.length_b_esd	0.005	1	1.00	1	1 r7mm1Asf 0.008	1 r8b7xAsf 0.009	1 r8baxAsf 0.015	1 r7rinAsf 0.017	1 r8ccaAsf 0.020	1 r7yloBsf 0.060	1 r7zrpAsf 0.125	1 r8b2tAsf 1.117	1 r7f1lAsf 63.600
-_cell.length_c	99.229	1	1.00	1	194304 r8te6sf {1 - 1933.3}
-_cell.length_c_esd	0.005	1	1.00	1	1 r8ccaAsf 0.021	1 r7yloBsf 0.023	1 r8b7xAsf 0.032	1 r8baxAsf 0.040	1 r7rinAsf 0.042	1 r7mm1Asf 0.057	1 r7zrpAsf 0.267	1 r8b2tAsf 3.539	1 r7f1lAsf 39.170
-_cell.volume	0.222	1	1.00	1	434 r8gh5sf {86842.8 - 7.22578e+06}
-_database_2.database_code	0.015	1	1.00	1	28 r2ynosf PDB	1 r2xqzsf 2XQZ	1 r4ar4sf 4AR4
-_database_2.database_id	0.015	1	1.00	1	30 r2ynosf {word}
-_diffrn.ambient_temp	0.138	1	1.01	3	163 r4frysf ?	58 r7ux8sf 100	6 r3nouHsf 120	6 r3nouIsf 140	6 r6p58sf 150	6 r3nouBsf 170	6 r3nouEsf 173	6 r7qacsf 293	5 r4artsf 110	3 r1jjvAsf 100.0	3 r3nouAsf 130	3 r3nouPsf 160	3 r3nouMsf 180	1 r4j5oAsf 296
-_diffrn.crystal_id	40.774	1	1.00	16	1913 r6vzxAsf {word}	78218 r7g9jsf {1 - 676}
-_diffrn.crystal_treatment	0.123	1	1.02	3	1 r7ux8sf {text}	77 r7ux7sf {line}	166 r7l3mBsf {word}
-_diffrn.details	14.779	1	1.00	16	4253 r8dahAsf {text}	24677 r7g9jsf {line}	55 r6wf4sf {word}
-_diffrn.id	44.355	1	1.00	16	86810 r7g9jsf 1	151 r8b2tAsf 2	86 r8b2tAsf 3	54 r8b2tAsf 4	8 r8b2tAsf 5	5 r8b2tAsf 7	5 r8b2tAsf 6	4 r8b2tAsf 8	3 r1jjvAsf 1jjv	3 r8b2tAsf 9	3 r8b2tAsf 12	3 r8b2tAsf 11	3 r8b2tAsf 10	2 r8d5kAsf 13	1 r8d5kAsf 16	1 r8d5kAsf 15	1 r8d5kAsf 14
-_diffrn_measurement.details	0.070	1	1.28	16	175 r8piiAsf {line}
-_diffrn_measurement.diffrn_id	0.070	1	1.28	16	137 r8piiAsf 1	7 r8b2tAsf 2	4 r8b2tAsf 3	3 r8b2tAsf 4	3 r8b2tAsf 5	3 r8b2tAsf 6	3 r8b2tAsf 7	3 r8b2tAsf 8	2 r8b2tAsf 10	2 r8b2tAsf 11	2 r8b2tAsf 12	2 r8b2tAsf 9	1 r8d5kAsf 13	1 r8d5kAsf 14	1 r8d5kAsf 15	1 r8d5kAsf 16
-_diffrn_orient_matrix.UB[1][1]	0.027	1	1.00	1	53 r8pe9Esf {-0.0266609 - 0.0269074}
-_diffrn_orient_matrix.UB[1][2]	0.027	1	1.00	1	53 r8pe9Esf {-0.0210301 - 0.0255356}
-_diffrn_orient_matrix.UB[1][3]	0.027	1	1.00	1	53 r8pe9Esf {-0.0124583 - 0.0186808}
-_diffrn_orient_matrix.UB[2][1]	0.027	1	1.00	1	53 r8pe9Esf {-0.016017 - 0.0250249}
-_diffrn_orient_matrix.UB[2][2]	0.027	1	1.00	1	53 r8pe9Esf {-0.0278054 - 0.0170909}
-_diffrn_orient_matrix.UB[2][3]	0.027	1	1.00	1	53 r8pe9Esf {-0.0157157 - 0.0177381}
-_diffrn_orient_matrix.UB[3][1]	0.027	1	1.00	1	53 r8pe9Esf {-0.0232996 - 0.0264681}
-_diffrn_orient_matrix.UB[3][2]	0.027	1	1.00	1	53 r8pe9Esf {-0.0168333 - 0.0152251}
-_diffrn_orient_matrix.UB[3][3]	0.027	1	1.00	1	53 r8pe9Esf {-0.0192692 - 0.0102886}
-_diffrn_orient_matrix.diffrn_id	0.027	1	1.00	1	53 r8pe9Esf 1
-_diffrn_radiation.diffrn_id	0.626	1	1.03	16	1221 r8piiAsf 1	9 r8b2tAsf 2	6 r8b2tAsf 3	3 r8b2tAsf 6	3 r8b2tAsf 7	2 r8b2tAsf 10	2 r8b2tAsf 11	2 r8b2tAsf 12	2 r8b2tAsf 4	2 r8b2tAsf 5	2 r8b2tAsf 8	2 r8b2tAsf 9	1 r8d5kAsf 13	1 r8d5kAsf 14	1 r8d5kAsf 15	1 r8d5kAsf 16
-_diffrn_radiation.id	0.127	1	1.00	1	249 r4ia5sf 1
-_diffrn_radiation.pdbx_wavelength	0.128	1	1.01	3	4 phasing_set {word}	249 r4ia5sf {0.835 - 1.7587}
-_diffrn_radiation.wavelength_id	0.627	1	1.03	16	1252 r8piiAsf 1	4 r7n7vBsf 2	3 r7qacBsf 3	1 r7qacEsf 6	1 r7qacEsf 7
-_diffrn_radiation_wavelength.id	93.407	1	1.01	6	182878 r8te6sf 1	1321 r7ykbAsf 2	919 r7ux7Csf 3	92 r7qacCsf 4	6 r7qacDsf 5	2 r2q3tsf 0.97916,	2 r7qacEsf 6	1 r3qbaAsf -	1 r1o59sf 0.918370,	1 r7qacEsf 7
-_diffrn_radiation_wavelength.wavelength	89.731	1	1.01	6	9 r8funsf {line}	64 r7tx5Asf {word}	177946 r8te6sf {0 - 1.86358e+09}
-_diffrn_radiation_wavelength.wt	0.028	1	1.31	3	70 r7wnpsf 1.0	1 r7qacEsf 0.5
+_cell.angle_alpha	99.290	1	1.00	1	211087 r9duesf {58.8 - 124.813}
+_cell.angle_alpha_esd	0.003	1	1.00	1	1 r7f1lAsf 90.000	1 r8b7xAsf 0.042	1 r8pejAsf 0.017	1 r9f5hAsf 0.171	1 r9g9rAsf 0.104	1 r9g9sAsf 0.097
+_cell.angle_beta	99.290	1	1.00	1	211087 r9duesf {45.399 - 164.339}
+_cell.angle_beta_esd	0.009	1	1.00	1	2 r8rp4Asf 0.029	2 r9g9sAsf 0.043	1 r8rp5Asf 0.053	1 r8pejAsf 0.018	1 r8rp3Asf 0.048	1 r8b7xAsf 0.041	1 r8oxvAsf 0.256	1 r8bmyAsf 0.074	1 r8oxwAsf 0.107	1 r8oxyAsf 0.132	1 r8bmzAsf 0.116	1 r8un9Asf 0.101	1 r9f5hAsf 0.092	1 r9g9rAsf 0.105	1 r8olhAsf 0.021	1 r8rmwAsf 0.075	1 r7f1lAsf 109.103	1 r8ogxAsf 0.036
+_cell.angle_gamma	99.290	1	1.00	1	211087 r9duesf {57.764 - 123.614}
+_cell.angle_gamma_esd	0.003	1	1.00	1	1 r8b7xAsf 0.030	1 r8pejAsf 0.029	1 r7f1lAsf 90.000	1 r9f5hAsf 0.084	1 r9g9rAsf 0.131	1 r9g9sAsf 0.060
+_cell.details	0.000	1	1.00	1	1 r7q3vsf The data have been expanded to P1 space group (see https://doi.org/10.1107/S2052252521011891). This is recognized as twinning by Xtriage.
+_cell.entry_id	95.593	1	1.00	1	202660 r9duesf {word}	566 r8e90sf {1 - 7e+99}
+_cell.formula_units_Z	0.018	1	1.00	1	10 r4b8csf 4	6 r4b4csf 1	4 r4b13sf 12	4 r4b33sf 2	4 r2ynosf 8	3 r4ayxsf 6	2 r4b0fsf 56	1 r1h1ksf 52	1 r4asusf 36	1 r2bjksf 18	1 r2c0wsf 5	1 r4as3sf 16
+_cell.length_a	99.290	1	1.00	1	211087 r9duesf {1 - 1009.8}
+_cell.length_a_esd	0.016	1	1.00	1	33 r9g9sAsf {0.007 - 35.17}	/30	2 r8ssfAsf 0.149	2 r8pejAsf 0.019	2 r8p1sAsf 0.060	1 r7f1lAsf 35.170
+_cell.length_b	99.290	1	1.00	1	211087 r9duesf {1 - 1198.07}
+_cell.length_b_esd	0.016	1	1.00	1	33 r9g9sAsf {0.008 - 63.6}	/32	2 r8oxwAsf 0.060	1 r8bmzAsf 0.052
+_cell.length_c	99.290	1	1.00	1	211087 r9duesf {1 - 1933.3}
+_cell.length_c_esd	0.016	1	1.00	1	33 r9g9sAsf {0.012 - 39.17}	/31	3 r8rp4Asf 0.021	1 r8un9Asf 0.098
+_cell.volume	0.220	1	1.00	1	467 r9db5sf {86842.8 - 7.22578e+06}
+_database_2.database_code	0.014	1	1.00	1	28 r2ynosf PDB	1 r2xqzsf 2XQZ	1 r4ar4sf 4AR4
+_database_2.database_id	0.014	1	1.00	1	30 r2ynosf {word}	/29	2 r4ar4sf PDB	1 r4b8csf 4B8C
+_diffrn.ambient_temp	0.131	1	1.01	3	163 r4frysf ?	66 r8qq7sf 100	6 r3nouEsf 173	6 r6p58sf 150	6 r3nouBsf 170	6 r3nouHsf 120	6 r3nouIsf 140	6 r7qacsf 293	5 r4artsf 110	3 r3nouMsf 180	3 r3nouAsf 130	3 r1jjvAsf 100.0	3 r3nouPsf 160	1 r4j5oAsf 296
+_diffrn.crystal_id	40.576	1	1.00	16	1913 r6vzxAsf {word}	84649 r9jhvAsf {1 - 676}	/30	86340 r9jhvAsf 1	83 r8ucyAsf 2
+_diffrn.crystal_treatment	0.115	1	1.02	3	1 r7ux8sf {text}	82 r8qmgsf {line}	166 r7l3mBsf {word}
+_diffrn.details	16.498	1	1.00	16	4260 r8w84Csf {text}	30811 r9jhvAsf {line}	57 r8qq7sf {word}
+_diffrn.id	43.874	1	1.00	16	93227 r9jhvAsf 1	159 r8rd5Asf 2	89 r8ucyBsf 3	56 r8ucyCsf 4	9 r8ucyDsf 5	5 r8b2tAsf 6	5 r8b2tAsf 7	4 r8b2tAsf 8	3 r8b2tAsf 12	3 r8b2tAsf 11	3 r8b2tAsf 10	3 r8b2tAsf 9	3 r1jjvAsf 1jjv	2 r8d5kAsf 13	1 r8d5kAsf 15	1 r8d5kAsf 16	1 r8d5kAsf 14
+_diffrn.pdbx_serial_crystal_experiment	0.001	1	1.00	1	2 r8qq7sf N
+_diffrn_measurement.details	0.144	1	1.15	16	1 r8tw0Asf {text}	352 r9jhvAsf {line}
+_diffrn_measurement.diffrn_id	0.144	1	1.15	16	307 r9jhvAsf 1	12 r8rd5Asf 2	6 r8p1sAsf 3	4 r8owwAsf 4	3 r8b2tAsf 5	3 r8b2tAsf 6	3 r8b2tAsf 7	3 r8b2tAsf 8	2 r8b2tAsf 9	2 r8b2tAsf 10	2 r8b2tAsf 11	2 r8b2tAsf 12	1 r8d5kAsf 14	1 r8d5kAsf 16	1 r8d5kAsf 15	1 r8d5kAsf 13
+_diffrn_orient_matrix.UB[1][1]	0.041	1	1.00	1	87 r9febGsf {-0.0266609 - 0.0269074}
+_diffrn_orient_matrix.UB[1][2]	0.041	1	1.00	1	87 r9febGsf {-0.0210301 - 0.0255356}
+_diffrn_orient_matrix.UB[1][3]	0.041	1	1.00	1	87 r9febGsf {-0.0124583 - 0.0186808}
+_diffrn_orient_matrix.UB[2][1]	0.041	1	1.00	1	87 r9febGsf {-0.016017 - 0.0250249}
+_diffrn_orient_matrix.UB[2][2]	0.041	1	1.00	1	87 r9febGsf {-0.0278054 - 0.0170909}
+_diffrn_orient_matrix.UB[2][3]	0.041	1	1.00	1	87 r9febGsf {-0.0157157 - 0.0177381}
+_diffrn_orient_matrix.UB[3][1]	0.041	1	1.00	1	87 r9febGsf {-0.0232996 - 0.0264681}
+_diffrn_orient_matrix.UB[3][2]	0.041	1	1.00	1	87 r9febGsf {-0.0168333 - 0.0176436}
+_diffrn_orient_matrix.UB[3][3]	0.041	1	1.00	1	87 r9febGsf {-0.0192692 - 0.0102886}
+_diffrn_orient_matrix.diffrn_id	0.041	1	1.00	1	87 r9febGsf 1
+_diffrn_radiation.diffrn_id	0.714	1	1.03	16	1512 r9jhvAsf 1	14 r8rd5Asf 2	8 r8p1sAsf 3	3 r8owwAsf 4	3 r8b2tAsf 6	3 r8b2tAsf 7	2 r8b2tAsf 5	2 r8b2tAsf 8	2 r8b2tAsf 9	2 r8b2tAsf 10	2 r8b2tAsf 11	2 r8b2tAsf 12	1 r8d5kAsf 14	1 r8d5kAsf 16	1 r8d5kAsf 15	1 r8d5kAsf 13
+_diffrn_radiation.id	0.117	1	1.00	1	249 r4ia5sf 1
+_diffrn_radiation.pdbx_wavelength	0.118	1	1.01	3	4 phasing_set {word}	249 r4ia5sf {0.835 - 1.7587}	/78	45 r4fqzsf 1.00000	39 r3uk8sf 1.54178	25 r4ffcsf 1.54180	8 r4fcksf 0.97950
+_diffrn_radiation.wavelength_id	0.714	1	1.03	16	1551 r9jhvAsf 1	4 r7n7vBsf 2	3 r7qacBsf 3	1 r7qacEsf 7	1 r7qacEsf 6
+_diffrn_radiation_wavelength.id	93.939	1	1.01	6	199674 r9duesf 1	1331 r9f5bAsf 2	924 r9f5bBsf 3	94 r8wu5sf 4	7 r8ucyDsf 5	2 r2q3tsf 0.97916,	2 r7qacEsf 6	1 r1o59sf 0.918370,	1 r7qacEsf 7	1 r3qbaAsf -
+_diffrn_radiation_wavelength.wavelength	90.542	1	1.01	6	10 r8g50sf {line}	70 r9it1sf {word}	194731 r9duesf {0 - 1.86358e+09}
+_diffrn_radiation_wavelength.wt	0.030	1	1.30	3	81 r8h7csf 1.0	1 r7qacEsf 0.5
 _diffrn_refln.F_meas_au	0.001	4344	13090.00	21836	26180 r6y14Asf {5.98 - 1294}
 _diffrn_refln.F_meas_sigma_au	0.001	4344	13090.00	21836	26180 r6y14Asf {2.24 - 290.4}
-_diffrn_refln.crystal_id	0.002	4344	145224.33	397750	435673 r7atgAsf 1
-_diffrn_refln.diffrn_id	0.556	4698	393364.87	7349644	424439178 r8piiAsf 1	3140063 r8b2tAsf 2	469583 r8b2tAsf 3	70058 r8b2tAsf 8	48056 r8b2tAsf 7	35303 r8b2tAsf 12	35121 r8b2tAsf 9	34929 r8b2tAsf 11	28619 r8b2tAsf 6	27461 r8b2tAsf 4	21064 r8b2tAsf 10	18158 r8b2tAsf 5	6732 r8d5kAsf 16	8 r8d5kAsf 15	4 r8d5kAsf 14	3 r8d5kAsf 13
-_diffrn_refln.id	0.556	4698	393364.87	7349644	428374340 r8piiAsf {1 - 7.34964e+06}
-_diffrn_refln.index_h	0.558	4344	392683.16	7349644	428810013 r8piiAsf {-164 - 168}
-_diffrn_refln.index_k	0.558	4344	392683.16	7349644	428810013 r8piiAsf {-128 - 5.40029e+08}
-_diffrn_refln.index_l	0.558	4344	392683.16	7349644	428810013 r8piiAsf {-434 - 434}
+_diffrn_refln.crystal_id	0.001	4344	145224.33	397750	435673 r7atgAsf 1
+_diffrn_refln.diffrn_id	0.638	4698	426979.79	7349644	572158225 r9jhvAsf 1	4708232 r8rd5Asf 2	1882366 r8p1sAsf 3	364693 r8owwAsf 4	70058 r8b2tAsf 8	48056 r8b2tAsf 7	35303 r8b2tAsf 12	35121 r8b2tAsf 9	34929 r8b2tAsf 11	28619 r8b2tAsf 6	21064 r8b2tAsf 10	18158 r8b2tAsf 5	6732 r8d5kAsf 16	8 r8d5kAsf 15	4 r8d5kAsf 14	3 r8d5kAsf 13
+_diffrn_refln.id	0.638	4698	426979.79	7349644	579411571 r9jhvAsf {1 - 7.34964e+06}
+_diffrn_refln.index_h	0.640	4344	426358.27	7349644	579847244 r9jhvAsf {-164 - 168}
+_diffrn_refln.index_k	0.640	4344	426358.27	7349644	579847243 r9jhvAsf {-179 - 5.40029e+08}
+_diffrn_refln.index_l	0.640	4344	426358.27	7349644	579847243 r9jhvAsf {-434 - 434}
 _diffrn_refln.intensity_meas	0.001	21836	209793.00	397750	419586 r7atgAsf {-3749.1 - 999999}
-_diffrn_refln.intensity_net	0.556	4698	393364.87	7349644	428374339 r8piiAsf {-1.243e+07 - 8.543e+08}
-_diffrn_refln.intensity_sigma	0.557	4698	393028.35	7349644	428793925 r8piiAsf {-5.925e+07 - 1.673e+08}
-_diffrn_refln.pdbx_F_minus	0.001	4336	4336.00	4336	4336 r6y13Asf {12.25 - 1294}
-_diffrn_refln.pdbx_F_minus_sigma	0.001	4336	4336.00	4336	4336 r6y13Asf {6.56 - 290.4}
-_diffrn_refln.pdbx_F_plus	0.001	4292	4292.00	4292	4292 r6y13Asf {12.25 - 1294}
-_diffrn_refln.pdbx_F_plus_sigma	0.001	4292	4292.00	4292	4292 r6y13Asf {6.56 - 290.4}
-_diffrn_refln.pdbx_anom_difference	0.001	4284	4284.00	4284	4284 r6y13Asf {-122.7 - 196.1}
-_diffrn_refln.pdbx_anom_difference_sigma	0.001	4284	4284.00	4284	4284 r6y13Asf {0 - 118}
-_diffrn_refln.pdbx_detector_x	0.027	9561	155316.32	1161747	8231765 r8pe9Esf {4.1 - 4144.7}
-_diffrn_refln.pdbx_detector_y	0.027	9561	155316.32	1161747	8231765 r8pe9Esf {3.8 - 4366.7}
-_diffrn_refln.pdbx_image_id	0.070	9561	391030.31	2414578	53571153 r8piiAsf {1 - 9000}
-_diffrn_refln.pdbx_r_free_flag	0.001	4344	18961.50	33579	5786 r6y14Asf 1	1867 r6y14Asf 0	1767 r6y14Asf 10	1742 r6y14Asf 4	1717 r6y14Asf 9	1717 r6y14Asf 3	1702 r6y14Asf 11	1693 r6y14Asf 2	1684 r6y14Asf 19	1680 r6y14Asf 18	1679 r6y14Asf 13	1676 r6y14Asf 6	1673 r6y14Asf 15	1671 r6y14Asf 12	1670 r6y14Asf 16	1648 r6y14Asf 14	1646 r6y14Asf 5	1640 r6y14Asf 7	1636 r6y14Asf 8	1629 r6y14Asf 17
-_diffrn_refln.pdbx_scale_value	0.027	9561	155316.32	1161747	8231765 r8pe9Esf {0.190459 - 135.306}
-_diffrn_refln.pdbx_scan_angle	0.062	9561	394541.98	2414578	48134121 r8piiAsf {-630.65 - 3599.5}
-_diffrn_refln.scale_group_code	0.488	4344	392920.27	7349644	375238860 r7g21Asf 1
-_diffrn_refln.standard_code	0.483	11908	395602.95	7349644	374240386 r7g21Asf 1
-_diffrn_refln.status	0.002	4344	145224.33	397750	415670 r7atgAsf o	11743 r6y14Asf x	8260 r7atgAsf f
-_diffrn_refln.wavelength_id	0.486	4344	393698.17	7349644	372361000 r7g21Asf 1	1503678 r7n7vBsf 2	930983 r7qacBsf 3	2509 r7qacEsf 6	2489 r7qacEsf 7
-_diffrn_reflns.details	0.001	1	1.00	1	1 r1hgvsf {text}
-_diffrn_reflns.diffrn_id	29.673	1	1.00	1	58091 r8p7jsf 1	9 r7qacAsf 2	1 r7qacBsf 3	1 r7qacCsf 4	1 r7qacDsf 5	1 r7qacEsf 6
-_diffrn_reflns.limit_h_max	26.115	1	1.00	1	51136 r8p7jsf {0 - 224}
-_diffrn_reflns.limit_h_min	26.115	1	1.00	1	51136 r8p7jsf {-232 - 52}
-_diffrn_reflns.limit_k_max	26.115	1	1.00	1	51136 r8p7jsf {0 - 247}
-_diffrn_reflns.limit_k_min	26.115	1	1.00	1	51136 r8p7jsf {-195 - 30}
-_diffrn_reflns.limit_l_max	26.115	1	1.00	1	51136 r8p7jsf {-33 - 426}
-_diffrn_reflns.limit_l_min	26.115	1	1.00	1	51136 r8p7jsf {-425 - 84}
-_diffrn_reflns.number	29.493	1	1.00	1	57752 r8p7jsf {209 - 9.16658e+06}
-_diffrn_reflns.pdbx_d_res_high	29.671	1	1.00	1	1 r2o69sf {word}	58099 r8p7jsf {0.317 - 10.273}
-_diffrn_reflns.pdbx_d_res_low	29.656	1	1.00	1	3 r2o69sf {word}	58068 r8p7jsf {4.998 - 632.23}
-_diffrn_reflns.pdbx_number_obs	26.278	1	1.00	1	51455 r8p7jsf {0 - 9.16658e+06}
-_diffrn_scale.group_code	0.001	1	1.00	1	1 r5n1uAsf 1
+_diffrn_refln.intensity_net	0.638	4698	426979.79	7349644	1 r8sjuEsf {word}	579411568 r9jhvAsf {-1.243e+07 - 1.142e+09}
+_diffrn_refln.intensity_sigma	0.639	4698	426660.16	7349644	579831154 r9jhvAsf {-5.925e+07 - 1.673e+08}
+_diffrn_refln.pdbx_F_minus	0.000	4336	4336.00	4336	4336 r6y13Asf {12.25 - 1294}
+_diffrn_refln.pdbx_F_minus_sigma	0.000	4336	4336.00	4336	4336 r6y13Asf {6.56 - 290.4}
+_diffrn_refln.pdbx_F_plus	0.000	4292	4292.00	4292	4292 r6y13Asf {12.25 - 1294}
+_diffrn_refln.pdbx_F_plus_sigma	0.000	4292	4292.00	4292	4292 r6y13Asf {6.56 - 290.4}
+_diffrn_refln.pdbx_anom_difference	0.000	4284	4284.00	4284	4284 r6y13Asf {-122.7 - 196.1}
+_diffrn_refln.pdbx_anom_difference_sigma	0.000	4284	4284.00	4284	4284 r6y13Asf {0 - 118}
+_diffrn_refln.pdbx_detector_x	0.041	9561	453770.65	4140035	39931817 r9febGsf {4.1 - 4144.7}
+_diffrn_refln.pdbx_detector_y	0.041	9561	453770.65	4140035	39931817 r9febGsf {3.8 - 4366.7}
+_diffrn_refln.pdbx_image_id	0.145	9561	528127.43	7324278	162663248 r9jhvAsf {1 - 9000}
+_diffrn_refln.pdbx_r_free_flag	0.001	4344	18961.50	33579	5786 r6y14Asf 1	1867 r6y14Asf 0	1767 r6y14Asf 10	1742 r6y14Asf 4	1717 r6y14Asf 3	1717 r6y14Asf 9	1702 r6y14Asf 11	1693 r6y14Asf 2	1684 r6y14Asf 19	1680 r6y14Asf 18	1679 r6y14Asf 13	1676 r6y14Asf 6	1673 r6y14Asf 15	1671 r6y14Asf 12	1670 r6y14Asf 16	1648 r6y14Asf 14	1646 r6y14Asf 5	1640 r6y14Asf 7	1636 r6y14Asf 8	1629 r6y14Asf 17
+_diffrn_refln.pdbx_scale_value	0.041	9561	453770.65	4140035	39931817 r9febGsf {0.190459 - 135.306}
+_diffrn_refln.pdbx_scan_angle	0.136	9561	539792.32	7324278	156539774 r9jhvAsf {-630.65 - 3599.6}
+_diffrn_refln.scale_group_code	0.495	4344	396562.73	7349644	417183995 r8s1kAsf 1
+_diffrn_refln.standard_code	0.488	11908	400625.30	7349644	415448439 r8s1kAsf 1
+_diffrn_refln.status	0.001	4344	145224.33	397750	415670 r7atgAsf o	11743 r6y14Asf x	8260 r7atgAsf f
+_diffrn_refln.wavelength_id	0.493	4344	397279.12	7349644	413933923 r8s1kAsf 1	1817007 r7n7vBsf 2	989866 r7qacBsf 3	2509 r7qacEsf 6	2489 r7qacEsf 7
+_diffrn_reflns.details	0.000	1	1.00	1	1 r1hgvsf {text}
+_diffrn_reflns.diffrn_id	27.450	1	1.00	1	58345 r9j9asf 1	9 r7qacAsf 2	1 r7qacEsf 6	1 r7qacCsf 4	1 r7qacDsf 5	1 r7qacBsf 3
+_diffrn_reflns.limit_h_max	24.158	1	1.00	1	51360 r9j9asf {0 - 224}	/175	1684 r8rkgsf 30
+_diffrn_reflns.limit_h_min	24.158	1	1.00	1	51360 r9j9asf {-232 - 52}	/177	34536 r9j9asf 0	569 r8ohqsf -27
+_diffrn_reflns.limit_k_max	24.158	1	1.00	1	51360 r9j9asf {0 - 247}	/199	1328 r8q6hsf 34
+_diffrn_reflns.limit_k_min	24.158	1	1.00	1	51360 r9j9asf {-195 - 30}	/96	47672 r9j9asf 0	909 r8xf3sf 1
+_diffrn_reflns.limit_l_max	24.158	1	1.00	1	51360 r9j9asf {-33 - 426}	/292	1029 r8sg5sf 39
+_diffrn_reflns.limit_l_min	24.158	1	1.00	1	51360 r9j9asf {-425 - 84}	/251	45561 r9j9asf 0	110 r8xglsf -35
+_diffrn_reflns.number	27.271	1	1.00	1	57976 r9j9asf {209 - 9.16658e+06}
+_diffrn_reflns.pdbx_d_res_high	27.448	1	1.00	1	1 r2o69sf {word}	58352 r9j9asf {0.317 - 10.273}
+_diffrn_reflns.pdbx_d_res_low	27.435	1	1.00	1	3 r2o69sf {word}	58322 r9j9asf {4.998 - 632.23}
+_diffrn_reflns.pdbx_number_obs	24.322	1	1.00	1	51708 r9j9asf {0 - 9.16658e+06}
+_diffrn_scale.group_code	0.000	1	1.00	1	1 r5n1uAsf 1
 _diffrn_scale_group.I_net	0.001	1	1.00	1	1 r4yokAsf 1.0	1 r8cx4Asf 1.00
-_diffrn_scale_group.code	0.019	1	1.00	1	37 r8e4dCsf 1
-_diffrn_standard_refln.code	0.011	1	1.00	1	22 r8e4dCsf 1
-_diffrn_standard_refln.diffrn_id	0.011	1	1.00	1	20 r8e4dCsf 1	1 r6wfvBsf 2	1 r6wfvCsf 3
-_diffrn_standard_refln.index_h	0.010	1	1.00	1	17 r8dapEsf 0	1 r8cx4Asf -37	1 r8e4dCsf 1
-_diffrn_standard_refln.index_k	0.010	1	1.00	1	18 r8dapEsf 0	1 r8e4dCsf 1
-_diffrn_standard_refln.index_l	0.010	1	1.00	1	14 r8dapEsf 3	4 r8e4dCsf 1	1 r5s9lAsf -4
-_entry.id	95.610	1	1.00	1	186649 r8te6sf {word}	567 r8e90sf {1 - 7e+99}
-_exptl_crystal.description	0.151	1	1.00	1	218 r8pe9sf xxxx	53 r8pe9Esf crystal 1	4 r7u3pAsf 7u3p	4 r7u3qAsf 7u3q	4 r7u42Asf 7u42	4 r7u43Asf 7u43	4 r7u44Asf 7u44	4 r7u45Asf 7u45
-_exptl_crystal.id	95.017	1	1.00	2	186034 r8te6sf 1	15 r7tqeAsf 2	2 r7qacBsf 3	1 r7qacCsf 4	1 r7qacDsf 5	1 r7qacEsf 6	1 r6vzxAsf B04-1	1 r6vzxBsf B04-2
-_pdbx_audit_conform.dict_location	0.217	1	1.00	1	259 r8pe9Csf http://mmcif.wwpdb.org/dictionaries/ascii/mmcif_pdbx_v50.dic	166 r8piisf https://mmcif.wwpdb.org/dictionaries/ascii/mmcif_pdbx_v50.dic
-_pdbx_audit_conform.dict_name	0.217	1	1.00	1	425 r8piisf mmcif_pdbx.dic
-_pdbx_audit_conform.dict_version	0.217	1	1.00	1	425 r8piisf 5.339
-_pdbx_powder_data.pd_calc_intensity_total	0.021	4534	7143.88	30432	300043 r6vc1sf {-748.17 - 88509}
+_diffrn_scale_group.code	0.023	1	1.00	1	49 r8ckesf 1
+_diffrn_standard_refln.code	0.010	1	1.00	1	22 r8e4dCsf 1
+_diffrn_standard_refln.diffrn_id	0.010	1	1.00	1	20 r8e4dCsf 1	1 r6wfvBsf 2	1 r6wfvCsf 3
+_diffrn_standard_refln.index_h	0.009	1	1.00	1	17 r8dapEsf 0	1 r8cx4Asf -37	1 r8e4dCsf 1
+_diffrn_standard_refln.index_k	0.009	1	1.00	1	18 r8dapEsf 0	1 r8e4dCsf 1
+_diffrn_standard_refln.index_l	0.009	1	1.00	1	14 r8dapEsf 3	4 r8e4dCsf 1	1 r5s9lAsf -4
+_entry.id	95.967	1	1.00	1	203452 r9duesf {word}	571 r8e90sf {1 - 7e+99}
+_exptl_crystal.description	0.237	1	1.00	1	393 r9febsf xxxx	87 r9febGsf crystal 1	4 r7u3pAsf 7u3p	4 r7u3qAsf 7u3q	4 r7u42Asf 7u42	4 r7u43Asf 7u43	4 r7u44Asf 7u44	4 r7u45Asf 7u45
+_exptl_crystal.id	95.358	1	1.00	2	202702 r9duesf 1	20 r8ucyAsf 2	2 r7qacBsf 3	1 r6vzxBsf B04-2	1 r6vzxAsf B04-1	1 r7qacEsf 6	1 r7qacCsf 4	1 r7qacDsf 5
+_pdbx_audit_conform.dict_location	0.395	1	1.00	1	426 r9g9ssf https://mmcif.wwpdb.org/dictionaries/ascii/mmcif_pdbx_v50.dic	414 r9febCsf http://mmcif.wwpdb.org/dictionaries/ascii/mmcif_pdbx_v50.dic
+_pdbx_audit_conform.dict_name	0.395	1	1.00	1	840 r9g9ssf mmcif_pdbx.dic
+_pdbx_audit_conform.dict_version	0.395	1	1.00	1	840 r9g9ssf 5.339
+_pdbx_powder_data.pd_calc_intensity_total	0.020	4534	7143.88	30432	300043 r6vc1sf {-748.17 - 88509}
 _pdbx_powder_data.pd_meas_2theta_scan	0.008	5000	8114.00	30432	129824 r6vc1sf {0.515 - 55.7766}
-_pdbx_powder_data.pd_meas_intensity_total	0.023	4800	8985.02	30432	79824 r6vc1sf {word}	324502 r4idwsf {2 - 71510}
-_pdbx_powder_data.pd_proc_intensity_bkg_calc	0.023	4359	7534.20	30432	1 r4idwHsf {word}	339038 r6vc1sf {-8451.9 - 144532}
+_pdbx_powder_data.pd_meas_intensity_total	0.021	4800	8985.02	30432	79824 r6vc1sf {word}	324502 r4idwsf {2 - 71510}
+_pdbx_powder_data.pd_proc_intensity_bkg_calc	0.021	4359	7534.20	30432	1 r4idwHsf {word}	339038 r6vc1sf {-8451.9 - 144532}
 _pdbx_powder_data.pd_proc_intensity_total	0.002	4359	8122.25	10988	32489 r2o2wsf {0 - 15540}
-_pdbx_powder_data.pd_proc_ls_weight	0.023	4359	7562.98	30432	5000 r2hs9Bsf {word}	335334 r6vc1sf {0 - 124237}
-_pdbx_powder_data.unknown	0.001	4532	4532.00	4532	4532 r2hs9Bsf {-157 - 13069}
-_pdbx_refln_signal_binning.ordinal	0.029	7	7.00	7	56 r8pe9Csf 1	56 r8pe9Csf 2	56 r8pe9Csf 3	56 r8pe9Csf 4	56 r8pe9Csf 5	56 r8pe9Csf 6	56 r8pe9Csf 7
-_pdbx_refln_signal_binning.upper_threshold	0.029	7	7.00	7	392 r8pe9Csf {1.2 - 73.35}
-_refln.A_calc	0.058	1878	15111.32	48118	1722691 r4fivsf {-31486.2 - 31711.3}
-_refln.B_calc	0.058	1878	15111.32	48118	1722690 r4fivsf {-8793.66 - 23860.2}
-_refln.F_calc	16.332	6	54289.67	2554728	1095 r2o69sf {word}	1736182589 r8pe9sf {-1759.79 - 1.19761e+07}
-_refln.F_calc_au	11.227	389	52157.81	1824194	1146585189 r8pkysf {0 - 1.13451e+06}
-_refln.F_meas	0.008	7248	37812.94	82997	605007 r8pe9sf {3.47843 - 8227.2}
-_refln.F_meas_au	84.577	100	54828.86	9166584	1637 r2o69sf {word}	490436020 r1q3qsf {-1e+10 - 3.89024e+07}
-_refln.F_meas_sigma	0.008	7248	37812.94	82997	605007 r8pe9sf {0.6 - 484.91}
-_refln.F_meas_sigma_au	84.304	100	54916.50	9166584	5610 r4jecsf {word}	475565739 r1q16sf {-1e+10 - 8.56453e+06}
-_refln.F_meas_sigma_uncorrected	0.001	217593	217593.00	217593	217593 r1reqsf {0 - 131.7}
-_refln.F_meas_uncorrected	0.001	217593	217593.00	217593	217593 r1reqsf {0 - 3316.5}
-_refln.F_squared_calc	0.028	1689	5691.85	39229	307360 r7qacsf {0 - 6.19862e+07}
-_refln.F_squared_meas	0.081	1344	43002.57	353944	6837408 r4nagsf {-1228.85 - 1.28423e+08}
-_refln.F_squared_sigma	0.059	1344	57358.98	353944	6653642 r4nagsf {0 - 1.29193e+07}
-_refln.crystal_id	98.627	39	62195.37	9166584	52018609 r7tqeAsf 2	5002773 r4tohAsf 0	3421994 r4czwBsf 3	1500314 r7qacCsf 4	748418 r4u9oAsf 27	40237 r7qacDsf 5	37232 r4gmaHsf 6	23069 r3um7Asf 676	13164 r4gmaJsf 8	11511 r3s9kAsf a4	6160 r4gmaIsf 7	4584 r4gmaMsf 9	1 r3zqosf OF	1 r2w4qsf REFLECTIONS	-936310882 r3p80sf 1
-_refln.d_spacing	0.033	1683	6075.31	45271	388820 r7qacsf {0.00036 - 55.739}
-_refln.diffrn_id	0.001	627576	627576.00	627576	627576 r4i79Asf 1
-_refln.fiber_F_meas_au	0.001	2411	2411.00	2411	2411 r1ql1sf {21.3 - 4684.3}
-_refln.fiber_coordinate	0.001	2411	2411.00	2411	2411 r1ql1sf {0.0025 - 0.315}
-_refln.fiber_layer	0.001	2411	2411.00	2411	2411 r1ql1sf {0 - 23}
-_refln.fom	23.572	147	52602.77	2215666	247 r2o69sf {word}	-1866981328 r8pkysf {-9948.76 - 3795.06}
-_refln.id	0.001	627576	627576.00	627576	627576 r4i79Asf {1 - 627576}
-_refln.index_h	99.439	38	61928.44	9166584	10873 r1e6iAsf {word}	-826515820 r3ppmsf {-232 - 3072}
-_refln.index_k	99.439	38	61928.44	9166584	-826504947 r3ppmsf {-195 - 68783}
-_refln.index_l	99.439	38	61928.44	9166584	-826504947 r3ppmsf {-8.11167e+06 - 3.12875e+06}
+_pdbx_powder_data.pd_proc_ls_weight	0.021	4359	7562.98	30432	5000 r2hs9Bsf {word}	335334 r6vc1sf {0 - 124237}
+_pdbx_powder_data.unknown	0.000	4532	4532.00	4532	4532 r2hs9Bsf {-157 - 13069}
+_pdbx_refln_signal_binning.ordinal	0.041	7	7.00	7	87 r9febCsf 7	87 r9febCsf 6	87 r9febCsf 4	87 r9febCsf 2	87 r9febCsf 5	87 r9febCsf 3	87 r9febCsf 1
+_pdbx_refln_signal_binning.upper_threshold	0.041	7	7.00	7	609 r9febCsf {1.2 - 114.89}	/458	87 r9febCsf 1.20	4 r8p5rCsf 31.50
+_refln.A_calc	0.054	1878	15111.32	48118	1722691 r4fivsf {-31486.2 - 31711.3}
+_refln.B_calc	0.054	1878	15111.32	48118	1722690 r4fivsf {-8793.66 - 23860.2}
+_refln.F_calc	15.127	6	54291.00	2554728	1095 r2o69sf {word}	1745997542 r9csysf {-1759.79 - 1.19761e+07}
+_refln.F_calc_au	12.015	389	51262.09	1824194	1309387580 r9duesf {0 - 1.13451e+06}
+_refln.F_meas	0.017	7248	64399.92	211264	2318397 r9febsf {0 - 11562.9}
+_refln.F_meas_au	84.307	100	54751.97	9166584	1637 r2o69sf {word}	9813358119 r9duesf {-1e+10 - 3.89024e+07}
+_refln.F_meas_sigma	0.017	7248	64399.92	211264	2318397 r9febsf {0 - 484.91}
+_refln.F_meas_sigma_au	84.053	100	54833.45	9166584	5610 r4jecsf {word}	9798402896 r9duesf {-1e+10 - 8.56453e+06}
+_refln.F_meas_sigma_uncorrected	0.000	217593	217593.00	217593	217593 r1reqsf {0 - 131.7}
+_refln.F_meas_uncorrected	0.000	217593	217593.00	217593	217593 r1reqsf {0 - 3316.5}
+_refln.F_squared_calc	0.025	1689	5691.85	39229	307360 r7qacsf {0 - 6.19862e+07}
+_refln.F_squared_meas	0.075	1344	43002.57	353944	6837408 r4nagsf {-1228.85 - 1.28423e+08}
+_refln.F_squared_sigma	0.055	1344	57358.98	353944	6653642 r4nagsf {0 - 1.29193e+07}
+_refln.crystal_id	98.463	39	62175.10	9166584	12952152230 r9duesf 1	52090157 r8ucyAsf 2	5002773 r4tohAsf 0	3421994 r4czwBsf 3	1500314 r7qacCsf 4	748418 r4u9oAsf 27	40237 r7qacDsf 5	37232 r4gmaHsf 6	23069 r3um7Asf 676	13164 r4gmaJsf 8	11511 r3s9kAsf a4	6160 r4gmaIsf 7	4584 r4gmaMsf 9	1 r2w4qsf REFLECTIONS	1 r3zqosf OF
+_refln.d_spacing	0.030	1683	6075.31	45271	388820 r7qacsf {0.00036 - 55.739}
+_refln.diffrn_id	0.000	627576	627576.00	627576	627576 r4i79Asf 1
+_refln.fiber_F_meas_au	0.000	2411	2411.00	2411	2411 r1ql1sf {21.3 - 4684.3}
+_refln.fiber_coordinate	0.000	2411	2411.00	2411	2411 r1ql1sf {0.0025 - 0.315}
+_refln.fiber_layer	0.000	2411	2411.00	2411	2411 r1ql1sf {0 - 23}	/24	126 r1ql1sf 2	126 r1ql1sf 3	125 r1ql1sf 4	124 r1ql1sf 5	120 r1ql1sf 0
+_refln.fom	23.454	147	52119.24	2215666	247 r2o69sf {word}	2598821177 r9duesf {-9948.76 - 3795.06}
+_refln.id	0.000	627576	627576.00	627576	627576 r4i79Asf {1 - 627576}
+_refln.index_h	99.357	38	61979.94	9166584	10873 r1e6iAsf {word}	13092011550 r9duesf {-232 - 3072}
+_refln.index_k	99.357	38	61979.94	9166584	13092022423 r9duesf {-195 - 68783}
+_refln.index_l	99.357	38	61979.94	9166584	13092022423 r9duesf {-8.11167e+06 - 3.12875e+06}
 _refln.intensity_calc	0.008	1931	58512.62	447539	936202 r2o90sf {-405.8 - 3.40642e+06}
-_refln.intensity_meas	36.980	38	62600.32	4328009	8447 r3us2sf {word}	237975679 r2aj7Csf {-9.26415e+09 - 1.31187e+11}
-_refln.intensity_meas_unknown	0.001	16425	16425.00	16425	16425 r1j0wsf {-406.3 - 320772}
-_refln.intensity_net	0.001	627576	627576.00	627576	627576 r4i79Asf {-883.1 - 244700}
-_refln.intensity_sigma	36.980	38	62611.67	4328009	1603 r4v87sf {word}	238867649 r2ajisf {-186400 - 4.25327e+21}
-_refln.intensity_sigma_unknown	0.001	16425	16425.00	16425	16425 r1j0wsf {-1 - 10261}
-_refln.pdbx_DELFWT	21.698	389	52829.35	2003157	-2050406722 r8te6sf {-16188.7 - 1.04394e+06}
-_refln.pdbx_DELPHWT	21.697	389	52826.41	2003157	-2050637082 r8te6sf {-360 - 360}
-_refln.pdbx_FWT	23.296	389	59542.34	2102461	-1578883900 r8te6sf {-8088.01 - 8.77154e+06}
-_refln.pdbx_F_calc_part_solvent	0.097	3103	29478.01	172479	5571344 r3atjsf {-31.72 - 177296}
-_refln.pdbx_F_calc_with_solvent	1.240	466	66936.29	1317535	162521313 r8pi2sf {6.40642e-06 - 98660.8}
-_refln.pdbx_F_minus	15.673	54	45010.69	1902429	1381378041 r8pm1sf {-470.621 - 901962}
-_refln.pdbx_F_minus_sigma	15.672	54	45012.88	1902429	1381355183 r8pm1sf {-146.697 - 31400.6}
-_refln.pdbx_F_plus	15.718	1	49485.97	1902592	1523079233 r8pm1sf {-279.686 - 4.2535e+20}
-_refln.pdbx_F_plus_sigma	15.718	1	49488.21	1902592	1523098659 r8pm1sf {-416.232 - 58091.5}
-_refln.pdbx_HLA	0.001	24912	24912.00	24912	24912 r3v4mCsf {-406.16 - 446.38}
-_refln.pdbx_HLB	0.001	24912	24912.00	24912	1 r3v4mCsf {word}	24911 r3v4mCsf {-617.83 - 842.51}
-_refln.pdbx_HLC	0.001	24912	24912.00	24912	24912 r3v4mCsf {-120.65 - 250.18}
-_refln.pdbx_HLD	0.001	24912	24912.00	24912	24912 r3v4mCsf {-222.99 - 148.89}
-_refln.pdbx_HL_A_iso	4.084	848	54863.78	1199317	49374 r3pplDsf {word}	438696294 r7g9jsf {-7969.26 - 9159.93}
-_refln.pdbx_HL_B_iso	4.083	848	54867.63	1199317	1680 r3pohDsf {word}	438719861 r7g9jsf {-6089.79 - 7194.95}
-_refln.pdbx_HL_C_iso	4.090	848	54780.29	1199317	438680585 r7g9jsf {-898.94 - 1094.45}
-_refln.pdbx_HL_D_iso	4.058	848	54856.31	1199317	435888240 r7g9jsf {-1805.3 - 898.12}
-_refln.pdbx_I_minus	17.084	1	46054.72	1902867	1540668559 r8pm1sf {-5.70949e+09 - 1.0908e+10}
-_refln.pdbx_I_minus_sigma	17.084	1	46050.09	1902867	1540513732 r8pm1sf {-525.4 - 8.20565e+09}
-_refln.pdbx_I_plus	17.120	1	50091.99	1902867	1679233873 r8pm1sf {-9.26415e+09 - 6.56766e+10}
-_refln.pdbx_I_plus_sigma	17.120	1	50091.12	1902867	1679204698 r8pm1sf {-469.5 - 1.2426e+11}
-_refln.pdbx_PHWT	22.992	389	62501.66	2102461	-1481017535 r8te6sf {-360 - 360}
-_refln.pdbx_anom_difference	15.287	1	46342.09	1902168	1387204128 r8pm1sf {-80451.6 - 4.2535e+20}
-_refln.pdbx_anom_difference_sigma	15.289	1	46336.35	1902168	1387171440 r8pm1sf {-855 - 5.52166e+06}
-_refln.pdbx_fiber_F_meas_au	0.003	946	3496.80	6588	17484 r3pdmsf {-999 - 32187.1}
+_refln.intensity_meas	36.973	38	62156.05	4328009	8447 r3us2sf {word}	4885643759 r9dtcsf {-9.26415e+09 - 1.31187e+11}
+_refln.intensity_meas_unknown	0.000	16425	16425.00	16425	16425 r1j0wsf {-406.3 - 320772}
+_refln.intensity_net	0.000	627576	627576.00	627576	627576 r4i79Asf {-883.1 - 244700}
+_refln.intensity_sigma	36.973	38	62166.52	4328009	1603 r4v87sf {word}	4886535731 r9dtcsf {-186400 - 4.25327e+21}
+_refln.intensity_sigma_unknown	0.000	16425	16425.00	16425	16425 r1j0wsf {-1 - 10261}
+_refln.pdbx_DELFWT	24.513	389	51905.77	2003157	2704965253 r9duesf {-16188.7 - 1.04394e+06}
+_refln.pdbx_DELPHWT	23.834	389	52221.72	2003157	2646126658 r9duesf {-360 - 360}
+_refln.pdbx_FWT	26.591	389	58667.69	2102461	3316543003 r9duesf {-8088.01 - 8.77154e+06}
+_refln.pdbx_F_calc_part_solvent	0.089	3103	29478.01	172479	5571344 r3atjsf {-31.72 - 177296}
+_refln.pdbx_F_calc_with_solvent	1.289	466	64418.82	1317535	176571991 r9db5sf {6.40642e-06 - 98660.8}
+_refln.pdbx_F_minus	15.741	54	45507.85	1902429	1522920354 r9dtcsf {-470.621 - 901962}
+_refln.pdbx_F_minus_sigma	15.740	54	45508.27	1902429	1522797695 r9dtcsf {-146.697 - 31400.6}
+_refln.pdbx_F_plus	15.783	1	49804.30	1902592	1671183257 r9dtcsf {-279.686 - 4.2535e+20}
+_refln.pdbx_F_plus_sigma	15.783	1	49806.36	1902592	1671202683 r9dtcsf {-416.232 - 58091.5}
+_refln.pdbx_HL_A_iso	4.350	848	53939.64	1199317	49374 r3pplDsf {word}	498730460 r9cu9sf {-7969.26 - 9159.93}
+_refln.pdbx_HL_B_iso	4.349	848	53942.86	1199317	1680 r3pohDsf {word}	498754027 r9cu9sf {-6089.79 - 7194.95}
+_refln.pdbx_HL_C_iso	4.355	848	53868.52	1199317	498714751 r9cu9sf {-898.94 - 1094.45}
+_refln.pdbx_HL_D_iso	4.326	848	53928.06	1199317	495922406 r9cu9sf {-1805.3 - 898.12}
+_refln.pdbx_I_minus	17.410	1	46653.59	1902867	1726789289 r9dtcsf {-5.70949e+09 - 1.0908e+10}
+_refln.pdbx_I_minus_sigma	17.410	1	46649.41	1902867	1726634463 r9dtcsf {-525.4 - 8.20565e+09}
+_refln.pdbx_I_plus	17.443	1	50564.04	1902867	1875116882 r9dtcsf {-9.26415e+09 - 6.56766e+10}
+_refln.pdbx_I_plus_sigma	17.443	1	50563.25	1902867	1875087708 r9dtcsf {-469.5 - 1.2426e+11}
+_refln.pdbx_PHWT	25.634	389	61578.72	2102461	3355793788 r9duesf {-360 - 360}
+_refln.pdbx_anom_difference	15.260	1	46632.11	1902168	1512838885 r9dtcsf {-80451.6 - 4.2535e+20}
+_refln.pdbx_anom_difference_sigma	15.261	1	46625.70	1902168	1512770699 r9dtcsf {-855 - 5.52166e+06}
+_refln.pdbx_fiber_F_meas_au	0.002	946	3496.80	6588	17484 r3pdmsf {-999 - 32187.1}
 _refln.pdbx_fiber_coordinate	0.002	946	2724.00	4300	10896 r2xkmsf {0 - 100}
-_refln.pdbx_fiber_layer	0.003	946	3496.80	6588	17484 r3pdmsf {0 - 72}
-_refln.pdbx_fom_weighted_fmap	0.011	7813	41797.05	132161	877738 r4zysEsf {0 - 5211.04}
-_refln.pdbx_gsas_i100_meas	0.024	1683	4212.19	8812	197973 r4idwsf {0 - 100}
-_refln.pdbx_phase_calc_part_solvent	0.097	3103	29478.01	172479	5571344 r3atjsf {0 - 35112}
-_refln.pdbx_phase_calc_with_solvent	1.240	466	66936.29	1317535	162521313 r8pi2sf {-180 - 180}
-_refln.pdbx_r_free_flag	30.417	389	60704.87	2371763	-679385003 r8te6sf {-1 - 348}
-_refln.pdbx_signal	0.068	974	24207.77	221227	3243841 r8pe9Csf {-0.28 - 73.35}
-_refln.pdbx_signal_status	0.068	1018	24789.33	226330	3243841 r8pe9Csf m	70821 r8pe9Csf o	7108 r8pe9Csf u
-_refln.phase_calc	27.465	6	53459.59	2554728	3083 r2w4qsf {word}	-1419913660 r8pkysf {-1688.92 - 9500.5}
-_refln.phase_meas	1.899	243	43246.71	651008	2963 r2o69sf {word}	160788301 r8szesf {-180 - 3070}
-_refln.scale_group_code	98.294	39	61860.42	9166584	1521283 r4czxAsf 2	31468 r6wf4Bsf 3	16465 r4czwCsf 4	1 r1kh0sf 0	1 r3zqosf REFLECTIONS	-980071766 r4v7vsf 1
-_refln.standard_code	0.001	627576	627576.00	627576	627576 r4i79Asf 1
-_refln.status	98.670	39	61689.12	9166584	479217600 r8te6sf x	462483679 r8te6sf f	17919724 r8pi2sf &lt;	8753146 r8p6ksf h	205543 r8bqlsf -	95837 r7txbsf l	27842 r1w3bsf 1	1 r1w3bsf 0	-1934712355 r2wcmsf o
-_refln.wavelength_id	98.701	39	62167.27	9166584	279059287 r7tqkAsf 2	164006532 r7l3mBsf 3	11546455 r7qacCsf 4	3104598 r4gi7Asf 0	321308 r7qacDsf 5	1 r3zqosf END	1 r2w4qsf OF	-1327872263 r4v7uAsf 1
-_refln.weight	0.034	6765	29457.76	117431	1944212 r4v2gsf {0 - 6.874}
-_reflns.d_resolution_high	9.102	1	1.00	2	17823 r8pe9Csf {0.673 - 11.983}
-_reflns.d_resolution_low	9.102	1	1.00	2	17823 r8pe9Csf {4.999 - 540.072}
-_reflns.details	0.107	1	1.00	1	207 r8pe9Csf {text}	2 r4hnasf {line}
-_reflns.entry_id	5.472	1	1.00	1	10692 r8pe9Csf {word}	23 r4e99sf {1 - 4e+99}
-_reflns.limit_h_max	8.982	1	1.00	1	17588 r4przsf {0 - 240}
-_reflns.limit_h_min	8.982	1	1.00	1	17588 r4przsf {-188 - 7}
-_reflns.limit_k_max	8.982	1	1.00	1	17588 r4przsf {0 - 227}
-_reflns.limit_k_min	8.982	1	1.00	1	17588 r4przsf {-121 - 8}
-_reflns.limit_l_max	8.982	1	1.00	1	17588 r4przsf {0 - 493}
-_reflns.limit_l_min	8.982	1	1.00	1	17588 r4przsf {-493 - 6}
-_reflns.number_all	8.996	1	1.00	2	17617 r4przsf {147 - 3.5244e+06}
-_reflns.number_obs	9.088	1	1.00	1	17796 r8pe9Csf {0 - 3.00194e+06}
-_reflns.pdbx_CC_half	0.105	1	1.00	1	206 r8pe9Csf {0.892 - 1}
-_reflns.pdbx_CC_half_anomalous	0.105	1	1.00	1	205 r8pe9Csf {-0.924 - 0.872}
-_reflns.pdbx_Rmerge_I_obs	0.105	1	1.00	1	206 r8pe9Csf {0.0169 - 0.8708}
-_reflns.pdbx_Rpim_I_all	0.105	1	1.00	1	206 r8pe9Csf {0.0141 - 0.374}
-_reflns.pdbx_Rrim_I_all	0.105	1	1.00	1	206 r8pe9Csf {0.0239 - 0.9507}
-_reflns.pdbx_absDiff_over_sigma_anomalous	0.105	1	1.00	1	206 r8pe9Csf {0.534 - 1.065}
-_reflns.pdbx_aniso_B_tensor_eigenvalue_1	0.056	1	1.00	1	110 r8pe9Csf {0 - 591.6}
-_reflns.pdbx_aniso_B_tensor_eigenvalue_2	0.056	1	1.00	1	110 r8pe9Csf {0 - 350.8}
-_reflns.pdbx_aniso_B_tensor_eigenvalue_3	0.056	1	1.00	1	110 r8pe9Csf {0 - 767.6}
-_reflns.pdbx_aniso_B_tensor_eigenvector_1_ortho[1]	0.056	1	1.00	1	96 r8pe9Csf 1.0000	2 r7u3tAsf 0.5882	2 r7u3oAsf 0.7732	2 r8gm5Asf 0.9306	2 r8fnyAsf 0.9537	2 r8ar7Csf 0.9732	2 r8aassf 1	1 r7z21sf 0.89556	1 r8aa9sf 0.95076
-_reflns.pdbx_aniso_B_tensor_eigenvector_1_ortho[2]	0.056	1	1.00	1	100 r8pe9Csf 0.0000	3 r8aassf 0	2 r7u3oAsf 0.1408	2 r8fnyAsf 0.2448	2 r7u3tAsf 0.5022	1 r7z21sf -0
-_reflns.pdbx_aniso_B_tensor_eigenvector_1_ortho[3]	0.056	1	1.00	1	96 r8pe9Csf 0.0000	2 r7u3oAsf -0.6183	2 r8aassf 0	2 r8fnyAsf 0.1745	2 r8ar7Csf 0.2301	2 r8gm5Asf 0.3660	2 r7u3tAsf 0.6339	1 r8aa9sf -0.30994	1 r7z21sf -0.44494
-_reflns.pdbx_aniso_B_tensor_eigenvector_2_ortho[1]	0.056	1	1.00	1	100 r8pe9Csf 0.0000	3 r8aassf 0	2 r8fnyAsf -0.1540	2 r7u3tAsf -0.2954	2 r7u3oAsf -0.3453	1 r8aa9sf -0
-_reflns.pdbx_aniso_B_tensor_eigenvector_2_ortho[2]	0.056	1	1.00	1	100 r8pe9Csf 1.0000	4 r8aassf 1	2 r7u3tAsf 0.8631	2 r8fnyAsf 0.8963	2 r7u3oAsf 0.9113
-_reflns.pdbx_aniso_B_tensor_eigenvector_2_ortho[3]	0.056	1	1.00	1	100 r8pe9Csf 0.0000	3 r8aassf 0	2 r7u3oAsf -0.2242	2 r7u3tAsf -0.4097	2 r8fnyAsf -0.4159	1 r8aa9sf -0
-_reflns.pdbx_aniso_B_tensor_eigenvector_3_ortho[1]	0.056	1	1.00	1	96 r8pe9Csf 0.0000	2 r8ar7Csf -0.2301	2 r8fnyAsf -0.2583	2 r8gm5Asf -0.3660	2 r7u3tAsf -0.7528	2 r8aassf 0	2 r7u3oAsf 0.5319	1 r8aa9sf 0.30994	1 r7z21sf 0.44494
-_reflns.pdbx_aniso_B_tensor_eigenvector_3_ortho[2]	0.056	1	1.00	1	100 r8pe9Csf 0.0000	3 r8aassf 0	2 r7u3tAsf 0.0537	2 r8fnyAsf 0.3698	2 r7u3oAsf 0.3868	1 r7z21sf -0
-_reflns.pdbx_aniso_B_tensor_eigenvector_3_ortho[3]	0.056	1	1.00	1	96 r8pe9Csf 1.0000	2 r7u3tAsf 0.6560	2 r7u3oAsf 0.7532	2 r8fnyAsf 0.8925	2 r8gm5Asf 0.9306	2 r8ar7Csf 0.9732	2 r8aassf 1	1 r7z21sf 0.89556	1 r8aa9sf 0.95076
-_reflns.pdbx_aniso_diffraction_limit_1	0.058	1	1.00	1	113 r8pe9Csf {1.453 - 10.206}
-_reflns.pdbx_aniso_diffraction_limit_2	0.058	1	1.00	1	113 r8pe9Csf {1.275 - 11.034}
-_reflns.pdbx_aniso_diffraction_limit_3	0.058	1	1.00	1	113 r8pe9Csf {1.336 - 10.888}
-_reflns.pdbx_aniso_diffraction_limit_axis_1_ortho[1]	0.058	1	1.00	1	91 r8pe9Csf 1.00000	2 r7u45Asf 0.55254	2 r7u42Asf 0.59819	2 r8fnyAsf 0.75493	2 r7u3oAsf 0.80422	2 r7u3tAsf 0.81911	2 r7u43Asf 0.83579	2 r7u44Asf 0.86305	2 r8gm5Asf 0.89875	2 r8ar7Csf 0.94808	1 r8b02Csf 0.77012	1 r8b3xCsf 0.80498	1 r8gm4Dsf 0.95103	1 r8ab3Esf 0.99598
-_reflns.pdbx_aniso_diffraction_limit_axis_1_ortho[2]	0.058	1	1.00	1	99 r8pe9Csf 0.00000	2 r7u3tAsf -0.47321	2 r7u44Asf -0.48152	2 r7u43Asf -0.50179	2 r7u3oAsf 0.14041	2 r8fnyAsf 0.39296	2 r7u45Asf 0.47103	2 r7u42Asf 0.51966
-_reflns.pdbx_aniso_diffraction_limit_axis_1_ortho[3]	0.058	1	1.00	1	91 r8pe9Csf 0.00000	2 r7u43Asf -0.22284	2 r7u3tAsf -0.32422	2 r7u3oAsf -0.57740	2 r7u45Asf -0.68763	2 r7u44Asf 0.15293	2 r8ar7Csf 0.31799	2 r8gm5Asf 0.43852	2 r8fnyAsf 0.52506	2 r7u42Asf 0.60999	1 r8ab3Esf -0.09001	1 r8b3xCsf -0.59328	1 r8gm4Dsf 0.30898	1 r8b02Csf 0.63792
-_reflns.pdbx_aniso_diffraction_limit_axis_2_ortho[1]	0.058	1	1.00	1	99 r8pe9Csf 0.00000	2 r8fnyAsf -0.14664	2 r7u3oAsf -0.32776	2 r7u42Asf -0.57515	2 r7u45Asf -0.76134	2 r7u43Asf 0.28166	2 r7u44Asf 0.39737	2 r7u3tAsf 0.55515
-_reflns.pdbx_aniso_diffraction_limit_axis_2_ortho[2]	0.058	1	1.00	1	99 r8pe9Csf 1.00000	2 r7u3tAsf 0.51140	2 r7u45Asf 0.62092	2 r7u43Asf 0.74021	2 r7u42Asf 0.80848	2 r7u44Asf 0.83398	2 r8fnyAsf 0.88153	2 r7u3oAsf 0.91535
-_reflns.pdbx_aniso_diffraction_limit_axis_2_ortho[3]	0.058	1	1.00	1	99 r8pe9Csf 0.00000	2 r7u42Asf -0.12477	2 r7u45Asf -0.18654	2 r7u3oAsf -0.23394	2 r8fnyAsf -0.44879	2 r7u43Asf -0.61052	2 r7u44Asf 0.38295	2 r7u3tAsf 0.65596
-_reflns.pdbx_aniso_diffraction_limit_axis_3_ortho[1]	0.058	1	1.00	1	91 r8pe9Csf 0.00000	2 r7u3tAsf -0.14457	2 r7u44Asf -0.31187	2 r8ar7Csf -0.31799	2 r8gm5Asf -0.43852	2 r7u42Asf -0.55805	2 r8fnyAsf -0.63923	2 r7u45Asf 0.33908	2 r7u43Asf 0.47131	2 r7u3oAsf 0.49571	1 r8gm4Dsf -0.30898	1 r8b02Csf -0.63792	1 r8ab3Esf 0.09001	1 r8b3xCsf 0.59328
-_reflns.pdbx_aniso_diffraction_limit_axis_3_ortho[2]	0.058	1	1.00	1	99 r8pe9Csf 0.00000	2 r7u44Asf -0.26971	2 r7u42Asf -0.27616	2 r7u3tAsf -0.71734	2 r8fnyAsf 0.26177	2 r7u3oAsf 0.37749	2 r7u43Asf 0.44760	2 r7u45Asf 0.62659
-_reflns.pdbx_aniso_diffraction_limit_axis_3_ortho[3]	0.058	1	1.00	1	91 r8pe9Csf 1.00000	2 r7u3tAsf 0.68155	2 r7u45Asf 0.70172	2 r8fnyAsf 0.72310	2 r7u43Asf 0.75996	2 r7u3oAsf 0.78217	2 r7u42Asf 0.78253	2 r8gm5Asf 0.89875	2 r7u44Asf 0.91107	2 r8ar7Csf 0.94808	1 r8b02Csf 0.77012	1 r8b3xCsf 0.80498	1 r8gm4Dsf 0.95103	1 r8ab3Esf 0.99598
-_reflns.pdbx_diffrn_id	0.115	1	1.00	1	225 r8pe9Csf 1
-_reflns.pdbx_netI_over_sigmaI	0.105	1	1.00	1	206 r8pe9Csf {1.56 - 29.31}
-_reflns.pdbx_number_measured_all	0.105	1	1.00	1	206 r8pe9Csf {263 - 2.73986e+06}
-_reflns.pdbx_observed_signal_threshold	0.058	1	1.00	1	113 r8pe9Csf 1.20
-_reflns.pdbx_ordinal	0.115	1	1.00	1	225 r8pe9Csf 1
-_reflns.pdbx_orthogonalization_convention	0.054	1	1.00	1	106 r8pe9Csf pdb
-_reflns.pdbx_percent_possible_anomalous	0.105	1	1.00	1	206 r8pe9Csf {36.4 - 100}
-_reflns.pdbx_percent_possible_ellipsoidal	0.058	1	1.00	1	113 r8pe9Csf {57.5 - 100}
-_reflns.pdbx_percent_possible_ellipsoidal_anomalous	0.058	1	1.00	1	113 r8pe9Csf {57.4 - 100}
-_reflns.pdbx_percent_possible_spherical	0.058	1	1.00	1	113 r8pe9Csf {40.1 - 100}
-_reflns.pdbx_percent_possible_spherical_anomalous	0.058	1	1.00	1	113 r8pe9Csf {40 - 100}
-_reflns.pdbx_redundancy	0.105	1	1.00	1	206 r8pe9Csf {1.64 - 84.53}
-_reflns.pdbx_redundancy_anomalous	0.105	1	1.00	1	206 r8pe9Csf {1 - 46.65}
-_reflns.pdbx_signal_type	0.058	1	1.00	1	113 r8pe9Csf local &lt;I/sigmaI>
-_reflns.percent_possible_obs	0.105	1	1.00	1	206 r8pe9Csf {57.5 - 100}
-_reflns_scale.group_code	94.332	1	1.00	1	184713 r8te6sf 1	1 r6wf4Bsf 3
-_reflns_shell.Rmerge_I_obs	0.105	1	16.36	20	3353 r8pe9Csf {-151.127 - 2286.49}
-_reflns_shell.d_res_high	0.105	1	16.36	20	3354 r8pe9Csf {1.292 - 30.342}
-_reflns_shell.d_res_low	0.105	1	16.36	20	3354 r8pe9Csf {1.314 - 120.203}
-_reflns_shell.meanI_over_sigI_obs	0.105	1	16.36	20	3353 r8pe9Csf {-0.68 - 85.57}
-_reflns_shell.number_measured_all	0.105	1	16.36	20	3353 r8pe9Csf {86 - 168378}
-_reflns_shell.number_measured_obs	0.105	1	16.36	20	3353 r8pe9Csf {86 - 168378}
-_reflns_shell.number_unique_all	0.105	1	16.36	20	3353 r8pe9Csf {25 - 6902}
-_reflns_shell.number_unique_obs	0.105	1	16.36	20	3353 r8pe9Csf {25 - 6902}
-_reflns_shell.pdbx_CC_half	0.105	1	16.36	20	3353 r8pe9Csf {-0.427 - 1}
-_reflns_shell.pdbx_CC_half_anomalous	0.105	1	16.36	20	3353 r8pe9Csf {-0.998 - 0.976}
-_reflns_shell.pdbx_Rpim_I_all	0.105	1	16.36	20	3353 r8pe9Csf {-70.4143 - 997.188}
-_reflns_shell.pdbx_Rrim_I_all	0.105	1	16.36	20	3353 r8pe9Csf {-164.573 - 2499.81}
-_reflns_shell.pdbx_absDiff_over_sigma_anomalous	0.105	1	16.36	20	3353 r8pe9Csf {0.161 - 2.341}
-_reflns_shell.pdbx_ordinal	0.105	1	16.36	20	205 r8pe9Csf 1	204 r8pe9Csf 2	201 r8pe9Csf 3	198 r8pe9Csf 4	196 r8pe9Csf 5	192 r8pe9Csf 6	188 r8pe9Csf 7	181 r8pe9Csf 8	174 r8pe9Csf 9	166 r8pe9Csf 10	161 r8pe9Csf 11	156 r8pe9Csf 12	152 r8pe9Csf 13	150 r8pe9Csf 14	146 r8pe9Csf 15	143 r8pe9Csf 16	141 r8pe9Csf 17	137 r8pe9Csf 18	132 r8pe9Csf 19	131 r8pe9Csf 20
-_reflns_shell.pdbx_percent_possible_anomalous	0.105	1	16.36	20	3353 r8pe9Csf {0.2 - 100}
-_reflns_shell.pdbx_percent_possible_ellipsoidal	0.057	2	16.24	20	1819 r8pe9Csf {8.8 - 100}
-_reflns_shell.pdbx_percent_possible_ellipsoidal_anomalous	0.057	2	16.24	20	1819 r8pe9Csf {0.2 - 100}
-_reflns_shell.pdbx_percent_possible_spherical	0.057	2	16.24	20	1819 r8pe9Csf {6.4 - 100}
-_reflns_shell.pdbx_percent_possible_spherical_anomalous	0.057	2	16.24	20	1819 r8pe9Csf {6.4 - 100}
-_reflns_shell.pdbx_redundancy	0.105	1	16.36	20	3353 r8pe9Csf {1.39 - 99.11}
-_reflns_shell.pdbx_redundancy_anomalous	0.105	1	16.36	20	3353 r8pe9Csf {1 - 54.36}
-_reflns_shell.percent_possible_all	0.105	1	16.36	20	3353 r8pe9Csf {8.8 - 100}
-_software.classification	0.376	1	3.27	4	1650 r8pe9Csf data processing	591 r8pe9Csf data scaling	167 r8piisf data extraction
-_software.date	0.105	2	3.63	4	134 r8pe9Csf {line}	408 r8pe9Csf {word}	206 r8pe9Csf {2.01812e+07 - 2.02107e+07}
-_software.description	0.317	1	3.66	4	569 r8pe9Csf Automated data processing system	569 r8pe9Csf Data integration and processing	569 r8pe9Csf Data scaling	363 r5qtcBsf Analysis of data anisotropy (including an anisotropic cut-off of merged intensity data), Bayesian estimation of structure amplitudes and anisotropic correction	134 r8pe9Csf Analysis of data anisotropy (including an anisotropic cut-off of merged intensity data), Bayesian estimation of structure factor amplitudes and anisotropic correction	51 r8ibmsf run from mxdepo.html	15 r8gm4Asf Obtain structure factor amplitudes from intensities
-_software.location	0.105	3	3.72	4	340 r8pe9Csf https://www.globalphasing.com/	221 r8pe9Csf https://www.ccp4.ac.uk/	206 r8pe9Csf https://xds.mpimf-heidelberg.mpg.de/
-_software.name	0.376	1	3.27	4	569 r8pe9Csf AIMLESS	569 r8pe9Csf XDS	569 r8pe9Csf autoPROC	519 r8pe9Csf STARANISO	167 r8piisf gemmi	15 r8gm4Asf TRUNCATE
-_software.pdbx_ordinal	0.376	1	3.27	4	736 r8piisf 1	591 r8pe9Csf 2	569 r8pe9Csf 3	512 r8pe9Csf 4
-_software.type	0.291	3	3.90	4	1138 r8pe9Csf package	1081 r8pe9Csf program
-_software.version	0.190	1	2.55	4	408 r8pe9Csf {line}	544 r8piisf {word}
-_space_group.IT_number	0.015	1	1.00	1	12 r8eg4sf 146	6 r8f40sf 95	5 r7u45sf 1	2 r8f42sf 78	1 r8epbsf 145	1 r8g4gsf 155	1 r8cs8sf 173	1 r8gh5sf 20
-_space_group.crystal_system	0.015	1	1.00	1	14 r8g4gsf trigonal	8 r8f42sf tetragonal	5 r7u45sf triclinic	1 r8cs8sf hexagonal	1 r8gh5sf orthorhombic
-_space_group.id	0.010	1	1.00	1	1 r7u45sf 7u45	1 r8gh5sf 8gh5	1 r8g4gsf 8g4g	1 r8eg4sf 8eg4	1 r8e4esf 8e4e	1 r8d93sf 8d93	1 r7urksf 7urk	1 r7ul8sf 7ul8	1 r7uk0sf 7uk0	1 r7ujzsf 7ujz	1 r8cs8sf 1	1 r7u44sf 7u44	1 r7u43sf 7u43	1 r7u42sf 7u42	1 r7u3qsf 7u3q	1 r7u3psf 7u3p	1 r7u3osf 7u3o	1 r7splsf 7spl	1 r7sgbsf 7sgb	1 r7sg9sf 7sg9
-_space_group.name_H-M_alt	0.015	1	1.00	1	12 r8eg4sf H 3	6 r8f40sf P 43 2 2	5 r7u45sf P 1	2 r8f42sf P 43	1 r8gh5sf C 2 2 21	1 r8g4gsf H 3 2	1 r8epbsf P 32	1 r8cs8sf P 63
-_space_group.name_Hall	0.015	1	1.00	1	10 r8eg4sf  H 3	6 r8f40sf  P 4cw 2c	5 r7u45sf  P 1	2 r8f42sf  P 4cw	2 r7sgbsf  R 3	1 r8gh5sf  C 2c 2	1 r8epbsf  P 32	1 r8cs8sf  P 6c	1 r8g4gsf H 3 2
-_space_group_symop.id	0.017	1	7.18	18	34 r8gh5sf 1	29 r8gh5sf 3	29 r8gh5sf 2	28 r8gh5sf 4	25 r8gh5sf 6	25 r8gh5sf 5	24 r8gh5sf 8	24 r8gh5sf 7	17 r8g4gsf 9	1 r8g4gsf 18	1 r8g4gsf 17	1 r8g4gsf 16	1 r8g4gsf 15	1 r8g4gsf 14	1 r8g4gsf 13	1 r8g4gsf 12	1 r8g4gsf 11	1 r8g4gsf 10
-_space_group_symop.operation_xyz	0.017	1	7.18	18	244 r8gh5sf {word}
-_symmetry.Int_Tables_number	74.565	1	1.00	1	146007 r8te6sf {-155 - 4005}
-_symmetry.entry_id	91.990	1	1.00	1	179603 r8te6sf {word}	525 r8e90sf {1 - 7e+99}
-_symmetry.space_group_name_H-M	96.086	1	1.00	1	188122 r8te6sf {line}	25 r6gn2sf {word}	1 r2pr9Asf {172 - 172}
-_symmetry.space_group_name_Hall	0.020	1	1.00	1	20 r8eg4sf  H 3	6 r7u45sf  P 1	6 r8f40sf  P 4cw 2c	2 r8f42sf  P 4cw	2 r7sgbsf  R 3	1 r8gh5sf  C 2c 2	1 r8epbsf  P 32	1 r8cs8sf  P 6c	1 r8g4gsf H 3 2
-_symmetry_equiv.id	39.738	1	5.81	96	1 r3o59sf {word}	452090 r8p7jsf {1 - 96}
-_symmetry_equiv.pos_as_xyz	39.738	1	5.81	96	399039 r8p7jsf {line}	53050 r7f8tsf {word}	2 r7al4sf {1 - 1}
+_refln.pdbx_fiber_layer	0.002	946	3496.80	6588	17484 r3pdmsf {0 - 72}	/57	810 r3pdmsf 1
+_refln.pdbx_fom_weighted_fmap	0.009	7813	43847.16	132161	833096 r4fsvEsf {0 - 5211.04}
+_refln.pdbx_gsas_i100_meas	0.022	1683	4212.19	8812	197973 r4idwsf {0 - 100}
+_refln.pdbx_phase_calc_part_solvent	0.089	3103	29478.01	172479	5571344 r3atjsf {0 - 35112}
+_refln.pdbx_phase_calc_with_solvent	1.289	466	64418.82	1317535	176571991 r9db5sf {-180 - 180}
+_refln.pdbx_r_free_flag	33.664	389	60625.30	2392685	4338892315 r9duesf {-1 - 348}	/350	936335533 r9duesf 0	695547107 r9duesf 1	147611855 r9duesf 2
+_refln.pdbx_signal	0.098	974	64830.08	470390	13549487 r9febCsf {-1.08 - 114.89}
+_refln.pdbx_signal_status	0.098	1018	66046.16	479872	13549487 r9febCsf m	229711 r9febCsf o	24450 r8s5fCsf u
+_refln.phase_calc	27.056	6	52982.07	2554728	3083 r2w4qsf {word}	3047525593 r9duesf {-1688.92 - 9500.5}
+_refln.phase_meas	1.766	243	43217.56	651008	2963 r2o69sf {word}	162235766 r9c9qsf {-180 - 3070}
+_refln.scale_group_code	98.152	39	61866.45	9166584	12907918234 r9duesf 1	1521283 r4czxAsf 2	31468 r6wf4Bsf 3	16465 r4czwCsf 4	1 r1kh0sf 0	1 r3zqosf REFLECTIONS
+_refln.standard_code	0.000	627576	627576.00	627576	627576 r4i79Asf 1
+_refln.status	98.593	39	61723.97	9166584	11863465737 r9duesf o	544185387 r9duesf x	500688780 r9duesf f	20073815 r9db5sf &lt;	8847527 r9bpesf h	205768 r8rcgsf -	96000 r8qmfsf l	27842 r1w3bsf 1	1 r1w3bsf 0
+_refln.wavelength_id	98.546	39	62146.97	9166584	12562365852 r9duesf 1	278771678 r9f5bAsf 2	163961077 r9f5bBsf 3	11562182 r8ucyCsf 4	3104598 r4gi7Asf 0	335450 r8ucyDsf 5	1 r3zqosf END	1 r2w4qsf OF
+_refln.weight	0.031	6765	29457.76	117431	1944212 r4v2gsf {0 - 6.874}
+_reflns.d_resolution_high	8.438	1	1.00	2	17940 r9febCsf {0.673 - 11.983}
+_reflns.d_resolution_low	8.438	1	1.00	2	17940 r9febCsf {4.999 - 540.072}
+_reflns.details	0.155	1	1.00	1	327 r9febCsf {text}	2 r4hnasf {line}
+_reflns.entry_id	5.098	1	1.00	1	10816 r9cylsf {word}	23 r4e99sf {1 - 4e+99}
+_reflns.limit_h_max	8.272	1	1.00	1	17585 r8wzosf {0 - 240}	/143	614 r4nqnsf 27
+_reflns.limit_h_min	8.272	1	1.00	1	17585 r8wzosf {-188 - 7}	/149	12241 r4przsf 0	206 r4fgesf -28
+_reflns.limit_k_max	8.272	1	1.00	1	17585 r8wzosf {0 - 227}	/146	475 r4fezsf 36
+_reflns.limit_k_min	8.272	1	1.00	1	17585 r8wzosf {-121 - 8}	/77	16323 r8wzosf 0	286 r4fg0sf 1
+_reflns.limit_l_max	8.272	1	1.00	1	17585 r8wzosf {0 - 493}	/231	369 r4flfsf 37
+_reflns.limit_l_min	8.272	1	1.00	1	17585 r8wzosf {-493 - 6}	/176	15464 r8wzosf 0	44 r4f6vsf -39
+_reflns.number_all	8.285	1	1.00	2	17614 r8wzosf {147 - 3.5244e+06}
+_reflns.number_obs	8.426	1	1.00	1	17913 r9febCsf {0 - 3.00194e+06}
+_reflns.pdbx_CC_half	0.153	1	1.00	1	326 r9febCsf {0.892 - 1}	/30	86 r8qc4Dsf 0.999	59 r9b1qAsf 0.998	43 r8sjvAsf 1.000	27 r8vdjDsf 0.996	23 r9febEsf 0.995	21 r9febCsf 0.997	12 r9ev6Fsf 0.994
+_reflns.pdbx_CC_half_anomalous	0.153	1	1.00	1	325 r9febCsf {-0.924 - 0.972}	/251	17 r8qn5Esf 0.0	5 r9b1qDsf -0.069
+_reflns.pdbx_Rmerge_I_obs	0.153	1	1.00	1	326 r9febCsf {0.0164 - 0.8708}
+_reflns.pdbx_Rpim_I_all	0.153	1	1.00	1	326 r9febCsf {0.012 - 0.374}
+_reflns.pdbx_Rrim_I_all	0.153	1	1.00	1	326 r9febCsf {0.0214 - 0.9507}
+_reflns.pdbx_absDiff_over_sigma_anomalous	0.153	1	1.00	1	326 r9febCsf {0.453 - 1.065}	/208	7 r8vdjFsf 0.728
+_reflns.pdbx_aniso_B_tensor_eigenvalue_1	0.085	1	1.00	1	181 r9cylsf {-63.1645 - 591.6}	/65	40 r8sjtAsf 0.0	18 r9febCsf 0.0000	4 r7qzrCsf 23.0
+_reflns.pdbx_aniso_B_tensor_eigenvalue_2	0.085	1	1.00	1	181 r9cylsf {-63.1645 - 350.8}	/69	40 r8sjtAsf 0.0	6 r8r3esf 0.0000
+_reflns.pdbx_aniso_B_tensor_eigenvalue_3	0.085	1	1.00	1	181 r9cylsf {-63.1645 - 767.6}	/51	40 r8sjtAsf 0.0	40 r9ev4Csf 0.0000	4 r7qzrCsf 38.4
+_reflns.pdbx_aniso_B_tensor_eigenvector_1_ortho[1]	0.085	1	1.00	1	142 r9febCsf 1.0000	6 r9cylsf 1	2 r8sc8Asf 0.8302	2 r8gm5Asf 0.9306	2 r8tgdCsf 0.9957	2 r9ev6Csf 0.9994	2 r8qn5Csf 0.9984	2 r8r3esf 0.9007	2 r8s5fCsf 0.7674	2 r9ev5Csf 0.7702	2 r8ar7Csf 0.9732	2 r8otmCsf 0.9699	2 r8tbqsf 0.8136	2 r8qc4Csf 0.9595	2 r8fnyAsf 0.9537	2 r7u3tAsf 0.5882	2 r7u3oAsf 0.7732	1 r7z21sf 0.89556	1 r8aa9sf 0.95076	1 r8c75sf 0.99995
+_reflns.pdbx_aniso_B_tensor_eigenvector_1_ortho[2]	0.085	1	1.00	1	164 r9febCsf 0.0000	8 r9cylsf 0	2 r7u3oAsf 0.1408	2 r7u3tAsf 0.5022	2 r8fnyAsf 0.2448	2 r8r3esf -0.4345	1 r7z21sf -0
+_reflns.pdbx_aniso_B_tensor_eigenvector_1_ortho[3]	0.085	1	1.00	1	142 r9febCsf 0.0000	6 r9cylsf 0	2 r8s5fCsf 0.6412	2 r8gm5Asf 0.3660	2 r8tbqsf -0.5815	2 r8sc8Asf 0.5575	2 r8tgdCsf 0.0931	2 r8qn5Csf 0.0563	2 r8r3esf 0.0054	2 r8otmCsf -0.2435	2 r8ar7Csf 0.2301	2 r9ev5Csf 0.6377	2 r9ev6Csf 0.0346	2 r8qc4Csf -0.2818	2 r8fnyAsf 0.1745	2 r7u3tAsf 0.6339	2 r7u3oAsf -0.6183	1 r7z21sf -0.44494	1 r8aa9sf -0.30994	1 r8c75sf 0.010196
+_reflns.pdbx_aniso_B_tensor_eigenvector_2_ortho[1]	0.085	1	1.00	1	164 r9febCsf 0.0000	8 r9cylsf 0	2 r7u3oAsf -0.3453	2 r7u3tAsf -0.2954	2 r8r3esf 0.4342	2 r8fnyAsf -0.1540	1 r8aa9sf -0
+_reflns.pdbx_aniso_B_tensor_eigenvector_2_ortho[2]	0.085	1	1.00	1	164 r9febCsf 1.0000	9 r9cylsf 1	2 r7u3oAsf 0.9113	2 r7u3tAsf 0.8631	2 r8fnyAsf 0.8963	2 r8r3esf 0.9004
+_reflns.pdbx_aniso_B_tensor_eigenvector_2_ortho[3]	0.085	1	1.00	1	164 r9febCsf 0.0000	8 r9cylsf 0	2 r7u3tAsf -0.4097	2 r7u3oAsf -0.2242	2 r8fnyAsf -0.4159	2 r8r3esf 0.0254	1 r8aa9sf -0
+_reflns.pdbx_aniso_B_tensor_eigenvector_3_ortho[1]	0.085	1	1.00	1	142 r9febCsf 0.0000	6 r9cylsf 0	2 r9ev5Csf -0.6377	2 r8gm5Asf -0.3660	2 r8sc8Asf -0.5575	2 r8tbqsf 0.5815	2 r8tgdCsf -0.0931	2 r8qc4Csf 0.2818	2 r8r3esf -0.0159	2 r8s5fCsf -0.6412	2 r8qn5Csf -0.0563	2 r8ar7Csf -0.2301	2 r8otmCsf 0.2435	2 r9ev6Csf -0.0346	2 r8fnyAsf -0.2583	2 r7u3tAsf -0.7528	2 r7u3oAsf 0.5319	1 r7z21sf 0.44494	1 r8c75sf -0.010196	1 r8aa9sf 0.30994
+_reflns.pdbx_aniso_B_tensor_eigenvector_3_ortho[2]	0.085	1	1.00	1	164 r9febCsf 0.0000	7 r9cylsf 0	2 r7u3oAsf 0.3868	2 r8fnyAsf 0.3698	2 r8c75sf -0	2 r7u3tAsf 0.0537	2 r8r3esf -0.0205
+_reflns.pdbx_aniso_B_tensor_eigenvector_3_ortho[3]	0.085	1	1.00	1	142 r9febCsf 1.0000	6 r9cylsf 1	2 r8sc8Asf 0.8302	2 r8gm5Asf 0.9306	2 r8tgdCsf 0.9957	2 r9ev6Csf 0.9994	2 r8qn5Csf 0.9984	2 r8r3esf 0.9997	2 r8s5fCsf 0.7674	2 r9ev5Csf 0.7702	2 r8ar7Csf 0.9732	2 r8otmCsf 0.9699	2 r8tbqsf 0.8136	2 r8qc4Csf 0.9595	2 r8fnyAsf 0.8925	2 r7u3oAsf 0.7532	2 r7u3tAsf 0.6560	1 r7z21sf 0.89556	1 r8aa9sf 0.95076	1 r8c75sf 0.99995
+_reflns.pdbx_aniso_diffraction_limit_1	0.085	1	1.00	1	181 r9febCsf {1.219 - 10.206}	/91	4 r8a3qCsf 1.65000
+_reflns.pdbx_aniso_diffraction_limit_2	0.085	1	1.00	1	181 r9febCsf {1.219 - 11.034}	/92	4 r8a3qCsf 1.97500
+_reflns.pdbx_aniso_diffraction_limit_3	0.085	1	1.00	1	181 r9febCsf {1.228 - 10.888}	/92	4 r8d8iCsf 2.41300
+_reflns.pdbx_aniso_diffraction_limit_axis_1_ortho[1]	0.085	1	1.00	1	181 r9febCsf {0.55254 - 1}	/24	139 r9febCsf 1.00000	2 r8r3esf 0.73297
+_reflns.pdbx_aniso_diffraction_limit_axis_1_ortho[2]	0.085	1	1.00	1	165 r9febCsf 0.00000	2 r7u3oAsf 0.14041	2 r7u43Asf -0.50179	2 r7u45Asf 0.47103	2 r7u44Asf -0.48152	2 r8fnyAsf 0.39296	2 r7u3tAsf -0.47321	2 r8r3esf 0.67396	2 r7u42Asf 0.51966
+_reflns.pdbx_aniso_diffraction_limit_axis_1_ortho[3]	0.085	1	1.00	1	181 r9febCsf {-0.68763 - 0.65353}	/24	139 r9febCsf 0.00000	2 r7u3tAsf -0.32422
+_reflns.pdbx_aniso_diffraction_limit_axis_2_ortho[1]	0.085	1	1.00	1	165 r9febCsf 0.00000	2 r7u3oAsf -0.32776	2 r7u3tAsf 0.55515	2 r7u42Asf -0.57515	2 r7u44Asf 0.39737	2 r7u45Asf -0.76134	2 r8fnyAsf -0.14664	2 r8r3esf -0.67790	2 r7u43Asf 0.28166
+_reflns.pdbx_aniso_diffraction_limit_axis_2_ortho[2]	0.085	1	1.00	1	165 r9febCsf 1.00000	2 r7u3oAsf 0.91535	2 r7u3tAsf 0.51140	2 r7u42Asf 0.80848	2 r7u45Asf 0.62092	2 r8fnyAsf 0.88153	2 r8r3esf 0.73488	2 r7u43Asf 0.74021	2 r7u44Asf 0.83398
+_reflns.pdbx_aniso_diffraction_limit_axis_2_ortho[3]	0.085	1	1.00	1	165 r9febCsf 0.00000	2 r7u3tAsf 0.65596	2 r7u42Asf -0.12477	2 r7u3oAsf -0.23394	2 r7u43Asf -0.61052	2 r7u44Asf 0.38295	2 r7u45Asf -0.18654	2 r8fnyAsf -0.44879	2 r8r3esf 0.01803
+_reflns.pdbx_aniso_diffraction_limit_axis_3_ortho[1]	0.085	1	1.00	1	181 r9febCsf {-0.65353 - 0.61272}	/24	139 r9febCsf 0.00000	2 r7u3tAsf -0.14457
+_reflns.pdbx_aniso_diffraction_limit_axis_3_ortho[2]	0.085	1	1.00	1	165 r9febCsf 0.00000	2 r7u42Asf -0.27616	2 r7u3tAsf -0.71734	2 r7u43Asf 0.44760	2 r7u44Asf -0.26971	2 r7u45Asf 0.62659	2 r7u3oAsf 0.37749	2 r8fnyAsf 0.26177	2 r8r3esf -0.07590
+_reflns.pdbx_aniso_diffraction_limit_axis_3_ortho[3]	0.085	1	1.00	1	181 r9febCsf {0.68155 - 1}	/24	139 r9febCsf 1.00000	2 r7u43Asf 0.75996
+_reflns.pdbx_diffrn_id	0.166	1	1.00	1	353 r9cylsf 1
+_reflns.pdbx_netI_over_sigmaI	0.153	1	1.00	1	326 r9febCsf {1.56 - 29.54}
+_reflns.pdbx_number_measured_all	0.153	1	1.00	1	326 r9febCsf {263 - 2.73986e+06}
+_reflns.pdbx_observed_signal_threshold	0.085	1	1.00	1	181 r9febCsf 1.20
+_reflns.pdbx_ordinal	0.166	1	1.00	1	353 r9cylsf 1
+_reflns.pdbx_orthogonalization_convention	0.081	1	1.00	1	172 r9febCsf pdb
+_reflns.pdbx_percent_possible_anomalous	0.153	1	1.00	1	326 r9febCsf {25.4 - 100}	/195	11 r9ev3Fsf 100.0
+_reflns.pdbx_percent_possible_ellipsoidal	0.085	1	1.00	1	181 r9febCsf {57.5 - 100}	/99	22 r9ev6Fsf 100.0	6 r8sjtAsf 85.5
+_reflns.pdbx_percent_possible_ellipsoidal_anomalous	0.085	1	1.00	1	181 r9febCsf {52.9 - 100}	/103	10 r9ev3Fsf 100.0	6 r8sjrBsf 99.7
+_reflns.pdbx_percent_possible_spherical	0.085	1	1.00	1	181 r9febCsf {37.3 - 100}	/124	20 r9ev5Fsf 100.0	6 r8tgdDsf 99.9
+_reflns.pdbx_percent_possible_spherical_anomalous	0.085	1	1.00	1	181 r9febCsf {33 - 100}	/132	8 r9ev3Fsf 100.0
+_reflns.pdbx_redundancy	0.153	1	1.00	1	326 r9febCsf {1.33 - 84.53}
+_reflns.pdbx_redundancy_anomalous	0.153	1	1.00	1	326 r9febCsf {1 - 46.65}	/209	16 r8qn5Esf 1.00
+_reflns.pdbx_signal_type	0.085	1	1.00	1	181 r9febCsf local &lt;I/sigmaI>
+_reflns.percent_possible_obs	0.153	1	1.00	1	326 r9febCsf {57.5 - 100}	/131	32 r9febDsf 95.0	24 r9ev6Fsf 100.0	24 r9febEsf 94.9	12 r8sjtBsf 95.1
+_reflns_scale.group_code	94.516	1	1.00	1	200937 r9duesf 1	1 r6wf4Bsf 3
+_reflns_shell.Rmerge_I_obs	0.153	1	16.69	20	5425 r9febCsf {-3293.52 - 2286.49}
+_reflns_shell.d_res_high	0.153	1	16.70	20	5427 r9febCsf {1.219 - 30.342}
+_reflns_shell.d_res_low	0.153	1	16.70	20	5427 r9febCsf {1.24 - 282.108}
+_reflns_shell.meanI_over_sigI_obs	0.153	1	16.69	20	5425 r9febCsf {-0.9 - 94.16}
+_reflns_shell.number_measured_all	0.153	1	16.70	20	5426 r9febCsf {0 - 168378}
+_reflns_shell.number_measured_obs	0.153	1	16.70	20	5426 r9febCsf {0 - 168378}
+_reflns_shell.number_unique_all	0.153	1	16.70	20	5426 r9febCsf {0 - 13658}
+_reflns_shell.number_unique_obs	0.153	1	16.70	20	5426 r9febCsf {0 - 13658}
+_reflns_shell.pdbx_CC_half	0.153	1	16.69	20	5425 r9febCsf {-0.427 - 1}	/947	378 r9b1qAsf 0.999	297 r9b1qAsf 0.998	241 r9febCsf 0.997
+_reflns_shell.pdbx_CC_half_anomalous	0.153	1	16.69	20	5425 r9febCsf {-0.998 - 0.976}
+_reflns_shell.pdbx_Rpim_I_all	0.153	1	16.69	20	5425 r9febCsf {-1021.66 - 997.188}
+_reflns_shell.pdbx_Rrim_I_all	0.153	1	16.69	20	5425 r9febCsf {-3448.74 - 2499.81}
+_reflns_shell.pdbx_absDiff_over_sigma_anomalous	0.153	1	16.69	20	5425 r9febCsf {0.161 - 2.341}
+_reflns_shell.pdbx_ordinal	0.153	1	16.70	20	325 r9febCsf 1	324 r9febCsf 2	321 r9febCsf 3	318 r9febCsf 4	315 r9febCsf 5	308 r9febCsf 6	301 r9febCsf 7	291 r9febCsf 8	282 r9febCsf 9	272 r9febCsf 10	256 r9febCsf 11	251 r9febCsf 12	246 r9febCsf 13	241 r9febCsf 14	237 r9febCsf 15	234 r9febCsf 16	232 r9febCsf 17	228 r9febCsf 18	223 r9febCsf 19	222 r9febCsf 20
+_reflns_shell.pdbx_percent_possible_anomalous	0.153	1	16.70	20	5426 r9febCsf {0 - 100}	/636	1157 r9febCsf 100.0	89 r9febCsf 99.9
+_reflns_shell.pdbx_percent_possible_ellipsoidal	0.085	2	16.69	20	3004 r9febCsf {0 - 100}	/386	1251 r9febCsf 100.0	137 r9febFsf 99.9
+_reflns_shell.pdbx_percent_possible_ellipsoidal_anomalous	0.085	2	16.69	20	3004 r9febCsf {0 - 100}	/434	1037 r9febCsf 100.0	84 r9febCsf 99.9
+_reflns_shell.pdbx_percent_possible_spherical	0.085	2	16.69	20	3004 r9febCsf {0 - 100}	/455	1204 r9febCsf 100.0	151 r9febFsf 99.9	102 r9febCsf 99.8
+_reflns_shell.pdbx_percent_possible_spherical_anomalous	0.085	2	16.69	20	3004 r9febCsf {0 - 100}	/479	970 r9febCsf 100.0	91 r9febCsf 99.9
+_reflns_shell.pdbx_redundancy	0.153	1	16.70	20	5426 r9febCsf {0 - 99.11}
+_reflns_shell.pdbx_redundancy_anomalous	0.153	1	16.69	20	5425 r9febCsf {1 - 54.36}	/719	299 r8qn5Esf 1.00	44 r9ev6Dsf 1.58
+_reflns_shell.percent_possible_all	0.153	1	16.70	20	5426 r9febCsf {0 - 100}	/426	1439 r9febCsf 100.0	166 r9febFsf 99.9
+_software.classification	0.529	1	2.79	4	1975 r9febCsf data processing	724 r9febCsf data scaling	435 r9jhvsf data extraction
+_software.date	0.153	2	3.62	4	213 r9febCsf {line}	640 r9febCsf {word}	326 r9febCsf {2.01812e+07 - 2.02307e+07}	/34	174 r9b1qAsf 20210423	120 r9febCsf 2021-03-23	118 r9b1qAsf 2021-10-20	112 r8qc4Csf 2022-02-20	108 r8vdjCsf 2022-06-08	93 r9b1qAsf 2.3.79 (10-10-2021)	75 r8vdjCsf 2.3.87 (18-05-2022)	62 r8vdjCsf 20210728	38 r9febCsf 20220610
+_software.description	0.364	1	3.55	4	689 r9febCsf Data scaling	689 r9febCsf Data integration and processing	689 r9febCsf Automated data processing system	363 r5qtcBsf Analysis of data anisotropy (including an anisotropic cut-off of merged intensity data), Bayesian estimation of structure amplitudes and anisotropic correction	213 r9febCsf Analysis of data anisotropy (including an anisotropic cut-off of merged intensity data), Bayesian estimation of structure factor amplitudes and anisotropic correction	85 r8s1msf run from mxdepo.html	21 r8otlBsf Obtain structure factor amplitudes from intensities
+_software.location	0.153	3	3.72	4	539 r9febCsf https://www.globalphasing.com/	347 r9febCsf https://www.ccp4.ac.uk/	326 r9febCsf https://xds.mpimf-heidelberg.mpg.de/
+_software.name	0.529	1	2.79	4	689 r9febCsf AIMLESS	689 r9febCsf XDS	689 r9febCsf autoPROC	611 r9febCsf STARANISO	435 r9jhvsf gemmi	21 r8otlBsf TRUNCATE
+_software.pdbx_ordinal	0.529	1	2.79	4	1124 r9jhvsf 1	724 r9febCsf 2	689 r9febCsf 3	597 r9febCsf 4
+_software.type	0.324	3	3.87	4	1378 r9febCsf package	1286 r9febCsf program
+_software.version	0.358	1	2.19	4	640 r9febCsf {line}	1030 r9jhvsf {word}	/63	174 r9b1qAsf 0.7.7	144 r9ev5Csf Jan 10, 2022	144 r9febCsf Feb 5, 2021	118 r9g13sf 0.6.2	97 r8ckosf 0.5.2	96 r8sjmAsf 1.1.7 20211020	93 r9b1qAsf 2.3.79	82 r8qc4Csf 1.0.5 20220608
+_space_group.IT_number	0.018	1	1.00	1	21 r8sjwsf 146	6 r8f40sf 95	5 r7u45sf 1	2 r8f42sf 78	1 r8epbsf 145	1 r8bqusf 154	1 r8cs8sf 173	1 r8g4gsf 155	1 r8gh5sf 20
+_space_group.crystal_system	0.018	1	1.00	1	24 r8sjwsf trigonal	8 r8f42sf tetragonal	5 r7u45sf triclinic	1 r8cs8sf hexagonal	1 r8gh5sf orthorhombic
+_space_group.id	0.014	1	1.00	1	28 r8sjwsf {word}	2 r8bqusf {1 - 1}	/29	2 r8bqusf 1	1 r8sjusf 8sju
+_space_group.name_H-M_alt	0.018	1	1.00	1	21 r8sjwsf H 3	6 r8f40sf P 43 2 2	5 r7u45sf P 1	2 r8f42sf P 43	1 r8cs8sf P 63	1 r8epbsf P 32	1 r8bqusf P 32 2 1	1 r8g4gsf H 3 2	1 r8gh5sf C 2 2 21
+_space_group.name_Hall	0.018	1	1.00	1	1 r8bqusf {text}	38 r8sjwsf {line}
+_space_group_symop.id	0.021	1	7.52	18	44 r8sjwsf 1	39 r8sjwsf 3	39 r8sjwsf 2	38 r8sjwsf 4	35 r8sjwsf 5	35 r8sjwsf 6	33 r8sjwsf 7	33 r8sjwsf 8	26 r8sjwsf 9	1 r8g4gsf 15	1 r8g4gsf 12	1 r8g4gsf 11	1 r8g4gsf 18	1 r8g4gsf 10	1 r8g4gsf 13	1 r8g4gsf 14	1 r8g4gsf 17	1 r8g4gsf 16
+_space_group_symop.operation_xyz	0.021	1	7.52	18	331 r8sjwsf {word}	/39	44 r8sjwsf x,y,z	27 r8sjwsf -y,x-y,z	27 r8sjwsf -x+y,-x,z	26 r8sjwsf -x+y+1/3,-x+2/3,z+2/3	26 r8sjwsf x+2/3,y+1/3,z+1/3	26 r8sjwsf -y+2/3,x-y+1/3,z+1/3	26 r8sjwsf x+1/3,y+2/3,z+2/3	26 r8sjwsf -x+y+2/3,-x+1/3,z+1/3	26 r8sjwsf -y+1/3,x-y+2/3,z+2/3	10 r8gh5sf -x,-y,z+1/2
+_symmetry.Int_Tables_number	76.471	1	1.00	1	162575 r9duesf {-155 - 4005}	/88	35663 r9duesf 19	26227 r9dt6sf 4	19841 r9drasf 5	7618 r9dsysf 1
+_symmetry.entry_id	92.654	1	1.00	1	196448 r9duesf {word}	530 r8e90sf {1 - 7e+99}
+_symmetry.space_group_name_H-M	96.421	1	1.00	1	204965 r9duesf {line}	21 r6gn2sf {word}	1 r2pr9Asf {172 - 172}	/147	45452 r9duesf P 21 21 21	32376 r9dt6sf P 1 21 1	23512 r9drasf C 1 2 1	9567 r9dsysf P 1
+_symmetry.space_group_name_Hall	0.024	1	1.00	1	1 r8bqusf {text}	49 r8sjwsf {line}
+_symmetry_equiv.id	36.705	1	5.81	96	1 r3o59sf {word}	453304 r9j9asf {1 - 96}	/97	78034 r9j9asf 1	74777 r9j9asf 2	61219 r9j9asf 3	60026 r9j9asf 4	29109 r9j9asf 5	29109 r9j9asf 6	21332 r9gcvsf 8
+_symmetry_equiv.pos_as_xyz	36.705	1	5.81	96	400247 r9j9asf {line}	53056 r7f8tsf {word}	2 r7al4sf {1 - 1}
