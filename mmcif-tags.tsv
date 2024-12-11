@@ -98,12 +98,12 @@ _atom_type.scat_Cromer_Mann_b4	1.760	1	6.01	12	23881 9GYO {-0.01404 - 178.437}	/
 _atom_type.scat_Cromer_Mann_c	7.636	3	5.60	13	96657 9GYO {-36.9158 - 21.9602}	/953	73348 9GUF 0.0	3170 9JDQ 0.216
 _atom_type.scat_dispersion_imag	0.004	1	2.90	4	29 6VMT {0.049 - 7.284}	/28	2 4N3V 0.0512	1 4LEH 5.5
 _atom_type.scat_dispersion_real	0.004	1	2.90	4	29 6VMT {-9.6433 - 0.274}	/25	2 4N3V 0.1886	2 4L8P 0.1827	2 4Z5Q 0.1825	2 4N3V 0.0594	1 4JRL 0.1933
-_atom_type.scat_source	5.981	1	5.46	13	73643 9GUF {text}	172 8RBR {line}
+_atom_type.scat_source	5.981	1	5.46	13	65496 9GUF 2-Gaussian fit: Grosse-Kunstleve RW, Sauter NK, Adams PD: Newsletter of the IUCr Commission on Crystallographic Computing 2004, 3, 22-31.	6576 9DK4 1-Gaussian fit: Grosse-Kunstleve RW, Sauter NK, Adams PD: Newsletter of the IUCr Commission on Crystallographic Computing 2004, 3, 22-31.	988 9CBK 3-Gaussian fit: Grosse-Kunstleve RW, Sauter NK, Adams PD: Newsletter of the IUCr Commission on Crystallographic Computing 2004, 3, 22-31.	421 9DKZ 5-Gaussian fit: Grosse-Kunstleve RW, Sauter NK, Adams PD: Newsletter of the IUCr Commission on Crystallographic Computing 2004, 3, 22-31.	171 8RBR Custom 0-Gaussian	74 8U2M 4-Gaussian fit: Grosse-Kunstleve RW, Sauter NK, Adams PD: Newsletter of the IUCr Commission on Crystallographic Computing 2004, 3, 22-31.	73 8VJ0 0-Gaussian fit: Grosse-Kunstleve RW, Sauter NK, Adams PD: Newsletter of the IUCr Commission on Crystallographic Computing 2004, 3, 22-31.	11 8R37 6-Gaussian fit: Grosse-Kunstleve RW, Sauter NK, Adams PD: Newsletter of the IUCr Commission on Crystallographic Computing 2004, 3, 22-31.	4 7BEQ 5-Gaussian fit- Grosse-Kunstleve RW, Sauter NK, Adams PD- Newsletter of the IUCr Commission on Crystallographic Computing 2004, 3, 22-31.	1 6VMT partial substitution of Met by SeMet
 _atom_type.symbol	100.000	1	5.16	73	1166625 9GYO {word}	71 6DXS {0 - 76}	/230	225937 9GYO C	225595 9GYO N	225588 9GYO O	214528 9GYO S	64105 9DTC P	42651 9GYO H
 _audit.creation_date	0.020	1	1.00	1	46 3I4P {word}	/36	5 2EZU 2005-11-10	4 1SX4 2004-03-23	2 1GH9 2001-09-12
-_audit.creation_method	0.002	1	1.00	1	5 3GNK {text}
+_audit.creation_method	0.002	1	1.00	1	1 1Z91 Created by mtz2various (CCP4) from&#9166;/Users/minsun/Desktop/apo_ohrr_c15s/apo_ohrr_nat_hh_p41212_scala.mtz	1 2R96 Created by mtz2various (CCP4) from&#9166;/home/jirka/STR_SOLVE/JULCA/Wrba/W3/wrba_3_refmac_43.mtz	1 2R97 Created by mtz2various (CCP4) from&#9166;/home/jirka/STR_SOLVE/JULCA/Wrba/W4/wrba4_P41212_ref010_refmac1.mtz	1 2GE7 Created by mtz2various (CCP4) from&#9166;/xtal2/pdbsubmit/cterm.data.mtz	1 3GNK Created by mtz2various (CCP4) from&#9166;/userhome/xtal/abeer/newtcgg/newtcgg_refmac1.mtz
 _audit.revision_id	0.025	1	1.00	1	46 3I4P 1	10 3EZR 1_0
-_audit.update_record	0.022	1	1.00	1	2 1GH9 {text}	48 3I4P {line}
+_audit.update_record	0.022	1	1.00	1	38 3I4P initial release	10 3EZR Initial release	2 1GH9 This preliminary mmCIF data file was originally created by the Nucleic&#9166;  Acid Database Project and is being released as part of the RCSB PDB data&#9166;  uniformity project.&#9166;&#9166;  This data file is provided for test purposes.  This file is not&#9166;  the author approved archival version of this entry which can be obtained&#9166;  in PDB format from ftp://ftp.rcsb.org or one of the PDB ftp mirror&#9166;  sites.
 _audit_author.identifier_ORCID	22.747	1	2.78	31	142713 9GYO {word}
 _audit_author.name	100.000	1	4.76	88	1610 9BJK {text}	1074118 9GYO {line}	114 7TN0 {word}
 _audit_author.pdbx_ordinal	100.000	1	4.76	88	1075842 9GYO {1 - 88}	/88	225946 9GYO 1	213476 9GYO 2	161959 9DUE 3	119646 9DUE 4	85722 9DUE 5	61067 9DK4 6	43819 9DK4 7
@@ -165,7 +165,7 @@ _citation.book_title	0.003	1	1.00	1	3 5FFN Understanding enzymes; Function, Desi
 _citation.coordinate_linkage	0.000	1	1.00	1	1 5B1K n
 _citation.country	82.861	1	1.21	31	227238 9DLL {word}	/51	123149 9JFN US	76388 9DLL UK	8614 9GP2 DK
 _citation.database_id_CSD	0.000	1	1.00	1	1 7X27 0353
-_citation.details	0.001	1	1.00	1	1 8DVO {text}	1 7MHA {word}
+_citation.details	0.001	1	1.00	1	1 7MHA https://purl.stanford.edu/gv390gr2409	1 8DVO This structure is a component of the studies reported in Slavish et al., 2023 (https://doi.org/10.1016/j.ejmech.2022.115035) but was not included in the published manuscript
 _citation.id	99.967	1	1.20	35	225992 9GYO {word}	44052 9GP2 {1 - 34}	/37	225851 9GYO primary	20935 9GP2 1	8896 9F9Y 2
 _citation.journal_abbrev	99.967	1	1.20	35	60 8CIK {text}	120344 9GYO {line}	149640 9JFN {word}
 _citation.journal_id_ASTM	56.664	1	1.27	31	162250 9DLL {word}	/351	17817 9IQT JMOBAK	17377 9CV6 JBCHA3	15394 9CJ9 BICHAW	13315 9CBS PNASA6	9661 9GEC JMCMAR	8423 9FMD NATUAS	8313 9FTC STRUE6	7091 9GP2 ABCRE6
@@ -187,7 +187,7 @@ _citation_author.identifier_ORCID	19.014	1	4.89	172	210298 9JSX {word}
 _citation_author.name	99.964	1	10.05	359	4658 9FDI {text}	2263987 9GYO {line}	178 6W1I {word}
 _citation_author.ordinal	99.964	1	10.05	359	2268823 9GYO {1 - 359}	/359	225865 9GYO 1	222912 9GYO 2	212794 9GYO 3	198540 9GYO 4	177756 9GYO 5	155091 9GYO 6	132816 9GYO 7	112737 9GYO 8
 _citation_editor.citation_id	0.147	1	2.59	12	48 4C5P {word}	812 3ZPM {1 - 28}	/23	229 3ZD0 1	145 3ZPM 2	112 5CRO 3	62 1CD3 5	60 3EOJ 4	48 4C5P primary	46 5MDH 6	31 1ADC 19
-_citation_editor.name	0.147	1	2.59	12	2 1K4W {text}	856 4C5P {line}	2 3ZPM {word}
+_citation_editor.name	0.147	1	2.59	12	2 1K4W {text}	856 4C5P {line}	2 3ZPM {word}	/245	104 8TIM Dayhoff, M.O.	39 8TIM Feldmann, R.J.
 _citation_editor.ordinal	0.147	1	2.59	12	332 4C5P 1	219 3EOJ 2	109 3EOJ 3	82 3EOJ 4	58 3EOJ 5	41 3EOJ 6	8 2HBS 7	6 2HBS 8	2 1PVC 9	1 1PVC 12	1 1PVC 11	1 1PVC 10
 _database_2.database_code	100.000	2	2.59	4	577713 9GYO {word}	7099 9GWD {1 - 8e+99}
 _database_2.database_id	100.000	2	2.59	4	225946 9GYO WWPDB	225946 9GYO PDB	83411 2NDP RCSB	21594 9GYO EMDB	16990 5G6V PDBE	6360 9GWD BMRB	4565 4S3N NDB
@@ -215,20 +215,20 @@ _database_PDB_tvect.vector[3]	0.005	1	1.00	1	1 2HYA 33.94000	1 3HYA 33.86000	1 1
 _diffrn.ambient_environment	0.007	1	1.00	1	13 8BS2 gaseous He	2 8BS1 air
 _diffrn.ambient_pressure	0.025	1	1.00	1	38 1LLH 101	6 8BS1 101.325	2 7Q7M 100000	1 7Q76 22000	1 7Q7G 30000	1 7Q77 50000	1 7Q7H 51000	1 7Q7N 120000	1 8BRZ 52000	1 5IO7 430000	1 7Q78 72000	1 8BS0 80000	1 8BS2 104000
 _diffrn.ambient_temp	80.130	1	1.02	21	183892 9DUE {0 - 446.15}	/515	142899 9DUE 100	8244 9FLC 100.0
-_diffrn.ambient_temp_details	0.646	1	1.01	2	7 6UGJ {text}	1012 9D77 {line}	368 8VCN {word}	87 8S38 {-196 - 298}
+_diffrn.ambient_temp_details	0.646	1	1.01	2	7 6UGJ {text}	1012 9D77 {line}	368 8VCN {word}	87 8S38 {-196 - 298}	/451	90 8GJ5 liquid nitrogen	64 331D ROOM TEMPERATURE
 _diffrn.crystal_id	84.689	1	1.02	21	195857 9DUE 1	234 9FEK 2	19 9FEK 3	7 8CIF 4	6 8C8J 5	2 8C8J 6	1 8EPC de9soakapt_a5_1	1 8EPK 6_b4_cr4_1_1	1 9BCZ 265735	1 8EPH dg9lite_soak1
 _diffrn.crystal_support	0.001	1	1.00	1	2 4Z5Q 0.2-0.3 mm nylon loop	1 4J5O loop mounted and sealed with a MiTeGen MicroRT polyester capillary
-_diffrn.crystal_treatment	0.002	1	1.00	1	1 7UX8 {text}	3 8TW0 {line}
-_diffrn.details	0.003	1	1.14	2	2 1JJ6 {text}	6 8TW0 {line}
+_diffrn.crystal_treatment	0.002	1	1.00	1	2 7UX7 flash cooled by immersion in liquid nitrogen	1 7UX8 crystaline L-Tyrosine was added to the drop after the MfnG crystals were formed. &#9166;After 46 hours, the MfnG crystals were harvested and flash cooled by immersion &#9166;in liquid nitrogen	1 8TW0 Flash-cooled in 100 K Nitrogen stream
+_diffrn.details	0.003	1	1.14	2	1 1IJW MULTIPLE WAVELENGTH WITH ANOMALOUS SCATTERING&#9166;USING THREE IODINE AND ONE BROMINE DERIVATIVES.&#9166;THE IODINE DERIVATIVES REPLACE THYMINE AT POSITIONS&#9166;4, 5, AND 7+19 WITH 5-IODO URACIL.  THE BROMINE&#9166;DERIVATIVE REPLACES CYTOSINE AT POSITION 18 WITH 5-BROMO&#9166;CYTOSINE.	1 5MOP Second data set containing reflections from neutron diffraction.	1 5MOP First data set containing reflections from X-ray diffraction	1 5UN5 the diffraction images at the SBGrid databank, DOI is 10.15785/SBGRID/423	1 5UN6 the diffraction images at the SBGrid databank. DOI is 10.15785/SBGRID/422	1 5V85 THIS IS UNALTERED ORIGINAL DATA FROM ENTRY 3JR7	1 1JJ6 MULTIPLE WAVELENGTH WITH ANOMALOUS SCATTERING&#9166;USING THREE IODINE AND ONE BROMINE DERIVATIVES. THE IODINE DERIVATIVES&#9166;REPLACE THYMINE AT POSITIONS 4, 5, AND 7+19 WITH 5-IODO URACIL.&#9166;THE BROMINE DERIVATIVE REPLACES CYTOSINE AT POSITION 18 WITH 5-BROMO&#9166;CYTOSINE.	1 8TW0 merged data used for refinement. - Data were integrated, scaled and merged within the CrysAlis Pro software package
 _diffrn.id	84.689	1	1.02	21	452 4L8K {word}	195677 9DUE {1 - 21}	/40	191336 9DUE 1	3512 9GCV 2
 _diffrn.pdbx_serial_crystal_experiment	21.853	1	1.01	21	48797 9DUE N	925 8ZCK Y
 _diffrn_detector.details	14.863	1	1.02	21	343 8TXA {text}	14177 9DB5 {line}	19622 9D8A {word}	10 8V98 {0 - 1}
-_diffrn_detector.detector	80.662	1	1.02	21	1 1LVY {text}	26089 9JBQ {line}	159313 9DUE {word}
+_diffrn_detector.detector	80.662	1	1.02	21	1 1LVY {text}	26089 9JBQ {line}	159313 9DUE {word}	/66	93573 9DUE CCD	64252 9DTC PIXEL	23477 9JBQ IMAGE PLATE	2455 9BPE AREA DETECTOR
 _diffrn_detector.diffrn_id	81.259	1	1.02	21	2 4DVQ {word}	186883 9DUE {1 - 21}	/23	183586 9DUE 1	2828 9GCV 2
 _diffrn_detector.id	0.002	1	1.75	4	7 9CBE 1
 _diffrn_detector.pdbx_collection_date	77.076	1	1.02	21	176735 9DUE {word}	258 5UPF {1980 - 2016}
 _diffrn_detector.pdbx_frequency	0.019	1	1.00	1	12 8VQ1 30	11 7M8W 120	8 7RF8 20	5 7O44 25	4 8PYQ 100	1 6WQA 10	1 7CRL 60
-_diffrn_detector.type	80.104	1	1.02	21	2 3Q8I {text}	164942 9DUE {line}	19142 9CBE {word}
+_diffrn_detector.type	80.104	1	1.02	21	2 3Q8I {text}	164942 9DUE {line}	19142 9CBE {word}	/987	19090 9GSQ DECTRIS PILATUS 6M	14034 9IY2 ADSC QUANTUM 315r	13042 9D5D ADSC QUANTUM 315	12548 9CBE MARRESEARCH	8960 9JHV DECTRIS EIGER X 16M
 _diffrn_measurement.details	0.060	1	1.00	1	135 8JZW {line}	/123	3 4E5D 1.00 degrees, 12.0 sec, detector distance 150.00 mm
 _diffrn_measurement.diffrn_id	0.069	1	1.00	1	156 8JZW 1
 _diffrn_measurement.method	0.035	1	1.00	1	74 8JZW \w scans	4 3RQ8 scans	1 4EFA omega scans	1 4DNI w scans
@@ -306,12 +306,12 @@ _em_3d_fitting.method	0.004	1	1.25	3	2 5FKZ CROSS-CORRELATION, ENERGY	1 3JBM Loc
 _em_3d_fitting.overall_b_value	0.777	1	1.00	3	1762 9GCU {0.836 - 1000}	/880	49 8RK0 100
 _em_3d_fitting.ref_protocol	3.743	1	1.02	7	2846 9CWS RIGID BODY FIT	2687 9DR1 FLEXIBLE FIT	1616 9GG6 AB INITIO MODEL	1268 9DKZ OTHER	194 9G3Z BACKBONE TRACE
 _em_3d_fitting.ref_space	3.388	1	1.02	7	7167 9GMO REAL	611 9DKZ RECIPROCAL
-_em_3d_fitting.target_criteria	0.916	1	1.02	5	17 3JBD {text}	1732 9DR1 {line}	338 9BP6 {word}	17 8S32 {0.143 - 0.92}
+_em_3d_fitting.target_criteria	0.916	1	1.02	5	17 3JBD {text}	1732 9DR1 {line}	338 9BP6 {word}	17 8S32 {0.143 - 0.92}	/256	559 8X8Q Correlation coefficient	406 9DR1 Cross-correlation coefficient	167 9EME correlation coefficient	65 8B2X Correlation Coefficient
 _em_3d_fitting_list.3d_fitting_id	2.564	1	1.72	26	9696 9DR1 1	147 9F2K 2	55 8RBX 3	20 8RBX 4	16 8V6H 5	13 8V6H 6	4 8EKM 7
 _em_3d_fitting_list.accession_code	1.693	1	1.67	26	9 8U14 {line}	6351 9DR1 {word}	11 6YAI {6e+26 - 3e+76}
 _em_3d_fitting_list.chain_id	0.100	1	2.23	18	501 9DKZ {word}	6 9CL9 {2 - 8}	/47	193 9DKZ A	62 9IUZ B	45 9IUZ C	30 9CL9 D	19 9CL9 E
 _em_3d_fitting_list.chain_residue_range	0.044	1	1.82	18	180 9DKZ {word}	/91	11 8PUH 13-125	6 7UOJ 1-112
-_em_3d_fitting_list.details	0.127	1	1.42	9	18 9B0E {text}	290 9FJY {line}	100 9IWQ {word}
+_em_3d_fitting_list.details	0.127	1	1.42	9	18 9B0E {text}	290 9FJY {line}	100 9IWQ {word}	/227	15 8WOE Model-Angelo
 _em_3d_fitting_list.id	2.564	1	1.72	26	9951 9DR1 {1 - 26}	/26	5794 9DR1 1	1702 9DKZ 2	828 9CTH 3	496 9CTH 4
 _em_3d_fitting_list.initial_refinement_model_id	1.645	1	1.66	26	4441 9DR1 1	1095 9DKZ 2	399 9CTH 3	140 9CTH 4	49 9CTH 5	16 7MQ9 6	10 7MQ9 7	9 7MQ9 8	7 7MQ9 9	2 6R9T 10
 _em_3d_fitting_list.pdb_chain_id	0.617	1	2.62	26	3533 9DKZ {word}	121 9CL9 {0 - 9}	/88	1342 9DKZ A	515 9IUZ B	289 9IUZ C	197 9CL9 D	170 9CL9 E
@@ -325,8 +325,8 @@ _em_3d_reconstruction.details	0.800	1	1.01	16	631 9BH6 {text}	1176 9CG7 {line}	2
 _em_3d_reconstruction.entry_id	10.125	1	1.01	49	23007 9GYO {word}	84 8E99 {8 - 8e+99}
 _em_3d_reconstruction.id	10.125	1	1.01	49	23091 9GYO {1 - 49}	/49	22876 9GYO 1	47 8ZH6 2
 _em_3d_reconstruction.image_processing_id	10.125	1	1.01	49	22929 9GYO 1	100 8ZH6 2	19 8X5F 3	13 8HJV 4	8 8HJV 7	8 8HJV 6	8 8HJV 5	1 7WZW 12	1 7WZW 11	1 7WZW 10	1 7WZW 9	1 7WZW 8	1 7WZW 13
-_em_3d_reconstruction.magnification_calibration	0.090	1	1.00	1	14 5AFI {text}	119 5G4G {line}	56 5AA0 {word}	15 4AV2 {33113 - 100000}
-_em_3d_reconstruction.method	0.324	1	1.00	1	21 5APO {text}	606 6NN3 {line}	106 8CPC {word}
+_em_3d_reconstruction.magnification_calibration	0.090	1	1.00	1	14 5AFI {text}	119 5G4G {line}	56 5AA0 {word}	15 4AV2 {33113 - 100000}	/90	47 3J1R TMV	10 3J2T TMV images
+_em_3d_reconstruction.method	0.324	1	1.00	1	21 5APO {text}	606 6NN3 {line}	106 8CPC {word}	/272	57 5FMG PROJECTION MATCHING	40 3JCK projection matching	34 5FNA IHRSR
 _em_3d_reconstruction.nominal_pixel_size	0.280	1	1.00	1	632 6MB3 {0.41 - 15.5}	/242	25 3JC2 1.34
 _em_3d_reconstruction.num_class_averages	1.155	1	1.00	2	2613 9DR1 {1 - 340465}	/87	2028 9D3G 1	195 9FCI 2	130 9DR1 3
 _em_3d_reconstruction.num_particles	9.946	1	1.01	49	22687 9GYO {1 - 1.93708e+07}
@@ -343,7 +343,7 @@ _em_admin.map_release_date	2.192	1	1.00	1	4952 9GYO {word}	/308	180 9GGQ 2024-09
 _em_admin.title	2.192	1	1.00	1	280 9CGZ {text}	4659 9GYO {line}	14 8VSD {word}
 _em_buffer.details	1.584	1	1.00	2	364 9GBK {text}	3035 9DR1 {line}	180 9CVF {word}
 _em_buffer.id	10.058	1	1.00	4	22726 9GYO 1	22 8TRC 2	7 8TRC 3	4 8TRC 4
-_em_buffer.name	0.314	1	1.00	1	14 3JCN {text}	625 5LDX {line}	70 3JCX {word}
+_em_buffer.name	0.314	1	1.00	1	14 3JCN {text}	625 5LDX {line}	70 3JCX {word}	/457	21 3JCX PBS
 _em_buffer.pH	10.052	1	1.00	4	22744 9GYO {2 - 11.2}	/102	7422 9GYO 7.5	4743 9GRE 7.4	3425 9JA0 8.0	1618 9GBV 8	775 9CAQ 7.6
 _em_buffer.specimen_id	10.058	1	1.00	4	22730 9GYO 1	26 8TRC 2	3 8PQ5 3
 _em_buffer_component.buffer_id	2.467	1	3.50	15	19474 9JSX 1	39 8C8G 2	2 7B9K 3
@@ -353,7 +353,7 @@ _em_buffer_component.formula	2.127	1	2.96	15	14243 9JSX {word}	1 7QW9 {100 - 100
 _em_buffer_component.id	2.467	1	3.50	15	5570 9JSX 1	5085 9DR1 2	3972 9DR1 3	2437 9D9X 4	1272 9G5K 5	620 9G40 6	298 9G40 7	175 9CHS 8	49 9B1E 9	20 9B1E 10	5 9B1E 11	3 8C8R 14	3 8C8R 15	3 8C8R 13	3 8C8R 12
 _em_buffer_component.name	2.356	1	3.43	15	83 8V6V {text}	9227 9JSX {line}	8959 9DR1 {word}	1 7QW9 {298 - 298}
 _em_crystal_formation.atmosphere	0.007	1	1.00	1	5 6OIZ air	4 5K2H in air, in sealed chamber, in equilibrium with reservoir solution	2 6CFH air, sealed chamber	1 5KO0 Air, sealed chamber	1 5OCV AIR	1 5KNZ Air, sealed chamber.	1 6BZP air, sealed chaomder, in equilibrium with reservoir solutionq	1 6EO1 dialysis buffer
-_em_crystal_formation.details	0.010	1	1.00	1	11 8CPC {text}	9 6OIZ {line}	3 6MXF {word}
+_em_crystal_formation.details	0.010	1	1.00	1	11 8CPC {text}	9 6OIZ {line}	3 6MXF {word}	/22	2 5K2F Crystals were grown by hanging-drop vapor diffusion at ~20 degrees C. The reservoir solution contained 100 mM HEPES, pH 7.0, and 1 M sodium acetate (pH not adjusted). Drops were prepared by pipetting 5 microliters of 30 mg/mL aqueous peptide solution, 4 microliters of reservoir solution, and 1 microliter of 0.1 M zinc sulfate onto a glass coverslip. Crystals grew within a day.	1 6U5G 600 uL of protein at 60 mg/mL was combined with 400 uL of 50 percent PEG 3350 in a glass vial  and stirred with an Octagon stir bar at 500 RPM
 _em_crystal_formation.id	0.082	1	1.00	1	186 9CIP 1
 _em_crystal_formation.instrument	0.007	1	1.00	1	5 6BZP 24-well plate	4 6O4J microcentrifuge tube	2 6NK4 hanging drop vapor diffusion	1 5KNZ 1.5 mL Eppendorf tube	1 5KO0 Hanging Drop Vapor Diffusion Tray	1 6EO1 dialysis buttons	1 6OIZ Varioscan plate reader
 _em_crystal_formation.lipid_mixture	0.007	1	1.00	1	9 6NK4 none	2 5IA9 bovine liver lecithin	1 6EO1 E.coli polar lipids	1 8FYO None	1 8SJX Sphingomyelin and cholesterol were mixed at a 2:1 molar ratio.	1 6U5G NA	1 8SJY Sphingomyelin and cholesterol were mixed at a 1:2 molar ratio.
@@ -362,7 +362,7 @@ _em_crystal_formation.specimen_id	0.082	1	1.00	1	186 9CIP 1
 _em_crystal_formation.temperature	0.012	1	1.00	1	9 6M9J 298	7 8SJY 310	3 9CIP 293	2 6NK4 291	1 5IA9 303	1 5KO0 277	1 5OCV 294	1 6J60 289	1 6U5G 296
 _em_crystal_formation.time	0.008	1	1.00	1	6 9CIP 1	5 8SJY 7	3 5OCV 2	3 6O4J 4	1 6OIZ 30	1 6EO1 5
 _em_crystal_formation.time_unit	0.008	1	1.00	1	17 9CIP DAY	1 6OIZ HOUR
-_em_ctf_correction.details	0.675	1	1.00	1	79 9B95 {text}	1278 9CL9 {line}	168 8YOP {word}
+_em_ctf_correction.details	0.675	1	1.00	1	79 9B95 {text}	1278 9CL9 {line}	168 8YOP {word}	/548	74 3JD7 Each particle
 _em_ctf_correction.em_image_processing_id	9.646	1	1.00	13	21798 9GYO 1	54 8ZH6 2	9 8ZFM 3	5 8FOK 4	2 8HJV 7	2 8HJV 6	2 8HJV 5	1 7WZW 12	1 7WZW 11	1 7WZW 10	1 7WZW 9	1 7WZW 8	1 7WZW 13
 _em_ctf_correction.id	10.000	1	1.00	13	22595 9GYO 1	51 8ZH6 2	12 8ZH6 3	8 8ZH6 4	2 8HJV 7	2 8HJV 6	2 8HJV 5	1 7WZW 12	1 7WZW 11	1 7WZW 10	1 7WZW 9	1 7WZW 8	1 7WZW 13
 _em_ctf_correction.type	9.649	1	1.00	13	16944 9JSX PHASE FLIPPING AND AMPLITUDE CORRECTION	3655 9GYO NONE	1285 9CLP PHASE FLIPPING ONLY
@@ -378,7 +378,7 @@ _em_diffraction_shell.low_resolution	0.084	1	1.59	10	301 9DKZ {0.1 - 200}	/232	1
 _em_diffraction_shell.multiplicity	0.084	1	1.59	10	301 9DKZ {0.1 - 300}	/181	15 8T60 2.5
 _em_diffraction_shell.num_structure_factors	0.084	1	1.59	10	301 9DKZ {1 - 6.90136e+06}	/237	14 8T60 244
 _em_diffraction_shell.phase_residual	0.084	1	1.59	10	301 9DKZ {1e-10 - 179.9}	/114	52 7N2L 0.01	38 7N2G .01	28 8T1N 0.1	25 7BEQ 1	16 8T60 13.5	13 8FYS 30
-_em_diffraction_stats.details	0.014	1	1.00	1	19 7N2K {text}	12 8SJY {line}
+_em_diffraction_stats.details	0.014	1	1.00	1	19 7N2K {text}	12 8SJY {line}	/25	3 5K2H Phase statistics are not applicable. No imaging was used. The phases were obtained by a crystallographic direct methods program, SHELXD.	2 7N2F Phase error and phase residual statistics are not routinely reported for crystallographic structures. No imaging was used. The phases were&#9166;obtained by an ab initio crystallographic method described in our&#9166;manuscript	2 7N2K Phase &#9166;error and phase residual statistics are not routinely reported for &#9166;crystallographic structures. No imaging was used. The phases were &#9166;obtained by an ab initio crystallographic method described in our &#9166;manuscript	2 5KO0 Phasing statistics are not applicable. No imaging was used. The phases were obtained using molecular replacement.	2 8SJY There was no phase error rejection criteria used for diffraction intensities.	1 6VHC Model from the low-dose set refined against the damage dataset without any changes.
 _em_diffraction_stats.fourier_space_coverage	0.086	1	1.00	1	194 9DKZ {0.1 - 100}	/138	12 7X2V 90.3	9 8FYS 87.58
 _em_diffraction_stats.high_resolution	0.086	1	1.00	1	194 9DKZ {0.6 - 18.25}	/93	13 7X2V 2.83	9 8FYS 0.87
 _em_diffraction_stats.id	0.086	1	1.00	1	194 9DKZ 1
@@ -390,7 +390,7 @@ _em_diffraction_stats.overall_phase_residual	0.057	1	1.00	1	129 7QGQ {1e-10 - 17
 _em_diffraction_stats.phase_error_rejection_criteria	0.086	1	1.00	1	7 8T1N {line}	53 9BDJ {word}	134 9DKZ {0 - 9999}	/22	91 9DKZ 0	33 8FYS None	15 8SKW 20	12 8VD7 none	8 8IJZ 60
 _em_diffraction_stats.r_merge	0.086	1	1.00	1	194 9DKZ {0.093 - 99}	/148	14 7X2V 0.198	10 8FYS 0.236	4 5K2H 15.1
 _em_diffraction_stats.r_sym	0.069	1	1.00	1	156 8SJY {0.073 - 100}	/127	9 8FYS 0.073	4 7SWB 13
-_em_embedding.details	0.008	1	1.00	1	2 8SJY {text}	16 8IU0 {line}	1 1FQY {word}
+_em_embedding.details	0.008	1	1.00	1	2 8SJY Aquaporin-0 2D crystals were prepared on molybdenum grids using the carbon sandwich method and a trehalose concentration ranging from 3% to 5% (w/v).	2 8IU0 nanodisc composed of MSP1D1E3 and soybean lipids	2 3IZ2 10% trehalose	1 2AT9 3% (w/v) trehalose	1 1AT9 3% trehalose	1 8BJA Sample vitrified using a final concentration of 4mM CHAPSO or 0.005% fluorinated octyl beta-maltoside	1 1FQY 3%	1 8H87 nanodisc composing of MSP1D1E3 and soybean lipid	1 7M6L Embedded in liposomes	1 1SOR 10% glucose	1 8CPC 40% Dextran in phosphate buffer	1 8A8E The sample was plunged freeze in ethane-propane and transfer to liquid nitrogen.	1 6YNG Undiluted sample was applied to glow-discharged 200 mesh copper Quantifoil.	1 3DWW 3 % trehalose	1 1BRD 0.8% (w/v) glucose	1 2D57 7% trehalose
 _em_embedding.id	0.079	1	1.00	1	179 8ZRK 1
 _em_embedding.material	0.079	1	1.00	1	62 8ZRK {line}	117 8QU5 {word}	/33	30 8ZRK vitreous ice	26 8T1L ice	26 8CXO nanodisc	13 8QU5 Ice	10 7VMS buffer	9 5IA9 trehalose	9 7Y42 vitrified ice	8 8EWC carbon
 _em_embedding.specimen_id	0.079	1	1.00	1	179 8ZRK 1
@@ -417,15 +417,15 @@ _em_entity_assembly_naturalsource.ncbi_tax_id	9.464	1	1.30	62	27798 9GYO {34 - 6
 _em_entity_assembly_naturalsource.organ	0.125	1	1.03	6	29 8RU0 {line}	261 9GG6 {word}	/43	56 8Q4G Heart	48 9GG6 Brain	26 8RGT brain	24 8SHT Kidney	19 8CRT Blood	15 8DD0 heart	15 8SJY Eye	8 8RGR liver
 _em_entity_assembly_naturalsource.organelle	0.081	1	1.15	6	43 9DKZ {line}	169 9JSV {word}	/35	52 8OIT Mitochondria	27 8OIT Mitochondrion	25 8RGT mitochondria	15 8EAR endoplasmic reticulum	13 8CMO Chloroplast	10 7P2Q Endoplasmic Reticulum
 _em_entity_assembly_naturalsource.organism	9.464	1	1.30	62	13 8OO6 {text}	27519 9GYO {line}	266 9CWS {word}
-_em_entity_assembly_naturalsource.strain	0.587	1	1.08	11	1 8OPO {text}	376 9D9X {line}	1017 9GBV {word}	39 8CZC {2 - 81116}
+_em_entity_assembly_naturalsource.strain	0.587	1	1.08	11	1 8OPO {text}	376 9D9X {line}	1017 9GBV {word}	39 8CZC {2 - 81116}	/435	77 8QK7 MRE600	69 8TRG K12
 _em_entity_assembly_naturalsource.tissue	0.111	1	1.04	5	79 9GG6 {line}	181 9DKZ {word}	/79	19 8CRT Erythrocytes	19 8SHT Kidney	17 8GBR Cardiac	16 9FOR Brain	15 6VOO Leaves	12 8CZ6 cerebrospinal fluid
 _em_entity_assembly_recombinant.cell	0.710	1	1.21	6	454 9C2C {line}	1489 9CTT {word}	2 6C5V {293 - 293}	/203	477 9CTT HEK293	177 8ZLE HEK293F	149 8WB0 HEK293T	72 8V2Z Expi293
 _em_entity_assembly_recombinant.entity_assembly_id	7.171	1	1.26	9	13983 9GYO 1	2774 9JA1 2	2408 9GCT 3	738 9FMD 4	260 9F1B 5	125 9F1D 6	31 9F1D 7	17 9F1D 8	9 8WAS 11	4 8BVW 10	4 8BVW 9	1 7NKY 15	1 7NKY 24	1 7NKY 22	1 7NKY 16	1 7NKY 19	1 7NKY 20	1 7NKY 21	1 7NKY 23
 _em_entity_assembly_recombinant.id	7.171	1	1.26	9	12994 9GYO 2	4367 9JSX 1	1895 9GCT 3	634 9GCT 4	248 8ZHP 5	127 9F1D 6	51 9F1D 7	28 9F1D 8	13 8WAS 9	3 8BYQ 10	1 7M1X 11
 _em_entity_assembly_recombinant.ncbi_tax_id	7.171	1	1.26	9	20361 9GYO {2 - 7.10671e+07}	/219	6553 9IWS 9606	5203 9DR1 562	2436 9GYO 7108	1479 9JSX 469008	995 9J2N 7111
-_em_entity_assembly_recombinant.organism	7.171	1	1.26	9	357 9CC3 {text}	19877 9GYO {line}	127 9IQT {word}
+_em_entity_assembly_recombinant.organism	7.171	1	1.26	9	357 9CC3 {text}	19877 9GYO {line}	127 9IQT {word}	/265	6525 9IWS Homo sapiens	5304 9DR1 Escherichia coli	2432 9GYO Spodoptera frugiperda	1406 9JSX Escherichia coli BL21(DE3)	1000 9J2N Trichoplusia ni
 _em_entity_assembly_recombinant.plasmid	0.532	1	1.13	9	202 8Z3S {line}	1150 9IKC {word}	1 5H1C {1 - 1}	/402	60 9B39 pEG BacMam
-_em_entity_assembly_recombinant.strain	0.583	1	1.08	4	9 7LF2 {text}	375 8ZH6 {line}	1036 9CV9 {word}	1 7NSG {9 - 9}
+_em_entity_assembly_recombinant.strain	0.583	1	1.08	4	9 7LF2 {text}	375 8ZH6 {line}	1036 9CV9 {word}	1 7NSG {9 - 9}	/240	205 9IKC BL21(DE3)	106 9FO3 BL21	53 9CV9 Sf9
 _em_entity_assembly_synthetic.entity_assembly_id	0.130	1	1.06	3	110 9JA1 3	66 9ATW 1	40 8WB0 4	39 8WD8 2	26 8WB0 5	15 8WAS 7	10 7WUI 6	7 8WAS 9
 _em_entity_assembly_synthetic.id	0.130	1	1.06	3	232 9JA1 1	26 8J9X 3	16 8UYS 2	15 8JL0 4	15 8WAS 7	5 8WAS 8	2 8WAO 9	2 7XT7 5
 _em_entity_assembly_synthetic.ncbi_tax_id	0.130	1	1.06	3	313 9JA1 {274 - 2.69705e+06}	/35	174 8XC1 32630	63 8J9X 9606	11 9JA1 562
@@ -439,16 +439,16 @@ _em_experiment.reconstruction_method	10.129	1	1.00	1	20986 9GYO SINGLE PARTICLE	
 _em_helical_entity.angular_rotation_per_subunit	0.563	1	1.11	128	1412 9GG6 {-179.9 - 180}	/865	154 8UTY 168.09	21 7PML -167.3
 _em_helical_entity.axial_rise_per_subunit	0.563	1	1.11	128	1412 9GG6 {0.01 - 430}	/679	131 8UTQ 5.6	36 9ERO 4.8
 _em_helical_entity.axial_symmetry	0.563	1	1.11	128	1185 9GG6 C1	90 9BJO C2	36 8VJA C6	32 9INY C3	20 8S5J D1	11 8CH5 C5	10 8QI5 C4	10 8S5M D2	5 8PDZ C7	3 7RS6 C14	3 8OPD C8	2 7YX5 D5	2 8QBB D3	1 7TNS C13	1 8ZRA C9	1 8TAF D14
-_em_helical_entity.details	0.003	1	1.00	1	3 3JAX {text}	2 5KG8 {line}	1 3J8A {word}
+_em_helical_entity.details	0.003	1	1.00	1	2 3J8Y The reconstructed 14-protofilament microtubule is pseudo-symmetric, containing a seam with 3 starts per tubulin monomer, or 1.5 starts per tubulin dimer.	1 3J8A none	1 3J9O One asymmetric unit contains a heterodimer of IglA/IglB	1 3JAX Heavy meromyosin (HMM) is the outermost helical unit of the myosin thick filament formed by two myosin heads that include the motor domains, the proteolytic fragment of myosin heavy chain subfragment 2 (S2), and two associated light chains (ELC and RLC).	1 5KG8 Not directly applicable to the modeled coordinates
 _em_helical_entity.id	0.563	1	1.11	128	1412 9GG6 {1 - 128}	/128	1271 9GG6 1	12 8UXU 2
 _em_helical_entity.image_processing_id	0.563	1	1.11	128	1348 9GG6 1	64 8UTP 2
-_em_image_processing.details	0.288	1	1.00	2	108 8RS0 {text}	528 9IWQ {line}	17 8AEY {word}
+_em_image_processing.details	0.288	1	1.00	2	108 8RS0 {text}	528 9IWQ {line}	17 8AEY {word}	/312	25 8S8J FEI Falcon III
 _em_image_processing.id	10.125	1	1.00	13	22877 9GYO 1	51 8ZH6 2	9 8ZFM 3	5 8FOK 4	2 8HJV 7	2 8HJV 6	2 8HJV 5	1 7WZW 12	1 7WZW 11	1 7WZW 10	1 7WZW 9	1 7WZW 8	1 7WZW 13
 _em_image_processing.image_recording_id	10.125	1	1.00	13	22915 9GYO 1	32 8ZFM 2	4 8FOK 3	1 8HJV 6	1 8HJV 4	1 8HJV 5
 _em_image_recording.average_exposure_time	2.243	1	1.01	8	5138 9JSX {0.006 - 150}	/497	375 9BF6 10	348 9BPA 8	306 9GBK 2	298 9DKZ 1	188 9F48 3
 _em_image_recording.avg_electron_dose_per_image	10.048	1	1.01	8	22975 9GYO {0.00025 - 1200}
 _em_image_recording.avg_electron_dose_per_subtomogram	0.046	1	1.14	2	117 9EVD {49.6 - 160}	/34	22 8PUH 143.5	18 9EVD 120	13 8QV3 123	7 7TBL 110	6 8Q6T 140	5 8C8R 121
-_em_image_recording.details	0.464	1	1.04	8	251 9DKZ {text}	824 9CKV {line}	12 8A6J {word}	4 7BTI {20 - 30}
+_em_image_recording.details	0.464	1	1.04	8	251 9DKZ {text}	824 9CKV {line}	12 8A6J {word}	4 7BTI {20 - 30}	/554	35 8GH1 The map is the result of combining multiple datasets: cryo-EM imaging of the beta-2AR-Gs + GTP (5 sec) complex was performed on a Titan Krios electron microscope equipped with a K3 Summit direct electron detector (Gatan). The microscope was operated at 300 kV accelerating voltage, with a nominal magnification of 105,000x in counting mode resulting in a magnified pixel size of 0.8677 Angstrom. A total exposure of 60.48 electrons/ Angstrom^2 over 63 frames with defocus ranging from -1.0 - -2.0 micrometers was used. Cryo-EM imaging of beta-2AR-Gs + GTP (10 sec) complex was performed on four separate grids over three collection sessions. The microscope was operated at 300 kV accelerating voltage, with a magnification at the camera of 58,679x in counting mode resulting in a magnified pixel size of 0.8521 Angstrom. For the first and second grids, movies were obtained at an exposure rate of 21.13 electrons/Angstrum^2/sec with defocus ranging from -0.4 - -2.0 micrometers. The total exposure time was 2.717 sec over 77 frames per movie stack. For an additional collection of the first grid, movies were obtained at an exposure rate of 20.95 electrons/ Angstrum^2/sec with defocus ranging from -0.4 -2.0 micrometers. The total exposure time was 2.717 sec over 77 frames per movie stack. For the third and fourth grids, movies were obtained at an exposure rate of 30.71 electrons/ Angstrum^2/sec with defocus ranging from -0.5 - -1.6 micrometers. The total exposure time was 2.008 sec over 79 frames per movie stack. Cryo-EM imaging of beta-2AR-Gs + GTP (17 sec) was performed on a Titan Krios equipped with a post-column energy filter, with a magnification of 105,000x in counting mode resulting in a magnified pixel size of 0.8677 Angstrom. Movies were obtained at an exposure rate of 32.46 electrons/Angstrum^2/sec with defocus ranging from -0.4 - -0.9 micrometers. The total exposure time was 1.999 sec over 79 frames per movie stack.
 _em_image_recording.detector_mode	2.804	1	1.01	4	3674 9D9X COUNTING	1959 9C9M SUPER-RESOLUTION	753 9G0B INTEGRATING	17 7XKJ OTHER
 _em_image_recording.film_or_detector_model	10.114	1	1.01	8	23044 9GYO {line}	85 9F1C {word}	/45	6279 9DR1 GATAN K2 SUMMIT (4k x 4k)	6230 9JSX GATAN K3 (6k x 4k)	4167 9GRE GATAN K3 BIOQUANTUM (6k x 4k)	1598 9D9X FEI FALCON III (4k x 4k)	1427 9GYO FEI FALCON IV (4k x 4k)	1061 9CVG GATAN K2 QUANTUM (4k x 4k)
 _em_image_recording.id	10.129	1	1.01	8	22886 9GYO 1	222 8ZFM 2	36 8PQ5 3	11 8HJV 4	4 8HJV 5	2 8HJV 6	1 6ZET 8	1 6ZET 7
@@ -478,7 +478,7 @@ _em_imaging.calibrated_defocus_min	0.448	1	1.00	3	1014 9DKZ {-2000 - 15000}	/105
 _em_imaging.calibrated_magnification	0.825	1	1.01	4	1877 9CLP {2250 - 587963}	/461	93 9B95 105000
 _em_imaging.cryogen	3.367	1	1.00	3	7610 9JSX NITROGEN	26 8Q6J HELIUM
 _em_imaging.date	0.374	1	1.01	4	856 7ADP {word}	/533	13 4V7A 2008-05-11
-_em_imaging.details	0.297	1	1.02	3	137 9B95 {text}	506 9CL9 {line}	43 7Q2S {word}
+_em_imaging.details	0.297	1	1.02	3	137 9B95 {text}	506 9CL9 {line}	43 7Q2S {word}	/315	25 7NOQ Areas of interest for high-resolution data collection were identified in low magnification montages. Prior to tomogram acquisition, gain references were acquired and the filter was fully tuned. Microscope tuning was performed using the FEI AutoCTF software. The ilumination mode used during acquisition was nanoprobe.
 _em_imaging.detector_distance	0.077	1	1.00	1	172 3JCU 0.0	1 3JD5 800
 _em_imaging.electron_beam_tilt_params	0.008	1	1.00	1	15 3JBG 0	4 3JCH 5
 _em_imaging.electron_source	10.124	1	1.00	4	22618 9GYO FIELD EMISSION GUN	176 9CEW OTHER	92 9IUL LAB6	55 8K53 TUNGSTEN HAIRPIN	1 1OED FEG
@@ -500,8 +500,8 @@ _em_imaging.specimen_id	10.129	1	1.00	4	22952 9GYO 1	6 8PQ5 2	3 8PQ5 3
 _em_imaging.temperature	0.247	1	1.01	4	560 5G5P {4 - 300}	/64	78 3JD8 100	72 3J45 93	51 3JCI 90	41 3JBA 95	39 5G5P 85	38 3JC9 77	31 5FIL 80	12 3J7R 70
 _em_imaging.tilt_angle_max	0.170	1	1.00	1	385 3JD8 {-9999 - 79}	/30	144 5ADX 0	129 3JD8 0.0	27 3JCE 0.00	20 5A9Q 60	12 3JA6 70
 _em_imaging.tilt_angle_min	0.171	1	1.00	1	386 3JD8 {-9999 - 60}	/21	153 5G2X 0	131 3JD8 0.0	27 3JCE 0.00	14 3JA6 -70
-_em_imaging_optics.chr_aberration_corrector	0.019	1	1.00	1	1 6RB9 {text}	23 8WDC {line}	17 8GWA {word}	1 5XJC {-10 - -10}
-_em_imaging_optics.details	0.025	1	1.00	1	8 8UZ1 {text}	48 9FJY {line}
+_em_imaging_optics.chr_aberration_corrector	0.019	1	1.00	1	11 8CKA not used	8 7NIQ none	7 8GTT None	5 7A6B TFS Monochromator	3 8G1I CEOS manufactured Cc corrector	2 8WDC Microscope was equipped with a Cc corrector	1 6RB9 Volta phase plate was used. Just prior to data collection, the phase plate was inserted and the un-scattered beam was made parallel by observing the Ronchigram in the back focal plane of the objective	1 7Q5A No corrector	1 8GNK No applicable	1 8GWA 2.7mm	1 5XJC -10	1 6M71 NONE
+_em_imaging_optics.details	0.025	1	1.00	1	8 8UZ1 {text}	48 9FJY {line}	/24	8 9FJY Gatan energy filter.	6 8GJ3 unfiltered mode	6 7PKH Gatan BioQuantum K3	4 8OPO BioContinuum Imaging Filter	4 8UZ1 Electron micrographs for image reconstructions were collected using Titan Krios equipped with X-cold field emission gun at 300 kV, Gatan image filter with slit width of 20 eV and a nanoprobe.	3 7OJI no phase plate	3 7ZE8 No energy filter was applied.	2 7FD9 Imaging was done in EFTEM mode. Images were collected using beam shift in a series of 3x3 holes before stage shift. Active beam tilt compensation was turned on during the acquisition.
 _em_imaging_optics.energyfilter_lower	0.066	1	1.00	1	114 6D7L 0	28 6U5K -10	3 6F8L 20	1 5TJI -15	1 6C54 30	1 5MZ6 -20	1 6C0V 10
 _em_imaging_optics.energyfilter_name	1.087	1	1.01	3	2424 9JSX {line}	50 6F8L {word}	/28	1410 9GRE GIF Bioquantum	619 9C7V GIF Quantum LS	105 9JSX In-column Omega Filter
 _em_imaging_optics.energyfilter_slit_width	1.073	1	1.01	3	2058 9JSX 20	208 9D3G 10	60 8PMK 30	47 9FJY 15	38 8U7U 25	9 8WDC 40	6 9EO4 5	4 6O2T 143	3 8A1W 7	2 7OGR 70	2 8J0J 18	2 8VBY 6	1 8GW6 14	1 7TN2 2
@@ -509,12 +509,12 @@ _em_imaging_optics.energyfilter_upper	0.066	1	1.00	1	106 6D7L 20	33 6U5K 10	3 3J
 _em_imaging_optics.id	1.826	1	1.00	3	4126 9JSX 1	16 8PUF 2	2 7KMT 3
 _em_imaging_optics.imaging_id	1.826	1	1.00	3	4126 9JSX 1	16 8PUF 2	2 7KMT 3
 _em_imaging_optics.phase_plate	0.069	1	1.00	1	110 9GBK VOLTA PHASE PLATE	37 8PE8 OTHER	3 7E6T ZERNIKE PHASE PLATE	2 6C24 Volta Phase Plate	2 6D9H The images were taken at 500 defocus	1 6NMI A Thermo Fisher Scientific Volta Phase Plate was used.	1 6OFJ Volta phase plate	1 6J60 no
-_em_imaging_optics.sph_aberration_corrector	0.089	1	1.00	1	7 8RG0 {text}	162 9FJY {line}	27 8GWA {word}	4 7OTI {2.7 - 2.7}
-_em_particle_selection.details	0.447	1	1.00	1	180 9B73 {text}	812 9GAW {line}	16 8VOV {word}	1 8HPA {1.0635e+06 - 1.0635e+06}
+_em_imaging_optics.sph_aberration_corrector	0.089	1	1.00	1	7 8RG0 {text}	162 9FJY {line}	27 8GWA {word}	4 7OTI {2.7 - 2.7}	/68	29 8DNF Cs-corrected microscope	12 8WQP Microscope was modified with a Cs corrector	11 8WDC Microscope was equipped with a Cs corrector	11 8CKA not used	11 7NIQ none	9 6IOL CEOS Cs-corrector
+_em_particle_selection.details	0.447	1	1.00	1	180 9B73 {text}	812 9GAW {line}	16 8VOV {word}	1 8HPA {1.0635e+06 - 1.0635e+06}	/506	31 8F1A manual picking of filaments
 _em_particle_selection.id	2.753	1	1.00	4	6220 9GYO 1	10 9B6G 2	2 8HDK 4	2 8HDK 3
 _em_particle_selection.image_processing_id	2.753	1	1.00	4	6221 9GYO 1	11 9B6G 2	1 7AD3 4	1 7AD3 3
 _em_particle_selection.num_particles_selected	2.712	1	1.00	4	6139 9GYO {1 - 2.14516e+09}
-_em_sample_support.details	1.144	1	1.00	2	151 9ATW {text}	1536 9DKZ {line}	904 8R5I {word}	1 8EMH {40 - 40}
+_em_sample_support.details	1.144	1	1.00	2	151 9ATW {text}	1536 9DKZ {line}	904 8R5I {word}	1 8EMH {40 - 40}	/772	702 8TJE unspecified	284 5G5L HOLEY CARBON	84 5G05 CARBON
 _em_sample_support.film_material	0.005	1	1.00	1	10 8RB7 CARBON	2 8PHJ HOLEY CARBON
 _em_sample_support.grid_material	3.623	1	1.00	3	4880 9GRE COPPER	2974 9GYO GOLD	194 9EWX COPPER/RHODIUM	78 8JT7 MOLYBDENUM	44 9CK8 GRAPHENE OXIDE	26 8KGF NICKEL/TITANIUM	7 8S6H COPPER/PALLADIUM	5 8FG2 SILICON NITRIDE	2 8HAU NICKEL
 _em_sample_support.grid_mesh_size	3.016	1	1.00	3	4023 9JSX 300	1414 9GYO 200	1382 9DR1 400	5 8TJX 50	1 5GZR 230	1 5OCV 167	1 7QEN 2	1 8CYR 2000	1 8F35 3000	1 6SWA 100
@@ -541,7 +541,7 @@ _em_specimen.id	10.129	1	1.00	3	22886 9GYO 1	22 8TRC 2	3 8PQ5 3
 _em_specimen.shadowing_applied	10.129	1	1.00	3	22911 9GYO NO
 _em_specimen.staining_applied	10.129	1	1.00	3	22782 9GYO NO	129 8T2I YES
 _em_specimen.vitrification_applied	10.129	1	1.00	3	22725 9JSX YES	186 9GYO NO
-_em_staining.details	0.008	1	1.00	1	6 7T62 {text}	10 8CPC {line}	1 7LXY {word}
+_em_staining.details	0.008	1	1.00	1	3 6U3G Stained with 0.75% (w/v) uranyl formate	1 3J0K grids with adsorbed protein washed 3x with buffer containing 5% trehalose, 20 mM HEPES, 100 mM KCl, and 0.10 mM EDTA, then subjected to cryo-negative staining in a saturated solution (1.2M) of ammonium molybdate (pH 7.5)	1 3JBZ 2% uranyl acetate	1 8CPC The blue dye (Brillant blue) is used to see the crystals during cryo-sectioning	1 7T62 A 3 uL aliquot containing ~0.01 mg/mL of the samples was applied for 20 s onto a carbon-coated 200 Cu mesh grid (Electron Microscopy Sciences, Protochips, Inc.)  that had been glow discharged at 30 mA for 30 s (Pelco easiGlow, Ted Pella, Inc.), then negatively stained with 0.7% (w/v) uranyl formate for 40 sec.	1 7QGQ Negatively stained EM samples were prepared by depositing sample on continuous carbon layer and staining with 2 % Uranyl Formate with blotting	1 5I08 3 uL sample was applied to grid for 30 seconds and then blotted. Grids were stained with 3 uL 1% uranyl formate for 60 seconds followed by blotting.	1 7LXY f	1 6U3E Negatively stained with 0.75% (w/v) uranyl formate	1 6N4C Negatively stained EM specimens were prepared using a 2% uranyl acetate solution.	1 5U6Y 0.75% (wt/vol) uranyl formate	1 5TRE Pre-incubated in HN100 buffer, the grid was placed on an 11 microliter drop of protein sample for 1 minute. Excess protein sample was blotted and washed for 3 seconds by placing the grid on a drop of sterile water. After excess water was blotted, the grid was stained with 1% w/v uranyl acetate for 1 second and 30 seconds by successively placing it on two separate drops of uranyl acetate, with excess stain drawn off after each step.	1 5T0V Pre-incubated in HN100 buffer, the grid was placed on an 11-microliter drop of protein sample for 1 minute. Excess protein sample was blotted and washed for 3 seconds by placing the grid on a drop of sterile water. After excess water was blotted, the grid was stained with 1% w/v uranyl acetate for 1 second and 30 seconds by successively placing it on two separate drops of uranyl acetate, with excess stain drawn off after each step.	1 5KZ5 5 and 30 seconds	1 5KC2 droplet technique
 _em_staining.id	0.056	1	1.00	1	127 8T2I 1
 _em_staining.material	0.056	1	1.00	1	35 8I23 Uranyl Acetate	21 7XF2 uranyl acetate	14 8T2I Uranyl Formate	11 1O1G Osmium tetroxide, Uranyl Acetate	10 6ANU negative stain	8 8AJO Uranyl acetate	5 7T62 uranyl formate	5 4BKK Ammonium Molybdate	4 7RR8 2% uranyl acetate	3 6AVU Uranyl formate	2 7PQP SDS PAGE and Coomassie	1 7LXY Ethane	1 7JYI PTA	1 7WL3 Phosphotungstic acid	1 7XBK Uranyl Acetare	1 7N4T 2 % uranil acetate	1 8CPC Brilliant blue	1 3J0K ammonium molybdate	1 1Q5A Osmium tetroxide and Uranyl Acetate	1 5KZ5 1% uranyl acetate
 _em_staining.specimen_id	0.056	1	1.00	1	127 8T2I 1
@@ -576,11 +576,11 @@ _em_vitrification.entry_id	10.039	1	1.00	3	22625 9JSX {word}	84 8E99 {8 - 8e+99}
 _em_vitrification.humidity	4.339	1	1.00	3	9819 9JSX {0 - 100}	/36	7417 9JSX 100	1096 9DKZ 95	635 9CL9 90	173 9GBK 80
 _em_vitrification.id	10.039	1	1.00	3	22683 9JSX 1	23 8TRC 2	3 8PQ5 3
 _em_vitrification.instrument	4.718	1	1.00	3	7754 9JSX FEI VITROBOT MARK IV	739 9DKZ LEICA EM GP	600 9GAW FEI VITROBOT MARK III	536 9GBK HOMEMADE PLUNGER	374 9CGZ FEI VITROBOT MARK I	276 8Y0X FEI VITROBOT MARK II	222 9CZP GATAN CRYOPLUNGE 3	67 9EME LEICA PLUNGER	53 8SXU LEICA EM CPC	41 9EQ4 SPOTITON	13 8JT7 LEICA KF80	7 2XZB REICHERT-JUNG PLUNGER	3 8WXF CRYOSOL VITROJET	1 4V4U ZEISS PLUNGE FREEZER CRYOBOX
-_em_vitrification.method	0.105	1	1.00	1	19 3JBS {text}	218 3JD5 {line}
+_em_vitrification.method	0.105	1	1.00	1	19 3JBS {text}	218 3JD5 {line}	/115	18 3JBR Blot for 2 seconds before plunging	9 3J2H Blot for 1 seconds before plunging
 _em_vitrification.specimen_id	10.039	1	1.00	3	22684 9JSX 1	22 8TRC 2	3 8PQ5 3
 _em_vitrification.temp	0.080	1	1.00	1	181 6ET5 {76 - 277}	/27	43 3JD4 90	32 3JBY 120	17 3JCA 77	14 3JCU 100	12 3JCL 93	9 3JAW 90.4
-_em_vitrification.time_resolved_state	0.004	1	1.00	1	9 4V7A {text}	1 3IYP {line}
-_em_volume_selection.details	0.041	1	1.00	1	17 8WDC {text}	76 8TO0 {line}
+_em_vitrification.time_resolved_state	0.004	1	1.00	1	9 4V7A Samples were vitrified at different time points along the reaction coordinate (1, 2, 5 and 20 minutes after addition of deacylated tRNAfMet to 70S-fMetVal-tRNAVal complexes).	1 3IYP Vitrified 1 hour after mixing DAF with EV7
+_em_volume_selection.details	0.041	1	1.00	1	17 8WDC {text}	76 8TO0 {line}	/23	24 7NOQ The starting positions were defined by template matching. See materials and methods for details.	19 5MDG Subtomograms were extracted along the manually rendered core surface of each viral particle.	12 6T7D 1733 vesicles and near-complete buds were picked from 61 tomograms. Subtomograms were extracted from the surface of the vesicles.	6 8D4G Tubes were annotated by tracing the center of the tube in Dynamo and recording the average apparent diameter. Initial subtomogram positions were picked using uniform radial and axial sampling.	5 8BQE RELION subtomogram averaging	4 6RZW with the use of Dynamo Catalogue system
 _em_volume_selection.id	0.123	1	1.00	1	277 9EVD 1
 _em_volume_selection.image_processing_id	0.123	1	1.00	1	277 9EVD 1
 _em_volume_selection.method	0.017	1	1.00	1	33 8RYT {line}	6 8BQE {word}	/21	7 8B6L Template matching	4 6RZW Geometry-assisted particle picking form tube surfaces	4 7PTT RELION	3 5KHF manual picking	3 6T64 Subvolumes were defined according to their position on the VLPs	2 6YAI geometrically defined initial positions	2 8RBT template matching	1 6Z9M Manual
@@ -598,11 +598,11 @@ _entity.pdbx_number_of_molecules	100.000	1	4.85	455	1095798 9GYO {1 - 17738}
 _entity.src_method	100.000	1	4.85	455	435041 9GYO syn	359527 9DUE nat	301230 9GYO man
 _entity.type	100.000	1	4.85	455	489661 9GYO polymer	408937 9GYO non-polymer	176254 9DUE water	20946 9D77 branched
 _entity_keywords.entity_id	0.101	1	1.28	23	292 2N8R {1 - 56}	/28	188 2N8R 1	49 4JO4 2	24 2AST 3	7 4JO4 4
-_entity_keywords.text	0.094	1	1.28	23	9 1Z1Y {text}	197 3J8A {line}	64 2N8R {word}	2 4JO4 {2 - 2}
+_entity_keywords.text	0.094	1	1.28	23	9 1Z1Y {text}	197 3J8A {line}	64 2N8R {word}	2 4JO4 {2 - 2}	/165	40 1DDP DEOXYRIBONUCLEIC ACID	24 4V4P MONOMER	10 1DHH RIBONUCLEIC ACID
 _entity_name_com.entity_id	60.334	1	1.77	83	240999 9GYO {1 - 128}	/115	126564 9GYO 1	25082 9GUF 2	11450 9GYO 3
 _entity_name_com.name	60.334	1	1.77	83	21238 9DR1 {text}	185707 9GYO {line}	34052 9DRA {word}	2 7CBP {7 - 64320}
 _entity_name_sys.entity_id	0.774	1	1.13	14	1469 2MEY 1	222 2M1R 2	172 2RT8 3	28 3CIR 4	16 2R7Z 5	11 2R7Z 6	11 2R7Z 7	9 2R7Z 8	9 2R7Z 9	9 2R7Z 10	9 2R7Z 11	8 2R7Z 12	4 2R7Z 13	3 2R7Z 14	1 2R7Z 15
-_entity_name_sys.name	0.774	1	1.13	14	2 226D {text}	191 2MEY {line}	1788 2RT8 {word}
+_entity_name_sys.name	0.774	1	1.13	14	2 226D {text}	191 2MEY {line}	1788 2RT8 {word}	/531	67 2AH4 E.C.3.4.21.4
 _entity_poly.entity_id	99.988	1	2.17	455	489661 9GYO {1 - 455}	/455	225920 9GYO 1	60861 9GYO 2	29098 9GYO 3	15391 9GYO 4
 _entity_poly.nstd_linkage	99.988	1	2.17	455	489661 9GYO no
 _entity_poly.nstd_monomer	99.988	1	2.17	455	448704 9GYO no	40957 9DTL yes
@@ -624,7 +624,7 @@ _entity_src_gen.gene_src_species	2.132	1	1.09	7	4935 3T2G {line}	305 2L5G {word}
 _entity_src_gen.gene_src_strain	19.302	1	1.23	139	17 8FBF {text}	24872 9CM8 {line}	26698 9DSY {word}	2162 9BJA {1 - 9.1e+136}
 _entity_src_gen.gene_src_tissue	0.483	1	1.12	5	322 8VD2 {line}	895 9DKZ {word}	1 6H80 {866768 - 866768}	/273	102 6R2W BLOOD	70 4D1E MUSCLE	49 5FNF MELANOMA
 _entity_src_gen.gene_src_tissue_fraction	0.005	1	1.09	2	5 1F41 PLASMA	3 1FQF SERUM	1 1EWW HEMOLYMPH	1 1EX0 PLASMA, PLATELET, PLACENTA	1 1Z53 Protein present in yeast inner mitochondrial membrane	1 3FKS mitochondria
-_entity_src_gen.host_org_common_name	5.167	1	1.89	49	1328 9GBK {text}	10644 9DN4 {line}	10126 9IWS {word}	8 6NGS {4 - 469008}
+_entity_src_gen.host_org_common_name	5.167	1	1.89	49	1328 9GBK {text}	10644 9DN4 {line}	10126 9IWS {word}	8 6NGS {4 - 469008}	/165	4632 9FJK Human	4426 9IWS human	4426 9CWS fall armyworm	1907 9CYM cabbage looper	1087 9DN4 Chinese hamster
 _entity_src_gen.host_org_details	0.730	1	1.20	10	59 8QPO {text}	1352 9DAM {line}	576 9G40 {word}
 _entity_src_gen.host_org_genus	13.640	1	1.14	15	16 2RKJ {line}	35010 6CNY {word}	/72	31467 6CNY Escherichia	844 3CY4 Spodoptera
 _entity_src_gen.host_org_species	4.031	1	1.11	6	9961 6CNY Escherichia coli	63 2L5G coli	15 1JH0 Rhodobacter sphaeroides	13 1Q0Z Streptomyces lividans	9 2QPE Thermus thermophilus	5 2OEA Enterobacteria phage T4 sensu lato	3 1JRZ Shewanella frigidimarina	3 2FZ2 Brassica rapa	2 1IJS Canis lupus	2 2A3P Desulfovibrio desulfuricans	1 1TQY Streptomyces coelicolor	1 3HGK plasmid	1 1S8J Halobacterium salinarum	1 2CVC Shewanella oneidensis
@@ -632,9 +632,9 @@ _entity_src_gen.pdbx_alt_source_flag	88.056	1	1.40	147	277805 9GYO sample
 _entity_src_gen.pdbx_beg_seq_num	47.479	1	1.60	146	171816 9GYO {0 - 4897}	/836	161496 9GYO 1	219 6FKV 2
 _entity_src_gen.pdbx_description	1.721	1	1.14	49	213 5GHD {text}	3963 8POK {line}	263 7T0K {word}
 _entity_src_gen.pdbx_end_seq_num	47.478	1	1.60	146	171816 9GYO {0 - 7249}
-_entity_src_gen.pdbx_gene_src_atcc	1.560	1	1.12	15	1 1J4A {text}	272 9B43 {line}	523 8S7F {word}	3152 9JFN {8 - 7.00008e+06}
+_entity_src_gen.pdbx_gene_src_atcc	1.560	1	1.12	15	1 1J4A {text}	272 9B43 {line}	523 8S7F {word}	3152 9JFN {8 - 7.00008e+06}	/740	153 8TFG 25618
 _entity_src_gen.pdbx_gene_src_cell	0.317	1	1.35	7	313 8VD2 {line}	652 9DKZ {word}	/211	50 8UFU endothelial	45 2W72 RED BLOOD CELL
-_entity_src_gen.pdbx_gene_src_cell_line	0.482	1	1.23	7	2 1VBT {text}	229 8W8F {line}	1015 8ZFM {word}	98 7RKP {293 - 49882}
+_entity_src_gen.pdbx_gene_src_cell_line	0.482	1	1.23	7	2 1VBT {text}	229 8W8F {line}	1015 8ZFM {word}	98 7RKP {293 - 49882}	/225	459 7K3S BL21	89 5TE4 293	56 5WCF SF9
 _entity_src_gen.pdbx_gene_src_cellular_location	0.440	1	1.11	9	222 5OSQ {line}	887 3JCK {word}	/116	453 2HS7 CYTOPLASM	98 5DPX PERIPLASM	73 2WCY EXTRACELLULAR	54 2ODG NUCLEUS
 _entity_src_gen.pdbx_gene_src_fragment	0.018	1	1.38	3	47 6QUV {line}	8 5BPA {word}	/30	8 1AJ7 CONSTANT DOMAINS OF LIGHT AND HEAVY CHAINS	4 2H5R Coral	3 1ENV 30 - 154	3 5VQL RORgt-LBD 260-507	3 5BPA 104-274	2 1CLY CH1, IGG1
 _entity_src_gen.pdbx_gene_src_gene	66.573	1	1.34	124	1969 9D91 {text}	111471 9GYO {line}	87480 9GYO {word}	447 9DO4 {0.3 - 1.62286e+08}
@@ -644,15 +644,15 @@ _entity_src_gen.pdbx_gene_src_organelle	0.087	1	1.27	9	14 3JBK {line}	237 3JBY {
 _entity_src_gen.pdbx_gene_src_scientific_name	88.046	1	1.40	147	161 8W26 {text}	276329 9GYO {line}	1280 9CWS {word}
 _entity_src_gen.pdbx_gene_src_variant	0.495	1	1.13	6	561 9CU9 {line}	675 9FGT {word}	31 8Z1R {1 - 318829}	/602	24 9FGT omicron
 _entity_src_gen.pdbx_host_org_atcc	0.237	1	1.79	14	18 8E1B {line}	734 9JFN {word}	204 8ZKC {293 - 700550}	/88	362 9AYF CRL-3022	77 9AYF CRL-1711	55 9D77 CRL-1573	49 8PUH CRL-3216	39 7ADP 3022
-_entity_src_gen.pdbx_host_org_cell	0.489	1	1.57	14	2 4MCS {text}	776 9D77 {line}	945 9CTH {word}	14 6WRP {1 - 293}
+_entity_src_gen.pdbx_host_org_cell	0.489	1	1.57	14	2 4MCS {text}	776 9D77 {line}	945 9CTH {word}	14 6WRP {1 - 293}	/368	67 8R4X HEK293
 _entity_src_gen.pdbx_host_org_cell_line	4.013	1	1.72	29	43 8PN0 {text}	3740 9IMA {line}	11773 9DN4 {word}	36 8POW {2 - 62077}
 _entity_src_gen.pdbx_host_org_cellular_location	0.286	1	1.12	5	94 6SIC {line}	628 4R96 {word}	/46	450 4OAR CYTOPLASM	80 1TU2 PERIPLASM	34 1H9V INCLUSION BODIES
 _entity_src_gen.pdbx_host_org_culture_collection	0.006	1	1.29	3	3 1A98 ATCC 87050	3 1DIO ATCC 8724	2 5REQ CYTOPLASM	2 1QFK ATCC CRL 1632	1 1ZPD ATCC 29191	1 6ALD ATCC 77473	1 3LRI ATCC 33876	1 1GGL ATCC 454664	1 3QDN 469008	1 1IGR CRL:1737	1 3B2W Insect cell	1 6SIC 9
-_entity_src_gen.pdbx_host_org_gene	0.640	1	1.09	4	5 1TIP {text}	555 3MOG {line}	1015 3KMM {word}	3 1DEL {1 - 8397}
+_entity_src_gen.pdbx_host_org_gene	0.640	1	1.09	4	5 1TIP {text}	555 3MOG {line}	1015 3KMM {word}	3 1DEL {1 - 8397}	/690	35 1B54 T7
 _entity_src_gen.pdbx_host_org_ncbi_taxonomy_id	85.303	1	1.40	147	26 7UIB {line}	270569 9GYO {2 - 3.05222e+06}	/725	123382 9GYO 562	60757 9JSX 469008	23671 9DKZ 9606	15159 9GYO 7108	10189 9DTL 511693
 _entity_src_gen.pdbx_host_org_organ	0.174	1	1.58	6	46 7B0S {line}	577 9D77 {word}	/46	162 9D77 Kidney	99 8VEV KIDNEY	97 8VBR kidney	89 8VD2 ovary	24 8Q5X /
 _entity_src_gen.pdbx_host_org_organelle	0.006	1	1.46	3	8 364D CYTOSOL	2 1QFK NUCLEUS	1 1FSU LYSOSOME	1 2HFH INCLUSION BODIES	1 1F9D BL21 DE3	1 1FX7 TB444 COSMID	1 1M8V PLASMID	1 2L6G 469008	1 1PEX PURIFIED FROM SERUM FREE CONDITIONED CELL CULTURE MEDIUM	1 1PHM SECRETORY VESICLES	1 6SIC sample
-_entity_src_gen.pdbx_host_org_scientific_name	85.978	1	1.40	147	3237 9JDT {text}	268059 9GYO {line}	1015 9IT1 {word}
+_entity_src_gen.pdbx_host_org_scientific_name	85.978	1	1.40	147	3237 9JDT {text}	268059 9GYO {line}	1015 9IT1 {word}	/994	135922 9GYO Escherichia coli	38495 9JSX Escherichia coli BL21(DE3)	22952 9DKZ Homo sapiens	14405 6AV7 ESCHERICHIA COLI	13803 9GYO Spodoptera frugiperda	7046 9GJ2 Trichoplusia ni
 _entity_src_gen.pdbx_host_org_strain	33.434	1	1.16	128	97 7TH3 {text}	16924 9FZK {line}	70346 9DTC {word}	168 9B3R {4 - 4.3e+08}
 _entity_src_gen.pdbx_host_org_tissue	0.097	1	1.55	9	109 9D77 {line}	233 8V4I {word}	/69	30 6EYK OVARY	25 8E3C Muscle	24 8T7E Ovary	24 8Q5X /	24 8PBT Kidney	20 8PBU kidney	19 7AWQ embrionic kidney	19 8U70 embryonic kidney	16 8E38 muscle
 _entity_src_gen.pdbx_host_org_tissue_fraction	0.002	1	1.00	1	1 3FC1 insect cells	1 3FKS mitochondria	1 3IA1 BL21(DE3)-CODON+RIL(STRATAGENE)	1 3HGK PGEX-6P-1	1 3JC2 reticulocyte translation extract in the presence of canine microsomes
@@ -661,10 +661,10 @@ _entity_src_gen.pdbx_host_org_vector	4.045	1	1.13	8	1093 8ZMG {line}	9198 9C66 {
 _entity_src_gen.pdbx_host_org_vector_type	36.709	1	1.17	21	1 1AP7 {text}	1073 9D77 {line}	95716 9DUE {word}	2 8VZM {562 - 469008}
 _entity_src_gen.pdbx_seq_type	46.820	1	1.59	146	168361 9GYO Biological sequence	1 4P5T Linker
 _entity_src_gen.pdbx_src_id	88.056	1	1.40	147	277805 9GYO {1 - 21}	/21	268305 9GYO 1	7364 9GYO 2
-_entity_src_gen.plasmid_details	0.101	1	1.17	5	12 4RLY {text}	199 8P8G {line}	49 6S6Y {word}	7 4NVC {562 - 469008}
+_entity_src_gen.plasmid_details	0.101	1	1.17	5	12 4RLY {text}	199 8P8G {line}	49 6S6Y {word}	7 4NVC {562 - 469008}	/164	9 3MHS T7 based
 _entity_src_gen.plasmid_name	35.955	1	1.16	21	13 7O3T {text}	6644 9DN4 {line}	87736 9DUE {word}	11 7FEW {51 - 2.09e+08}
-_entity_src_nat.common_name	5.866	1	6.61	106	21233 9GBK {text}	11641 9CV6 {line}	54764 9JSV {word}	1 7KPX {559292 - 559292}
-_entity_src_nat.details	0.832	1	3.75	92	159 8GXW {text}	2006 8WZV {line}	4879 8QRN {word}	1 4F5X {10922 - 10922}
+_entity_src_nat.common_name	5.866	1	6.61	106	21233 9GBK {text}	11641 9CV6 {line}	54764 9JSV {word}	1 7KPX {559292 - 559292}	/926	14416 8K2D Baker's yeast	12867 9JSV human	9839 8QU5 Human	5359 8QV3 baker's yeast	4924 9G40 pig	3984 8JO3 Rabbit
+_entity_src_nat.details	0.832	1	3.75	92	159 8GXW {text}	2006 8WZV {line}	4879 8QRN {word}	1 4F5X {10922 - 10922}	/957	4283 8QRN cell	60 1NJI cultured cells
 _entity_src_nat.entity_id	10.109	1	7.84	151	179025 9JSV {1 - 150}	/150	21443 9JSV 1	10989 9GMO 2	7214 9GMO 3
 _entity_src_nat.genus	2.626	1	2.13	55	194 8HFR {line}	12428 8HFR {word}	28 3UNF {10090 - 10090}	/599	1384 4V63 Thermus	1310 4V63 Escherichia	1208 3CJC Bos	1200 2QA4 Haloarcula	1090 3CAJ Homo	677 3E47 Saccharomyces	653 3CLF Mus	314 2QZY Gallus
 _entity_src_nat.pdbx_alt_source_flag	10.109	1	7.84	151	179025 9JSV sample
@@ -676,14 +676,14 @@ _entity_src_nat.pdbx_cellular_location	0.169	1	1.84	35	330 3JBQ {line}	373 9BP6 
 _entity_src_nat.pdbx_end_seq_num	4.804	1	12.93	151	140304 9JSV {2 - 19000}
 _entity_src_nat.pdbx_fragment	0.003	1	1.14	2	2 1YEH FAB	2 1D3I 1 - 185	2 6QUX KRAS mutated (G12D). Nucleotide exchange to GPPCP. Cons..	1 5M3A BRD4 bromodomain 1 corresponding to pdb id 2OSS	1 5MW2 Corresponding to pdb id 1R28. Obtained from Emerald BI..
 _entity_src_nat.pdbx_ncbi_taxonomy_id	10.067	1	7.86	151	13 7Z7V {line}	178874 9JSV {17 - 3.06767e+06}
-_entity_src_nat.pdbx_organ	0.741	1	3.16	86	1 1EUF {text}	247 8R2I {line}	5049 9GG6 {word}
+_entity_src_nat.pdbx_organ	0.741	1	3.16	86	1 1EUF {text}	247 8R2I {line}	5049 9GG6 {word}	/177	1163 8CA1 heart	614 8Q4G HEART	497 8PKG Heart	336 5A6U PANCREAS	297 8R5V pancreas	295 9GG6 Brain	272 5AJ4 LIVER	174 8OIQ Liver
 _entity_src_nat.pdbx_organelle	0.056	1	5.33	74	38 3JBQ {line}	634 5J8K {word}	/31	359 5J8K MITOCHONDRIA	139 2XOK MITOCHONDRION	32 3JD5 mitochondrion
 _entity_src_nat.pdbx_organism_scientific	10.109	1	7.84	151	73 9CC3 {text}	178755 9JSV {line}	195 9EX0 {word}
-_entity_src_nat.pdbx_plasmid_details	0.121	1	5.26	148	10 8AY5 {text}	1066 9GRE {line}	360 9IY2 {word}
+_entity_src_nat.pdbx_plasmid_details	0.121	1	5.26	148	10 8AY5 {text}	1066 9GRE {line}	360 9IY2 {word}	/140	294 8GZU Institute of Hydrobiology, Chinese Academy of Sciences	293 8J9J Shanghai Guangyu Biological Technology Co., Ltd.	164 8Q87 embryo	101 6QA9 Ovis aries (sheep) hearts were purchased from C Humphreys &amp; Sons (Chelmsford, UK).	54 7W5Z Tetrahymena Stock Center at Cornell University
 _entity_src_nat.pdbx_plasmid_name	0.013	1	1.13	2	1 1B1C {line}	33 3F7O {word}	/26	4 2WSY PSTB7	3 1QNV PNS1	2 2GNK PNV102	2 1PLU HB101	2 4REQ PMEX1	1 1HEZ PKK223-3
 _entity_src_nat.pdbx_secretion	0.129	1	1.19	3	62 3WKY {line}	285 6PNW {word}	/61	86 6PNW VENOM	85 4OM5 venom	37 3E9X MILK	18 3JR8 Venom	10 3CI8 Milk
 _entity_src_nat.pdbx_src_id	10.109	1	7.84	151	178212 9JSV 1	462 9B4H 2	133 8RO0 3	54 7TDK 4	48 7TDK 5	37 7TDK 7	37 7TDK 6	21 6H8K 8	20 5TB4 9	1 5IT9 34
-_entity_src_nat.pdbx_variant	0.126	1	5.24	63	1 7ZAI {text}	770 8F2H {line}	704 9B1E {word}	13 6F5D {5 - 152037}
+_entity_src_nat.pdbx_variant	0.126	1	5.24	63	1 7ZAI {text}	770 8F2H {line}	704 9B1E {word}	13 6F5D {5 - 152037}	/127	281 7OF7 GTPBP6 -/-	208 6OXI HB8	137 8AP8 Lister 427	61 6YS3 delta tig
 _entity_src_nat.species	0.177	1	2.78	55	1035 4RMP {line}	73 2MIX {word}	/99	519 4V63 Thermus thermophilus	63 1XYR Poliovirus	56 3CBI Daboia russellii	49 3NY7 Escherichia coli
 _entity_src_nat.strain	1.894	1	11.99	151	6 6LM2 {text}	24678 8RW1 {line}	26264 9CEP {word}	376 8BD3 {1 - 9.89015e+07}
 _entity_src_nat.tissue	0.790	1	2.58	80	953 9JST {line}	3653 9CTH {word}	/291	713 8G4L heart	294 7QSO HEART	286 4D6U MUSCLE	265 5FMW BLOOD	221 9FJO Skeletal muscle
@@ -692,12 +692,12 @@ _entry.id	100.000	1	1.00	1	225207 9GYO {word}	739 8E99 {1 - 8e+99}
 _exptl.absorpt_correction_T_max	0.000	1	1.00	1	1 6XRQ 1.0
 _exptl.absorpt_correction_T_min	0.000	1	1.00	1	1 6XRQ 0.949905760669
 _exptl.absorpt_correction_type	0.000	1	1.00	1	1 6XRQ empirical
-_exptl.absorpt_process_details	0.000	1	1.00	1	1 6XRQ {text}
+_exptl.absorpt_process_details	0.000	1	1.00	1	1 6XRQ CCP4 7.0.075: AIMLESS, version 0.7.4 : 13/12/18&#9166;Scaling &amp; analysis of unmerged intensities, absorption correction using spherical harmonics
 _exptl.crystals_number	77.872	1	1.00	2	176047 9DUE {1 - 1.02987e+06}	/144	171866 9DUE 1	2610 8UCY 2
-_exptl.details	0.288	1	1.00	1	139 6Z1S {text}	506 8E0G {line}	6 2MJW {word}
+_exptl.details	0.288	1	1.00	1	139 6Z1S {text}	506 8E0G {line}	6 2MJW {word}	/637	3 2LZI Head-to-tail (Arg-Gly) cyclic peptide
 _exptl.entry_id	100.000	1	1.00	3	225445 9GYO {word}	741 8E99 {1 - 8e+99}
 _exptl.method	100.000	1	1.00	3	188438 9DUE X-RAY DIFFRACTION	22646 9GYO ELECTRON MICROSCOPY	14287 9GWD SOLUTION NMR	240 9DKZ ELECTRON CRYSTALLOGRAPHY	230 9BPE NEUTRON DIFFRACTION	180 8RVT SOLID-STATE NMR	85 8S65 SOLUTION SCATTERING	39 3PDM FIBER DIFFRACTION	21 7QAC POWDER DIFFRACTION	8 4J80 EPR	7 2BVK THEORETICAL MODEL	4 1SSZ INFRARED SPECTROSCOPY	1 1RMN FLUORESCENCE TRANSFER
-_exptl.method_details	0.001	1	1.00	1	2 5L2D {text}
+_exptl.method_details	0.001	1	1.00	1	1 2K0P Solid-state structure of Beta-1 Immunoglobulin binding domain of protein G (GB1) solved from Ha, Ca, Cb, and N backbone chemical shifts.	1 5L2D The structure of CshA-NR2 was initially determined in space group P6222, with two molecules in the asymmetric unit, to 3.5 A resolution by the single wavelength anomalous dispersion (SAD) method as applied to selonomethionine (SeMet) labeled crystals of dimeric CshA-NR2. Identification of heavy atom sites and the resulting initial phase calculation was carried out, employing diffraction data collected from two different crystals of SeMet labeled dimeric CshA-NR2, which were merged together. The software located 18 Se sites. The output model was refined and used as a molecular replacement search model to elucidate a higher resolution CshA-NR2 structure (2.7 A), employing diffraction data collected from a crystal of unlabeled CshA-NR2 (also in space group P6222).
 _exptl_crystal.colour	0.005	1	1.00	1	7 4TOH Red Prism	2 6DA7 clear	1 4TOG Red prism	1 6DA9 yellow
 _exptl_crystal.density_Matthews	82.653	1	1.00	6	186851 9DUE {0 - 45.14}
 _exptl_crystal.density_meas	0.071	1	1.00	1	161 9J4J {0.0003158 - 2.5728e+06}	/131	8 6P7U 1.35
@@ -706,17 +706,17 @@ _exptl_crystal.description	8.339	1	1.00	3	714 8RPX {text}	5496 9JFN {line}	12643
 _exptl_crystal.id	84.981	1	1.00	21	3 8EPK {word}	192619 9DUE {1 - 265735}	/25	192010 9DUE 1	498 9CM8 2
 _exptl_crystal.pdbx_mosaicity	2.820	1	1.00	1	6372 8UN3 {0 - 20.715}
 _exptl_crystal.pdbx_mosaicity_esd	0.067	1	1.00	1	151 8EVK {0.002 - 15.975}	/26	23 7V8R 0.004	21 6LJ7 0.003	16 6WEF 0.008	13 5ZIO 0.002	12 7S49 0.006	10 6LJ8 0.005	10 7V8O 0.007	8 6LJ1 0.010	6 8EVK 0.012
-_exptl_crystal.preparation	0.010	1	1.00	1	9 6ONU {text}	13 6P5G {line}	1 5ZF6 {word}
+_exptl_crystal.preparation	0.010	1	1.00	1	5 6CLB electron diffraction	1 5ZF6 2011-06-07	1 5LEV EXPERIMENTAL DATA STATISTICS REPORTED ARE THOSE PRIOR TO ANISOTROPIC DATA TRUNCATION WITH STARANISO	1 5N35 FOR ANALYSIS, PLEASE, USE THE NATIVE HIGH-RESOLUTION 1.35 Ang STRUCTURE: PDB 5N41	1 5TDQ The low data completeness is due to the data being severely anisotropic, and the data was processed using the diffraction anisotropy server (https://services.mbi.ucla.edu/anisoscale/). Data was truncated and scaled with dimensions a*b*c*- 3.2,3.1,2.5. This is the reason for the low completeness in the resolution shells from 3.1 to 2.5. This processing was the only way to generate maps of high enough quality for model building	1 5Y27 The Solvent content/Matthews coefficient are the deposited values. Because the residues of A 107-240 had been degraded in the crystal.	1 5CW0 Matthews' Coefficient and solvent content calculated with the disordered RNA taken into account	1 6AR7 For the anomalous data set, two 360-degree scans were merged to solve the structure at 2.5 Angstrom resolution, while the structure was refined against the first 360-degree scan at 2.1 Angstrom resolution.	1 5GRQ THE ENTRY CONTAINS FRIEDEL PAIRS IN F_PLUS/MINUS COLUMNS.	1 1WSB mounted in loop	1 5NJX The completeness of our data is low to 2.49A resolution being 62% overall and 2.5% in the highest resolution shell since we kept only the strongest reflections in each direction. This is the purpose of the diffraction anisotropy server (https://services.mbi.ucla.edu/anisoscale/) and also staraniso (http://staraniso.globalphasing.org/cgi-bin/staraniso.cgi). We used the diffraction anisotropy server to keep the good reflections only for structure refinement	1 2YX4 THE STRUCTURE FACTOR FILE CONTAINS FRIEDEL PAIRS.	1 6E18 The sample used for crystallization was a complex of Chlamydomonas reinhardtii HAP2 ectodomain with an antibody fragment scFv. However we could not reveal the presence of the scFv in our electron density maps. There are two possible explanations: 1) The bound scFv was displaced due to crystallization conditions/packing or 2) The scFv is still bound but disordered because is interacting with one of the disordered loops located in the large solvent volumes between the protomers. In this last case, it is expected that the solvent content of the crystal would be lower than the one currently reported	1 6EJS SAD phase problem was solved with the data collected at 1.9 A wavelength, while the presented structure is refined against the 0.9184 A dataset	1 6ONU The protein was degraded in the crystal, resulting in a discrepancy between the Matthews coefficient and the reported protein sequence.	1 6P5G 5.33 microseconds collected at 30ps time delay	1 5CVZ Matthews' coeficient and solvent content include correction for disordered RNA	1 4TR9 Data completeness is 61.1% due to the geometry of the detector used	1 2Q8W Mounted directly from mother liquor onto nylon cryo loop. Flash-cooled to 100K in nitrogen gas stream
 _exptl_crystal_grow.crystal_id	80.191	1	1.00	21	3 8EPK {word}	181675 9DUE {1 - 21}	/24	181172 9DUE 1	397 9CM8 2
-_exptl_crystal_grow.details	0.004	1	1.00	1	5 8C58 {text}	3 6GRY {line}	1 7YQS {word}
-_exptl_crystal_grow.method	71.606	1	1.00	21	1 1WTM {text}	157091 9DUE {line}	5175 9JHV {word}	1 1K4H {8.5 - 8.5}
+_exptl_crystal_grow.details	0.004	1	1.00	1	1 5EBI A 1.5 MM WATER SOLUTION OF DNA-RNA MIXED 1:1 V/V WITH 10% MPD, 12 MM SPERMINE*4HCL, 80 MM NACL, 20 MM BACL2, 40 MM SODIUM CACODYLATE AND EQUILIBRATED AGAINST 35% MPD, PH 6.0, VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 292.0K	1 5NQB crystals were cryoprotected by washing in reservoir supplemented with 20% w/v PEG400 and 2.5 mM oxaloacetate before freezing in liquid nitrogen.	1 6G21 CRYSTALS SOAKED IN 5mM KPTCL4	1 5ZO0 The crystal was then sealed in a capillary with the D2O exchanged solution (2% PEG 3350, 0.2M NaI, 0.1M NaAc, pD5.4) for pH equilibration for two weeks before data collection (pD = pH + 0.4)	1 6GRY Sitting drops of 0.3 ul were mixed in a protein:reservoir volume ratio of 3:1 using 20 mg/mL of SuCE15C in 20 mM TRIS pH 8.0	1 6QFD The complex crystallized from a buffer containing 20 mM HEPES, pH 7, 2 M KCl and 0.02% azide.&#9166;Crystals grown with S4 (DNA/hsRosR ratio = 1.45) appeared after 3 days in wells containing 2.94 M (NH4)2SO4, 40 mM MnCl2 and 0.02% azide.	1 5V85 THIS IS UNALTERED ORIGINAL DATA FROM ENTRY 3JR7	1 7YQS 8.5(pD)	1 8C58 Since the pH of the crystallization drop (reservoir buffer pH 5.6) was close to the pK for the HCO3-/CO32-+H+ equilibrium (pKa=6.1), a mixture of carbonate and hydrogencarbonate is likely present in the crystal.
+_exptl_crystal_grow.method	71.606	1	1.00	21	1 1WTM {text}	157091 9DUE {line}	5175 9JHV {word}	1 1K4H {8.5 - 8.5}	/539	80145 9DUE VAPOR DIFFUSION, HANGING DROP	61584 9DTL VAPOR DIFFUSION, SITTING DROP	9753 9GSQ VAPOR DIFFUSION	2187 9IY2 EVAPORATION
 _exptl_crystal_grow.pH	62.534	1	1.00	21	141690 9DTC {0 - 12}	/511	19396 9DQW 7.5	17395 9DQM 6.5	11194 9DTC 8.5	10885 9JFN 7.0	7195 9CYM 8.0	6472 9DDY 5.5
 _exptl_crystal_grow.pdbx_details	80.153	1	1.00	21	35787 9DUE {text}	145206 9DP4 {line}	590 9FOY {word}	6 7UP1 {0.2 - 291}
 _exptl_crystal_grow.pdbx_pH_range	3.230	1	1.00	6	1243 9GEA {line}	4141 9CUO {word}	1928 9G48 {0.05 - 293}
 _exptl_crystal_grow.pressure	0.008	1	1.00	1	17 8BS2 101.325
 _exptl_crystal_grow.seeding	0.004	1	1.00	1	10 5SAT seeds obtained from crystals of same condition using 24-33% PEG 4000, diluted to 1:15 -1:45
 _exptl_crystal_grow.temp	71.664	1	1.00	21	162384 9DUE {100 - 328}	/256	49192 9GP2 293	24116 9J9K 298	19021 9GSQ 277	14846 9DTC 291	9054 9DP4 295	6709 9GPJ 289
-_exptl_crystal_grow.temp_details	0.849	1	1.00	2	3 7O46 {text}	1536 9D77 {line}	315 8VCN {word}	66 8XFY {2 - 303}
+_exptl_crystal_grow.temp_details	0.849	1	1.00	2	3 7O46 {text}	1536 9D77 {line}	315 8VCN {word}	66 8XFY {2 - 303}	/412	234 9BYJ room temperature	184 9BMK Room temperature	155 8TDT temperature gradient generated from 60 to 25 C at 0.3 degrees per hour	111 8SL5 338-293 at 0.4/hr	96 7LBC ROOM TEMPERATURE	74 8V5T Room Temperature
 _exptl_crystal_grow_comp.conc	0.022	1	5.08	11	14 3POZ {line}	54 3POZ {word}	181 1O3Q {2 - 32}	/35	34 1O3Q 2	27 1O3Q 8	27 1O3Q 5	25 1O3Q 11	25 1O3Q 14	19 1O3Q 17	14 1O3Q 20	14 1O69 10mM	11 3IGI 150mM
 _exptl_crystal_grow_comp.crystal_id	1.220	1	6.67	20	18357 3QSU 1	44 2QBZ 2
 _exptl_crystal_grow_comp.details	0.015	1	5.32	11	34 1O3Q 3	27 1O3Q 9	27 1O3Q 6	25 1O3Q 15	25 1O3Q 12	19 1O3Q 18	14 1O3Q 21	3 1VTO 30	3 1VTO 24	3 1VTO 27	1 1VTN 33
@@ -807,7 +807,7 @@ _pdbx_audit_revision_category.ordinal	91.759	1	7.30	94	1514278 9JHV {1 - 94}	/94
 _pdbx_audit_revision_category.revision_ordinal	91.759	1	7.30	94	462631 9CES 4	415868 9J9A 3	315992 9JHV 2	223028 9B5X 5	71116 9B5X 6	19207 8CMJ 7	4828 8CMJ 8	1233 8CG8 9	276 7ENP 10	62 6LU7 11	27 6LU7 12	7 6LU7 14	2 6LU7 13	1 6LU7 15
 _pdbx_audit_revision_details.data_content_type	100.000	1	1.07	3	241059 9GYO Structure model
 _pdbx_audit_revision_details.description	6.538	1	1.00	2	14078 6XRA Carbohydrate remediation	166 9CF1 Model completeness	86 8XE9 Sequence discrepancy	82 8UHA Model orientation/position	81 8XO9 Ligand geometry	80 8PJM Ligand identity	66 8S61 Atomic clashes	63 8GHA Polymer geometry	49 8Y14 Atoms with unrealistic or zero occupancies	30 8QYA Chirality error	19 8QYB Real space R-factor	14 8UI0 Polymer backbone linkage	7 8CMM Occupancy of atoms on special symmetry positions	6 8EHH Missing anisotropic B-factor
-_pdbx_audit_revision_details.details	0.315	1	1.01	2	119 8XO9 {text}	602 8VY9 {line}
+_pdbx_audit_revision_details.details	0.315	1	1.01	2	119 8XO9 {text}	602 8VY9 {line}	/364	96 2ID9 Coordinates and associated ncs operations (if present) transformed into standard crystal frame	96 3P0S Coordinates and associated matrices have been transformed from the icosahedral point symmetry frame to the crystallographic frame	70 255L ORTHOGONAL X,Y,Z AXES WERE REALIGNED FROM A*,B,C  TO  A,B*,C CRYSTALLOGRAPHIC DIRECTIONS	15 8PF8 Changes as suggested during the review process of article submission
 _pdbx_audit_revision_details.ordinal	100.000	1	1.07	3	225946 9GYO 1	15049 9CF1 2	64 8AVN 3
 _pdbx_audit_revision_details.provider	100.000	1	1.07	3	240300 9GYO repository	759 9CF1 author
 _pdbx_audit_revision_details.revision_ordinal	100.000	1	1.07	3	225943 9GYO 1	5226 8IRI 4	4114 8VY9 3	2542 8STG 5	2240 9CF1 2	709 7NS3 6	205 6ZP2 7	59 6ZOZ 8	15 6Y2G 9	4 3ZYH 10	2 6LU7 12
@@ -825,7 +825,7 @@ _pdbx_audit_revision_item.data_content_type	88.140	1	14.81	237	2949191 9JHV Stru
 _pdbx_audit_revision_item.item	88.140	1	14.81	237	2949191 9JHV {word}
 _pdbx_audit_revision_item.ordinal	88.140	1	14.81	237	2949191 9JHV {1 - 237}	/237	199148 9JHV 1	195405 9JBQ 2	179918 9JBQ 3	164539 9JBQ 4	153259 9JBQ 5	138628 9JBQ 6
 _pdbx_audit_revision_item.revision_ordinal	88.140	1	14.81	237	913103 9CES 4	758745 9J9A 3	706656 9JHV 2	408028 9B5X 5	121521 9B5X 6	30503 8CMJ 7	7973 8CMJ 8	1937 8CG8 9	592 7ENP 10	83 6LU7 11	41 6LU7 12	7 6LU7 14	2 6LU7 13
-_pdbx_audit_support.country	33.629	1	1.81	25	5 7CQE {text}	71737 9DUE {line}	66065 9JSX {word}
+_pdbx_audit_support.country	33.629	1	1.81	25	5 7CQE {text}	71737 9DUE {line}	66065 9JSX {word}	/82	50875 9DUE United States	16967 9J6I China	13445 9GP8 United Kingdom	9110 9JSX Japan	8215 9GRP Germany	3784 9JSX France
 _pdbx_audit_support.funding_organization	36.103	1	1.78	25	191 9IHS {text}	142515 9GYO {line}	2561 9GBK {word}	1 6RD6 {1 - 1}
 _pdbx_audit_support.grant_number	27.340	1	1.93	22	73 8RON {text}	18738 9DR1 {line}	81010 9DUE {word}	19591 9GG6 {0 - 2.0192e+116}
 _pdbx_audit_support.ordinal	36.426	1	1.78	25	146425 9GYO {1 - 25}	/25	82302 9GYO 1	30166 9JSX 2	15173 9DLL 3	7781 9DKZ 4	4327 9DKZ 5
@@ -850,7 +850,7 @@ _pdbx_buffer_components.details	0.000	1	1.00	1	1 2A31 pH 10.6
 _pdbx_buffer_components.id	0.001	1	1.00	1	3 2Q8W 1
 _pdbx_buffer_components.name	0.001	1	1.00	1	1 1WSB Ammonium Sulphate	1 2A31 Borate	1 2Q8W Sodium chloride
 _pdbx_chem_comp_identifier.comp_id	8.819	1	6.72	44	133823 9DT7 {word}	15 6SEC {145 - 289}	/303	52884 9D77 NAG	17336 9D77 BMA	15468 9D77 MAN	8284 9J4K GLC	8180 9D77 FUC	6264 9INT GAL
-_pdbx_chem_comp_identifier.identifier	8.819	1	6.72	44	4 2QNB {text}	970 9CUZ {line}	132864 9DT7 {word}
+_pdbx_chem_comp_identifier.identifier	8.819	1	6.72	44	4 2QNB {text}	970 9CUZ {line}	132864 9DT7 {word}	/645	13623 9D77 GlcNAc	13221 9D77 DGlcpNAcb	13221 9D77 N-acetyl-b-D-glucopyranosamine	13221 9D77 b-D-GlcpNAc	8201 9D77 Man	4334 9D77 b-D-Manp
 _pdbx_chem_comp_identifier.program	8.819	1	6.72	44	98745 9J9A GMML	35093 9DT7 PDB-CARE
 _pdbx_chem_comp_identifier.program_version	8.819	1	6.72	44	133838 9DT7 1.0
 _pdbx_chem_comp_identifier.type	8.819	1	6.72	44	35093 9DT7 IUPAC CARBOHYDRATE SYMBOL	33091 9J9A CONDENSED IUPAC CARBOHYDRATE SYMBOL	33009 9J9A COMMON NAME	32645 9J9A SNFG CARBOHYDRATE SYMBOL
@@ -864,7 +864,7 @@ _pdbx_contact_author.role	16.257	1	1.15	8	42187 9GYO principal investigator/grou
 _pdbx_coordinate_model.asym_id	0.205	1	7.19	49	3338 8QUE {word}	/57	405 8WDC A	341 8WDC B	292 8WDC C	220 8JN7 D	182 8JN3 E	170 8JN3 F	148 8JN3 G
 _pdbx_coordinate_model.type	0.205	1	7.19	49	3148 8WDC CA ATOMS ONLY	190 8QUE P ATOMS ONLY
 _pdbx_database_PDB_obs_spr.date	1.534	1	1.00	2	3476 9J9K {word}
-_pdbx_database_PDB_obs_spr.details	0.004	1	1.00	1	1 4XR7 {text}	7 4UJD {line}	1 4TOP {word}
+_pdbx_database_PDB_obs_spr.details	0.004	1	1.00	1	5 4UJD supersedes the associated split entries	1 4BP7 superseding all the associated split entries	1 4BTS supersedes associated split entries	1 4TOP Rerefinement	1 4XR7 D_1000206167 is an updated version of 4Q8J that resolves some issues of the original deposited structure such as cis-peptides and other discrepancies between NCS related chains.
 _pdbx_database_PDB_obs_spr.id	1.534	1	1.00	2	3476 9J9K SPRSDE
 _pdbx_database_PDB_obs_spr.pdb_id	1.534	1	1.00	2	3467 9J9K {word}	9 7E35 {6e+07 - 1e+94}
 _pdbx_database_PDB_obs_spr.replace_pdb_id	1.534	1	1.00	2	308 7TVQ {line}	3158 9J9K {word}	10 6NY2 {10 - 4e+87}
@@ -886,9 +886,9 @@ _pdbx_database_status.status_code_cs	2.671	1	1.00	1	6036 8PSB REL
 _pdbx_database_status.status_code_mr	5.063	1	1.00	1	11439 8PSB REL
 _pdbx_database_status.status_code_nmr_data	1.817	1	1.00	1	4098 9GWD REL	7 8P3A REPL	1 8ONG AUCO
 _pdbx_database_status.status_code_sf	78.355	1	1.00	1	177039 9DUE REL	2 5U1M AUTH
-_pdbx_deposit_group.group_description	2.820	1	1.00	1	4073 7GS6 {text}	2185 7H9J {line}	114 7H1G {word}
+_pdbx_deposit_group.group_description	2.820	1	1.00	1	4073 7GS6 {text}	2185 7H9J {line}	114 7H1G {word}	/157	466 7GNU SARS-CoV-2 main protease screened against COVID Moonshot compounds by X-ray Crystallography at the XChem facility of Diamond Light Source beamline I04-1	364 5P8V High-Throughput Crystallography: Reliable and Efficient Identification of Fragment Hits.	307 5QA2 Nuclease domain of human DCLRE1A screened against the DSPL Fragment Library by X-ray Crystallography at the XChem&#9166;facility of Diamond Light Source beamline I04-1
 _pdbx_deposit_group.group_id	2.821	1	1.00	1	6375 7H9J {word}	/188	466 7GNU G_1002272	364 5P8V G_1002001	281 5QA2 G_1002036
-_pdbx_deposit_group.group_title	2.820	1	1.00	1	72 5SMN {text}	6265 7H9J {line}	35 5S9R {word}
+_pdbx_deposit_group.group_title	2.820	1	1.00	1	72 5SMN {text}	6265 7H9J {line}	35 5S9R {word}	/88	1450 7H2S PanDDA analysis group deposition	785 5PZJ PanDDA analysis group deposition of models of ground state datasets	466 7GNU Group deposition SARS-CoV-2 main protease in complex with inhibitors from the COVID Moonshot	457 8S1K To be published	364 5P8V High-Throughput Crystallography: Reliable and Efficient Identification of Fragment Hits.	293 5QJN PanDDA analysis group deposition of models with modelled events (e.g. bound ligands)
 _pdbx_deposit_group.group_type	2.817	1	1.00	1	3168 7H9J changed state	2299 7H5Z undefined	897 7GUC ground state
 _pdbx_diffrn_reflns_shell.Rmerge_I_obs	0.748	1	14.32	81	24193 5YBD {0.01 - 47.4}
 _pdbx_diffrn_reflns_shell.Rsym_value	0.123	2	12.02	65	3329 5JWY {0.011 - 4.335}
@@ -942,7 +942,7 @@ _pdbx_entity_nonpoly.name	88.426	1	2.93	31	11440 9DTC {text}	246998 9DUE {line}	
 _pdbx_entity_src_syn.details	3.099	1	1.19	8	542 8R1X {text}	7493 9BDN {line}	308 8QMC {word}	3 4RI9 {1 - 3}
 _pdbx_entity_src_syn.entity_id	11.076	1	1.47	455	36685 9DP4 {1 - 455}	/455	13370 9DP4 2	7896 9DLL 1	6778 9DP4 3	2199 9DP4 4	967 9CPO 5
 _pdbx_entity_src_syn.ncbi_taxonomy_id	9.007	1	1.53	455	34 8S9Z {line}	31001 9DP4 {17 - 3.04917e+06}
-_pdbx_entity_src_syn.organism_common_name	2.719	1	1.12	16	282 9BDN {text}	1072 9BVV {line}	5533 9J26 {word}	9 8DW7 {3 - 32630}
+_pdbx_entity_src_syn.organism_common_name	2.719	1	1.12	16	282 9BDN {text}	1072 9BVV {line}	5533 9J26 {word}	9 8DW7 {3 - 32630}	/431	2592 8V3P Human	1608 9J26 human	445 6JSZ HUMAN	146 8U77 Baker's yeast
 _pdbx_entity_src_syn.organism_scientific	8.985	1	1.53	455	10 8K34 {text}	30407 9DP4 {line}	550 9BIC {word}
 _pdbx_entity_src_syn.pdbx_alt_source_flag	11.076	1	1.47	455	36685 9DP4 sample
 _pdbx_entity_src_syn.pdbx_beg_seq_num	7.028	1	1.61	455	25587 9DP4 {1 - 392}	/43	25521 9DP4 1	7 7Q6I 30
@@ -954,11 +954,11 @@ _pdbx_entry_details.has_ligand_of_interest	23.483	1	1.00	1	37208 9GYO Y	15850 9D
 _pdbx_entry_details.has_protein_modification	2.417	1	1.00	1	5143 9GYO Y	317 9DUE N
 _pdbx_entry_details.nonpolymer_details	1.492	1	1.00	1	2261 8VZA {text}	1095 8U3H {line}	14 5AR4 {word}
 _pdbx_entry_details.sequence_details	5.786	1	1.00	1	8066 9CC0 {text}	4977 9C3E {line}	31 7CTQ {word}
-_pdbx_entry_details.source_details	0.054	1	1.00	1	80 7VFP {text}	43 7F0D {line}
+_pdbx_entry_details.source_details	0.054	1	1.00	1	80 7VFP {text}	43 7F0D {line}	/91	9 3KCO THE PROTEIN WAS PURCHASED FROM HAMPTON RESEARCH	4 7EEQ The source organism is a short-tailed cyanophage which was separated and sequenced by the author.
 _pdbx_exptl_crystal_cryo_treatment.cooling_details	0.002	1	1.40	2	4 4N0P Direct immersion in liquid nitrogen	3 6DA9 Direct immersion in liquid nitrogen.
 _pdbx_exptl_crystal_cryo_treatment.crystal_id	0.002	1	1.40	2	5 6DA9 1	2 4N0P 2
 _pdbx_exptl_crystal_cryo_treatment.final_solution_details	0.002	1	1.50	2	1 4FMT 30% (w/v) PEG-8000, 0.01 M potassium dicyanoaurate (I) in precipitant	1 4FMT 30% (w/v) PEG-8000 in precipitant	1 4N0P 30% (w/v) PEG-4000, 0.007 M thimerosal in precipitant	1 4N0P 30% (w/v) PEG-4000 in precipitant	1 6DA7 20% glycerol in precipitant solution	1 6DA9 3mM TtnD1, 3mM MnCl2, 0.5 mM FMN, 20% glycerol in precipitant solution
-_pdbx_exptl_crystal_cryo_treatment.soaking_details	0.001	1	1.00	1	2 4N0P {text}
+_pdbx_exptl_crystal_cryo_treatment.soaking_details	0.001	1	1.00	1	1 4FMT First the PEG-8000 was increased to 30% (w/v) PEG-8000 in precipitant. &#9166;Potassium dicyanoaurate (I) was then added to a final concentration of 0.010 M &#9166;and after 190 minutes the crystal was harvested.	1 4N0P First PEG-4000 was added to 30% (w/v) in precipitant. &#9166;Thimerosal was then added to a final concentration of 0.007 M &#9166;and after 70 minutes the crystal was harvested.
 _pdbx_exptl_crystal_grow_comp.comp_id	0.002	7	8.80	10	5 6DA9 7	5 6DA9 6	5 6DA9 4	5 6DA9 2	5 6DA9 5	5 6DA9 3	5 6DA9 1	3 6DA6 10	3 6DA6 9	3 6DA6 8
 _pdbx_exptl_crystal_grow_comp.comp_name	0.002	7	8.80	10	5 6DA9 protein	5 6DA9 NaCl	5 6DA9 KCl	4 4Z5Q PEG 3350	4 4Z5Q Bis-Tris	3 6DA9 Tetraethylammonium hydroxide, TEAOH	2 6DA9 pentaerythritol propoxylate (5/4 PO/OH)	2 4Z5P ammonium acetate	2 4Z5Q TEAOH	2 6DA9 sodium thiocyanate	2 4Z5Q MgCl2	2 6DA9 HEPES	1 6DA6 imidazole	1 6DA6 calcium chloride	1 6DA6 PEG 4000	1 6DA6 MES	1 6DA6 magnesium chloride	1 6DA6 glycerol
 _pdbx_exptl_crystal_grow_comp.conc	0.002	7	8.80	10	10 6DA9 10.	6 6DA9 0.2	6 6DA9 20.	6 6DA9 0.1	4 4Z5Q 25.	3 6DA9 18.6	2 6DA9 40.0	2 6DA6 0.030	1 4Z5P 17.	1 6DA6 10.0	1 6DA6 0.062	1 6DA6 0.038	1 4Z5Q 11.
@@ -1013,7 +1013,7 @@ _pdbx_molecule.asym_id	1.981	1	2.09	37	9340 9J4K {word}	/88	1604 8ZRZ B	1503 8ZR
 _pdbx_molecule.instance_id	1.981	1	2.09	37	9340 9J4K {1 - 37}	/37	4665 9J4K 1	2045 9J4K 2	857 9J4K 3	608 9J4K 4	284 9J4K 5
 _pdbx_molecule.prd_id	1.981	1	2.09	37	9340 9J4K {word}
 _pdbx_molecule_features.class	1.981	1	1.05	4	904 8RMJ {line}	3803 9J4K {word}	/33	1317 8YIE Inhibitor	1286 9J4K Nutrient	581 9BMK Metabolism	333 8RMJ Substrate analog	236 8XPB Antibiotic	231 8UO7 Enzyme inhibitor
-_pdbx_molecule_features.details	1.251	1	1.08	4	243 9EYJ {text}	773 9J4K {line}	2026 8ZRZ {word}
+_pdbx_molecule_features.details	1.251	1	1.08	4	243 9EYJ {text}	773 9J4K {line}	2026 8ZRZ {word}	/125	2020 8ZRZ oligosaccharide	506 9J4K oligosaccharide with reducing-end-to-reducing-end glycosidic bond	78 8R49 cyclic oligosaccharide
 _pdbx_molecule_features.name	1.981	1	1.05	4	167 8V4X {text}	961 9EYJ {line}	3581 9J4K {word}
 _pdbx_molecule_features.prd_id	1.989	1	1.05	4	4726 9J4K {word}
 _pdbx_molecule_features.type	1.985	1	1.05	4	2768 9J4K Oligosaccharide	1276 9FJY Peptide-like	202 8RC7 Cyclic peptide	188 8V4X Oligopeptide	127 7XDJ Polypeptide	46 7QGV Glycopeptide	38 8XPB Cyclic depsipeptide	19 6MXF Thiopeptide	15 2M1F Peptaibol	12 9EYJ Polycyclic	10 5TS0 Non-polymer	6 8B0P Lipopeptide	3 1XT7 Cyclic lipopeptide	2 3S04 Lipoglycopeptide	2 2XJI Chalkophore, Polypeptide	1 7L16 Polysaccharide	1 4LTE Macrolide
@@ -1047,7 +1047,7 @@ _pdbx_nmr_ensemble.average_torsion_angle_constraint_violation	0.057	1	1.00	1	128
 _pdbx_nmr_ensemble.conformer_selection_criteria	5.768	1	1.00	1	211 2O8K {text}	12759 9GWD {line}	48 7OIO {word}	15 8JOG {0 - 25}
 _pdbx_nmr_ensemble.conformers_calculated_total_number	5.830	1	1.00	1	13173 9GWD {1 - 1e+06}	/244	5633 9DLL 100	1789 9GAG 200	1356 9CUV 50	733 9GWD 20	309 8YUM 40
 _pdbx_nmr_ensemble.conformers_submitted_total_number	6.417	1	1.00	1	14500 9GWD {1 - 640}	/82	7589 9GWD 20	2170 9GEC 10	1394 7SHX 1	529 9ATN 15
-_pdbx_nmr_ensemble.distance_constraint_violation_method	0.001	1	1.00	1	2 1Y7K {text}	1 2KVN {line}
+_pdbx_nmr_ensemble.distance_constraint_violation_method	0.001	1	1.00	1	2 1Y7K From the original family of twenty, the representative conformer had the lowest target function and was subjected to further minimization in water. The remaining structures were obtained without explicit inclusion of solvent.	1 2KVN cross validation, accept.inp script in CNS, only conformers with no violations were accepted
 _pdbx_nmr_ensemble.entry_id	6.417	1	1.00	1	14464 9GWD {word}	36 8E22 {1e+08 - 6e+98}
 _pdbx_nmr_ensemble.maximum_distance_constraint_violation	0.007	1	1.00	1	8 2LI2 0.25	2 2JR3 3	2 2KVN 0	1 2ML9 0.554	1 2N1V 0.56	1 2N1W 0.77
 _pdbx_nmr_ensemble.maximum_lower_distance_constraint_violation	0.122	1	1.00	1	276 2ND5 {-0.7 - 14}	/77	98 2NCG 0	21 2N6A 0.2	17 2N3T 1.8	15 2NBQ 0.5	10 2MWN 0.1
@@ -1059,7 +1059,7 @@ _pdbx_nmr_ensemble_rms.atom_type	0.002	1	1.00	1	2 7D13 all backbone atoms	1 1LCC
 _pdbx_nmr_ensemble_rms.bond_angle_rms_dev	0.003	1	1.00	1	1 1ELH 3.4	1 2K0T 0.703	1 2K0U 0.695	1 1D0R 3.3	1 2K0V 0.461	1 2K2U 0.395	1 2KA9 0.393
 _pdbx_nmr_ensemble_rms.chain_range_begin	0.000	1	1.00	1	1 1D0R A
 _pdbx_nmr_ensemble_rms.chain_range_end	0.000	1	1.00	1	1 1D0R A
-_pdbx_nmr_ensemble_rms.coord_average_rmsd_method	0.000	1	1.00	1	1 1D0R {text}
+_pdbx_nmr_ensemble_rms.coord_average_rmsd_method	0.000	1	1.00	1	1 1D0R THE AVERAGE OF THE RMSD TO THE MEAN OF THE 20  &#9166;NMR CONFORMERS AS DESCRIBED IN REFERENCE JRNL IS 2.92 ANGSTROMS FOR THE &#9166;N, C AND CA BACKBONE ATOMS
 _pdbx_nmr_ensemble_rms.covalent_bond_rms_dev	0.003	1	1.00	1	3 2KA9 0.0021	1 1D0R 0.0144	1 2K0V 0.0024	1 2K2U 0.0025
 _pdbx_nmr_ensemble_rms.dihedral_angles_rms_dev	0.002	1	1.00	1	1 2K0T 1.854	1 2K0U 1.859	1 2K0V 0.000	1 2K2U 29.899	1 2KA9 29.297
 _pdbx_nmr_ensemble_rms.dihedral_angles_rms_dev_error	0.000	1	1.00	1	1 2ML9 0.53
@@ -1082,7 +1082,7 @@ _pdbx_nmr_exptl_sample.concentration_units	3.279	1	6.31	218	37115 9GWD mM	4564 9
 _pdbx_nmr_exptl_sample.isotopic_labeling	2.820	1	3.91	218	34 8B7J {text}	21210 9GWD {line}	3643 9GEC {word}	18 9F1G {0 - 99.98}
 _pdbx_nmr_exptl_sample.solution_id	3.279	1	6.32	218	46789 9GWD {1 - 41}	/41	21864 9GWD 1	11605 9GWD 2	6010 9CPJ 3	2910 9C5E 4	1448 9C5E 5
 _pdbx_nmr_exptl_sample_conditions.conditions_id	6.035	1	1.18	30	16127 9GWD {1 - 30}	/30	13615 9GWD 1	1648 9DLL 2	475 9CPI 3
-_pdbx_nmr_exptl_sample_conditions.details	0.224	1	1.36	13	158 8R8P {text}	524 9DE2 {line}	7 7WEM {word}
+_pdbx_nmr_exptl_sample_conditions.details	0.224	1	1.36	13	158 8R8P {text}	524 9DE2 {line}	7 7WEM {word}	/547	12 8K3N HPLC purified sample was dissolved in sterile milliQ water with 10% D2O for lock solvent.  pH was not adjusted.
 _pdbx_nmr_exptl_sample_conditions.ionic_strength	4.701	1	1.20	30	1 1MK6 {text}	3454 9DE2 {line}	1792 9GEC {word}	7499 9GWD {0 - 1000}
 _pdbx_nmr_exptl_sample_conditions.ionic_strength_err	0.106	1	1.23	4	293 9CUV {0 - 162.7}	/29	60 8RQ6 0.2	34 9CUV 0.1	30 8QBP 0	30 9EOW 1	23 8ONU 10	18 8VOH 0.01	18 8VSW 5	17 8ULM 2	9 9FLA 0.5
 _pdbx_nmr_exptl_sample_conditions.ionic_strength_units	1.371	1	1.25	30	2910 9GWD mM	636 9GEC Not defined	337 9F3D M
@@ -1102,7 +1102,7 @@ _pdbx_nmr_refine.method	5.881	1	1.02	6	521 5UY2 {text}	12674 9GWD {line}	350 8VL
 _pdbx_nmr_refine.software_ordinal	5.953	1	1.02	6	11759 8ZUG 1	532 9DLL 2	342 9GAG 4	341 9GWD 3	333 9CEQ 5	183 8VSW 6	100 9EP9 7	69 8QSX 8	26 8QSX 9	9 8OIL 10	7 6SDY 11	4 6V88 12	1 7EH3 22	1 6VL2 14
 _pdbx_nmr_representative.conformer_id	5.322	1	1.00	1	2 1HZ3 {line}	7 5I1R {word}	12016 9GWD {1 - 90}	/47	11259 9GWD 1	62 8PWR 2
 _pdbx_nmr_representative.entry_id	5.383	1	1.00	1	12130 9GWD {word}	32 8E22 {1e+09 - 6e+98}
-_pdbx_nmr_representative.selection_criteria	5.071	1	1.00	1	3 1YLB {text}	11263 9GWD {line}	183 9CUV {word}	8 9F1G {0 - 15}
+_pdbx_nmr_representative.selection_criteria	5.071	1	1.00	1	3 1YLB {text}	11263 9GWD {line}	183 9CUV {word}	8 9F1G {0 - 15}	/247	7089 9GWD lowest energy	1859 9GEC closest to the average	805 9DLL fewest violations	737 9G22 minimized average structure	278 9FJW target function
 _pdbx_nmr_sample_details.contents	5.625	1	1.78	27	4794 9DLL {text}	17572 9GWD {line}	204 4BS2 {word}	6 1Q2F {1 - 3}
 _pdbx_nmr_sample_details.details	0.365	1	2.01	27	416 9FLA {text}	1207 9DE2 {line}	32 9EP9 {word}
 _pdbx_nmr_sample_details.label	1.299	1	1.90	41	2 8B7J {text}	1186 9DE2 {line}	4265 9GWD {word}	118 9F1G {0 - 38148}
@@ -1110,11 +1110,11 @@ _pdbx_nmr_sample_details.solution_id	5.635	1	1.78	41	1 1R4D {word}	22664 9GWD {1
 _pdbx_nmr_sample_details.solvent_system	5.176	1	1.83	41	120 2P7R {text}	20550 9GWD {line}	686 9FJW {word}
 _pdbx_nmr_sample_details.type	1.299	1	1.90	41	4764 9GWD solution	270 8K3N micelle	140 8UWU bicelle	104 8CM3 solid	44 8YUM gel solid	43 8RVT fiber	41 8S8O filamentous virus	34 8UWU membrane	29 8DJ4 lyophilized powder	28 8U1T liposome	27 6PF0 oriented membrane film	22 6U3S gel solution	20 8PXS fibrous protein	4 6Y1H reverse micelle	1 6QEB polycrystalline powder	1 7BEV emulsion
 _pdbx_nmr_software.authors	6.101	1	4.40	70	1588 9CUV {text}	42502 9GWD {line}	16550 9DE2 {word}	4 2KT6 {1 - 6.1}
-_pdbx_nmr_software.classification	6.302	1	4.65	70	1 2JQ3 {text}	36348 9GWD {line}	29805 9GWD {word}
+_pdbx_nmr_software.classification	6.302	1	4.65	70	1 2JQ3 {text}	36348 9GWD {line}	29805 9GWD {word}	/358	15151 9GWD refinement	11409 7JK8 structure solution	10452 9DLL data analysis	8343 9GDM processing	6111 9DLL collection	5586 9GWD chemical shift assignment	3333 9GWD peak picking	3101 9GWD structure calculation
 _pdbx_nmr_software.name	6.302	1	4.65	70	4 6EWU {text}	4784 9DE2 {line}	61361 9GWD {word}	5 7JK8 {1 - 98}
 _pdbx_nmr_software.ordinal	6.302	1	4.65	70	66154 9GWD {1 - 70}	/70	14173 9GWD 1	13027 9GWD 2	10693 9GWD 3	9309 9GWD 4	6743 9GDM 5	4696 9GDM 6	2300 9GAG 7
 _pdbx_nmr_software.version	4.212	1	3.79	70	589 8R1X {line}	9718 9GWD {word}	25759 9GWD {0 - 9.70271e+08}
-_pdbx_nmr_spectrometer.details	0.201	1	1.66	8	2 6LXF {text}	547 9CUV {line}	203 8KCQ {word}	2 5OAY {600 - 800}
+_pdbx_nmr_spectrometer.details	0.201	1	1.66	8	2 6LXF {text}	547 9CUV {line}	203 8KCQ {word}	2 5OAY {600 - 800}	/309	94 8OVI cryoprobe	28 9EP9 TCI cryoprobe
 _pdbx_nmr_spectrometer.field_strength	5.993	1	1.66	11	22483 9GWD {0 - 3400}	/45	8256 9GDM 600	5002 9GWD 800	3939 9GAG 500	1775 9DLL 700	1300 9FLA 750	1296 9GAG 900	343 9DE2 850
 _pdbx_nmr_spectrometer.manufacturer	5.987	1	1.66	11	18 8JIC {line}	22421 9GWD {word}	/28	15884 9GWD Bruker	5956 9GDM Varian	226 9CUV Agilent
 _pdbx_nmr_spectrometer.model	5.974	1	1.66	11	3208 9GWD {line}	19151 9GDN {word}	18 7DEE {-500 - 600}	/460	7681 9GDN AVANCE	4358 9CUV INOVA	2486 7YVW DRX	1655 9GWD AVANCE III	1208 8S9Y DMX	509 6L0L UNITYPLUS
@@ -1301,7 +1301,7 @@ _pdbx_refine_tls.T[2][3]	28.439	1	9.15	878	587806 9DUE {-10.0041 - 21.8729}
 _pdbx_refine_tls.T[2][3]_esd	0.000	1	1.00	1	1 5EFT 0.0
 _pdbx_refine_tls.T[3][3]	28.439	1	9.15	878	587810 9DUE {-7.6435 - 34}
 _pdbx_refine_tls.T[3][3]_esd	0.000	1	1.00	1	1 5EFT 0.0
-_pdbx_refine_tls.details	0.061	1	3.25	20	2 4ZSF {text}	399 6IC7 {line}	47 5I04 {word}
+_pdbx_refine_tls.details	0.061	1	3.25	20	2 4ZSF {text}	399 6IC7 {line}	47 5I04 {word}	/214	60 5HRX Chain A	42 5HRX Chain B	14 5ENV Chain A catalytic domain
 _pdbx_refine_tls.id	28.441	1	9.15	878	1 7PVV {word}	587855 9DUE {1 - 878}	/879	64259 9DUE 1	50758 9DUE 2	41606 9DUE 3	37659 9DUE 4	30687 9DTC 5	28284 9DTC 6
 _pdbx_refine_tls.method	28.221	1	9.16	878	584175 9DUE refined	1 7MHQ fitted
 _pdbx_refine_tls.origin_x	28.439	1	9.13	878	586631 9DUE {-636.801 - 830.976}
@@ -1321,7 +1321,7 @@ _pdbx_refine_tls_group.end_label_seq_id	3.040	1	9.45	368	64893 9GP2 {1 - 9999}
 _pdbx_refine_tls_group.id	28.418	1	9.83	878	2 3S7R {word}	631398 9DUE {1 - 878}	/880	64208 9DUE 1	53837 9DUE 2	45320 9DUE 3	41094 9DUE 4	33776 9DTC 5	30995 9DTC 6
 _pdbx_refine_tls_group.pdbx_refine_id	28.418	1	9.83	878	629676 9DUE X-RAY DIFFRACTION	1682 7KZV ELECTRON MICROSCOPY	39 8T1N ELECTRON CRYSTALLOGRAPHY	3 7KKW NEUTRON DIFFRACTION
 _pdbx_refine_tls_group.refine_tls_id	28.418	1	9.83	878	5 7PVV {word}	631395 9DUE {1 - 878}	/879	86538 9DUE 1	56044 9DUE 2	44667 9DUE 3	39960 9DUE 4	32459 9DTC 5	29433 9DTC 6
-_pdbx_refine_tls_group.selection	0.679	1	6.25	98	2 5C0X {text}	14 4JK6 {line}	9574 9GSQ {word}
+_pdbx_refine_tls_group.selection	0.679	1	6.25	98	9430 9GSQ ALL	141 5DGS all	3 5DJR All	2 5C0X chain 'I' and ((resseq 124:291))	1 3BXD chain A and resseq 112-148	1 3BXD chain A and resseq 149-166	1 3BXD chain A and resseq 265-285	1 3BXD chain A and resseq 84-94	1 3BXD chain A and resseq 43-59	1 3GF9 chain A	1 3BXD chain A and resseq 28-42	1 3BXD chain A and resseq 95-111	1 3BXD chain A and resseq 247-264	1 4JK6 157 to 170B	1 3BXD chain A and resseq 167-176	1 3BXD chain A and resseq 60-83	1 3BXD chain A and resseq 177-232	1 3BXD chain A and resseq 233-246
 _pdbx_refine_tls_group.selection_details	17.288	1	11.14	878	283937 9DTC {text}	133778 9CSY {line}	17411 9GTF {word}
 _pdbx_reflns_twin.crystal_id	0.846	1	1.81	8	3349 9J9C 1	66 8RXU 2	12 8RXU 3	10 8PXN 4	5 8TI7 6	5 8TI7 5	4 8TI7 8	4 8TI7 7
 _pdbx_reflns_twin.diffrn_id	0.846	1	1.81	8	3358 9J9C 1	61 8RXU 2	11 8RXU 3	9 8PXN 4	4 8TI7 8	4 8TI7 7	4 8TI7 6	4 8TI7 5
@@ -1331,7 +1331,7 @@ _pdbx_reflns_twin.operator	0.846	1	1.81	8	2245 9J9C {line}	1210 9J9C {word}	/186
 _pdbx_reflns_twin.type	0.058	1	1.98	8	205 8RXU pseudo-merohedral	27 8PTA merohedral	26 8QB1 hemihedral	4 2H6R tetartohedral
 _pdbx_related_exp_data_set.data_reference	0.584	1	1.08	4	1421 9CVG {word}	/970	37 5QHA 10.5281/zenodo.1244111
 _pdbx_related_exp_data_set.data_set_type	0.612	1	1.08	4	1163 9CJ9 diffraction image data	205 8VSW other data	112 9CVG EMPIAR	4 8QBP NMR free induction decay data	2 8SNP small-angle scattering data
-_pdbx_related_exp_data_set.details	0.122	1	1.04	4	16 6O6N {text}	221 8WZF {line}	50 9CAI {word}
+_pdbx_related_exp_data_set.details	0.122	1	1.04	4	16 6O6N {text}	221 8WZF {line}	50 9CAI {word}	/84	156 5QTR Complete PanDDA analysis	8 6FWQ Diffraction images used to solve the structures published in the article &quot;An Epoxide Intermediate in Glycosidase Catalysis&quot;
 _pdbx_related_exp_data_set.metadata_reference	0.129	1	1.03	4	299 9EWK {word}	/125	43 5QJN 10.5281/zenodo.1344394	37 5QHA 10.5281/zenodo.1244111	31 5QOZ 10.5281/zenodo.1437589	18 5QIA 10.5281/zenodo.1247822	12 5VHS 10.6019/EMPIAR-10091
 _pdbx_related_exp_data_set.ordinal	0.619	1	1.07	4	1398 9CVG 1	73 9FEK 2	21 6VZD 3	10 6VZD 4
 _pdbx_serial_crystallography_data_reduction.crystal_hits	0.052	1	1.00	1	117 8S2X {1 - 1.7975e+06}
@@ -1354,11 +1354,11 @@ _pdbx_serial_crystallography_measurement.pulse_photon_energy	0.066	1	1.00	1	150 
 _pdbx_serial_crystallography_measurement.source_distance	0.002	1	1.00	1	2 7ASX 0.116	1 7CRJ 0.09	1 7R1E 140
 _pdbx_serial_crystallography_measurement.source_size	0.006	1	1.00	1	6 6YPV 49	2 6Y78 100	1 6NKN 9	1 6RGH 50	1 7R1E 1	1 8PWS 8	1 8PWY 64
 _pdbx_serial_crystallography_measurement.xfel_pulse_repetition_rate	0.071	1	1.00	1	64 8FWA 120	49 8VQ1 30	20 8F4K 20	10 7YEE 100	10 8F4G 10	5 6TK6 50	1 6U57 320	1 6YY3 15	1 8RUS 47000
-_pdbx_serial_crystallography_sample_delivery.description	0.115	1	1.00	1	1 7ACP {text}	218 8S2X {line}	40 8VQ1 {word}
+_pdbx_serial_crystallography_sample_delivery.description	0.115	1	1.00	1	1 7ACP {text}	218 8S2X {line}	40 8VQ1 {word}	/85	23 8PCV CFEL TapeDrive	22 7VJJ High viscosity injector	20 7UHT Nylon Mesh	15 6XPG Silicon nitride chips	12 7WRS fixed target
 _pdbx_serial_crystallography_sample_delivery.diffrn_id	0.353	1	1.01	3	795 8ZCK 1	11 7KU3 2	3 6RQO 3
 _pdbx_serial_crystallography_sample_delivery.method	0.353	1	1.01	3	496 8ZCK injection	313 9EPY fixed target
 _pdbx_serial_crystallography_sample_delivery_fixed_target.crystals_per_unit	0.004	1	1.00	1	6 7KOA 1	2 8PWY 25600	1 6OIV 6
-_pdbx_serial_crystallography_sample_delivery_fixed_target.description	0.040	1	1.00	1	1 7ACP {text}	78 8RGY {line}	10 7Z8D {word}	1 6IRK {10000 - 10000}
+_pdbx_serial_crystallography_sample_delivery_fixed_target.description	0.040	1	1.00	1	1 7ACP {text}	78 8RGY {line}	10 7Z8D {word}	1 6IRK {10000 - 10000}	/40	15 7UHT ALEX mesh holder	9 6QY5 Roadrunner II	7 8QVM silicon nitride membrane	6 6YOG IMISX	5 8CGY Micro mesh mount	4 8RGY Mitegen in situ-1 plate
 _pdbx_serial_crystallography_sample_delivery_fixed_target.details	0.007	1	1.00	1	4 7KOA start/stop raster over area	4 8OGG 25600 apertures	2 7ASX scanning speed matched to 120 Hz pulse repetition rate	1 6MUZ 3 degree oscillation per well	1 6YRD 25600 apertures per chip	1 8C51 semi-automated cryo-cooling procedure	1 8C5K 90 degree mounting of Crystal Direct plate on goniometer, well polymer foil coating with D-lys	1 6MUH oscillation 1 degree per crystal	1 6MUY 3 degree oscillation per sample
 _pdbx_serial_crystallography_sample_delivery_fixed_target.diffrn_id	0.055	1	1.00	1	124 8RGY 1	1 6IIE 2
 _pdbx_serial_crystallography_sample_delivery_fixed_target.motion_control	0.017	1	1.00	1	14 7UHT SmarAct Motors viaPMAC start/stop raster over area	3 6APK DCSS	3 6GT2 SACLA goniometer	3 7KOA SmarAct Motors viaPMAC	2 6MUY Geobrick LV-IMS-II	2 7L52 PMAC EPICS	2 6I8E geobrick	2 7ASX attachment to Roadrunner II	2 6Y78 MD3 (Arinax)	1 6CH7 Stanford Automated Mounter System	1 8C51 MD3-diffractometer	1 6XPG GeoBrick / SmarAct	1 6XKM SmarAct Motors via PMAC	1 6UV8 inSituX	1 6QF5 Roadrunner II
@@ -1371,7 +1371,7 @@ _pdbx_serial_crystallography_sample_delivery_fixed_target.velocity_horizontal	0.
 _pdbx_serial_crystallography_sample_delivery_fixed_target.velocity_vertical	0.003	1	1.00	1	4 7KOA 10	2 7ASX 100
 _pdbx_serial_crystallography_sample_delivery_injection.carrier_solvent	0.046	1	1.05	3	34 8VPW {line}	74 8RUS {word}	/25	28 8A2P LCP	27 7YEM grease	9 8CLH Hydroxyethylcellulose	5 8F4H aqueous buffer
 _pdbx_serial_crystallography_sample_delivery_injection.crystal_concentration	0.004	1	1.11	2	2 6RNJ 13	2 8C9J 1000	1 6IG6 67000000	1 6IG7 36000000	1 7QX4 4e10	1 7L6W 750	1 8A6G 30	1 8RUS 20000000
-_pdbx_serial_crystallography_sample_delivery_injection.description	0.049	1	1.00	1	1 7SUC {text}	82 8RUS {line}	27 8GCQ {word}
+_pdbx_serial_crystallography_sample_delivery_injection.description	0.049	1	1.00	1	1 7SUC {text}	82 8RUS {line}	27 8GCQ {word}	/40	18 8F4K Acoustic Droplet Ejection	11 8A2O LCP injector	9 7TUM GDVN	7 7YEE SwissFEL injector	7 8CLH High-viscosity injection	6 8AF8 TapeDrive	5 8GCQ MESH
 _pdbx_serial_crystallography_sample_delivery_injection.diffrn_id	0.083	1	1.03	3	188 8RUS 1	3 6RQO 2	2 6RQO 3
 _pdbx_serial_crystallography_sample_delivery_injection.filter_size	0.015	1	1.00	1	18 8RUS 20	16 7VJK 70	1 7ZMJ 30
 _pdbx_serial_crystallography_sample_delivery_injection.flow_rate	0.052	1	1.00	1	117 8VQ1 {0.0068 - 800}	/32	19 7VJK 4.5	18 8F4K 4	13 7BVO 0.2	10 7YEE 4.2	8 8A2P 8	5 7YEM 3
@@ -1404,29 +1404,29 @@ _pdbx_soln_scatter.source_class	0.025	1	1.46	6	58 8TNS Y	19 6O22 N	4 2M8P synchr
 _pdbx_soln_scatter.source_type	0.025	1	1.46	6	59 8TNS {line}	24 6O22 {word}	/27	17 3IRL ESRF GRENOBLE	8 1ZVO ESRF BEAMLINE ID02	6 6O22 ILL	5 2OCW ISIS RUTHERFORD	5 6O22 FRM2	4 2KRL APS ARGONNE
 _pdbx_soln_scatter.temperature	0.025	1	1.41	6	34 2L9H 288	22 7V06 298	11 8T8L 293	3 7T1P 283	3 2QFH 296	2 2XKY 277	2 3K2S 301	1 6X6N 298.15	1 8TNS 295
 _pdbx_soln_scatter.type	0.025	1	1.60	6	52 8TNS x-ray	31 7V06 neutron	8 2XKY modelling
-_pdbx_soln_scatter_model.conformer_selection_criteria	0.013	1	1.00	1	21 2LV6 {text}	8 8TNS {line}
-_pdbx_soln_scatter_model.details	0.012	1	1.00	1	25 6O22 {text}	2 8TNS {line}
+_pdbx_soln_scatter_model.conformer_selection_criteria	0.013	1	1.00	1	21 2LV6 {text}	8 8TNS {line}	/23	4 3IRL STRUCTURES WITH THE LOWEST&#9166;GOODNESS-OF-FIT R-FACTOR&#9166;AFTER FILTERING ON RG	3 3GAW STRUCTURES WITH THE LOWEST&#9166;GOODNESS-OF-FIT R-FACTOR&#9166;AFTER FILTERING ON RG AND&#9166;RXS-1	2 2KLM STRUCTURES WITH THE LOWEST&#9166;ENERGY	1 2L9H THE MODELS WERE GENERATED USING GRID SEARCH, CONTRAINING THE ORIENTATION BETWEEN THE DIMERS ACCORDING TO NMR RDC DATA.  MODELS WERE THEN SCORED BASED ON AGREEMENT BETWEEN THEORETICAL AND EXPERIMENTAL SCATTERING CURVE AND SOUNDNESS OF THE INTERFACE AS DEFINED BY A RESIDUE PAIRING SCORE.
+_pdbx_soln_scatter_model.details	0.012	1	1.00	1	25 6O22 {text}	2 8TNS {line}	/27	1 2QFH TEN SOLUTION STRUCTURES ARE               &#9166;DEPOSITED. THE FIRST OF THESE CORRESPONDS TO THE BEST-FIT           &#9166;STRUCTURE IN THE PRIMARY CITATION, WHILE THE OTHER NINE             &#9166;CORRESPOND TO THOSE ADDITIONALLY SHOWN IN FIGURE 11(A) OF THE       &#9166;PRIMARY CITATION
 _pdbx_soln_scatter_model.entry_fitting_list	0.004	1	1.00	1	1 1E07 PDB CODE 3CD4, 1CD8	1 3K2S THE DOUBLE BELT MODEL (SEGREST JP, JBC 274, 31755 (1999))	1 2KX9 PDB ENTRIES 2HWG AND 3EZA	1 2KRL G2G INITIAL STRUCTURE	1 2XKX PROGRAM PRE-BUNCH 1IU0/1QLC/1TP5/1KJW + SEQUENCE DATA	1 2XKY PROGRAM PRE-BUNCH, 1U4F, C_4 SYMMETRY + SEQUENCE DATA	1 2L5H free wildtype EI structures, PDB ID 2KX9	1 1HAQ PDB CODE 1HFI, 1HCC, 1HFH, 1VCC	1 6O22 PDB ID 3Q66, PDB ID 2HUE
 _pdbx_soln_scatter_model.id	0.023	1	1.00	1	51 8TNS 1
-_pdbx_soln_scatter_model.method	0.011	1	1.00	1	2 6O22 {text}	23 8TNS {line}
+_pdbx_soln_scatter_model.method	0.011	1	1.00	1	8 3K2S CONSTRAINED SCATTERING FITTING OF HOMOLOGY MODELS	4 3IRL Constrained Scattering Modelling	3 7T1P This structure was calculated with XPLOR-NIH with a CYANA input and minimized with SAXS.	2 2XKY RIGID BODY MODELLING	1 1IGA SCATTERING FITTING, ENERGY MINIMIZATION	1 2L5H simulated annealing	1 2L9H CONSTRAINED SCATTERING FITTING INCORPORATING NMR RDC DATA.	1 3J07 FITTING OF MODELS WITH SAXS DATA;	1 2KRL SIMULATED ANNEALING METHOD WITH RESTRAINTS OF X-RAY SCATTERING DATA, RDC DATA, &#9166;GENERIC A-FORM GEOMETRIC DISTANCE IN DUPLEXES, &#9166;GENERIC A-FORM LIKE STACKING, NMR DETECTED HYDROGEN BONDS,&#9166;AND SAXS MOLECULAR ENVELOPE DIMENISIONAL MEASUREMENTS.	1 6O22 X-RAY STRUCTURES OF THE SUBUNITS WERE DOCKED WITH HADDOCK-BASED M3 DOCKING PROTOCOL. DOCKING WAS GUIDED BY PRE DISTANCE RESTRAINTS, STRUCTURES WERE SELECTED BY FITNESS TO THE SANS DATA.	1 7V06 NMR, SAXS	1 8TNS HIGH TEMPERATURE DYNAMICS AT 3000 K, FOLLOWED BY SUMULATED ANNEALING FROM 3000 K TO 25 K AND A FINAL ENERGY MINIMIZATION STEP.
 _pdbx_soln_scatter_model.num_conformers_calculated	0.012	1	1.00	1	7 3IRL 5000	5 8TNS 100	2 1NTL 2000	2 2XKY 20	2 1ZLG 10000	1 1HAQ 2010	1 7V06 1024	1 1ZVO 8500	1 2KX6 15	1 6O22 150	1 3J07 10	1 2L5H 120	1 3K2S 256	1 2L9H 5953	1 2KX9 99
 _pdbx_soln_scatter_model.num_conformers_submitted	0.021	1	1.00	1	19 6O22 1	10 7V06 10	3 3GAW 8	3 2L5H 2	3 2KX6 14	2 1W2S 6	1 1HAQ 4	1 2QFG 12	1 3IRI 9	1 2GSX 3	1 2Q7Z 5	1 3IRJ 15	1 8TNS 20
 _pdbx_soln_scatter_model.representative_conformer	0.016	1	1.00	1	35 8TNS 1	1 7V06 10
 _pdbx_soln_scatter_model.scatter_id	0.023	1	1.00	1	43 8TNS 1	6 2XKY 2	1 1HAQ 4	1 1E07 3
-_pdbx_soln_scatter_model.software_author_list	0.009	1	1.00	1	1 2KX6 {text}	9 8TNS {line}	11 1ZVO {word}
+_pdbx_soln_scatter_model.software_author_list	0.009	1	1.00	1	7 1W2S MSI	3 1ZVO ACCELRYS	2 2XKY PETOUKHOV, M. V. &amp; SVERGUN, D. I.	1 1E07 BIOSYM/MSI	1 2KX6 Grishaev, Wu, Trewhella, Bax, Brunger, Adams, Clore, Delano, Gros, Grosse-Kunstleve, Jiang, Kuszewski, Nilges, Pannu, Read, Rice, Simonson, Warren	1 2L5H C.D. Schwieters, J.J.  Kuszewski, N. Tjandra,G.M. Clore	1 2L9H UIUC, EMBL	1 6O22 KARACA, CARLOMAGNO, RODRIGUES, BONVIN	1 7V06 Frank Delaglio; Ad Bax; Bruce Johnson; Charles Schwieters; Marius Clore; David Case; Dmitry Svergun	1 3K2S LINDAHL E, SALI A, DELANO WL, MERZEL F, RICHARDS RM, SVERGUN DI	1 3J07 PETOUKHOV, M.V.; SVERGUN, D.I.; SCHWIETERS, C.D. PETTERSON, E.F.; GODDARD, T.D.; ACCELRYS	1 8TNS SCHWIETERS, KUSZEWSKI, TJANDRA, CLORE
 _pdbx_soln_scatter_model.software_list	0.021	1	1.00	1	38 7V06 {line}	9 8TNS {word}	/22	18 3GAW INSIGHT II, SCTPL7, GNOM	3 3IRL INSIGHT II, DISCOVERY STUDIO, SCTPL7, GNOM	3 2KLM GNOM	3 1ZVO INSIGHT II, HOMOLOGY, DISCOVERY, BIOPOLYMER, DELPHI, O, SCTPL7, GNOM	2 2XKY SASREF7/BUNCH8
 _pdbx_struct_assembly.details	100.000	1	1.47	44	181858 9DUE author_and_software_defined_assembly	118781 9GYO author_defined_assembly	24815 9CPL software_defined_assembly	1112 9CVG complete icosahedral assembly	1104 9CVG icosahedral asymmetric unit	1102 9CVG icosahedral pentamer	1101 9CVG icosahedral asymmetric unit, std point frame	1101 9CVG icosahedral 23 hexamer	330 8W7H crystal asymmetric unit, crystal frame	175 9BQ2 complete point assembly	166 9BQ2 point asymmetric unit	160 9BQ2 point asymmetric unit, std point frame	129 9CX6 representative helical assembly	125 9CX6 helical asymmetric unit	102 7YR8 helical asymmetric unit, std helical frame	4 2GTL crystal asymmetric unit	3 7Z90 icosahedral component	1 1M4X trisymmetron capsid unit	1 1M4X pentasymmetron capsid unit
 _pdbx_struct_assembly.id	100.000	1	1.47	44	332170 9GYO {1 - 44}	/44	225946 9GYO 1	61360 9DT6 2	19950 9DT6 3	12033 9DT6 4
-_pdbx_struct_assembly.method_details	63.527	1	1.42	44	2 7BES {text}	192 9G0B {line}	203868 9DUE {word}
+_pdbx_struct_assembly.method_details	63.527	1	1.42	44	2 7BES {text}	192 9G0B {line}	203868 9DUE {word}	/44	189387 9DUE PISA	9476 8QPH PQS
 _pdbx_struct_assembly.oligomeric_count	99.995	1	1.47	44	332158 9GYO {0 - 8280}	/304	140210 9DUE 1	98093 9DTC 2	29822 9DP4 4	24220 9DP1 3	10217 9DN4 6
-_pdbx_struct_assembly.oligomeric_details	99.995	1	1.47	44	1 5HGE {text}	88 8V58 {line}	332068 9GYO {word}
+_pdbx_struct_assembly.oligomeric_details	99.995	1	1.47	44	1 5HGE {text}	88 8V58 {line}	332068 9GYO {word}	/408	139884 9DUE monomeric	97857 9DTC dimeric	29767 9DP4 tetrameric	24156 9DP1 trimeric	10182 9DN4 hexameric
 _pdbx_struct_assembly_auth_evidence.assembly_id	38.551	1	1.08	24	94101 9GYO {1 - 24}	/24	90797 9GYO 1	2232 9DP4 2
 _pdbx_struct_assembly_auth_evidence.details	5.579	1	1.09	8	958 9JD2 {text}	11156 9GYO {line}	1550 9DUE {word}	13 8SHJ {1 - 111}
 _pdbx_struct_assembly_auth_evidence.experimental_support	38.551	1	1.08	24	42708 9DTC gel filtration	22241 9DP4 none	8937 9GYO electron microscopy	2947 9GJ2 light scattering	2755 9B9V microscopy	2288 9DUE homology	2165 9DP1 native gel electrophoresis	2052 9D5D mass spectrometry	1902 9D77 SAXS	1355 9BNH isothermal titration calorimetry	1258 9FZK equilibrium centrifugation	896 9C82 assay for oligomerization	719 9FBY surface plasmon resonance	681 9C7V cross-linking	432 9GWD NMR Distance Restraints	254 9IMP immunoprecipitation	176 9GPJ NMR relaxation study	171 8RNW scanning transmission electron microscopy	164 9CWN fluorescence resonance energy transfer
 _pdbx_struct_assembly_auth_evidence.id	38.551	1	1.08	24	94101 9GYO {1 - 24}	/24	87105 9GYO 1	4668 9DP4 2
 _pdbx_struct_assembly_gen.assembly_id	100.000	1	1.52	60	342310 9GYO {1 - 44}	/44	231716 9GYO 1	63117 9DT6 2	21116 9DT6 3	12536 9DT6 4
 _pdbx_struct_assembly_gen.asym_id_list	100.000	1	1.52	60	5981 9JF5 {text}	336329 9GYO {word}
-_pdbx_struct_assembly_gen.oper_expression	100.000	1	1.52	60	213 9G0B {text}	43277 9JHV {word}	298820 9GYO {1 - 101}
+_pdbx_struct_assembly_gen.oper_expression	100.000	1	1.52	60	213 9G0B {text}	43277 9JHV {word}	298820 9GYO {1 - 101}	/508	289309 9GYO 1	23508 9D9M 1,2	4896 9CSI 2
 _pdbx_struct_assembly_prop.biol_id	52.597	1	3.94	132	467775 9DTC {1 - 44}	/44	338489 9DTC 1	78611 9DT6 2	24940 9DT6 3	11730 9DT6 4
 _pdbx_struct_assembly_prop.type	52.597	1	3.94	132	157017 9DTC ABSA (A^2)	155385 9DTC SSA (A^2)	155373 9DTC MORE
 _pdbx_struct_assembly_prop.value	52.597	1	3.94	132	7 2QM2 {word}	467768 9DTC {-12930.6 - 2.33664e+06}
@@ -1490,7 +1490,7 @@ _pdbx_struct_mod_residue.PDB_ins_code	0.061	1	1.57	12	127 5A2M G	31 5YK9 A	15 4O
 _pdbx_struct_mod_residue.auth_asym_id	13.344	1	8.00	692	238992 9DTL {word}	2241 8Y7E {0 - 90}
 _pdbx_struct_mod_residue.auth_comp_id	13.344	1	8.00	692	241172 9DTL {word}	61 5IVN {0 - 60000}
 _pdbx_struct_mod_residue.auth_seq_id	13.344	1	8.00	692	241233 9DTL {-372 - 7769}
-_pdbx_struct_mod_residue.details	12.520	1	8.23	692	604 3JCS {text}	96768 9DTL {line}	135493 9EQ5 {word}	43 7H1G {1 - 8}
+_pdbx_struct_mod_residue.details	12.520	1	8.23	692	604 3JCS {text}	96768 9DTL {line}	135493 9EQ5 {word}	43 7H1G {1 - 8}	/582	109640 5G56 SELENOMETHIONINE	71566 9DTL modified residue	20512 8D87 GLYCOSYLATION SITE	5324 2ND5 N-DIMETHYL-LYSINE
 _pdbx_struct_mod_residue.id	13.344	1	8.00	692	241233 9DTL {1 - 692}	/692	30151 9DTL 1	23212 9DTL 2	17397 9DTL 3	15170 9DTL 4	11938 9DTL 5
 _pdbx_struct_mod_residue.label_asym_id	13.344	1	8.00	692	241233 9DTL {word}
 _pdbx_struct_mod_residue.label_comp_id	13.344	1	8.00	692	241172 9DTL {word}	61 5IVN {0 - 60000}
@@ -1743,7 +1743,7 @@ _phasing_MIR.FOM_acentric	0.009	1	1.00	1	7 2R7W 0.284	1 1XSE 0.288	1 2A2E 0.450	
 _phasing_MIR.FOM_centric	0.009	1	1.00	1	7 2R7W 0.202	1 5T9J 0.000	1 2B9B 0.123	1 4FXE 0.218	1 3K6U 0.513	1 3V6I 0.070	1 1XSE 0.327	1 5DQQ 0.298	1 3UM7 0.337	1 2PN5 0.518	1 3RLK 0.400	1 2B0U 0.199	1 3QW9 0.245	1 2A2E 0.385	1 2OQQ 0.571
 _phasing_MIR.d_res_high	0.017	1	1.00	1	39 6UBL {1.7 - 5.8}	/27	7 2R7W 2.900	3 1XSE 2.500	3 5T9J 3.000	2 3ENU 2.40	2 3SK9 2.50	1 3V6I 2.400
 _phasing_MIR.d_res_low	0.017	1	1.00	1	39 6UBL {9.98 - 1000}	/24	7 2R7W 47.330	5 6A2J 20.00	4 1VKC 20.000	2 2HPJ 30.00	2 3EES 50.00	1 1XSE 9.980
-_phasing_MIR.details	0.000	1	1.00	1	1 6UBL {text}
+_phasing_MIR.details	0.000	1	1.00	1	1 6UBL The structure was phased using SIRAS with data from a potassium iodide soaked crystal and the native data from an unsoaked crystal. Prior to cryocooling, a crystal was soaked in 0.5 M KI for ~60 s.
 _phasing_MIR.entry_id	0.017	1	1.00	1	39 6UBL {word}	/39	1 2R7V 2R7V
 _phasing_MIR.reflns	0.009	1	1.00	1	1 3K6U 10848	1 2NNC 4946	1 2HPJ 3767	1 2NZ7 7425	1 2OQQ 5190	1 2ODR 19624	1 3ENU 5062	1 2PN5 22771	1 3EES 8125	1 2PET 8805	1 1SGW 11580	1 3MOP 8164	1 3SK9 8978	1 6A2J 3300	1 2GJ7 21767	1 1ZWX 9681	1 1YY7 21405	1 1SEN 5250	1 1VKC 13335	1 1VK1 8671
 _phasing_MIR.reflns_acentric	0.009	1	1.00	1	7 2R7W 24408	1 1XSE 19855	1 2A2E 12936	1 5T9J 33597	1 3QW9 31955	1 5DQQ 16868	1 4FXE 14244	1 3V6I 26979	1 3UM7 11354	1 3RLK 15619	1 3K6U 10438	1 2OQQ 4648	1 2PN5 19434	1 2B9B 59264	1 2B0U 20139
@@ -1810,7 +1810,7 @@ _phasing_set.id	0.086	1	2.91	9	195 7DVR 1	163 7DVR 2	140 7DVR 3	25 5DQQ 4	12 5DQ
 _phasing_set.pdbx_d_res_high	0.002	1	1.00	1	1 2B0U 2.8	1 2HPJ 2.50	1 2NSA 1.7	1 2GJ7 5.00	1 2PN5 2.698
 _phasing_set.pdbx_d_res_low	0.002	1	1.00	1	1 2B0U 19.35	1 2GJ7 45.00	1 2HPJ 30.00	1 2NSA 19.6	1 2PN5 45.866
 _publ.entry_id	0.001	1	1.00	1	1 6ZJK 6ZJK	1 6XRQ 6XRQ
-_publ.section_references	0.001	1	1.00	1	2 6XRQ {text}
+_publ.section_references	0.001	1	1.00	1	2 6XRQ Evans, P. (2006) Acta Cryst. D62, 72-82.&#9166;Evans, P. R. and Murshudov, G. N. (2013) Acta Cryst. D69, 1204-1214.&#9166;Winn, M. D. et al. (2011) Acta Cryst. D67, 235-242.&#9166;Winter, G. (2010) J. Appl. Cryst. 43, 186-190.&#9166;Winter, G. et al. (2018) Acta Cryst. D74, 85-97.
 _refine.B_iso_max	21.610	1	1.00	2	48856 9CYS {0 - 1162.7}
 _refine.B_iso_mean	64.869	1	1.00	2	146603 9DUE {-13.7642 - 2145.97}
 _refine.B_iso_min	21.612	1	1.00	2	48861 9CYS {-1.24 - 99999}
@@ -1867,8 +1867,8 @@ _refine.pdbx_data_cutoff_high_absF	5.673	1	1.00	2	12818 8W0Z {0 - 1e+13}
 _refine.pdbx_data_cutoff_high_rms_absF	0.368	1	1.00	2	833 3QZA {0 - 2.66281e+08}	/755	54 2W3Z 10000	7 3BYC 10000.0
 _refine.pdbx_data_cutoff_low_absF	5.172	1	1.00	1	11687 8W0Z {0 - 1e+07}	/97	6891 8W0Z 0.000000	973 4OR5 0.00	620 4KSF 0.000	616 5FMO 0.001	487 7N2M 0.0000
 _refine.pdbx_diffrn_id	83.769	1	1.00	2	716 9AZO {word}	188655 9DUE {1 - 4}	/24	188464 9DUE 1	599 9AZO 1,2
-_refine.pdbx_isotropic_thermal_model	9.474	1	1.00	2	21 3ALA {text}	1377 4S24 {line}	19987 6PTP {word}	21 4QWP {0 - 60.1506}
-_refine.pdbx_ls_cross_valid_method	72.557	1	1.00	2	7 2OOH {text}	42989 9DTC {line}	121043 9DUE {word}	6 4RTY {0 - 15822}
+_refine.pdbx_isotropic_thermal_model	9.474	1	1.00	2	21 3ALA {text}	1377 4S24 {line}	19987 6PTP {word}	21 4QWP {0 - 60.1506}	/722	12288 6DI4 RESTRAINED	2582 4S1J Isotropic	1772 4RZQ isotropic	748 4S1W ISOTROPIC
+_refine.pdbx_ls_cross_valid_method	72.557	1	1.00	2	7 2OOH {text}	42989 9DTC {line}	121043 9DUE {word}	6 4RTY {0 - 15822}	/261	116929 9DUE THROUGHOUT	41130 9DTC FREE R-VALUE	3520 9GRE NONE
 _refine.pdbx_ls_sigma_F	63.062	1	1.00	2	142546 9DTC {-1e+18 - 1e+07}
 _refine.pdbx_ls_sigma_Fsqd	0.000	1	1.00	1	1 5UP8 1.35
 _refine.pdbx_ls_sigma_I	5.198	1	1.00	1	11745 5ZBZ {-1000 - 3.65351e+07}	/218	5382 3X3M 0	2935 4S1F 0.0	859 4RYF 2.0	481 4RXI 2
@@ -1888,9 +1888,9 @@ _refine.pdbx_solvent_ion_probe_radii	30.906	1	1.00	1	69831 9DUE {0 - 4}	/42	4275
 _refine.pdbx_solvent_shrinkage_radii	61.799	1	1.00	2	139723 9DUE {0 - 2.8}	/128	42957 9DUE 0.80	33047 9GUF 0.9000	29112 9DTC 0.90	16665 9GBE 0.8000	9016 9JHV 0.800	1268 9G7K 0.9
 _refine.pdbx_solvent_vdw_probe_radii	61.832	1	1.00	2	139796 9DUE {0 - 64.4}	/77	29961 9GUF 1.1100	29887 9DUE 1.20	28708 9DP4 1.11	14226 9GBE 1.2000	14225 8RPM 1.40	6830 9GSO 1.200
 _refine.pdbx_starting_model	53.836	1	1.00	2	242 8E2N {text}	50135 9JBQ {line}	71174 9JHV {word}	168 8HT2 {0 - 2e+99}
-_refine.pdbx_stereochem_target_val_spec_case	0.029	1	1.00	1	8 4PUV {text}	53 5JZQ {line}	5 6WEN {word}
-_refine.pdbx_stereochemistry_target_values	59.270	1	1.00	2	68 4X3P {text}	92938 9DUE {line}	40999 9DTC {word}	4 3VF0 {-1 - 0.02}
-_refine.solvent_model_details	55.969	1	1.00	2	52 6QGV {text}	81993 9DTC {line}	44497 9DUE {word}	1 1KSC {0.373825 - 0.373825}
+_refine.pdbx_stereochem_target_val_spec_case	0.029	1	1.00	1	8 4PUV {text}	53 5JZQ {line}	5 6WEN {word}	/47	7 1BZ6 HEME - PARAMETERS BASED ON CSD	4 7FDR FE CLUSTERS NOT RESTRAINED	3 1AL4 MODIFIED ENGH AND HUBER FOR ETHANOLAMINE BASED ON SERINE
+_refine.pdbx_stereochemistry_target_values	59.270	1	1.00	2	68 4X3P {text}	92938 9DUE {line}	40999 9DTC {word}	4 3VF0 {-1 - 0.02}	/597	54524 9DUE MAXIMUM LIKELIHOOD	38306 9DTC ML	17596 5D1M Engh &amp; Huber	13215 9GUF GeoStd + Monomer Library + CDL v1.2	2382 9CX6 MAXIMUM LIKELIHOOD WITH PHASES
+_refine.solvent_model_details	55.969	1	1.00	2	52 6QGV {text}	81993 9DTC {line}	44497 9DUE {word}	1 1KSC {0.373825 - 0.373825}	/292	52592 9DTC FLAT BULK SOLVENT MODEL	44103 9DUE MASK	12221 9J9A BABINET MODEL WITH MASK	11307 8W0Z FLAT MODEL	3321 9GSQ MASK BULK SOLVENT
 _refine.solvent_model_param_bsol	10.919	1	1.00	2	24713 9BPE {-9999 - 704696}
 _refine.solvent_model_param_ksol	10.141	1	1.00	2	22955 9BPE {-1 - 999}
 _refine_B_iso.class	0.183	1	1.91	6	568 1VTJ {line}	216 2B5Z {word}	3 402D {1 - 1}	/23	280 1VTJ ALL ATOMS	261 1VTJ ALL WATERS	80 2A32 all	50 2B5Z polymer	47 2B5Z water	38 2B5Z nonpolymer
@@ -1932,7 +1932,7 @@ _refine_ls_restr.pdbx_restraint_function	3.728	1	7.93	12	39651 9CSY HARMONIC	187
 _refine_ls_restr.type	82.163	1	14.89	546	90 7FEF {text}	445 8VSG {line}	2764031 9DUE {word}	3 1RJ9 {1.367 - 1.5}
 _refine_ls_restr.weight	4.123	1	7.83	27	72968 9CSY {0 - 23471}	/413	16848 9CSY 2.00	12179 9F6C 2.000	10211 9CSY 5.00	7570 9F6C 5.000	4354 9CSY 4.00	3825 9CSI 20.00	3379 9F6C 4.000
 _refine_ls_restr_ncs.dom_id	7.762	1	12.32	1936	5717 9GRE {word}	210325 9GSQ {0 - 325}	/407	92383 9GSQ 1	64938 9GSQ 2	12849 9J26 3	9694 9J26 4
-_refine_ls_restr_ncs.ncs_model_details	0.785	1	1.01	12	16 3QFB {text}	85 4AED {line}	1677 6T48 {word}	16 6QU3 {0 - 12}
+_refine_ls_restr_ncs.ncs_model_details	0.785	1	1.01	12	16 3QFB {text}	85 4AED {line}	1677 6T48 {word}	16 6QU3 {0 - 12}	/124	613 5AAC NONE	436 6T48 CONSTR	335 6MVQ RESTRAINTS	80 4E9M RESTRAINED
 _refine_ls_restr_ncs.pdbx_asym_id	0.125	1	4.31	46	1220 9GRE {word}	/27	491 9D2C A	143 9GRE B	124 9FZC C	73 9B7B D	58 8Z79 E
 _refine_ls_restr_ncs.pdbx_auth_asym_id	6.930	1	13.62	1936	212466 9GSQ {word}	827 8S0A {0 - 22}	/554	45634 9GSQ A	30816 9GRE B	23658 9CUO C	20307 9CUO D	12638 9CUO E	11762 9CUO F	8541 9BJU G
 _refine_ls_restr_ncs.pdbx_ens_id	7.762	1	12.32	1936	5716 9GRE {word}	210326 9GSQ {1 - 968}	/986	69594 9GSQ 1	23046 9J26 2	14108 9J26 3	9815 9J26 4
@@ -1978,14 +1978,14 @@ _refln_sys_abs.index_k	0.004	10	52.33	141	378 2QOR 0	7 3VHA 19	7 3VHA 3	7 3VHA 5
 _refln_sys_abs.index_l	0.004	10	52.33	141	471 3VHA {0 - 190}	/157	167 3VHA 0	7 2QOR 25
 _refln_sys_abs.sigmaI	0.004	10	52.33	141	471 3VHA {0 - 33.02}
 _reflns.B_iso_Wilson_estimate	35.585	1	1.00	8	80509 9DUE {-242.62 - 1119.43}
-_reflns.R_free_details	0.003	1	1.00	1	1 3H4O {text}	2 4H17 {line}	3 2RKC {0.05 - 6591}
+_reflns.R_free_details	0.003	1	1.00	1	1 1DQ0 10	1 1NXU 6591	1 2DUT Random selection of twin-related reflection pairs	1 2RKC 0.05	1 3H4O DATA WERE SCALED USING XSCALE WITH FRIEDEL PAIRS KEPT        &#9166;AS SEPARATE WHEN COMPUTING R-SYM, COMPLETENESS AND &lt;I/SIGMA(I)>.	1 4H17 The R-free set was chosen at random with the twin law incorporated
 _reflns.Rmerge_F_all	0.026	1	1.00	1	58 7H5Z {0.04 - 12.4}	/31	5 7H5X 0.19	4 7H5U 0.15	4 7H5Z 0.16	3 7GS5 0.22	3 7GS3 0.38	3 7H5Y 0.14	3 7H5N 0.21	3 7H5R 0.27	2 7GS0 0.17
 _reflns.Rmerge_F_obs	0.341	1	1.00	1	771 7Z2I {0.029 - 1}	/120	242 5SD6 0.999	106 5SDA 0.998	68 5SD4 1.000	57 5IP1 0.997	44 5SD7 0.996	21 5F0L 0.995
 _reflns.d_resolution_high	81.715	1	1.00	8	184950 9DUE {0 - 24}
 _reflns.d_resolution_low	81.260	1	1.00	8	183921 9DUE {0.97 - 44886}
-_reflns.data_reduction_details	0.005	1	1.00	1	8 8CU4 {text}	4 8TW0 {line}
+_reflns.data_reduction_details	0.005	1	1.00	1	2 8CU4 Data were indexed, integrated, scaled, and merged in Precognition and Epinorm. These programs apply a cutoff during scaling, omitting weak reflections. As a result, F/sigF  is high (F/sigF = 40 in the high resolution shell) and completeness low relative to what is observed for conventional monochromatic software.	1 5UTF The overall resolution is 4.3 angstroms, which is the highest resolution for which completeness is greater than 50% with I over sigma(I)greater than 2.&#9166;DS-SOSIP.6mut ternary complex crystal diffraction data were assessed for anisotropy with the Diffraction Anisotropy Server (http://services.mbi.ucla.edu/anisoscale/), which indicates the resolution at which F over sigma drops below 3.0 along a, b, and c axes; these were 5.5 angstroms, 5.5 angstroms, 3.5 angstroms, respectively. Because we sought to use as much of the data as possible for refinement, we used the overall resolution described above to define the resolution of the a and b axes, with the resolution limit for the c axis defined by the Diffraction Anisotropy Server.	1 6ARX high redundancy of data and CC1/2 0.3 was used for resolution cut-off	1 6BA1 The data were highly anisotropic accounting for the high Rmerge value generated in AIMLESS. The data were subsequently ellipsoidally truncated and anisotropically scaled using the anisotropy server to improve the maps. The discrepency between reflections used in refinement and those in data collection are the result of ellipsoidal truncation of the data.	1 6E8V The data is highly anisotropic. The diffraction anisotropy server at UCLA was used to anisotropically scale the data to 3.20 angstrom along a*, b* axes, and to 3.80 angstrom along c* axis	1 8CU1 Data were indexed, integrated, scaled, and merged in Precognition and Epinorm. These programs apply a cutoff during scaling, omitting weak reflections. As a result, F/sigF  is high (F/sigF = 40) and completeness low relative to what is observed for conventional monochromatic software	1 6ARY The redundancy was high from merging of multiple crystals and CC1/2 0.3 was used for resolution cut-off	1 6OL3 EDS server used different resolution to calculate completeness. The higher Rmerge is partly due to the higher redundancy	1 8CU2 Data were indexed, integrated, scaled, and merged in Precognition and Epinorm. These programs apply a cutoff during scaling, omitting weak reflections. As a result, F/sigF  is high (F/sigF = 40) and completeness low relative to what is observed for conventional monochromatic software.	1 6DG5 data were subjected to an ellipsoidal resolution cutoff using STARANISO due to severe anisotropy of the data, resulting in low spherical completeness in the outer shells	1 8TW0 Data were integrated, scaled and merged within the CrysAlis Pro software package
 _reflns.data_reduction_method	0.001	1	1.00	1	2 5DNI data reduction merge and scaling used SCALA (CCP4)
-_reflns.details	0.035	1	1.00	1	66 9EV6 {text}	12 7UX7 {line}
+_reflns.details	0.035	1	1.00	1	66 9EV6 {text}	12 7UX7 {line}	/27	48 9EV6 Some remarks regarding the mmCIF items written, the PDB Exchange Dictionary (PDBx/mmCIF) Version 5.0 supporting the data files in the current PDB archive (dictionary version 5.325, last updated 2020-04-13: http://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Index/) and the actual quantities provided by MRFANA (https://github.com/githubgphl/MRFANA) from the autoPROC package (https://www.globalphasing.com/autoproc/). In general, the mmCIF categories here should provide items that are currently used in the PDB archive. If there are alternatives, the one recommended by the PDB developers has been selected.&#9166;&#9166;The distinction between *_all and *_obs quantities is not always clear: often only one version is actively used within the PDB archive (or is the one recommended by PDB developers). The intention of distinguishing between classes of reflections before and after some kind of observation criterion was applied, can in principle be useful - but such criteria change in various ways throughout the data processing steps (rejection of overloaded or too partial reflections, outlier/misfit rejections during scaling etc) and there is no retrospect computation of data scaling/merging statistics for the reflections used in the final refinement (where another observation criterion might have been applied). Typical data processing will usually only provide one version of statistics at various stages and these are given in the recommended item here, irrespective of the &quot;_all&quot; and &quot;_obs&quot; connotation, see e.g. the use of _reflns.pdbx_Rmerge_I_obs, _reflns.pdbx_Rrim_I_all and _reflns.pdbx_Rpim_I_all.&#9166;&#9166;Please note that all statistics related to &quot;merged intensities&quot; (or &quot;merging&quot;) are based on inverse-variance weighting of the individual measurements making up a symmetry-unique reflection. This is standard for several decades now, even if some of the dictionary definitions seem to suggest that a simple &quot;mean&quot; or &quot;average&quot; intensity is being used instead.&#9166;&#9166;R-values are always given for all symmetry-equivalent reflections following Friedel's law, i.e. Bijvoet pairs are not treated separately (since we want to describe the overall mean intensity and not the mean I(+) and I(-) here).&#9166;&#9166;The Rrim metric is identical to the Rmeas R-value and only differs in name.&#9166;&#9166;_reflns.pdbx_number_measured_all is the number of measured intensities just before the final merging step (at which point no additional rejection takes place).&#9166;&#9166;_reflns.number_obs is the number of symmetry-unique observations, i.e. the result of merging those measurements via inverse-variance weighting.&#9166;&#9166;_reflns.pdbx_netI_over_sigmaI is based on the merged intensities (_reflns.number_obs) as expected.&#9166;&#9166;_reflns.pdbx_redundancy is synonymous with &quot;multiplicity&quot;.&#9166;&#9166;The per-shell item _reflns_shell.number_measured_all corresponds to the overall value _reflns.pdbx_number_measured_all.&#9166;&#9166;The per-shell item _reflns_shell.number_unique_all corresponds to the overall value _reflns.number_obs.&#9166;&#9166;The per-shell item _reflns_shell.percent_possible_all corresponds to the overall value _reflns.percent_possible_obs.&#9166;&#9166;The per-shell item _reflns_shell.meanI_over_sigI_obs corresponds to the overall value given as _reflns.pdbx_netI_over_sigmaI. But be aware of the incorrect definition of the former in the current dictionary!	4 8CNZ Some remarks regarding the mmCIF items written, the PDB Exchange Dictionary (PDBx/mmCIF) Version 5.0 supporting the data files in the current PDB archive (dictionary version 5.325, last updated 2020-04-13: http://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Index/) and the actual quantities provided by MRFANA (https://github.com/githubgphl/MRFANA) from the autoPROC package (https://www.globalphasing.com/autoproc/). In general, the mmCIF categories here should provide items that are currently used in the PDB archive. If there are alternatives, the one recommended by the PDB developers has been selected.&#9166;&#9166;The distinction between *_all and *_obs quantities is not always clear: often only one version is actively used within the PDB archive (or is the one recommended by PDB developers). The intention of distinguishing between classes of reflections before and after some kind of observation criterion was applied, can in principle be useful - but such criteria change in various ways through the data processing procedure (rejection of overloaded or too partial reflections, outlier/misfit rejection during scaling etc) and there is no retrospect computation of data scaling/merging statistics for the reflections used in the final refinement (where another observation criterion might have been applied). Typical data processing will usually only provide one version of statistics at various stages and these are given in the recommended item here, irrespective of the &quot;_all&quot; and &quot;_obs&quot; connotation, see e.g. the use of _reflns.pdbx_Rmerge_I_obs, _reflns.pdbx_Rrim_I_all and _reflns.pdbx_Rpim_I_all.&#9166;&#9166;Please note that all statistics related to &quot;merged intensities&quot; (or &quot;merging&quot;) are based on inverse-variance weighting of the individual measurements making up a symmetry-unique reflection. This is standard for several decades now, even if some of the dictionary definitions seem to suggest that a simple &quot;mean&quot; or &quot;average&quot; intensity is being used instead.&#9166;&#9166;R-values are always given for all symmetry-equivalent reflections following Friedel's law, i.e. Bijvoet pairs are not treated separately (since we want to describe the overall mean intensity and not the mean I(+) and I(-) here).&#9166;&#9166;The Rrim metric is identical to the Rmeas R-value and only differs in name.&#9166;&#9166;_reflns.pdbx_number_measured_all is the number of measured intensities just before the final merging step (at which point no additional rejection takes place).&#9166;&#9166;_reflns.number_obs is the number of symmetry-unique observations, i.e. the result of merging those measurements via inverse-variance weighting.&#9166;&#9166;_reflns.pdbx_netI_over_sigmaI is based on the merged intensities (_reflns.number_obs) as expected.&#9166;&#9166;_reflns.pdbx_redundancy is synonymous with &quot;multiplicity&quot;.&#9166;&#9166;The per-shell item _reflns_shell.number_measured_all corresponds to the overall value _reflns.pdbx_number_measured_all.&#9166;&#9166;The per-shell item _reflns_shell.number_unique_all corresponds to the overall value _reflns.number_obs.&#9166;&#9166;The per-shell item _reflns_shell.percent_possible_all corresponds to the overall value _reflns.percent_possible_obs.&#9166;&#9166;The per-shell item _reflns_shell.meanI_over_sigI_obs corresponds to the overall value given as _reflns.pdbx_netI_over_sigmaI. But be aware of the incorrect definition of the former in the current dictionary!	2 7N8W The number provided for unique reflections observed in data collection is that found after merging Friedel pairs. The number recorded for refinement counts the individual Friedel mates separately
 _reflns.entry_id	82.231	1	1.00	8	185497 9DUE {word}	619 8E90 {1 - 7e+99}
 _reflns.limit_h_max	0.134	1	1.00	1	302 4J6J {13 - 112}	/63	16 3INV 39	15 3UX3 26
 _reflns.limit_h_min	0.134	1	1.00	1	303 4J6J {-114 - 17}	/48	197 4GGA 0	8 3FX0 1
@@ -2095,7 +2095,7 @@ _reflns_shell.percent_possible_gt	0.000	1	1.00	1	1 6M98 99.7
 _reflns_shell.percent_possible_obs	1.345	1	1.95	40	5939 9DTC {0 - 100}
 _software.classification	88.053	1	4.48	18	208790 9DUE refinement	186771 9DUE data scaling	184806 9DUE phasing	178930 9DUE data reduction	56380 9DP4 data extraction	47345 9DP4 data collection	26227 9DP4 model building	2338 9CWN data processing	26 5QDD date reduction
 _software.compiler_version	0.000	1	1.00	1	1 6UFF (phenix.refine: 1.9_1692)
-_software.contact_author	12.131	1	3.78	10	1 3BJE {text}	77250 9B00 {line}	26263 9B00 {word}
+_software.contact_author	12.131	1	3.78	10	1 3BJE {text}	77250 9B00 {line}	26263 9B00 {word}	/78	26097 9B00 PDB	16861 8VHU Zbyszek Otwinowski	11754 7GTV Garib N. Murshudov	7878 9B00 Wolfgang Kabsch	7345 8S1K Paul D. Adams	6309 9B00 Randy J. Read	4784 8UN5 Phil Evans
 _software.contact_author_email	12.128	1	3.41	8	44 3DEW {line}	93395 9B00 {word}	/49	16587 9B00 deposit@deposit.rcsb.org	11718 7GTV garib@ysbl.york.ac.uk	11702 8VHU hkl@hkl-xray.com	6941 9B00 cimr-phaser@lists.cam.ac.uk	6936 8S1K PDAdams@lbl.gov	5189 4GIV sw-help@rcsb.rutgers.edu	5159 4F0L zbyszek@mix.swmed.edu	4445 4RZP help@deposit.rcsb.org
 _software.date	11.904	1	1.42	6	30356 9B00 {line}	7644 7H1G {word}	294 6VC1 {1998 - 2014}	/626	4175 4S1G June 10, 2010	3813 4QTL June 11, 2008	3752 4RW9 April 22, 2011	2571 7GAU SEP. 23, 2016	1993 3A4P April. 3, 2006	1387 7FSD Apr. 1, 2019
 _software.description	0.032	1	1.21	6	37 8QFT (un)restrained refinement or idealisation of macromolecular structures	14 3BEH (un)restrained refinement or idealisation of macromolecularstructures	11 4GJS scale together multiple observations of reflections	7 7YQS x-ray	3 2QT8 calculates a best estimate of scaled F from I &amp; sd(I)	3 7TUR neutron	2 8K9P for neutron	2 8B3Y Xia2 3dii	2 8K9P for x-ray	2 8K9P for x-ray and neutron	2 6L6Y PROTEUM3 suite	1 2PET maximum likelihood heavy atom refinement &amp; phase calculation	1 4Y7E (phenix.refine)	1 6VC1 General Structure Analysis System
@@ -2111,14 +2111,14 @@ _space_group.IT_number	7.491	1	1.00	1	16926 9GUF {1 - 214}	/68	3318 9GRE 1	2941 
 _space_group.crystal_system	7.491	1	1.00	1	4843 9DKZ orthorhombic	4274 9DK4 monoclinic	3322 9GRE triclinic	1704 9GPJ tetragonal	1469 9GUF trigonal	1134 9GP2 hexagonal	180 9BNI cubic
 _space_group.id	7.491	1	1.00	1	36 6S6G {word}	16890 9GUF {1 - 19}	/38	16888 9GUF 1	2 5CZP 19
 _space_group.name_H-M_alt	7.490	1	1.00	1	16923 9GUF {line}	/74	3318 9GRE P 1	2941 9DDY P 21 21 21	2651 9DK4 P 1 21 1	1470 9J5G C 1 2 1	719 9JFN C 2 2 21
-_space_group.name_Hall	7.489	1	1.00	1	1082 9GUF {text}	15840 9GRE {line}
+_space_group.name_Hall	7.489	1	1.00	1	1082 9GUF {text}	15840 9GRE {line}	/75	3318 9GRE P 1	2941 9DDY P 2ac 2ab	2651 9DK4 P 2yb	1470 9J5G C 2y	718 9JFN C 2c 2
 _space_group_symop.id	7.532	1	4.77	96	1 7BYX {word}	81201 9GUF {1 - 112}	/109	17018 9GUF 1	13677 9GUF 2	10988 9GUF 3	10870 9GUF 4	5306 9GUF 6	5306 9GUF 5	3796 9GPJ 7
 _space_group_symop.operation_xyz	7.532	1	4.77	96	81202 9GUF {word}	/324	17017 9GUF x,y,z	4321 9JFN x+1/2,-y+1/2,-z	3330 9DKZ -x,y+1/2,-z+1/2
 _struct.entry_id	100.000	1	1.00	1	225207 9GYO {word}	739 8E99 {1 - 8e+99}
 _struct.pdbx_CASP_flag	44.650	1	1.00	1	100340 9GYO N	545 8ZUG Y
 _struct.pdbx_descriptor	9.527	1	1.00	1	1611 7F1S {text}	18023 7EU9 {line}	1893 7EEH {word}
-_struct.pdbx_model_details	1.960	1	1.00	1	460 8W4F {text}	3901 8GKV {line}	67 7REW {word}
-_struct.pdbx_model_type_details	0.353	1	1.00	1	2 4V2T {text}	796 6KXZ {line}
+_struct.pdbx_model_details	1.960	1	1.00	1	460 8W4F {text}	3901 8GKV {line}	67 7REW {word}	/719	1026 2N17 lowest energy, model 1	804 2NDL lowest energy, model1	364 5P8V All 364 structures of this series were generated by an automated refinement pipeline and, thus, not refined to full convergence (e.g. since no manual (re-)building was performed, fragments are missing in the structural model even when present as indicated by the electron density)	220 2N1A closest to the average, model 1
+_struct.pdbx_model_type_details	0.353	1	1.00	1	2 4V2T {text}	796 6KXZ {line}	/42	648 2NDI minimized average	66 4BZT MINIMIZED AVERAGE	20 4V3N CA ATOMS ONLY, CHAIN A, B, C
 _struct.title	100.000	1	1.00	1	21761 9DTL {text}	203407 9GYO {line}	776 9BIC {word}	2 6QB1 {5675 - 5676}
 _struct_asym.entity_id	100.000	1	16.12	6390	3642597 9GYO {1 - 455}	/455	571957 9GYO 2	520359 9GYO 1	497021 9GYO 3	370503 9GYO 4	233500 9GYO 5	171764 9CG7 56
 _struct_asym.id	100.000	1	16.12	6390	3642597 9GYO {word}
@@ -2322,12 +2322,12 @@ _struct_site_gen.pdbx_num_res	52.974	1	63.17	24680	7561119 9J6I {1 - 78}	/72	885
 _struct_site_gen.site_id	52.974	1	63.17	24680	7560183 9J6I {word}	936 2HLP {1 - 818}
 _struct_site_gen.symmetry	52.974	1	63.17	24680	7561119 9J6I {word}	/993	7256205 9J6I 1_555	14778 8AQ2 2_555
 _struct_site_keywords.site_id	0.182	1	1.07	8	17 360D {line}	34 4V9B {word}	390 2N6C {1 - 2}	/23	385 2N6C 1	17 360D DRUG BINDING SITE
-_struct_site_keywords.text	0.182	1	1.07	8	1 1HQ3 {text}	280 2N6C {line}	160 2MS6 {word}
+_struct_site_keywords.text	0.182	1	1.07	8	1 1HQ3 {text}	280 2N6C {line}	160 2MS6 {word}	/37	97 4KPF INTERCALATION	93 2LWH MINOR GROOVE BINDER	60 2MS6 OUTSIDE BINDER	58 2N6C MAJOR GROOVE BINDER	23 2LLJ BIS-INTERCALATION	14 2ROU intercalation
 _symmetry.Int_Tables_number	93.783	1	1.00	1	211899 9GYO {1 - 214}	/76	42863 9DUE 19	31802 9DT6 4	30824 9GYO 1	20367 9DRA 5	10424 9GSO 18
 _symmetry.cell_setting	0.851	1	1.00	1	778 2AP9 orthorhombic	475 2PET monoclinic	222 2F2G tetragonal	198 2ALY trigonal	140 1ZX4 hexagonal	63 2AEN triclinic	32 2AAJ cubic	15 2A0P rhombohedral
 _symmetry.entry_id	93.783	1	1.00	1	211188 9GYO {word}	711 8E99 {1 - 8e+99}
 _symmetry.pdbx_full_space_group_name_H-M	0.002	1	1.00	1	2 4WU1 P 21 21 21	2 5EB7 P 21 21 2	1 6FHS 1
 _symmetry.space_group_name_H-M	93.783	1	1.00	1	211899 9GYO {line}	/93	42863 9DUE P 21 21 21	31788 9DT6 P 1 21 1	30824 9GYO P 1	19554 9DRA C 1 2 1	9356 9JFN C 2 2 21
-_symmetry.space_group_name_Hall	6.383	1	1.00	1	1085 9GUF {text}	13335 9DKZ {line}	1 6DU8 {word}	1 6FHS {1 - 1}
+_symmetry.space_group_name_Hall	6.383	1	1.00	1	1085 9GUF {text}	13335 9DKZ {line}	1 6DU8 {word}	1 6FHS {1 - 1}	/77	2961 9DDY P 2ac 2ab	2664 9DK4 P 2yb	1453 9J5G C 2y	768 9DCG P 1	716 9JFN C 2c 2
 _symmetry_equiv.id	0.028	1	4.65	12	63 7WL0 1	56 5ZUT 2	44 5ZUT 4	44 5ZUT 3	22 5Z3R 6	22 5Z3R 5	17 5Z3R 8	17 5Z3R 7	2 5TFP 12	2 5TFP 11	2 5TFP 10	2 5TFP 9
 _symmetry_equiv.pos_as_xyz	0.028	1	4.65	12	256 5ZUT {line}	37 7WL0 {word}	/88	54 5ZUT X,  Y,  Z	18 5Z3R X+1/2,  -Y+1/2,  -Z	15 5N6O -X,  Y+1/2,  -Z+1/2	15 5N6O -X+1/2,  -Y,  Z+1/2	11 5J5I -X,  Y+1/2,  -Z

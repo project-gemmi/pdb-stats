@@ -87,7 +87,7 @@ _pdbx_chem_comp_pcm.modified_residue_id_linking_atom	8.393	1	1.19	14	4435 00K {w
 _pdbx_chem_comp_pcm.pcm_id	11.753	1	1.18	42	6183 004 {1 - 42}	/42	5226 004 1	556 005 2	125 0G6 3
 _pdbx_chem_comp_pcm.polypeptide_position	11.753	1	1.18	42	5476 004 Any position	446 00E N-terminal	261 00S C-terminal
 _pdbx_chem_comp_pcm.position	11.753	1	1.18	42	4958 004 Amino-acid side chain	624 00E Amino-acid side chain and backbone	601 005 Amino-acid backbone
-_pdbx_chem_comp_pcm.type	11.753	1	1.18	42	1 7MD {text}	53 005 {line}	6129 004 {word}
+_pdbx_chem_comp_pcm.type	11.753	1	1.18	42	1 7MD {text}	53 005 {line}	6129 004 {word}	/134	5287 004 None	146 03Y Methylation
 _pdbx_chem_comp_pcm.uniprot_generic_ptm_accession	0.074	1	1.70	12	56 2MR {word}	/29	5 G8X PTM-0149	3 M3L PTM-0193	3 2OR PTM-0498	2 APR PTM-0054
 _pdbx_chem_comp_pcm.uniprot_specific_ptm_accession	0.389	1	1.39	20	240 0AF {word}	/233	2 HTN PTM-0695
 _pdbx_chem_comp_related.comp_id	0.706	1	1.00	1	310 07E {word}	4 145 {145 - 491}	/314	1 GN1 GN1

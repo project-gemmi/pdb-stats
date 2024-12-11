@@ -54,9 +54,6 @@ so that the example PDB ID in tooltip is the newest entry with given tag.
     $ gemmi tags --full --entries-idx=entries.idx --sf $PDB_DIR/structures/divided/structure_factors > sf-tags.tsv
     $ sed -i s"/ on 20..-..-../ on $(date -Idate)/" tags.html
 
-To get more recent PDB entries in tooltips use --entries-idx=/.../entries.idx
-(together with --sf for sf-tags.tsv).
-
 https://project-gemmi.github.io/pdb-stats/tags.html
 
 Similarly, for the COD:

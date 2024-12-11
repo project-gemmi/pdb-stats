@@ -77,6 +77,22 @@ span[eg]:hover:after {
   top: -100%;
   left: 10%;
 }
+
+code[full] {
+  position: relative;
+  white-space: nowrap;
+}
+code[full]:hover:after {
+  content: attr(full);
+  display: block;
+  z-index: 8;
+  background-color: #68A;
+  padding: 0 1px 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: normal;
+}
 </style>
 </head>
 <body>
@@ -158,6 +174,13 @@ span[eg]:hover:after {
 <script>
 "use strict";
 
+function wrap_value(value) {
+  if (value.length <= 40) {
+    return '<code>' + value + '</code>';
+  }
+  return '<code full="' + value + '">' + value.substring(0, 30) + '…</code>';
+}
+
 function tr_html(d) {
   var row = '<td>' + d[0] + '</td><td>' + d[1] + '</td><td>' +
          d[2] + '</td><td>' + d[3] + '</td><td>' + d[4] + '</td><td>';
@@ -172,12 +195,13 @@ function tr_html(d) {
     var s1 = g.indexOf(' ');
     var s2 = g.indexOf(' ', s1+1);
     var count_str = g.substring(0, s1);
-    row += '<span eg="' + g.substring(s1+1, s2) + '">';
+    row += '<span eg="' + g.substring(s1+1, s2) + '">' + count_str + '×';
     sum += +count_str;
-    if (g[s2+1] === '{') {
-      row += count_str + '×' + g.substring(s2+1);
+    var value = g.substring(s2+1);
+    if (value[0] === '{') {
+      row += value;
     } else {
-      row += count_str + '×<code>' + g.substring(s2+1) + '</code>';
+      row += wrap_value(value);
     }
     row += '</span> ';
   }
@@ -188,8 +212,8 @@ function tr_html(d) {
       var s2 = g.indexOf(' ', s1+1);
       var pct = +g.substring(0, s1) * (100 / sum);
       row += ('<span eg="' + g.substring(s1+1, s2) + '">' +
-              pct.toFixed(pct > 1 && pct < 99 ? 1 : 2) + '% <code>' +
-              g.substring(s2+1) + '</code></span>, ');
+              pct.toFixed(pct > 1 && pct < 99 ? 1 : 2) + '% ' +
+              wrap_value(g.substring(s2+1)) + '</span>, ');
     }
     row += '…)';
   }
