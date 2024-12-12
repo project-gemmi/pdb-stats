@@ -77,6 +77,22 @@ span[eg]:hover:after {
   top: -100%;
   left: 10%;
 }
+
+code[full] {
+  position: relative;
+  white-space: nowrap;
+}
+code[full]:hover:after {
+  content: attr(full);
+  display: block;
+  z-index: 8;
+  background-color: #68A;
+  padding: 0 1px 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: normal;
+}
 </style>
 </head>
 <body>
@@ -140,35 +156,66 @@ span[eg]:hover:after {
 <script>
 "use strict";
 
+function wrap_value(value) {
+  if (value.length <= 40) {
+    return '<code>' + value + '</code>';
+  }
+  return '<code full="' + value + '">' + value.substring(0, 30) + '…</code>';
+}
+
 function tr_html(d) {
   var row = '<td>' + d[0] + '</td><td>' + d[1] + '</td><td>' +
          d[2] + '</td><td>' + d[3] + '</td><td>' + d[4] + '</td><td>';
-  for (var i = 5; i < d.length; ++i) {
-    var s1 = d[i].indexOf(' ');
-    var s2 = d[i].indexOf(' ', s1+1);
-    row += '<span eg="' + d[i].substring(s1+1, s2) + '">';
-    row += d[i].substring(0, s1);
-    if (d[i][s2+1] === '{') {
-      row += '×' + d[i].substring(s2+1);
+  var i = 4;
+  var sum = 0;
+  while (++i < d.length) {
+    var g = d[i];
+    if (g[0] == '/') {
+      row += '    ☞ ' + g.substring(1) + ' distinct values ' +  '(';
+      break;
+    }
+    var s1 = g.indexOf(' ');
+    var s2 = g.indexOf(' ', s1+1);
+    var count_str = g.substring(0, s1);
+    row += '<span eg="' + g.substring(s1+1, s2) + '">' + count_str + '×';
+    sum += +count_str;
+    var value = g.substring(s2+1);
+    if (value[0] === '{') {
+      row += value;
     } else {
-      row += '×<code>' + d[i].substring(s2+1) + '</code>';
+      row += wrap_value(value);
     }
     row += '</span> ';
+  }
+  if (i < d.length) {  // previous loop exited through break
+    while (++i < d.length) {
+      var g = d[i];
+      var s1 = g.indexOf(' ');
+      var s2 = g.indexOf(' ', s1+1);
+      var pct = +g.substring(0, s1) * (100 / sum);
+      row += ('<span eg="' + g.substring(s1+1, s2) + '">' +
+              pct.toFixed(pct > 1 && pct < 99 ? 1 : 2) + '% ' +
+              wrap_value(g.substring(s2+1)) + '</span>, ');
+    }
+    row += '…)';
   }
   return row + '</td>';
 }
 
-d3.text('cod-cif-tags.tsv', function(text) {
+function add_content(text, elem_id) {
   var data = d3.tsvParseRows(text);
-  var tbody = d3.select('#coor-table').append('tbody');
+  var elem = document.getElementById(elem_id);
+  var tbody = d3.select(elem).append('tbody');
   tbody.selectAll('tr').data(data).enter().append('tr').html(tr_html);
-  new Tablesort(document.getElementById('coor-table'));
+  new Tablesort(elem);
+}
+
+
+d3.text('cod-cif-tags.tsv', function(text) {
+  add_content(text, 'coor-table');
 });
 d3.text('cod-hkl-tags.tsv', function(text) {
-  var data = d3.tsvParseRows(text);
-  var tbody = d3.select('#sf-table').append('tbody');
-  tbody.selectAll('tr').data(data).enter().append('tr').html(tr_html);
-  new Tablesort(document.getElementById('sf-table'));
+  add_content(text, 'sf-table');
 });
 </script>
 </body>
