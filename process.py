@@ -163,16 +163,19 @@ def encode_date(d):
 def main():
     oldest_date = datetime.date(1989, 1, 1)
     data = []
+    # wrong-category or ambiguous names
+    extras = {'xia2', 'pointless', 'TRUNCATE', 'STARANISO'}
+    d_extras = extras | {'SCALA', 'Aimless'}
+    s_extras = extras | {'CCP4'} # CCP4 can be either SCALA or Aimless
     for entry in read_and_filter_data():
-        pipes = {'xia2', 'AutoPROC'}
         data_softs = {p[2] for p in entry if p[1] in
-                              ['data processing', 'data reduction']} - pipes
-        data_softs -= {'SCALA', 'Aimless'}
-        scal_softs = {p[2] for p in entry if p[1] == 'data scaling'} - pipes
+                              ['data processing', 'data reduction']} - d_extras
+        scal_softs = {p[2] for p in entry if p[1] == 'data scaling'} - s_extras
         refi_softs = {p[2] for p in entry if p[1] == 'refinement'}
 
         if not data_softs:
             data_soft = '-'
+        # autoPROC (GPhL) works only with XDS
         elif data_softs <= {'XDS', 'autoXDS', 'XDS-package', 'autoPROC', 'XSCALE'}:
             data_soft = 'XDS'
         elif data_softs <= {'DENZO', 'HKL-2000', 'HKL-3000', 'HKL'}:
@@ -199,6 +202,8 @@ def main():
             scal_soft = 'XSCALE'
         elif scal_softs <= {'d*TREK', 'CrystalClear'}:
             scal_soft = 'd*TREK'
+        elif scal_softs in [{'DIALS'}]:
+            scal_soft = 'DIALS'
         else:
             scal_soft = 'Other'
             #print('[scaling]', scal_softs, file=sys.stderr)
@@ -207,7 +212,7 @@ def main():
             refi = '-'
         elif refi_softs <= {'PHENIX', 'phenix.refine'}:
             refi = 'P'
-        elif refi_softs <= {'REFMAC', 'REFMAC5', 'CCP4', 'Coot'}:
+        elif refi_softs <= {'REFMAC', 'REFMAC5', 'CCP4', 'Coot', 'PDB-REDO'}:
             refi = 'R'
         elif refi_softs <= {'BUSTER', 'TNT', 'BUSTER-TNT'}:
             refi = 'B'

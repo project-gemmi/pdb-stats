@@ -182,7 +182,7 @@ div.dc-chart rect.deselected + text.row { fill: #555; }
  Uses <a href="https://dc-js.github.io/dc.js/">dc.js</a>,
  <a href="https://d3js.org/">d3</a> and
  <a href="http://crossfilter.github.io/crossfilter/">crossfilter</a>.
- Last update: 2024-07-09.
+ Last update: 2025-03-06.
  Images are from <a href="http://www.rcsb.org/">RCSB</a>.
  <b><a href="https://github.com/project-gemmi/pdb-stats">
  Source code and info...</a></b>
@@ -314,9 +314,9 @@ function setup(json) {
   var DETECT_FULL = ['Not specified', 'CCD', 'Pixel Array Detector',
                      'Image Plate'];
   var REDUC_SOFT = { 'X':'XDS', 'H':'HKL', 'M':'Mosflm', 'd':'d*TREK',
-                     'D':'DIALS', 'O': 'Other', '-':'?' };
+                     'D':'DIALS', 'O': 'other', '-':'?' };
   var SCALE_SOFT = { 'A':'Aimless', 'S':'SCALA', 'H':'HKL', 'X':'XSCALE',
-                     'd':'d*TREK', 'O': 'Other', '-':'?' };
+                     'd':'d*TREK', 'D': 'DIALS', 'O': 'other/mix', '-':'?' };
   var REF_SOFT = { 'R':'Refmac', 'P':'Phenix', 'B':'BUSTER', 'C':'CNS',
                    '-':'other/mix' };
   var STRUCT_SOL = ['known structure', 'MR', 'SAD', 'MAD', 'MIR/SIR',
