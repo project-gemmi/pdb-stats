@@ -94,7 +94,7 @@ var PER_QUARTER = (params.indexOf('quarter') !== -1);
 // "deposition date" used to be the default, now it's "release date"
 var DEPOS = (params.indexOf('rel') === -1);
 
-var YEARS = [2004, PER_QUARTER ? 2024.125 : 2024.00];
+var YEARS = [2004, PER_QUARTER ? 2025.125 : 2025.00];
 if (PER_QUARTER) YEARS[1] += 0.125;
 
 if (DEPOS) { // deposition date

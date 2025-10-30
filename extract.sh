@@ -3,8 +3,8 @@
 # This web page is part of an example how to use gemmi-grep.
 # gemmi-grep is an part of the GEMMI library, funded by GPhL and CCP4.
 
-PATH=../gemmi/build:"$PATH"
-PYTHONPATH=../gemmi/build
+PATH=/home/wojdyr/gemmi/gemmi/build/:"$PATH"
+export PYTHONPAT=../gemmi/build/py
 
 # check that module gemmi is present
 [ "$1" = "--auto" ] && python3 -c "import gemmi"
